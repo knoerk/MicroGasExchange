@@ -1,0 +1,2511 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "18 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4450 5300 0    60   ~ 0
+SCl
+Text Label 4550 5500 0    60   ~ 0
+SDA
+Wire Wire Line
+	3700 5100 4050 5100
+Text Label 4050 5100 0    60   ~ 0
+SCK
+Wire Wire Line
+	3700 5000 4050 5000
+Text Label 4050 5000 0    60   ~ 0
+MISO
+Wire Wire Line
+	3700 4900 4050 4900
+Text Label 4050 4900 0    60   ~ 0
+MOSI
+Wire Wire Line
+	1700 3500 1500 3500
+Text Label 1500 3500 0    60   ~ 0
+reset
+$Comp
+L ControlBoard-rescue:CRYSTAL X1
+U 1 1 52A7995C
+P 1400 4100
+F 0 "X1" H 1400 4250 60  0000 C CNN
+F 1 "CRYSTAL" H 1400 3950 60  0000 C CNN
+F 2 "~" H 1400 4100 60  0000 C CNN
+F 3 "~" H 1400 4100 60  0000 C CNN
+	1    1400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C7
+U 1 1 52A7995D
+P 1050 3800
+F 0 "C7" H 1050 3900 40  0000 L CNN
+F 1 "22p" H 1056 3715 40  0000 L CNN
+F 2 "~" H 1088 3650 30  0000 C CNN
+F 3 "~" H 1050 3800 60  0000 C CNN
+	1    1050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C14
+U 1 1 52A7995E
+P 1050 4400
+F 0 "C14" H 1050 4500 40  0000 L CNN
+F 1 "22p" H 1056 4315 40  0000 L CNN
+F 2 "~" H 1088 4250 30  0000 C CNN
+F 3 "~" H 1050 4400 60  0000 C CNN
+	1    1050 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 6400 4100 6400
+Wire Wire Line
+	3700 6500 4100 6500
+Text Label 5325 6850 0    60   ~ 0
+Taster0
+Text Label 5325 7000 0    60   ~ 0
+Taster1
+Wire Wire Line
+	3700 4600 4050 4600
+Text Label 4050 4600 0    60   ~ 0
+CANint
+$Comp
+L ControlBoard-rescue:MCP2515 IC3
+U 1 1 52A7995F
+P 4375 9375
+F 0 "IC3" H 4925 8725 60  0000 C CNN
+F 1 "MCP2515" H 4325 9975 60  0000 C CNN
+F 2 "" H 4375 9375 60  0000 C CNN
+F 3 "" H 4375 9375 60  0000 C CNN
+	1    4375 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3900 1650 3900
+Wire Wire Line
+	1650 3900 1650 3800
+Wire Wire Line
+	1650 3800 1400 3800
+Connection ~ 1400 3800
+Wire Wire Line
+	1250 4400 1400 4400
+Connection ~ 1400 4400
+Wire Wire Line
+	1650 4400 1650 4300
+Wire Wire Line
+	1650 4300 1700 4300
+Wire Wire Line
+	850  3800 850  4400
+Wire Wire Line
+	850  4400 700  4400
+Text Label 700  4400 0    60   ~ 0
+gnd
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C1
+U 1 1 52A79960
+P 11250 4900
+F 0 "C1" H 11250 5000 40  0000 L CNN
+F 1 "100n" H 11256 4815 40  0000 L CNN
+F 2 "~" H 11288 4750 30  0000 C CNN
+F 3 "~" H 11250 4900 60  0000 C CNN
+	1    11250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C2
+U 1 1 52A79961
+P 11500 4900
+F 0 "C2" H 11500 5000 40  0000 L CNN
+F 1 "100n" H 11506 4815 40  0000 L CNN
+F 2 "~" H 11538 4750 30  0000 C CNN
+F 3 "~" H 11500 4900 60  0000 C CNN
+	1    11500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C3
+U 1 1 52A79962
+P 11750 4900
+F 0 "C3" H 11750 5000 40  0000 L CNN
+F 1 "100n" H 11756 4815 40  0000 L CNN
+F 2 "~" H 11788 4750 30  0000 C CNN
+F 3 "~" H 11750 4900 60  0000 C CNN
+	1    11750 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C4
+U 1 1 52A79963
+P 12000 4900
+F 0 "C4" H 12000 5000 40  0000 L CNN
+F 1 "100n" H 12006 4815 40  0000 L CNN
+F 2 "~" H 12038 4750 30  0000 C CNN
+F 3 "~" H 12000 4900 60  0000 C CNN
+	1    12000 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C5
+U 1 1 52A79964
+P 12250 4900
+F 0 "C5" H 12250 5000 40  0000 L CNN
+F 1 "100n" H 12256 4815 40  0000 L CNN
+F 2 "~" H 12288 4750 30  0000 C CNN
+F 3 "~" H 12250 4900 60  0000 C CNN
+	1    12250 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C6
+U 1 1 52A79965
+P 12500 4900
+F 0 "C6" H 12500 5000 40  0000 L CNN
+F 1 "100n" H 12506 4815 40  0000 L CNN
+F 2 "~" H 12538 4750 30  0000 C CNN
+F 3 "~" H 12500 4900 60  0000 C CNN
+	1    12500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C8
+U 1 1 52A79966
+P 12800 4900
+F 0 "C8" H 12800 5000 40  0000 L CNN
+F 1 "100n" H 12806 4815 40  0000 L CNN
+F 2 "~" H 12838 4750 30  0000 C CNN
+F 3 "~" H 12800 4900 60  0000 C CNN
+	1    12800 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C10
+U 1 1 52A79968
+P 10800 9000
+F 0 "C10" H 10800 9100 40  0000 L CNN
+F 1 "100n" H 10806 8915 40  0000 L CNN
+F 2 "~" H 10838 8850 30  0000 C CNN
+F 3 "~" H 10800 9000 60  0000 C CNN
+	1    10800 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C12
+U 1 1 52A7996A
+P 11500 5550
+F 0 "C12" H 11500 5650 40  0000 L CNN
+F 1 "100n" H 11506 5465 40  0000 L CNN
+F 2 "~" H 11538 5400 30  0000 C CNN
+F 3 "~" H 11500 5550 60  0000 C CNN
+	1    11500 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C13
+U 1 1 52A7996B
+P 11750 5550
+F 0 "C13" H 11750 5650 40  0000 L CNN
+F 1 "100n" H 11756 5465 40  0000 L CNN
+F 2 "~" H 11788 5400 30  0000 C CNN
+F 3 "~" H 11750 5550 60  0000 C CNN
+	1    11750 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LM317 U1
+U 1 1 52A7996C
+P 2750 1400
+F 0 "U1" H 2750 1700 60  0000 C CNN
+F 1 "LM317" H 2800 1150 60  0000 L CNN
+F 2 "~" H 2750 1400 60  0000 C CNN
+F 3 "~" H 2750 1400 60  0000 C CNN
+	1    2750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:DIODE D1
+U 1 1 52A7996D
+P 1550 1250
+F 0 "D1" H 1550 1350 40  0000 C CNN
+F 1 "DIODE" H 1550 1150 40  0000 C CNN
+F 2 "~" H 1550 1250 60  0000 C CNN
+F 3 "~" H 1550 1250 60  0000 C CNN
+	1    1550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1250 1850 1250
+Connection ~ 11500 4700
+Connection ~ 11750 4700
+Connection ~ 12000 4700
+Connection ~ 12250 4700
+Connection ~ 12500 4700
+Connection ~ 11500 5100
+Connection ~ 11750 5100
+Connection ~ 12000 5100
+Connection ~ 12250 5100
+Connection ~ 12500 5100
+Connection ~ 11750 5350
+Connection ~ 11750 5750
+Text Label 2650 7350 0    60   ~ 0
+gnd
+Wire Wire Line
+	3700 4800 4050 4800
+Text Label 4050 4800 0    60   ~ 0
+SS
+Text Label 3850 3500 0    60   ~ 0
+ADC0
+Text Label 3850 3600 0    60   ~ 0
+ADC1
+$Comp
+L ControlBoard-rescue:CP1-RESCUE-ControlBoard C17
+U 1 1 52A7996E
+P 3400 1450
+F 0 "C17" H 3450 1550 50  0000 L CNN
+F 1 "2200µ" H 3450 1350 50  0000 L CNN
+F 2 "~" H 3400 1450 60  0000 C CNN
+F 3 "~" H 3400 1450 60  0000 C CNN
+	1    3400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C16
+U 1 1 52A7996F
+P 2100 1450
+F 0 "C16" H 2100 1550 40  0000 L CNN
+F 1 "100n" H 2106 1365 40  0000 L CNN
+F 2 "~" H 2138 1300 30  0000 C CNN
+F 3 "~" H 2100 1450 60  0000 C CNN
+	1    2100 1450
+	-1   0    0    1   
+$EndComp
+Connection ~ 3400 1250
+$Comp
+L power:+5V #PWR01
+U 1 1 52A79970
+P 3750 1250
+F 0 "#PWR01" H 3750 1340 20  0001 C CNN
+F 1 "+5V" H 3750 1340 30  0000 C CNN
+F 2 "" H 3750 1250 60  0000 C CNN
+F 3 "" H 3750 1250 60  0000 C CNN
+	1    3750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:LM317 U2
+U 1 1 52A79971
+P 12225 8950
+F 0 "U2" H 12225 9250 60  0000 C CNN
+F 1 "LM317" H 12275 8700 60  0000 L CNN
+F 2 "~" H 12225 8950 60  0000 C CNN
+F 3 "~" H 12225 8950 60  0000 C CNN
+	1    12225 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CP1-RESCUE-ControlBoard C19
+U 1 1 52A79972
+P 12875 9000
+F 0 "C19" H 12925 9100 50  0000 L CNN
+F 1 "2200µ" H 12925 8900 50  0000 L CNN
+F 2 "~" H 12875 9000 60  0000 C CNN
+F 3 "~" H 12875 9000 60  0000 C CNN
+	1    12875 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12625 8800 12875 8800
+Connection ~ 12875 8800
+$Comp
+L ControlBoard-rescue:+3.3V-RESCUE-ControlBoard #PWR02
+U 1 1 52A79973
+P 13125 8800
+F 0 "#PWR02" H 13125 8760 30  0001 C CNN
+F 1 "+3.3V" H 13125 8910 30  0000 C CNN
+F 2 "" H 13125 8800 60  0000 C CNN
+F 3 "" H 13125 8800 60  0000 C CNN
+	1    13125 8800
+	1    0    0    -1  
+$EndComp
+Text Label 3525 9175 0    60   ~ 0
+SS
+Text Label 3525 8975 0    60   ~ 0
+MOSI
+Text Label 3525 8875 0    60   ~ 0
+MISO
+Text Label 3525 9075 0    60   ~ 0
+SCK
+NoConn ~ 3775 9325
+NoConn ~ 3775 9425
+NoConn ~ 3775 9525
+Text Label 3525 9675 0    60   ~ 0
+reset
+$Comp
+L ControlBoard-rescue:CRYSTAL X2
+U 1 1 52A79974
+P 1975 9175
+F 0 "X2" H 1975 9325 60  0000 C CNN
+F 1 "CRYSTAL" H 1975 9025 60  0000 C CNN
+F 2 "~" H 1975 9175 60  0000 C CNN
+F 3 "~" H 1975 9175 60  0000 C CNN
+	1    1975 9175
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C20
+U 1 1 52A79975
+P 1675 9525
+F 0 "C20" H 1675 9625 40  0000 L CNN
+F 1 "22p" H 1681 9440 40  0000 L CNN
+F 2 "~" H 1713 9375 30  0000 C CNN
+F 3 "~" H 1675 9525 60  0000 C CNN
+	1    1675 9525
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C21
+U 1 1 52A79976
+P 2275 9525
+F 0 "C21" H 2275 9625 40  0000 L CNN
+F 1 "22p" H 2281 9440 40  0000 L CNN
+F 2 "~" H 2313 9375 30  0000 C CNN
+F 3 "~" H 2275 9525 60  0000 C CNN
+	1    2275 9525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1675 8925 1675 9175
+Connection ~ 1675 9175
+Wire Wire Line
+	2275 8925 2275 9175
+Connection ~ 2275 9175
+Wire Wire Line
+	1675 9725 2275 9725
+Wire Wire Line
+	2275 9725 2275 9875
+Text Label 2275 9875 1    60   ~ 0
+gnd
+Wire Wire Line
+	5275 9425 5425 9425
+Wire Wire Line
+	5275 9325 5425 9325
+Text Label 5425 9325 0    60   ~ 0
+osc1
+Text Label 5425 9425 0    60   ~ 0
+osc2
+Text Label 1675 8925 0    60   ~ 0
+osc1
+Text Label 2275 8925 0    60   ~ 0
+osc2
+Text Label 5425 9625 0    60   ~ 0
+CANint
+Wire Wire Line
+	5275 9625 5425 9625
+Wire Wire Line
+	3525 8875 3775 8875
+Wire Wire Line
+	3775 8975 3525 8975
+Wire Wire Line
+	3525 9075 3775 9075
+Wire Wire Line
+	3775 9175 3525 9175
+Wire Wire Line
+	3525 9675 3775 9675
+$Comp
+L power:+5V #PWR03
+U 1 1 52A79977
+P 3525 9825
+F 0 "#PWR03" H 3525 9915 20  0001 C CNN
+F 1 "+5V" H 3525 9915 30  0000 C CNN
+F 2 "" H 3525 9825 60  0000 C CNN
+F 3 "" H 3525 9825 60  0000 C CNN
+	1    3525 9825
+	1    0    0    -1  
+$EndComp
+Text Label 3525 9925 0    60   ~ 0
+gnd
+Wire Wire Line
+	3525 9925 3775 9925
+Wire Wire Line
+	3775 9825 3525 9825
+$Comp
+L ControlBoard-rescue:MCP2551-I_P-RESCUE-ControlBoard IC1
+U 1 1 52A79978
+P 7550 9050
+F 0 "IC1" H 7300 9350 40  0000 C CNN
+F 1 "MCP2551-I/P" H 7800 8750 40  0000 C CNN
+F 2 "DIP8" H 7550 9050 35  0000 C CIN
+F 3 "~" H 7550 9050 60  0000 C CNN
+	1    7550 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 8925 5425 8925
+Text Label 5425 8925 0    60   ~ 0
+txCAN
+Wire Wire Line
+	5275 9025 5425 9025
+Text Label 5425 9025 0    60   ~ 0
+rxCAN
+Text Label 6800 8950 0    60   ~ 0
+txCAN
+Text Label 6800 8850 0    60   ~ 0
+rxCAN
+Wire Wire Line
+	6800 8850 7100 8850
+Wire Wire Line
+	7100 8950 6800 8950
+Wire Wire Line
+	7100 9250 7100 9350
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R2
+U 1 1 52A79979
+P 7100 9600
+F 0 "R2" V 7180 9600 40  0000 C CNN
+F 1 "nb" V 7107 9601 40  0000 C CNN
+F 2 "~" V 7030 9600 30  0000 C CNN
+F 3 "~" H 7100 9600 30  0000 C CNN
+	1    7100 9600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7100 9100
+Wire Wire Line
+	8000 8950 8250 8950
+Wire Wire Line
+	8000 9150 8250 9150
+$Comp
+L ControlBoard-rescue:CONN_4 P1
+U 1 1 52A7997A
+P 15175 5500
+F 0 "P1" V 15125 5500 50  0000 C CNN
+F 1 "CONN_4" V 15225 5500 50  0000 C CNN
+F 2 "" H 15175 5500 60  0000 C CNN
+F 3 "" H 15175 5500 60  0000 C CNN
+	1    15175 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14725 5350 14825 5350
+Text Label 8250 8950 0    60   ~ 0
+CANH
+Wire Wire Line
+	14275 5550 14825 5550
+Text Label 14625 5550 0    60   ~ 0
+CANL
+Wire Wire Line
+	14825 5650 14625 5650
+Text Label 8250 9150 0    60   ~ 0
+CANL
+$Comp
+L ControlBoard-rescue:JUMPER JP1
+U 1 1 52A7997C
+P 14275 5100
+F 0 "JP1" H 14275 5250 60  0000 C CNN
+F 1 "JUMPER" H 14275 5020 40  0000 C CNN
+F 2 "~" H 14275 5100 60  0000 C CNN
+F 3 "~" H 14275 5100 60  0000 C CNN
+	1    14275 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R1
+U 1 1 52A7997D
+P 14475 5200
+F 0 "R1" V 14555 5200 40  0000 C CNN
+F 1 "120" V 14482 5201 40  0000 C CNN
+F 2 "~" V 14405 5200 30  0000 C CNN
+F 3 "~" H 14475 5200 30  0000 C CNN
+	1    14475 5200
+	1    0    0    -1  
+$EndComp
+Text Label 14625 5650 0    60   ~ 0
+gnd
+$Comp
+L power:+5V #PWR04
+U 1 1 52A7997E
+P 7550 8600
+F 0 "#PWR04" H 7550 8690 20  0001 C CNN
+F 1 "+5V" H 7550 8690 30  0000 C CNN
+F 2 "" H 7550 8600 60  0000 C CNN
+F 3 "" H 7550 8600 60  0000 C CNN
+	1    7550 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 8650 7550 8600
+Text Label 7550 9550 0    60   ~ 0
+gnd
+Wire Wire Line
+	7550 9850 7550 9450
+Wire Wire Line
+	6850 9850 7100 9850
+NoConn ~ 5275 9825
+NoConn ~ 5275 9925
+$Comp
+L power:+5V #PWR05
+U 1 1 52A7997F
+P 2550 3100
+F 0 "#PWR05" H 2550 3190 20  0001 C CNN
+F 1 "+5V" H 2550 3190 30  0000 C CNN
+F 2 "" H 2550 3100 60  0000 C CNN
+F 3 "" H 2550 3100 60  0000 C CNN
+	1    2550 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3100 2550 3200
+Wire Wire Line
+	2550 3200 2850 3200
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R5
+U 1 1 52A79980
+P 12625 9050
+F 0 "R5" V 12705 9050 40  0000 C CNN
+F 1 "330" V 12632 9051 40  0000 C CNN
+F 2 "~" V 12555 9050 30  0000 C CNN
+F 3 "~" H 12625 9050 30  0000 C CNN
+	1    12625 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R3
+U 1 1 52A79981
+P 3150 1500
+F 0 "R3" V 3230 1500 40  0000 C CNN
+F 1 "150" V 3157 1501 40  0000 C CNN
+F 2 "~" V 3080 1500 30  0000 C CNN
+F 3 "~" H 3150 1500 30  0000 C CNN
+	1    3150 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 1250
+Connection ~ 12625 8800
+Wire Wire Line
+	12225 9300 12625 9300
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R6
+U 1 1 52A79982
+P 12475 9500
+F 0 "R6" V 12555 9500 40  0000 C CNN
+F 1 "560" V 12482 9501 40  0000 C CNN
+F 2 "~" V 12405 9500 30  0000 C CNN
+F 3 "~" H 12475 9500 30  0000 C CNN
+	1    12475 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R4
+U 1 1 52A79983
+P 3000 1950
+F 0 "R4" V 3080 1950 40  0000 C CNN
+F 1 "470" V 3007 1951 40  0000 C CNN
+F 2 "~" V 2930 1950 30  0000 C CNN
+F 3 "~" H 3000 1950 30  0000 C CNN
+	1    3000 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 1750 2750 1950
+Wire Wire Line
+	3400 1650 3400 1950
+Wire Wire Line
+	2750 1750 3150 1750
+Wire Wire Line
+	12225 9500 12225 9300
+Wire Wire Line
+	12725 9500 12875 9500
+Wire Wire Line
+	12875 9500 12875 9200
+Connection ~ 12875 9500
+Text Label 13025 9500 0    60   ~ 0
+gnd
+Text Label 3750 1950 0    60   ~ 0
+gnd
+Connection ~ 3400 1950
+Wire Wire Line
+	2300 1250 2300 1150
+Connection ~ 2300 1250
+Text Label 2300 1150 0    60   ~ 0
+in
+$Comp
+L ControlBoard-rescue:CONN_2 P2
+U 1 1 52A79984
+P 1250 1700
+F 0 "P2" V 1200 1700 40  0000 C CNN
+F 1 "CONN_2" V 1300 1700 40  0000 C CNN
+F 2 "" H 1250 1700 60  0000 C CNN
+F 3 "" H 1250 1700 60  0000 C CNN
+	1    1250 1700
+	0    1    1    0   
+$EndComp
+Text Label 1150 1250 0    60   ~ 0
+gnd
+Wire Wire Line
+	11825 8800 11725 8800
+Wire Wire Line
+	11025 1675 11275 1675
+Connection ~ 11275 1675
+Text Label 11025 1675 0    60   ~ 0
+gnd
+Text Label 11675 975  0    60   ~ 0
+MOSI
+Text Label 11275 975  0    60   ~ 0
+MISO
+Text Label 11375 1075 0    60   ~ 0
+SCK
+Wire Wire Line
+	11675 1425 11675 975 
+Wire Wire Line
+	11375 1075 11375 1425
+Wire Wire Line
+	11275 1425 11275 975 
+NoConn ~ 3700 4100
+NoConn ~ 3700 4200
+NoConn ~ 3700 4400
+NoConn ~ 3700 4500
+NoConn ~ 3700 5600
+Text Label 13300 5100 0    60   ~ 0
+gnd
+Text Label 12000 5750 0    60   ~ 0
+gnd
+$Comp
+L power:+5V #PWR06
+U 1 1 52A79988
+P 13300 4700
+F 0 "#PWR06" H 13300 4790 20  0001 C CNN
+F 1 "+5V" H 13300 4790 30  0000 C CNN
+F 2 "" H 13300 4700 60  0000 C CNN
+F 3 "" H 13300 4700 60  0000 C CNN
+	1    13300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:+3.3V-RESCUE-ControlBoard #PWR07
+U 1 1 52A79989
+P 12000 5350
+F 0 "#PWR07" H 12000 5310 30  0001 C CNN
+F 1 "+3.3V" H 12000 5460 30  0000 C CNN
+F 2 "" H 12000 5350 60  0000 C CNN
+F 3 "" H 12000 5350 60  0000 C CNN
+	1    12000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C18
+U 1 1 52A7998A
+P 11825 9000
+F 0 "C18" H 11825 9100 40  0000 L CNN
+F 1 "100n" H 11831 8915 40  0000 L CNN
+F 2 "~" H 11863 8850 30  0000 C CNN
+F 3 "~" H 11825 9000 60  0000 C CNN
+	1    11825 9000
+	-1   0    0    1   
+$EndComp
+Connection ~ 11825 8800
+Wire Wire Line
+	11825 9200 11625 9200
+Text Label 11625 9200 0    60   ~ 0
+gnd
+Text Label 2100 1650 0    60   ~ 0
+gnd
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C15
+U 1 1 52A7998B
+P 1650 4900
+F 0 "C15" H 1650 5000 40  0000 L CNN
+F 1 "100n" H 1656 4815 40  0000 L CNN
+F 2 "~" H 1688 4750 30  0000 C CNN
+F 3 "~" H 1650 4900 60  0000 C CNN
+	1    1650 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 4700 1700 4700
+$Comp
+L ControlBoard-rescue:24C512 U5
+U 1 1 52A7998C
+P 6600 4575
+F 0 "U5" H 6750 4925 60  0000 C CNN
+F 1 "24C512" H 6800 4225 60  0000 C CNN
+F 2 "" H 6600 4575 60  0000 C CNN
+F 3 "" H 6600 4575 60  0000 C CNN
+	1    6600 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR08
+U 1 1 52A7998D
+P 6700 4075
+F 0 "#PWR08" H 6700 4165 20  0001 C CNN
+F 1 "+5V" H 6700 4165 30  0000 C CNN
+F 2 "" H 6700 4075 60  0000 C CNN
+F 3 "" H 6700 4075 60  0000 C CNN
+	1    6700 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4375 5900 4475
+Connection ~ 5900 4575
+Connection ~ 5900 4475
+Wire Wire Line
+	6600 4075 6700 4075
+Wire Wire Line
+	7300 4475 7350 4475
+Text Label 7350 4475 0    60   ~ 0
+gnd
+Text Label 7350 4675 0    60   ~ 0
+SCl
+Wire Wire Line
+	7300 4675 7350 4675
+Text Label 7350 4775 0    60   ~ 0
+SDA
+Wire Wire Line
+	7300 4775 7350 4775
+$Comp
+L ControlBoard-rescue:24C512 U6
+U 1 1 52A7998E
+P 9400 4575
+F 0 "U6" H 9550 4925 60  0000 C CNN
+F 1 "24C512" H 9600 4225 60  0000 C CNN
+F 2 "" H 9400 4575 60  0000 C CNN
+F 3 "" H 9400 4575 60  0000 C CNN
+	1    9400 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 52A7998F
+P 9500 4075
+F 0 "#PWR09" H 9500 4165 20  0001 C CNN
+F 1 "+5V" H 9500 4165 30  0000 C CNN
+F 2 "" H 9500 4075 60  0000 C CNN
+F 3 "" H 9500 4075 60  0000 C CNN
+	1    9500 4075
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 4575
+Wire Wire Line
+	9400 4075 9500 4075
+Wire Wire Line
+	10100 4475 10150 4475
+Text Label 10150 4475 0    60   ~ 0
+gnd
+Text Label 10150 4675 0    60   ~ 0
+SCl
+Wire Wire Line
+	10100 4675 10150 4675
+Text Label 10150 4775 0    60   ~ 0
+SDA
+Wire Wire Line
+	10100 4775 10150 4775
+Wire Wire Line
+	8700 4475 8700 4575
+$Comp
+L power:+5V #PWR010
+U 1 1 52A79990
+P 7650 4375
+F 0 "#PWR010" H 7650 4465 20  0001 C CNN
+F 1 "+5V" H 7650 4465 30  0000 C CNN
+F 2 "" H 7650 4375 60  0000 C CNN
+F 3 "" H 7650 4375 60  0000 C CNN
+	1    7650 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4375 8700 4375
+Text Label 8950 5075 0    60   ~ 0
+gnd
+Text Label 6200 5075 0    60   ~ 0
+gnd
+$Comp
+L ControlBoard-rescue:PCF8574-RESCUE-ControlBoard U3
+U 1 1 52A79991
+P 11450 7350
+F 0 "U3" H 11720 8050 60  0000 C CNN
+F 1 "PCF8574" H 11840 6652 60  0000 C CNN
+F 2 "" H 11450 7350 60  0000 C CNN
+F 3 "" H 11450 7350 60  0000 C CNN
+	1    11450 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 10800 7300
+Wire Wire Line
+	10800 7400 10650 7400
+Wire Wire Line
+	10650 7400 10650 7800
+Wire Wire Line
+	10800 7800 10650 7800
+Connection ~ 10650 7800
+$Comp
+L power:+5V #PWR011
+U 1 1 52A79992
+P 10750 7550
+F 0 "#PWR011" H 10750 7640 20  0001 C CNN
+F 1 "+5V" H 10750 7640 30  0000 C CNN
+F 2 "" H 10750 7550 60  0000 C CNN
+F 3 "" H 10750 7550 60  0000 C CNN
+	1    10750 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 7550 10750 7550
+Text Label 10600 6900 0    60   ~ 0
+SCl
+Text Label 10600 7000 0    60   ~ 0
+SDA
+Wire Wire Line
+	10600 6900 10800 6900
+Wire Wire Line
+	10800 7000 10600 7000
+Wire Wire Line
+	10800 7200 10800 7300
+NoConn ~ 12100 7800
+Text Label 10650 8100 1    60   ~ 0
+gnd
+Wire Wire Line
+	1350 1350 1350 1250
+Wire Wire Line
+	1150 1350 1150 1250
+Wire Wire Line
+	15525 1625 15625 1625
+Wire Wire Line
+	15025 1625 15025 1750
+Connection ~ 14225 1975
+Wire Wire Line
+	14225 1725 14225 1975
+Wire Wire Line
+	14225 1725 14500 1725
+Wire Wire Line
+	14225 2225 15025 2225
+Wire Wire Line
+	15025 2225 15025 2175
+Wire Wire Line
+	14625 1975 14725 1975
+Wire Wire Line
+	14725 1375 14725 1300
+Wire Wire Line
+	15075 1200 14500 1200
+Wire Wire Line
+	14500 1725 14500 1625
+Wire Wire Line
+	14500 1175 14500 1200
+Connection ~ 14500 1200
+Wire Wire Line
+	14725 1300 15075 1300
+Wire Wire Line
+	14725 1975 14725 1875
+Wire Wire Line
+	15075 1400 14850 1400
+$Comp
+L ControlBoard-rescue:NPN Q1
+U 1 1 52A79993
+P 14400 1425
+F 0 "Q1" H 14400 1275 50  0000 R CNN
+F 1 "NPN" H 14400 1575 50  0000 R CNN
+F 2 "" H 14400 1425 60  0001 C CNN
+F 3 "" H 14400 1425 60  0001 C CNN
+	1    14400 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R7
+U 1 1 52A79994
+P 14500 925
+F 0 "R7" V 14580 925 50  0000 C CNN
+F 1 "1k" V 14500 925 50  0000 C CNN
+F 2 "" H 14500 925 60  0001 C CNN
+F 3 "" H 14500 925 60  0001 C CNN
+	1    14500 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CONN_3 K1
+U 1 1 52A79995
+P 15425 1300
+F 0 "K1" V 15375 1300 50  0000 C CNN
+F 1 "CONN_3" V 15475 1300 40  0000 C CNN
+F 2 "" H 15425 1300 60  0001 C CNN
+F 3 "" H 15425 1300 60  0001 C CNN
+	1    15425 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:NPN Q2
+U 1 1 52A79996
+P 14925 1975
+F 0 "Q2" H 14925 1825 50  0000 R CNN
+F 1 "NPN" H 14925 2125 50  0000 R CNN
+F 2 "" H 14925 1975 60  0001 C CNN
+F 3 "" H 14925 1975 60  0001 C CNN
+	1    14925 1975
+	1    0    0    -1  
+$EndComp
+Text Label 14750 1200 0    60   ~ 0
+txd_pc
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R9
+U 1 1 52A79997
+P 14725 1625
+F 0 "R9" V 14805 1625 50  0000 C CNN
+F 1 "10k" V 14725 1625 50  0000 C CNN
+F 2 "" H 14725 1625 60  0001 C CNN
+F 3 "" H 14725 1625 60  0001 C CNN
+	1    14725 1625
+	1    0    0    -1  
+$EndComp
+Text Label 14025 1975 0    60   ~ 0
+gnd
+Text Label 14850 1400 0    60   ~ 0
+gnd
+Text Label 14825 1300 0    60   ~ 0
+rxd_pc
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R10
+U 1 1 52A79999
+P 15275 1625
+F 0 "R10" V 15355 1625 50  0000 C CNN
+F 1 "1k" V 15275 1625 50  0000 C CNN
+F 2 "" H 15275 1625 60  0001 C CNN
+F 3 "" H 15275 1625 60  0001 C CNN
+	1    15275 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:ATMEGA32-P IC2
+U 1 1 52A7995B
+P 2700 5200
+F 0 "IC2" H 1850 7080 40  0000 L BNN
+F 1 "ATMEGA32-P" H 3150 3250 40  0000 L BNN
+F 2 "DIL40" H 2700 5200 30  0000 C CIN
+F 3 "" H 2700 5200 60  0000 C CNN
+	1    2700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 7200 2750 7200
+Wire Wire Line
+	2650 7350 2650 7200
+$Comp
+L power:+5V #PWR012
+U 1 1 52A79BD9
+P 14675 775
+F 0 "#PWR012" H 14675 865 20  0001 C CNN
+F 1 "+5V" H 14675 865 30  0000 C CNN
+F 2 "" H 14675 775 60  0000 C CNN
+F 3 "" H 14675 775 60  0000 C CNN
+	1    14675 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 1425 14050 1425
+Wire Wire Line
+	14025 1975 14225 1975
+Wire Wire Line
+	15025 1750 15175 1750
+Wire Wire Line
+	15175 1750 15175 1950
+Connection ~ 15025 1750
+Text Label 15175 1950 0    60   ~ 0
+rxd
+Wire Wire Line
+	14500 675  14600 675 
+Wire Wire Line
+	14600 675  14600 775 
+Wire Wire Line
+	14600 775  14675 775 
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R8
+U 1 1 52A7A011
+P 14050 1175
+F 0 "R8" V 14130 1175 50  0000 C CNN
+F 1 "3k" V 14050 1175 50  0000 C CNN
+F 2 "" H 14050 1175 60  0001 C CNN
+F 3 "" H 14050 1175 60  0001 C CNN
+	1    14050 1175
+	1    0    0    -1  
+$EndComp
+Text Label 14050 825  0    60   ~ 0
+txd
+Wire Wire Line
+	14050 925  14050 825 
+Text Label 5575 6000 0    60   ~ 0
+rxd
+Text Label 5575 6100 0    60   ~ 0
+txd
+Wire Wire Line
+	1650 5100 1650 5200
+Text Label 1650 5200 0    60   ~ 0
+gnd
+$Comp
+L ControlBoard-rescue:JUMPER JP2
+U 1 1 52A7A479
+P 6850 9550
+F 0 "JP2" H 6850 9700 60  0000 C CNN
+F 1 "JUMPER" H 6850 9470 40  0000 C CNN
+F 2 "~" H 6850 9550 60  0000 C CNN
+F 3 "~" H 6850 9550 60  0000 C CNN
+	1    6850 9550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 9250 7100 9250
+Connection ~ 7100 9850
+NoConn ~ 5275 9175
+NoConn ~ 11575 1425
+NoConn ~ 11475 1675
+NoConn ~ 11575 1675
+NoConn ~ 11675 1675
+$Comp
+L power:+5V #PWR013
+U 1 1 52A7B7A7
+P 15625 1625
+F 0 "#PWR013" H 15625 1715 20  0001 C CNN
+F 1 "+5V" H 15625 1715 30  0000 C CNN
+F 2 "" H 15625 1625 60  0000 C CNN
+F 3 "" H 15625 1625 60  0000 C CNN
+	1    15625 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R11
+U 1 1 52A7BED8
+P 1250 3500
+F 0 "R11" V 1330 3500 50  0000 C CNN
+F 1 "10k" V 1250 3500 50  0000 C CNN
+F 2 "" H 1250 3500 60  0001 C CNN
+F 3 "" H 1250 3500 60  0001 C CNN
+	1    1250 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 3500 875  3500
+$Comp
+L power:+5V #PWR014
+U 1 1 52A7BFA0
+P 875 3500
+F 0 "#PWR014" H 875 3590 20  0001 C CNN
+F 1 "+5V" H 875 3590 30  0000 C CNN
+F 2 "" H 875 3500 60  0000 C CNN
+F 3 "" H 875 3500 60  0000 C CNN
+	1    875  3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R14
+U 1 1 52A796FE
+P 12625 1150
+F 0 "R14" V 12705 1150 40  0000 C CNN
+F 1 "6.2k" V 12632 1151 40  0000 C CNN
+F 2 "~" V 12555 1150 30  0000 C CNN
+F 3 "~" H 12625 1150 30  0000 C CNN
+	1    12625 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R15
+U 1 1 52A79704
+P 12875 1150
+F 0 "R15" V 12955 1150 40  0000 C CNN
+F 1 "6.2k" V 12882 1151 40  0000 C CNN
+F 2 "~" V 12805 1150 30  0000 C CNN
+F 3 "~" H 12875 1150 30  0000 C CNN
+	1    12875 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12625 900  12875 900 
+Wire Wire Line
+	12875 900  12875 850 
+$Comp
+L power:+5V #PWR015
+U 1 1 52A79895
+P 12875 850
+F 0 "#PWR015" H 12875 940 20  0001 C CNN
+F 1 "+5V" H 12875 940 30  0000 C CNN
+F 2 "" H 12875 850 60  0000 C CNN
+F 3 "" H 12875 850 60  0000 C CNN
+	1    12875 850 
+	1    0    0    -1  
+$EndComp
+Text Label 12675 1500 0    60   ~ 0
+SCl
+Text Label 12925 1550 0    60   ~ 0
+SDA
+Wire Wire Line
+	12925 1550 12875 1550
+Wire Wire Line
+	12875 1550 12875 1400
+Wire Wire Line
+	12675 1500 12625 1500
+Wire Wire Line
+	12625 1500 12625 1400
+$Comp
+L ControlBoard-rescue:SD_MMC P3
+U 1 1 52A7FAF5
+P 13750 3375
+F 0 "P3" H 13600 3875 60  0000 C CNN
+F 1 "SD/MMC" H 13750 2875 60  0000 C CNN
+F 2 "" H 13750 3375 60  0000 C CNN
+F 3 "" H 13750 3375 60  0000 C CNN
+	1    13750 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R12
+U 1 1 52A897B8
+P 4000 5300
+F 0 "R12" V 4080 5300 40  0000 C CNN
+F 1 "0" V 4007 5301 40  0000 C CNN
+F 2 "~" V 3930 5300 30  0000 C CNN
+F 3 "~" H 4000 5300 30  0000 C CNN
+	1    4000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R13
+U 1 1 52A897CF
+P 4200 5500
+F 0 "R13" V 4280 5500 40  0000 C CNN
+F 1 "0" V 4207 5501 40  0000 C CNN
+F 2 "~" V 4130 5500 30  0000 C CNN
+F 3 "~" H 4200 5500 30  0000 C CNN
+	1    4200 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 5300 3750 5300
+Wire Wire Line
+	3700 5400 3950 5400
+NoConn ~ 13350 3675
+NoConn ~ 13350 3775
+$Comp
+L ControlBoard-rescue:AVR-ISP-10 CON1
+U 1 1 52A79987
+P 11475 1625
+F 0 "CON1" H 11305 1955 50  0000 C CNN
+F 1 "AVR-ISP-10" H 11135 1295 50  0000 L BNN
+F 2 "AVR-ISP-10" V 10725 1675 50  0001 C CNN
+F 3 "" H 11475 1625 60  0000 C CNN
+	1    11475 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11475 1425 11475 1125
+Text Label 11475 1125 0    60   ~ 0
+reset
+$Comp
+L ControlBoard-rescue:DIL16 P4
+U 1 1 52A8C60B
+P 11500 3300
+F 0 "P4" H 11500 3750 60  0000 C CNN
+F 1 "74HC4050" V 11500 3300 50  0000 C CNN
+F 2 "" H 11500 3300 60  0000 C CNN
+F 3 "" H 11500 3300 60  0000 C CNN
+	1    11500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:+3.3V-RESCUE-ControlBoard #PWR016
+U 1 1 52A8C62E
+P 11150 2950
+F 0 "#PWR016" H 11150 2910 30  0001 C CNN
+F 1 "+3.3V" H 11150 3060 30  0000 C CNN
+F 2 "" H 11150 2950 60  0000 C CNN
+F 3 "" H 11150 2950 60  0000 C CNN
+	1    11150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 2950 11150 2950
+NoConn ~ 11850 3650
+Text Label 13050 3575 0    60   ~ 0
+MISO
+Text Label 10850 3350 0    60   ~ 0
+MOSI
+Text Label 10850 3550 0    60   ~ 0
+SCK
+Wire Wire Line
+	10850 3050 11150 3050
+Text Label 10850 3050 0    60   ~ 0
+CS_SD
+Wire Wire Line
+	10850 3150 11150 3150
+Wire Wire Line
+	10850 3350 11150 3350
+Wire Wire Line
+	10850 3550 11150 3550
+Wire Wire Line
+	13350 3575 13050 3575
+Text Label 10850 3150 0    60   ~ 0
+CS(toSD)
+Text Label 4050 4700 0    60   ~ 0
+CS(toSD)
+Wire Wire Line
+	4050 4700 3700 4700
+Wire Wire Line
+	11150 3250 10850 3250
+Text Label 10850 3250 0    60   ~ 0
+Di
+Text Label 13050 3075 0    60   ~ 0
+Di
+Wire Wire Line
+	13050 3075 13350 3075
+Wire Wire Line
+	13350 3375 13050 3375
+Wire Wire Line
+	11150 3450 10850 3450
+Text Label 10850 3450 0    60   ~ 0
+CLK
+Text Label 13050 3375 0    60   ~ 0
+CLK
+Wire Wire Line
+	11150 3650 10850 3650
+Text Label 10850 3650 0    60   ~ 0
+gnd
+NoConn ~ 11850 2950
+NoConn ~ 11850 3050
+NoConn ~ 11850 3150
+NoConn ~ 11850 3250
+NoConn ~ 11850 3350
+NoConn ~ 11850 3450
+NoConn ~ 11850 3550
+Text Label 12950 3475 0    60   ~ 0
+gnd
+Wire Wire Line
+	13350 3475 12950 3475
+Wire Wire Line
+	12950 3475 12950 3175
+Wire Wire Line
+	12950 3175 13350 3175
+Text Label 13050 2975 0    60   ~ 0
+CS_SD
+Wire Wire Line
+	13050 2975 13350 2975
+$Comp
+L ControlBoard-rescue:+3.3V-RESCUE-ControlBoard #PWR017
+U 1 1 52A8D812
+P 12800 3275
+F 0 "#PWR017" H 12800 3235 30  0001 C CNN
+F 1 "+3.3V" H 12800 3385 30  0000 C CNN
+F 2 "" H 12800 3275 60  0000 C CNN
+F 3 "" H 12800 3275 60  0000 C CNN
+	1    12800 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 3275 13350 3275
+Text Label 7625 950  0    60   ~ 0
+gnd
+Wire Wire Line
+	7475 850  7475 950 
+Wire Wire Line
+	7625 950  7625 850 
+$Comp
+L ControlBoard-rescue:UDN2981 U4
+U 1 1 52AE0E86
+P 7675 1700
+F 0 "U4" H 7925 2200 60  0000 C CNN
+F 1 "UDN2981" H 7925 1200 60  0000 C CNN
+F 2 "" H 7675 1700 60  0000 C CNN
+F 3 "" H 7675 1700 60  0000 C CNN
+	1    7675 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5300 4450 5300
+Wire Wire Line
+	4450 5500 4550 5500
+Wire Wire Line
+	3950 5400 3950 5500
+Text Label 7625 2450 0    60   ~ 0
+in
+Wire Wire Line
+	7625 2450 7475 2450
+Wire Wire Line
+	7625 850  7475 850 
+Wire Wire Line
+	8475 1350 8675 1350
+Wire Wire Line
+	8675 1450 8475 1450
+Wire Wire Line
+	8475 1550 8675 1550
+Wire Wire Line
+	8675 1650 8475 1650
+Wire Wire Line
+	8475 1750 8675 1750
+Wire Wire Line
+	8675 1850 8475 1850
+Wire Wire Line
+	8475 1950 8675 1950
+Wire Wire Line
+	8675 2050 8475 2050
+$Comp
+L ControlBoard-rescue:CONN_4 P6
+U 1 1 52AE1B98
+P 9025 1900
+F 0 "P6" V 8975 1900 50  0000 C CNN
+F 1 "CONN_4" V 9075 1900 50  0000 C CNN
+F 2 "" H 9025 1900 60  0000 C CNN
+F 3 "" H 9025 1900 60  0000 C CNN
+	1    9025 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CONN_4 P5
+U 1 1 52AE1BA5
+P 9025 1500
+F 0 "P5" V 8975 1500 50  0000 C CNN
+F 1 "CONN_4" V 9075 1500 50  0000 C CNN
+F 2 "" H 9025 1500 60  0000 C CNN
+F 3 "" H 9025 1500 60  0000 C CNN
+	1    9025 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CONN_4 P8
+U 1 1 52AE23FD
+P 9725 6450
+F 0 "P8" V 9675 6450 50  0000 C CNN
+F 1 "CONN_4" V 9775 6450 50  0000 C CNN
+F 2 "" H 9725 6450 60  0000 C CNN
+F 3 "" H 9725 6450 60  0000 C CNN
+	1    9725 6450
+	1    0    0    -1  
+$EndComp
+Text Label 9075 6400 0    60   ~ 0
+SCl
+Text Label 9075 6300 0    60   ~ 0
+SDA
+$Comp
+L power:+5V #PWR018
+U 1 1 52AE2409
+P 8975 6500
+F 0 "#PWR018" H 8975 6590 20  0001 C CNN
+F 1 "+5V" H 8975 6590 30  0000 C CNN
+F 2 "" H 8975 6500 60  0000 C CNN
+F 3 "" H 8975 6500 60  0000 C CNN
+	1    8975 6500
+	1    0    0    -1  
+$EndComp
+Text Label 9075 6600 0    60   ~ 0
+gnd
+Wire Wire Line
+	9075 6300 9375 6300
+Wire Wire Line
+	9375 6400 9075 6400
+Wire Wire Line
+	9075 6600 9375 6600
+Wire Wire Line
+	9375 6500 8975 6500
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D3
+U 1 1 52AE27EE
+P 12950 6900
+F 0 "D3" H 12950 7000 50  0000 C CNN
+F 1 "LED" H 12950 6800 50  0000 C CNN
+F 2 "~" H 12950 6900 60  0000 C CNN
+F 3 "~" H 12950 6900 60  0000 C CNN
+	1    12950 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D4
+U 1 1 52AE27FB
+P 12550 7000
+F 0 "D4" H 12550 7100 50  0000 C CNN
+F 1 "LED" H 12550 6900 50  0000 C CNN
+F 2 "~" H 12550 7000 60  0000 C CNN
+F 3 "~" H 12550 7000 60  0000 C CNN
+	1    12550 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D5
+U 1 1 52AE2801
+P 13300 7100
+F 0 "D5" H 13300 7200 50  0000 C CNN
+F 1 "LED" H 13300 7000 50  0000 C CNN
+F 2 "~" H 13300 7100 60  0000 C CNN
+F 3 "~" H 13300 7100 60  0000 C CNN
+	1    13300 7100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D6
+U 1 1 52AE2807
+P 12900 7200
+F 0 "D6" H 12900 7300 50  0000 C CNN
+F 1 "LED" H 12900 7100 50  0000 C CNN
+F 2 "~" H 12900 7200 60  0000 C CNN
+F 3 "~" H 12900 7200 60  0000 C CNN
+	1    12900 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D7
+U 1 1 52AE280D
+P 12500 7300
+F 0 "D7" H 12500 7400 50  0000 C CNN
+F 1 "LED" H 12500 7200 50  0000 C CNN
+F 2 "~" H 12500 7300 60  0000 C CNN
+F 3 "~" H 12500 7300 60  0000 C CNN
+	1    12500 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D8
+U 1 1 52AE2813
+P 13250 7400
+F 0 "D8" H 13250 7500 50  0000 C CNN
+F 1 "LED" H 13250 7300 50  0000 C CNN
+F 2 "~" H 13250 7400 60  0000 C CNN
+F 3 "~" H 13250 7400 60  0000 C CNN
+	1    13250 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D9
+U 1 1 52AE2819
+P 12850 7500
+F 0 "D9" H 12850 7600 50  0000 C CNN
+F 1 "LED" H 12850 7400 50  0000 C CNN
+F 2 "~" H 12850 7500 60  0000 C CNN
+F 3 "~" H 12850 7500 60  0000 C CNN
+	1    12850 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D10
+U 1 1 52AE281F
+P 12450 7600
+F 0 "D10" H 12450 7700 50  0000 C CNN
+F 1 "LED" H 12450 7500 50  0000 C CNN
+F 2 "~" H 12450 7600 60  0000 C CNN
+F 3 "~" H 12450 7600 60  0000 C CNN
+	1    12450 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12100 6900 12750 6900
+Wire Wire Line
+	12350 7000 12100 7000
+Wire Wire Line
+	12100 7100 13100 7100
+Wire Wire Line
+	12100 7600 12250 7600
+Wire Wire Line
+	12100 7500 12650 7500
+Wire Wire Line
+	12300 7300 12100 7300
+Wire Wire Line
+	12100 7400 13050 7400
+Wire Wire Line
+	12700 7200 12100 7200
+Wire Wire Line
+	13150 6900 13550 6900
+Wire Wire Line
+	12750 7000 13900 7000
+Wire Wire Line
+	13500 7100 13550 7100
+Wire Wire Line
+	13100 7200 13950 7200
+Wire Wire Line
+	13450 7400 13950 7400
+Wire Wire Line
+	12700 7300 13600 7300
+Wire Wire Line
+	13050 7500 13600 7500
+Wire Wire Line
+	12650 7600 13950 7600
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R17
+U 1 1 52AE3980
+P 13800 6900
+F 0 "R17" V 13880 6900 50  0000 C CNN
+F 1 "680R" V 13800 6900 50  0000 C CNN
+F 2 "" H 13800 6900 60  0001 C CNN
+F 3 "" H 13800 6900 60  0001 C CNN
+	1    13800 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R18
+U 1 1 52AE3986
+P 14150 7000
+F 0 "R18" V 14230 7000 50  0000 C CNN
+F 1 "680R" V 14150 7000 50  0000 C CNN
+F 2 "" H 14150 7000 60  0001 C CNN
+F 3 "" H 14150 7000 60  0001 C CNN
+	1    14150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R19
+U 1 1 52AE398C
+P 13800 7100
+F 0 "R19" V 13880 7100 50  0000 C CNN
+F 1 "680R" V 13800 7100 50  0000 C CNN
+F 2 "" H 13800 7100 60  0001 C CNN
+F 3 "" H 13800 7100 60  0001 C CNN
+	1    13800 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R20
+U 1 1 52AE3992
+P 14200 7200
+F 0 "R20" V 14280 7200 50  0000 C CNN
+F 1 "680R" V 14200 7200 50  0000 C CNN
+F 2 "" H 14200 7200 60  0001 C CNN
+F 3 "" H 14200 7200 60  0001 C CNN
+	1    14200 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R21
+U 1 1 52AE3998
+P 13850 7300
+F 0 "R21" V 13930 7300 50  0000 C CNN
+F 1 "680R" V 13850 7300 50  0000 C CNN
+F 2 "" H 13850 7300 60  0001 C CNN
+F 3 "" H 13850 7300 60  0001 C CNN
+	1    13850 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R22
+U 1 1 52AE399E
+P 14200 7400
+F 0 "R22" V 14280 7400 50  0000 C CNN
+F 1 "680R" V 14200 7400 50  0000 C CNN
+F 2 "" H 14200 7400 60  0001 C CNN
+F 3 "" H 14200 7400 60  0001 C CNN
+	1    14200 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R23
+U 1 1 52AE39A4
+P 13850 7500
+F 0 "R23" V 13930 7500 50  0000 C CNN
+F 1 "680R" V 13850 7500 50  0000 C CNN
+F 2 "" H 13850 7500 60  0001 C CNN
+F 3 "" H 13850 7500 60  0001 C CNN
+	1    13850 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R24
+U 1 1 52AE39AA
+P 14200 7600
+F 0 "R24" V 14280 7600 50  0000 C CNN
+F 1 "680R" V 14200 7600 50  0000 C CNN
+F 2 "" H 14200 7600 60  0001 C CNN
+F 3 "" H 14200 7600 60  0001 C CNN
+	1    14200 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14050 6900 14400 6900
+Wire Wire Line
+	14400 6900 14400 7000
+Wire Wire Line
+	14450 7000 14450 7100
+Connection ~ 14450 7400
+Wire Wire Line
+	14400 7000 14450 7000
+Connection ~ 14450 7200
+Wire Wire Line
+	14050 7100 14450 7100
+Connection ~ 14450 7100
+Wire Wire Line
+	14450 7300 14100 7300
+Connection ~ 14450 7300
+Wire Wire Line
+	14100 7500 14450 7500
+Connection ~ 14450 7500
+Connection ~ 14450 7600
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C9
+U 1 1 52AE4952
+P 13075 4900
+F 0 "C9" H 13075 5000 40  0000 L CNN
+F 1 "100n" H 13081 4815 40  0000 L CNN
+F 2 "~" H 13113 4750 30  0000 C CNN
+F 3 "~" H 13075 4900 60  0000 C CNN
+	1    13075 4900
+	-1   0    0    1   
+$EndComp
+Text Label 8525 1350 0    60   ~ 0
+p1
+Text Label 8525 1450 0    60   ~ 0
+p2
+Text Label 8525 1550 0    60   ~ 0
+p3
+Text Label 8525 1650 0    60   ~ 0
+p4
+Text Label 8525 1750 0    60   ~ 0
+p5
+Text Label 8525 1850 0    60   ~ 0
+p6
+Text Label 8525 1950 0    60   ~ 0
+p7
+Text Label 8525 2050 0    60   ~ 0
+p8
+Wire Wire Line
+	9875 1775 9675 1775
+Wire Wire Line
+	9675 1925 9875 1925
+Wire Wire Line
+	9875 2075 9675 2075
+Wire Wire Line
+	9675 2225 9875 2225
+Wire Wire Line
+	9875 2375 9675 2375
+Text Label 9675 1775 0    60   ~ 0
+p4
+Text Label 9675 1925 0    60   ~ 0
+p5
+Text Label 9675 2075 0    60   ~ 0
+p6
+Text Label 9675 2225 0    60   ~ 0
+p7
+Text Label 9675 2375 0    60   ~ 0
+p8
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R26
+U 1 1 52AE5291
+P 10125 1325
+F 0 "R26" V 10205 1325 50  0000 C CNN
+F 1 "38k" V 10125 1325 50  0000 C CNN
+F 2 "" H 10125 1325 60  0001 C CNN
+F 3 "" H 10125 1325 60  0001 C CNN
+	1    10125 1325
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R28
+U 1 1 52AE52AD
+P 10125 1475
+F 0 "R28" V 10205 1475 50  0000 C CNN
+F 1 "38k" V 10125 1475 50  0000 C CNN
+F 2 "" H 10125 1475 60  0001 C CNN
+F 3 "" H 10125 1475 60  0001 C CNN
+	1    10125 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R30
+U 1 1 52AE52B3
+P 10125 1625
+F 0 "R30" V 10205 1625 50  0000 C CNN
+F 1 "38k" V 10125 1625 50  0000 C CNN
+F 2 "" H 10125 1625 60  0001 C CNN
+F 3 "" H 10125 1625 60  0001 C CNN
+	1    10125 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R32
+U 1 1 52AE52B9
+P 10125 1775
+F 0 "R32" V 10205 1775 50  0000 C CNN
+F 1 "38k" V 10125 1775 50  0000 C CNN
+F 2 "" H 10125 1775 60  0001 C CNN
+F 3 "" H 10125 1775 60  0001 C CNN
+	1    10125 1775
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R34
+U 1 1 52AE52BF
+P 10125 1925
+F 0 "R34" V 10205 1925 50  0000 C CNN
+F 1 "38k" V 10125 1925 50  0000 C CNN
+F 2 "" H 10125 1925 60  0001 C CNN
+F 3 "" H 10125 1925 60  0001 C CNN
+	1    10125 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R36
+U 1 1 52AE52C5
+P 10125 2075
+F 0 "R36" V 10205 2075 50  0000 C CNN
+F 1 "38k" V 10125 2075 50  0000 C CNN
+F 2 "" H 10125 2075 60  0001 C CNN
+F 3 "" H 10125 2075 60  0001 C CNN
+	1    10125 2075
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R38
+U 1 1 52AE52CB
+P 10125 2225
+F 0 "R38" V 10205 2225 50  0000 C CNN
+F 1 "38k" V 10125 2225 50  0000 C CNN
+F 2 "" H 10125 2225 60  0001 C CNN
+F 3 "" H 10125 2225 60  0001 C CNN
+	1    10125 2225
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R40
+U 1 1 52AE52D1
+P 10125 2375
+F 0 "R40" V 10205 2375 50  0000 C CNN
+F 1 "38k" V 10125 2375 50  0000 C CNN
+F 2 "" H 10125 2375 60  0001 C CNN
+F 3 "" H 10125 2375 60  0001 C CNN
+	1    10125 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10375 1325 10375 1475
+Connection ~ 10375 2225
+Connection ~ 10375 2075
+Connection ~ 10375 1925
+Connection ~ 10375 1775
+Connection ~ 10375 1625
+Connection ~ 10375 1475
+Wire Wire Line
+	10375 2375 10575 2375
+Text Label 10575 2375 0    60   ~ 0
+gnd
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R25
+U 1 1 52AE5DA1
+P 5750 1300
+F 0 "R25" V 5830 1300 50  0000 C CNN
+F 1 "10k" V 5750 1300 50  0000 C CNN
+F 2 "" H 5750 1300 60  0001 C CNN
+F 3 "" H 5750 1300 60  0001 C CNN
+	1    5750 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R27
+U 1 1 52AE5DA7
+P 5750 1450
+F 0 "R27" V 5830 1450 50  0000 C CNN
+F 1 "10k" V 5750 1450 50  0000 C CNN
+F 2 "" H 5750 1450 60  0001 C CNN
+F 3 "" H 5750 1450 60  0001 C CNN
+	1    5750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R29
+U 1 1 52AE5DAD
+P 5750 1600
+F 0 "R29" V 5830 1600 50  0000 C CNN
+F 1 "10k" V 5750 1600 50  0000 C CNN
+F 2 "" H 5750 1600 60  0001 C CNN
+F 3 "" H 5750 1600 60  0001 C CNN
+	1    5750 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R31
+U 1 1 52AE5DB3
+P 5750 1750
+F 0 "R31" V 5830 1750 50  0000 C CNN
+F 1 "10k" V 5750 1750 50  0000 C CNN
+F 2 "" H 5750 1750 60  0001 C CNN
+F 3 "" H 5750 1750 60  0001 C CNN
+	1    5750 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R33
+U 1 1 52AE5DB9
+P 5750 1900
+F 0 "R33" V 5830 1900 50  0000 C CNN
+F 1 "10k" V 5750 1900 50  0000 C CNN
+F 2 "" H 5750 1900 60  0001 C CNN
+F 3 "" H 5750 1900 60  0001 C CNN
+	1    5750 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R35
+U 1 1 52AE5DBF
+P 5750 2050
+F 0 "R35" V 5830 2050 50  0000 C CNN
+F 1 "10k" V 5750 2050 50  0000 C CNN
+F 2 "" H 5750 2050 60  0001 C CNN
+F 3 "" H 5750 2050 60  0001 C CNN
+	1    5750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R37
+U 1 1 52AE5DC5
+P 5750 2200
+F 0 "R37" V 5830 2200 50  0000 C CNN
+F 1 "10k" V 5750 2200 50  0000 C CNN
+F 2 "" H 5750 2200 60  0001 C CNN
+F 3 "" H 5750 2200 60  0001 C CNN
+	1    5750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R39
+U 1 1 52AE5DCB
+P 5750 2350
+F 0 "R39" V 5830 2350 50  0000 C CNN
+F 1 "10k" V 5750 2350 50  0000 C CNN
+F 2 "" H 5750 2350 60  0001 C CNN
+F 3 "" H 5750 2350 60  0001 C CNN
+	1    5750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 1300 6000 1450
+Connection ~ 6000 2200
+Connection ~ 6000 2050
+Connection ~ 6000 1900
+Connection ~ 6000 1750
+Connection ~ 6000 1600
+Connection ~ 6000 1450
+Wire Wire Line
+	6000 2500 6100 2500
+Connection ~ 6000 2350
+Text Label 6100 2500 0    60   ~ 0
+gnd
+Wire Wire Line
+	6875 1350 6675 1350
+Text Label 6675 1350 0    60   ~ 0
+e1
+Wire Wire Line
+	6875 1450 6675 1450
+Text Label 6675 1450 0    60   ~ 0
+e2
+Wire Wire Line
+	6875 1550 6675 1550
+Text Label 6675 1550 0    60   ~ 0
+e3
+Wire Wire Line
+	6875 1650 6675 1650
+Text Label 6675 1650 0    60   ~ 0
+e4
+Wire Wire Line
+	6875 1750 6675 1750
+Text Label 6675 1750 0    60   ~ 0
+e5
+Wire Wire Line
+	6875 1850 6675 1850
+Text Label 6675 1850 0    60   ~ 0
+e6
+Text Label 6675 1950 0    60   ~ 0
+e7
+Wire Wire Line
+	6875 1950 6675 1950
+Text Label 14625 5450 0    60   ~ 0
+CANH
+Wire Wire Line
+	14475 5450 14825 5450
+Wire Wire Line
+	14475 4950 14475 4750
+Wire Wire Line
+	14475 4750 14275 4750
+Wire Wire Line
+	14275 4750 14275 4800
+Wire Wire Line
+	14275 5400 14275 5550
+$Comp
+L power:+5V #PWR019
+U 1 1 52AEEDF5
+P 11725 8800
+F 0 "#PWR019" H 11725 8890 20  0001 C CNN
+F 1 "+5V" H 11725 8890 30  0000 C CNN
+F 2 "" H 11725 8800 60  0000 C CNN
+F 3 "" H 11725 8800 60  0000 C CNN
+	1    11725 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR020
+U 1 1 52AEEED8
+P 14550 7700
+F 0 "#PWR020" H 14550 7790 20  0001 C CNN
+F 1 "+5V" H 14550 7790 30  0000 C CNN
+F 2 "" H 14550 7700 60  0000 C CNN
+F 3 "" H 14550 7700 60  0000 C CNN
+	1    14550 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 7700 14550 7700
+Connection ~ 12800 4700
+Connection ~ 12800 5100
+$Comp
+L ControlBoard-rescue:C-RESCUE-ControlBoard C26
+U 1 1 52AF3CAB
+P 1850 1450
+F 0 "C26" H 1850 1550 40  0000 L CNN
+F 1 "10n" H 1856 1365 40  0000 L CNN
+F 2 "~" H 1888 1300 30  0000 C CNN
+F 3 "~" H 1850 1450 60  0000 C CNN
+	1    1850 1450
+	-1   0    0    1   
+$EndComp
+Connection ~ 1850 1250
+Connection ~ 2100 1250
+Wire Wire Line
+	1850 1650 2100 1650
+Wire Wire Line
+	3700 6900 3850 6900
+Wire Wire Line
+	3850 6600 3700 6600
+Wire Wire Line
+	3850 6700 3700 6700
+Text Label 9675 1325 0    60   ~ 0
+p1
+Text Label 9675 1475 0    60   ~ 0
+p2
+Text Label 9675 1625 0    60   ~ 0
+p3
+Wire Wire Line
+	9875 1625 9675 1625
+Wire Wire Line
+	9675 1475 9875 1475
+Wire Wire Line
+	9875 1325 9675 1325
+Wire Wire Line
+	3700 5700 3850 5700
+Text Label 3850 6000 0    60   ~ 0
+e1
+Text Label 3850 5900 0    60   ~ 0
+e2
+Text Label 3850 5800 0    60   ~ 0
+e3
+Text Label 3850 5700 0    60   ~ 0
+e4
+Text Label 3850 6900 0    60   ~ 0
+e5
+Text Label 3850 6600 0    60   ~ 0
+e6
+Text Label 3850 6700 0    60   ~ 0
+e7
+Wire Wire Line
+	3700 5800 3850 5800
+Wire Wire Line
+	3850 5900 3700 5900
+Wire Wire Line
+	3700 6000 3850 6000
+$Comp
+L ControlBoard-rescue:SW_PUSH SW1
+U 1 1 52B3ED03
+P 6025 6800
+F 0 "SW1" H 6175 6910 50  0000 C CNN
+F 1 "SW_PUSH" H 6025 6720 50  0000 C CNN
+F 2 "~" H 6025 6800 60  0000 C CNN
+F 3 "~" H 6025 6800 60  0000 C CNN
+	1    6025 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:SW_PUSH SW2
+U 1 1 52B3ED24
+P 6075 7000
+F 0 "SW2" H 6225 7110 50  0000 C CNN
+F 1 "SW_PUSH" H 6075 6920 50  0000 C CNN
+F 2 "~" H 6075 7000 60  0000 C CNN
+F 3 "~" H 6075 7000 60  0000 C CNN
+	1    6075 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 6800 6425 7000
+Wire Wire Line
+	6325 6800 6425 6800
+Text Label 6425 6800 0    60   ~ 0
+gnd
+Wire Wire Line
+	5325 6850 5725 6850
+Wire Wire Line
+	5725 6850 5725 6800
+Wire Wire Line
+	5775 7000 5325 7000
+Wire Wire Line
+	3700 3500 3850 3500
+Wire Wire Line
+	3850 3600 3700 3600
+Wire Wire Line
+	3700 3700 3850 3700
+Wire Wire Line
+	3700 3800 3850 3800
+Wire Wire Line
+	3700 3900 3850 3900
+Wire Wire Line
+	3700 4000 3850 4000
+Wire Wire Line
+	6425 7000 6375 7000
+Text Label 3850 3700 0    60   ~ 0
+ADC2
+Text Label 3850 3800 0    60   ~ 0
+ADC3
+Text Label 3850 3900 0    60   ~ 0
+ADC4
+Text Label 3850 4000 0    60   ~ 0
+ADC5
+$Comp
+L ControlBoard-rescue:CONN_3X2 P7
+U 1 1 52B40010
+P 6075 7450
+F 0 "P7" H 6075 7700 50  0000 C CNN
+F 1 "CONN_3X2" V 6075 7500 40  0000 C CNN
+F 2 "" H 6075 7450 60  0000 C CNN
+F 3 "" H 6075 7450 60  0000 C CNN
+	1    6075 7450
+	1    0    0    -1  
+$EndComp
+Text Label 5375 7300 0    60   ~ 0
+ADC0
+Text Label 6575 7300 0    60   ~ 0
+ADC1
+Text Label 5375 7400 0    60   ~ 0
+ADC2
+Text Label 5375 7500 0    60   ~ 0
+ADC4
+Text Label 6575 7500 0    60   ~ 0
+ADC5
+Text Label 6575 7400 0    60   ~ 0
+ADC3
+Wire Wire Line
+	5375 7300 5675 7300
+Wire Wire Line
+	5675 7400 5375 7400
+Wire Wire Line
+	5375 7500 5675 7500
+Wire Wire Line
+	6475 7300 6575 7300
+Wire Wire Line
+	6575 7400 6475 7400
+Wire Wire Line
+	6475 7500 6575 7500
+Text Label 4100 6400 0    60   ~ 0
+Taster0
+Text Label 4100 6500 0    60   ~ 0
+Taster1
+$Comp
+L ControlBoard-rescue:CONN_3X2 P9
+U 1 1 52B40BDB
+P 7575 7400
+F 0 "P9" H 7575 7650 50  0000 C CNN
+F 1 "CONN_3X2" V 7575 7450 40  0000 C CNN
+F 2 "" H 7575 7400 60  0000 C CNN
+F 3 "" H 7575 7400 60  0000 C CNN
+	1    7575 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CONN_3X2 P10
+U 1 1 52B40BE1
+P 8775 7400
+F 0 "P10" H 8775 7650 50  0000 C CNN
+F 1 "CONN_3X2" V 8775 7450 40  0000 C CNN
+F 2 "" H 8775 7400 60  0000 C CNN
+F 3 "" H 8775 7400 60  0000 C CNN
+	1    8775 7400
+	1    0    0    -1  
+$EndComp
+Text Label 9275 7250 0    60   ~ 0
+gnd
+Wire Wire Line
+	8375 7250 8375 7350
+Connection ~ 8375 7350
+Wire Wire Line
+	8375 7550 9175 7550
+Wire Wire Line
+	9175 7550 9175 7450
+Connection ~ 8375 7450
+Connection ~ 9175 7450
+Connection ~ 9175 7350
+Wire Wire Line
+	7175 7250 7175 7350
+Connection ~ 7175 7350
+Wire Wire Line
+	7175 7550 7975 7550
+Wire Wire Line
+	7975 7550 7975 7450
+Connection ~ 7175 7450
+Connection ~ 7975 7450
+Connection ~ 7975 7350
+$Comp
+L power:+5V #PWR021
+U 1 1 52B419CC
+P 8025 7250
+F 0 "#PWR021" H 8025 7340 20  0001 C CNN
+F 1 "+5V" H 8025 7340 30  0000 C CNN
+F 2 "" H 8025 7250 60  0000 C CNN
+F 3 "" H 8025 7250 60  0000 C CNN
+	1    8025 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 7250 8025 7250
+Wire Wire Line
+	9175 7250 9275 7250
+$Comp
+L ControlBoard-rescue:CONN_3 K2
+U 1 1 52B7632F
+P 6125 6100
+F 0 "K2" V 6075 6100 50  0000 C CNN
+F 1 "CONN_3" V 6175 6100 40  0000 C CNN
+F 2 "" H 6125 6100 60  0000 C CNN
+F 3 "" H 6125 6100 60  0000 C CNN
+	1    6125 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 6000 5775 6000
+Wire Wire Line
+	5775 6100 5575 6100
+Text Label 5575 6200 0    60   ~ 0
+gnd
+Wire Wire Line
+	5575 6200 5775 6200
+Text Label 3900 6200 0    60   ~ 0
+rxd
+Text Label 3900 6300 0    60   ~ 0
+txd
+Wire Wire Line
+	3900 6300 3700 6300
+Wire Wire Line
+	3700 6200 3900 6200
+Wire Wire Line
+	12000 5350 11750 5350
+Wire Wire Line
+	11500 5750 11750 5750
+$Comp
+L ControlBoard-rescue:LM317 U7
+U 1 1 52C74447
+P 9750 8950
+F 0 "U7" H 9750 9250 60  0000 C CNN
+F 1 "LM317" H 9800 8700 60  0000 L CNN
+F 2 "~" H 9750 8950 60  0000 C CNN
+F 3 "~" H 9750 8950 60  0000 C CNN
+	1    9750 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ControlBoard-rescue:CP1-RESCUE-ControlBoard C11
+U 1 1 52C7444D
+P 10400 9000
+F 0 "C11" H 10450 9100 50  0000 L CNN
+F 1 "2200µ" H 10450 8900 50  0000 L CNN
+F 2 "~" H 10400 9000 60  0000 C CNN
+F 3 "~" H 10400 9000 60  0000 C CNN
+	1    10400 9000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10400 8800
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R16
+U 1 1 52C74454
+P 10150 9050
+F 0 "R16" V 10230 9050 40  0000 C CNN
+F 1 "130" V 10157 9051 40  0000 C CNN
+F 2 "~" V 10080 9050 30  0000 C CNN
+F 3 "~" H 10150 9050 30  0000 C CNN
+	1    10150 9050
+	1    0    0    -1  
+$EndComp
+Connection ~ 10150 8800
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R41
+U 1 1 52C7445B
+P 10000 9500
+F 0 "R41" V 10080 9500 40  0000 C CNN
+F 1 "470" V 10007 9501 40  0000 C CNN
+F 2 "~" V 9930 9500 30  0000 C CNN
+F 3 "~" H 10000 9500 30  0000 C CNN
+	1    10000 9500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 9300 9750 9500
+Wire Wire Line
+	10400 9200 10400 9500
+Wire Wire Line
+	10250 9500 10400 9500
+Wire Wire Line
+	9750 9300 10150 9300
+Connection ~ 10400 9500
+Wire Wire Line
+	10150 8800 10400 8800
+Wire Wire Line
+	3150 1250 3400 1250
+Wire Wire Line
+	3750 1950 3400 1950
+Wire Wire Line
+	9200 8800 9200 8700
+Text Label 9200 8700 0    60   ~ 0
+in
+Wire Wire Line
+	9200 8800 9350 8800
+Text Label 10900 9500 0    60   ~ 0
+gnd
+Text Label 10900 8800 0    60   ~ 0
+5v_Ex
+Text Label 14725 5200 0    60   ~ 0
+5v_Ex
+Wire Wire Line
+	14725 5350 14725 5200
+Wire Wire Line
+	10800 9200 10800 9500
+Connection ~ 10800 9500
+Connection ~ 10800 8800
+$Comp
+L ControlBoard-rescue:R-RESCUE-ControlBoard R42
+U 1 1 52D84116
+P 4400 5700
+F 0 "R42" V 4480 5700 40  0000 C CNN
+F 1 "1k" V 4407 5701 40  0000 C CNN
+F 2 "~" V 4330 5700 30  0000 C CNN
+F 3 "~" H 4400 5700 30  0000 C CNN
+	1    4400 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 5500 3900 5500
+Wire Wire Line
+	3900 5500 3900 5600
+Wire Wire Line
+	3900 5600 4150 5600
+Wire Wire Line
+	4150 5600 4150 5700
+$Comp
+L ControlBoard-rescue:LED-RESCUE-ControlBoard D11
+U 1 1 52D84296
+P 4900 5700
+F 0 "D11" H 4900 5800 50  0000 C CNN
+F 1 "LED" H 4900 5600 50  0000 C CNN
+F 2 "~" H 4900 5700 60  0000 C CNN
+F 3 "~" H 4900 5700 60  0000 C CNN
+	1    4900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5700 4700 5700
+Wire Wire Line
+	5100 5700 5150 5700
+Text Label 5150 5700 0    60   ~ 0
+gnd
+Wire Wire Line
+	11250 4700 11500 4700
+Wire Wire Line
+	11250 5100 11500 5100
+Connection ~ 13075 4700
+Connection ~ 13075 5100
+$Comp
+L ControlBoard-rescue:DIODESCH D2
+U 1 1 52F0CDD9
+P 14425 1975
+F 0 "D2" H 14425 2075 40  0000 C CNN
+F 1 "DIODESCH" H 14425 1875 40  0000 C CNN
+F 2 "~" H 14425 1975 60  0000 C CNN
+F 3 "~" H 14425 1975 60  0000 C CNN
+	1    14425 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 2050 6675 2050
+Text Label 6675 2050 0    60   ~ 0
+e8
+Wire Wire Line
+	5500 1300 5300 1300
+Text Label 5300 1300 0    60   ~ 0
+e1
+Wire Wire Line
+	5500 1450 5300 1450
+Text Label 5300 1450 0    60   ~ 0
+e2
+Wire Wire Line
+	5500 1600 5300 1600
+Text Label 5300 1600 0    60   ~ 0
+e3
+Wire Wire Line
+	5500 1750 5300 1750
+Text Label 5300 1750 0    60   ~ 0
+e4
+Wire Wire Line
+	5500 1900 5300 1900
+Text Label 5300 1900 0    60   ~ 0
+e5
+Wire Wire Line
+	5500 2050 5300 2050
+Text Label 5300 2050 0    60   ~ 0
+e6
+Text Label 5300 2200 0    60   ~ 0
+e7
+Wire Wire Line
+	5500 2200 5300 2200
+Wire Wire Line
+	5500 2350 5300 2350
+Text Label 5300 2350 0    60   ~ 0
+e8
+Wire Wire Line
+	3850 6800 3700 6800
+Text Label 3850 6800 0    60   ~ 0
+e8
+Wire Wire Line
+	1400 3800 1250 3800
+Wire Wire Line
+	1400 4400 1650 4400
+Wire Wire Line
+	11500 4700 11750 4700
+Wire Wire Line
+	11750 4700 12000 4700
+Wire Wire Line
+	12000 4700 12250 4700
+Wire Wire Line
+	12250 4700 12500 4700
+Wire Wire Line
+	12500 4700 12800 4700
+Wire Wire Line
+	11500 5100 11750 5100
+Wire Wire Line
+	11750 5100 12000 5100
+Wire Wire Line
+	12000 5100 12250 5100
+Wire Wire Line
+	12250 5100 12500 5100
+Wire Wire Line
+	12500 5100 12800 5100
+Wire Wire Line
+	11750 5350 11500 5350
+Wire Wire Line
+	11750 5750 12000 5750
+Wire Wire Line
+	3400 1250 3750 1250
+Wire Wire Line
+	12875 8800 13125 8800
+Wire Wire Line
+	1675 9175 1675 9325
+Wire Wire Line
+	2275 9175 2275 9325
+Wire Wire Line
+	12875 9500 13025 9500
+Wire Wire Line
+	3400 1950 3250 1950
+Wire Wire Line
+	2300 1250 2350 1250
+Wire Wire Line
+	11275 1675 11375 1675
+Wire Wire Line
+	5900 4575 5900 5075
+Wire Wire Line
+	5900 4475 5900 4575
+Wire Wire Line
+	8700 4575 8700 5075
+Wire Wire Line
+	10800 7300 10800 7400
+Wire Wire Line
+	10650 7800 10650 8100
+Wire Wire Line
+	14225 1975 14225 2225
+Wire Wire Line
+	14500 1200 14500 1225
+Wire Wire Line
+	15025 1750 15025 1775
+Wire Wire Line
+	7100 9850 7550 9850
+Wire Wire Line
+	14450 7400 14450 7500
+Wire Wire Line
+	14450 7200 14450 7300
+Wire Wire Line
+	14450 7100 14450 7200
+Wire Wire Line
+	14450 7300 14450 7400
+Wire Wire Line
+	14450 7500 14450 7600
+Wire Wire Line
+	14450 7600 14450 7700
+Wire Wire Line
+	10375 2225 10375 2375
+Wire Wire Line
+	10375 2075 10375 2225
+Wire Wire Line
+	10375 1925 10375 2075
+Wire Wire Line
+	10375 1775 10375 1925
+Wire Wire Line
+	10375 1625 10375 1775
+Wire Wire Line
+	10375 1475 10375 1625
+Wire Wire Line
+	6000 2200 6000 2350
+Wire Wire Line
+	6000 2050 6000 2200
+Wire Wire Line
+	6000 1900 6000 2050
+Wire Wire Line
+	6000 1750 6000 1900
+Wire Wire Line
+	6000 1600 6000 1750
+Wire Wire Line
+	6000 1450 6000 1600
+Wire Wire Line
+	6000 2350 6000 2500
+Wire Wire Line
+	12800 4700 13075 4700
+Wire Wire Line
+	12800 5100 13075 5100
+Wire Wire Line
+	1850 1250 2100 1250
+Wire Wire Line
+	2100 1250 2300 1250
+Wire Wire Line
+	8375 7350 8375 7450
+Wire Wire Line
+	8375 7450 8375 7550
+Wire Wire Line
+	9175 7450 9175 7350
+Wire Wire Line
+	9175 7350 9175 7250
+Wire Wire Line
+	7175 7350 7175 7450
+Wire Wire Line
+	7175 7450 7175 7550
+Wire Wire Line
+	7975 7450 7975 7350
+Wire Wire Line
+	7975 7350 7975 7250
+Wire Wire Line
+	10400 8800 10800 8800
+Wire Wire Line
+	10400 9500 10800 9500
+Wire Wire Line
+	10800 9500 10900 9500
+Wire Wire Line
+	10800 8800 10900 8800
+Wire Wire Line
+	13075 4700 13300 4700
+Wire Wire Line
+	13075 5100 13300 5100
+Wire Wire Line
+	5900 5075 6600 5075
+Wire Wire Line
+	8700 5075 9400 5075
+Connection ~ 9750 9300
+Connection ~ 12225 9300
+Connection ~ 10800 7400
+Connection ~ 11150 2950
+Connection ~ 14400 7000
+Connection ~ 7975 7250
+Connection ~ 9175 7250
+Connection ~ 14725 1975
+Connection ~ 12875 900 
+$EndSCHEMATC

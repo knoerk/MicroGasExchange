@@ -1,0 +1,3744 @@
+(kicad_pcb (version 3) (host pcbnew "(2013-07-07 BZR 4022)-stable")
+
+  (general
+    (links 252)
+    (no_connects 0)
+    (area 0 0 0 0)
+    (thickness 1.6)
+    (drawings 5)
+    (tracks 743)
+    (zones 0)
+    (modules 99)
+    (nets 79)
+  )
+
+  (page A4)
+  (layers
+    (15 F.Cu signal)
+    (0 B.Cu signal)
+    (16 B.Adhes user)
+    (17 F.Adhes user)
+    (18 B.Paste user)
+    (19 F.Paste user)
+    (20 B.SilkS user)
+    (21 F.SilkS user)
+    (22 B.Mask user)
+    (23 F.Mask user)
+    (24 Dwgs.User user)
+    (25 Cmts.User user)
+    (26 Eco1.User user)
+    (27 Eco2.User user)
+    (28 Edge.Cuts user)
+  )
+
+  (setup
+    (last_trace_width 0.4)
+    (trace_clearance 0.254)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.254)
+    (segment_width 0.2)
+    (edge_width 0.1)
+    (via_size 1.6)
+    (via_drill 0.8)
+    (via_min_size 0.889)
+    (via_min_drill 0.508)
+    (uvia_size 0.508)
+    (uvia_drill 0.127)
+    (uvias_allowed no)
+    (uvia_min_size 0.508)
+    (uvia_min_drill 0.127)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.7 1.7)
+    (pad_drill 1.016)
+    (pad_to_mask_clearance 0)
+    (aux_axis_origin 0 0)
+    (visible_elements 7FFFFFFF)
+    (pcbplotparams
+      (layerselection 3178497)
+      (usegerberextensions true)
+      (excludeedgelayer true)
+      (linewidth 0.150000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15)
+      (hpglpenoverlay 2)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotothertext true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory ""))
+  )
+
+  (net 0 "")
+  (net 1 +3.3V)
+  (net 2 +5V)
+  (net 3 /ADC0)
+  (net 4 /ADC1)
+  (net 5 /ADC2)
+  (net 6 /ADC3)
+  (net 7 /ADC4)
+  (net 8 /ADC5)
+  (net 9 /CANH)
+  (net 10 /CANL)
+  (net 11 /CANint)
+  (net 12 /CLK)
+  (net 13 "/CS(toSD)")
+  (net 14 /CS_SD)
+  (net 15 /Di)
+  (net 16 /MISO)
+  (net 17 /MOSI)
+  (net 18 /SCK)
+  (net 19 /SCl)
+  (net 20 /SDA)
+  (net 21 /SS)
+  (net 22 /Taster0)
+  (net 23 /Taster1)
+  (net 24 /e0)
+  (net 25 /e1)
+  (net 26 /e2)
+  (net 27 /e3)
+  (net 28 /e4)
+  (net 29 /e5)
+  (net 30 /e6)
+  (net 31 /e7)
+  (net 32 /gnd)
+  (net 33 /in)
+  (net 34 /osc1)
+  (net 35 /osc2)
+  (net 36 /p1)
+  (net 37 /p2)
+  (net 38 /p3)
+  (net 39 /p4)
+  (net 40 /p5)
+  (net 41 /p6)
+  (net 42 /p7)
+  (net 43 /p8)
+  (net 44 /reset)
+  (net 45 /rxCAN)
+  (net 46 /rxd)
+  (net 47 /rxd_pc)
+  (net 48 /txCAN)
+  (net 49 /txd)
+  (net 50 /txd_pc)
+  (net 51 N-0000010)
+  (net 52 N-00000103)
+  (net 53 N-00000106)
+  (net 54 N-00000109)
+  (net 55 N-0000011)
+  (net 56 N-0000013)
+  (net 57 N-0000014)
+  (net 58 N-0000015)
+  (net 59 N-0000016)
+  (net 60 N-0000017)
+  (net 61 N-0000018)
+  (net 62 N-0000019)
+  (net 63 N-0000020)
+  (net 64 N-0000021)
+  (net 65 N-0000022)
+  (net 66 N-0000023)
+  (net 67 N-000005)
+  (net 68 N-000006)
+  (net 69 N-000007)
+  (net 70 N-0000076)
+  (net 71 N-000008)
+  (net 72 N-0000087)
+  (net 73 N-0000088)
+  (net 74 N-000009)
+  (net 75 N-0000092)
+  (net 76 N-0000093)
+  (net 77 N-0000095)
+  (net 78 N-0000096)
+
+  (net_class Default "Dies ist die voreingestellte Netzklasse."
+    (clearance 0.254)
+    (trace_width 0.4)
+    (via_dia 1.6)
+    (via_drill 0.8)
+    (uvia_dia 0.508)
+    (uvia_drill 0.127)
+    (add_net "")
+    (add_net +3.3V)
+    (add_net +5V)
+    (add_net /ADC0)
+    (add_net /ADC1)
+    (add_net /ADC2)
+    (add_net /ADC3)
+    (add_net /ADC4)
+    (add_net /ADC5)
+    (add_net /CANH)
+    (add_net /CANL)
+    (add_net /CANint)
+    (add_net /CLK)
+    (add_net "/CS(toSD)")
+    (add_net /CS_SD)
+    (add_net /Di)
+    (add_net /MISO)
+    (add_net /MOSI)
+    (add_net /SCK)
+    (add_net /SCl)
+    (add_net /SDA)
+    (add_net /SS)
+    (add_net /Taster0)
+    (add_net /Taster1)
+    (add_net /e0)
+    (add_net /e1)
+    (add_net /e2)
+    (add_net /e3)
+    (add_net /e4)
+    (add_net /e5)
+    (add_net /e6)
+    (add_net /e7)
+    (add_net /gnd)
+    (add_net /in)
+    (add_net /osc1)
+    (add_net /osc2)
+    (add_net /p1)
+    (add_net /p2)
+    (add_net /p3)
+    (add_net /p4)
+    (add_net /p5)
+    (add_net /p6)
+    (add_net /p7)
+    (add_net /p8)
+    (add_net /reset)
+    (add_net /rxCAN)
+    (add_net /rxd)
+    (add_net /rxd_pc)
+    (add_net /txCAN)
+    (add_net /txd)
+    (add_net /txd_pc)
+    (add_net N-0000010)
+    (add_net N-00000103)
+    (add_net N-00000106)
+    (add_net N-00000109)
+    (add_net N-0000011)
+    (add_net N-0000013)
+    (add_net N-0000014)
+    (add_net N-0000015)
+    (add_net N-0000016)
+    (add_net N-0000017)
+    (add_net N-0000018)
+    (add_net N-0000019)
+    (add_net N-0000020)
+    (add_net N-0000021)
+    (add_net N-0000022)
+    (add_net N-0000023)
+    (add_net N-000005)
+    (add_net N-000006)
+    (add_net N-000007)
+    (add_net N-0000076)
+    (add_net N-000008)
+    (add_net N-0000087)
+    (add_net N-0000088)
+    (add_net N-000009)
+    (add_net N-0000092)
+    (add_net N-0000093)
+    (add_net N-0000095)
+    (add_net N-0000096)
+  )
+
+  (net_class Dick ""
+    (clearance 0.254)
+    (trace_width 0.6)
+    (via_dia 1.6)
+    (via_drill 0.8)
+    (uvia_dia 0.508)
+    (uvia_drill 0.127)
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52AE1FD9)
+    (at 127.4699 79.6671 90)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7995E)
+    (fp_text reference C14 (at 0.254 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 90) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 75 N-0000092)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52AE1FCF)
+    (at 127.4699 85.8266 270)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7995D)
+    (fp_text reference C7 (at 0.254 -2.286 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 76 N-0000093)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module HC-18UV (layer F.Cu) (tedit 42899E71) (tstamp 52AE1FC2)
+    (at 123.4059 82.7151 270)
+    (descr "Quartz boitier HC-18U vertical")
+    (tags "QUARTZ DEV")
+    (path /52A7995C)
+    (autoplace_cost180 10)
+    (fp_text reference X1 (at -0.127 -1.778 270) (layer F.SilkS)
+      (effects (font (size 1.143 1.27) (thickness 0.1524)))
+    )
+    (fp_text value CRYSTAL (at 0 1.651 270) (layer F.SilkS)
+      (effects (font (size 1.143 1.27) (thickness 0.1524)))
+    )
+    (fp_line (start -6.985 -1.27) (end -5.715 -2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 5.715 -2.54) (end 6.985 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 6.985 1.27) (end 5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -6.985 1.27) (end -5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -5.715 -2.54) (end 5.715 -2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -6.985 -1.27) (end -6.985 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -5.715 2.54) (end 5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 6.985 1.27) (end 6.985 -1.27) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -2.54 0 270) (size 1.778 1.778) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 75 N-0000092)
+    )
+    (pad 2 thru_hole circle (at 2.54 0 270) (size 1.778 1.778) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 76 N-0000093)
+    )
+    (model discret/crystal_hc18u_vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model discret/xtal/crystal_hc18u_vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module TO92-INVERT (layer F.Cu) (tedit 443CFFF4) (tstamp 52A79215)
+    (at 167.0304 45.3136 270)
+    (descr "Transistor TO92 brochage type BC237")
+    (tags "TR TO92")
+    (path /52A79996)
+    (fp_text reference Q2 (at -1.27 3.81 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value NPN (at -1.27 -5.08 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -1.27 2.54) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 -2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -2.54) (end 1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 1.27 -3.81) (end -1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.27 -3.81) (end -3.81 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 1.27) (end -2.54 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 2.54) (end -1.27 2.54) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole rect (at -1.27 1.27 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at -1.27 -1.27 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 78 N-0000096)
+    )
+    (pad 3 thru_hole circle (at 1.27 -1.27 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 46 /rxd)
+    )
+    (model discret/to98.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module TO92-INVERT (layer F.Cu) (tedit 443CFFF4) (tstamp 52A79224)
+    (at 168.3004 50.3936 90)
+    (descr "Transistor TO92 brochage type BC237")
+    (tags "TR TO92")
+    (path /52A79993)
+    (fp_text reference Q1 (at -1.27 3.81 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value NPN (at -1.27 -5.08 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -1.27 2.54) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 -2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -2.54) (end 1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 1.27 -3.81) (end -1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.27 -3.81) (end -3.81 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 1.27) (end -2.54 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 2.54) (end -1.27 2.54) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole rect (at -1.27 1.27 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at -1.27 -1.27 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 52 N-00000103)
+    )
+    (pad 3 thru_hole circle (at 1.27 -1.27 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 50 /txd_pc)
+    )
+    (model discret/to98.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A7925C)
+    (at 167.2844 82.3976 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79979)
+    (autoplace_cost180 10)
+    (fp_text reference R2 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 53 N-00000106)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A7926A)
+    (at 127.0254 96.6216 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A7BED8)
+    (autoplace_cost180 10)
+    (fp_text reference R11 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 10k (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 44 /reset)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A79278)
+    (at 165.2524 57.5056)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A7A011)
+    (autoplace_cost180 10)
+    (fp_text reference R8 (at 0 0.127) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 10k (at 0 0.127) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 49 /txd)
+    )
+    (pad 2 thru_hole oval (at 3.81 0) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 52 N-00000103)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A79286)
+    (at 161.9504 54.9656)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79999)
+    (autoplace_cost180 10)
+    (fp_text reference R10 (at 0 0.127) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 46 /rxd)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A79294)
+    (at 172.6184 47.8536 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79997)
+    (autoplace_cost180 10)
+    (fp_text reference R9 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 10k (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 47 /rxd_pc)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 78 N-0000096)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792A2)
+    (at 159.6644 47.8536 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79994)
+    (autoplace_cost180 10)
+    (fp_text reference R7 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 50 /txd_pc)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792B0)
+    (at 147.2184 44.8056 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79983)
+    (autoplace_cost180 10)
+    (fp_text reference R4 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 73 N-0000088)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792BE)
+    (at 136.8679 111.9886 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79982)
+    (autoplace_cost180 10)
+    (fp_text reference R6 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 560 (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 72 N-0000087)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792CC)
+    (at 136.8044 44.8056 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79981)
+    (autoplace_cost180 10)
+    (fp_text reference R3 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 73 N-0000088)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792DA)
+    (at 134.0739 111.9886 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79980)
+    (autoplace_cost180 10)
+    (fp_text reference R5 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 330 (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 72 N-0000087)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A792E8)
+    (at 170.0784 93.0656 90)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A7997D)
+    (autoplace_cost180 10)
+    (fp_text reference R1 (at 0 0.127 90) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 90) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 70 N-0000076)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 9 /CANH)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PIN_ARRAY_3X1 (layer F.Cu) (tedit 52B36B73) (tstamp 52A792F4)
+    (at 179.4764 51.6636 270)
+    (descr "Connecteur 3 pins")
+    (tags "CONN DEV")
+    (path /52A79995)
+    (fp_text reference K1 (at 0.254 -2.159 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.1524)))
+    )
+    (fp_text value CONN_3 (at 0 -2.159 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.1524)))
+    )
+    (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -3.81 -1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 3.81 1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole rect (at -2.54 0 270) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 50 /txd_pc)
+    )
+    (pad 2 thru_hole circle (at 0 0 270) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 47 /rxd_pc)
+    )
+    (pad 3 thru_hole circle (at 2.54 0 270) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model pin_array/pins_array_3x1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 52A792FE)
+    (at 170.0784 100.9396 90)
+    (descr "Connecteurs 2 pins")
+    (tags "CONN DEV")
+    (path /52A7997C)
+    (fp_text reference JP1 (at 0 -1.905 90) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (fp_text value JUMPER (at 0 -1.905 90) (layer F.SilkS) hide
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole rect (at -1.27 0 90) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 10 /CANL)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 90) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 70 N-0000076)
+    )
+    (model pin_array/pins_array_2x1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PIN_ARRAY_2X1 (layer F.Cu) (tedit 4565C520) (tstamp 52A79308)
+    (at 170.3324 84.9376 270)
+    (descr "Connecteurs 2 pins")
+    (tags "CONN DEV")
+    (path /52A7A479)
+    (fp_text reference JP2 (at 0 -1.905 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (fp_text value JUMPER (at 0 -1.905 270) (layer F.SilkS) hide
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
+    )
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole rect (at -1.27 0 270) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 53 N-00000106)
+    )
+    (model pin_array/pins_array_2x1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LM317_132 (layer F.Cu) (tedit 527E3FD5) (tstamp 52A79318)
+    (at 141.8844 44.5516 90)
+    (descr LM317_132)
+    (tags "TR TO220 DEV")
+    (path /52A7996C)
+    (fp_text reference U1 (at 6.985 0 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value LM317 (at 10.795 0 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start 0 -2.54) (end 5.08 -2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 0 0) (end 5.08 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 0 2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 5.08 5.08) (end 20.32 5.08) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 20.32 5.08) (end 20.32 -5.08) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 20.32 -5.08) (end 5.08 -5.08) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 5.08 -5.08) (end 5.08 5.08) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 12.7 3.81) (end 12.7 -5.08) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 12.7 3.81) (end 12.7 5.08) (layer F.SilkS) (width 0.3048))
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 73 N-0000088)
+    )
+    (pad 1 thru_hole oval (at 0 -2.54 180) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 33 /in)
+    )
+    (pad 3 thru_hole oval (at 0 0 180) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/to220_horiz.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module HC-18UV (layer F.Cu) (tedit 42899E71) (tstamp 52A79326)
+    (at 156.9974 80.6196 270)
+    (descr "Quartz boitier HC-18U vertical")
+    (tags "QUARTZ DEV")
+    (path /52A79974)
+    (autoplace_cost180 10)
+    (fp_text reference X2 (at -0.127 -1.778 270) (layer F.SilkS)
+      (effects (font (size 1.143 1.27) (thickness 0.1524)))
+    )
+    (fp_text value CRYSTAL (at 0 1.651 270) (layer F.SilkS)
+      (effects (font (size 1.143 1.27) (thickness 0.1524)))
+    )
+    (fp_line (start -6.985 -1.27) (end -5.715 -2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 5.715 -2.54) (end 6.985 -1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 6.985 1.27) (end 5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -6.985 1.27) (end -5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -5.715 -2.54) (end 5.715 -2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -6.985 -1.27) (end -6.985 1.27) (layer F.SilkS) (width 0.1524))
+    (fp_line (start -5.715 2.54) (end 5.715 2.54) (layer F.SilkS) (width 0.1524))
+    (fp_line (start 6.985 1.27) (end 6.985 -1.27) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -2.54 0 270) (size 1.778 1.778) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 35 /osc2)
+    )
+    (pad 2 thru_hole circle (at 2.54 0 270) (size 1.778 1.778) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 34 /osc1)
+    )
+    (model discret/crystal_hc18u_vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model discret/xtal/crystal_hc18u_vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module elko_5mm (layer F.Cu) (tedit 5278279D) (tstamp 52A7933B)
+    (at 107.7849 28.0416 270)
+    (descr "Condensateur polarise")
+    (tags CP)
+    (path /52A7996E)
+    (fp_text reference C17 (at 0 2.54 270) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    )
+    (fp_text value CP1 (at 0 -2.54 270) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    )
+    (fp_circle (center 0 0) (end 2 -2) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole oval (at -1.27 0 270) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 1.27 0 270) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/c_vert_c2v10.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module elko_5mm (layer F.Cu) (tedit 52AEA808) (tstamp 52A79342)
+    (at 158.115 112.6236 270)
+    (descr "Condensateur polarise")
+    (tags CP)
+    (path /52A79972)
+    (fp_text reference C19 (at 0 2.54 360) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    )
+    (fp_text value CP1 (at 0 -2.54 270) (layer F.SilkS)
+      (effects (font (size 1.27 1.27) (thickness 0.254)))
+    )
+    (fp_circle (center 0 0) (end 2 -2) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole oval (at -1.27 0 270) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (pad 2 thru_hole oval (at 1.27 0 270) (size 1.4 1.8) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/c_vert_c2v10.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-8__300 (layer F.Cu) (tedit 52AF5B55) (tstamp 52A79355)
+    (at 58.5724 80.6196 90)
+    (descr "8 pins DIL package, round pads")
+    (tags DIL)
+    (path /52A7998E)
+    (fp_text reference U6 (at -6.35 0 180) (layer F.SilkS)
+      (effects (font (size 1.27 1.143) (thickness 0.2032)))
+    )
+    (fp_text value 24C512 (at 0 0 90) (layer F.SilkS)
+      (effects (font (size 1.27 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -5.08 -1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 -2.54) (end 5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 -2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 2.54) (end -5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 2.54) (end -5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (pad 1 thru_hole oval (at -3.81 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at -1.27 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 3 thru_hole oval (at 1.27 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 4 thru_hole oval (at 3.81 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 5 thru_hole oval (at 3.81 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (pad 6 thru_hole oval (at 1.27 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (pad 7 thru_hole oval (at -1.27 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 8 thru_hole oval (at -3.81 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model dil/dil_8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-8__300 (layer F.Cu) (tedit 43A7F843) (tstamp 52A79368)
+    (at 163.7284 95.6056 270)
+    (descr "8 pins DIL package, round pads")
+    (tags DIL)
+    (path /52A79978)
+    (fp_text reference IC1 (at -6.35 0 360) (layer F.SilkS)
+      (effects (font (size 1.27 1.143) (thickness 0.2032)))
+    )
+    (fp_text value MCP2551-I/P (at 0 0 270) (layer F.SilkS)
+      (effects (font (size 1.27 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -5.08 -1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 -2.54) (end 5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 -2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 2.54) (end -5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 2.54) (end -5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (pad 1 thru_hole oval (at -3.81 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 48 /txCAN)
+    )
+    (pad 2 thru_hole oval (at -1.27 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 3 thru_hole oval (at 1.27 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 4 thru_hole oval (at 3.81 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 45 /rxCAN)
+    )
+    (pad 5 thru_hole oval (at 3.81 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 6 thru_hole oval (at 1.27 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 10 /CANL)
+    )
+    (pad 7 thru_hole oval (at -1.27 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 9 /CANH)
+    )
+    (pad 8 thru_hole oval (at -3.81 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 53 N-00000106)
+    )
+    (model dil/dil_8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-8__300 (layer F.Cu) (tedit 43A7F843) (tstamp 52A7937B)
+    (at 68.7324 80.6196 270)
+    (descr "8 pins DIL package, round pads")
+    (tags DIL)
+    (path /52A7998C)
+    (fp_text reference U5 (at -6.35 0 360) (layer F.SilkS)
+      (effects (font (size 1.27 1.143) (thickness 0.2032)))
+    )
+    (fp_text value 24C512 (at 0 0 270) (layer F.SilkS)
+      (effects (font (size 1.27 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -5.08 -1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -3.81 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 -2.54) (end 5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 -2.54) (end 5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start 5.08 2.54) (end -5.08 2.54) (layer F.SilkS) (width 0.254))
+    (fp_line (start -5.08 2.54) (end -5.08 -2.54) (layer F.SilkS) (width 0.254))
+    (pad 1 thru_hole oval (at -3.81 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole oval (at -1.27 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 3 thru_hole oval (at 1.27 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 4 thru_hole oval (at 3.81 3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 5 thru_hole oval (at 3.81 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (pad 6 thru_hole oval (at 1.27 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (pad 7 thru_hole oval (at -1.27 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 8 thru_hole oval (at -3.81 -3.81 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model dil/dil_8.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-18__300 (layer F.Cu) (tedit 52AF7C4D) (tstamp 52A79398)
+    (at 147.9804 86.9696 90)
+    (descr "8 pins DIL package, round pads")
+    (path /52A7995F)
+    (fp_text reference IC3 (at -7.62 -1.27 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.143) (thickness 0.3048)))
+    )
+    (fp_text value MCP2515 (at 5.08 1.27 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.143) (thickness 0.3048)))
+    )
+    (fp_line (start -12.7 -1.27) (end -11.43 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -1.27) (end -11.43 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 1.27) (end -12.7 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -12.7 -2.54) (end 12.7 -2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 12.7 -2.54) (end 12.7 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 12.7 2.54) (end -12.7 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start -12.7 2.54) (end -12.7 -2.54) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -10.16 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 48 /txCAN)
+    )
+    (pad 2 thru_hole oval (at -7.62 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 45 /rxCAN)
+    )
+    (pad 3 thru_hole oval (at -5.08 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 4 thru_hole oval (at -2.54 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 5 thru_hole oval (at 0 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 6 thru_hole oval (at 2.54 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 7 thru_hole oval (at 5.08 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 34 /osc1)
+    )
+    (pad 8 thru_hole oval (at 7.62 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 35 /osc2)
+    )
+    (pad 9 thru_hole oval (at 10.16 3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 10 thru_hole oval (at 10.16 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 11 thru_hole oval (at 7.62 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 12 thru_hole oval (at 5.08 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 11 /CANint)
+    )
+    (pad 13 thru_hole oval (at 2.54 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 18 /SCK)
+    )
+    (pad 14 thru_hole oval (at 0 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 17 /MOSI)
+    )
+    (pad 15 thru_hole oval (at -2.54 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 16 /MISO)
+    )
+    (pad 16 thru_hole oval (at -5.08 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 21 /SS)
+    )
+    (pad 17 thru_hole oval (at -7.62 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 44 /reset)
+    )
+    (pad 18 thru_hole oval (at -10.16 -3.81 90) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model dil/dil_18.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-16__300 (layer F.Cu) (tedit 52B36BAB) (tstamp 52A793B4)
+    (at 48.5394 66.2432 180)
+    (descr "16 pins DIL package, round pads")
+    (tags DIL)
+    (path /52A79991)
+    (fp_text reference U3 (at -6.35 -1.27 180) (layer F.SilkS)
+      (effects (font (size 1.524 1.143) (thickness 0.3048)))
+    )
+    (fp_text value PCF8574 (at 2.54 1.27 180) (layer F.SilkS)
+      (effects (font (size 1.524 1.143) (thickness 0.3048)))
+    )
+    (fp_line (start -11.43 -1.27) (end -11.43 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -1.27) (end -10.16 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -10.16 -1.27) (end -10.16 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -10.16 1.27) (end -11.43 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -2.54) (end 11.43 -2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 11.43 -2.54) (end 11.43 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 11.43 2.54) (end -11.43 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 2.54) (end -11.43 -2.54) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -8.89 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole oval (at -6.35 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 3 thru_hole oval (at -3.81 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 4 thru_hole oval (at -1.27 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 68 N-000006)
+    )
+    (pad 5 thru_hole oval (at 1.27 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 71 N-000008)
+    )
+    (pad 6 thru_hole oval (at 3.81 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 74 N-000009)
+    )
+    (pad 7 thru_hole oval (at 6.35 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 51 N-0000010)
+    )
+    (pad 8 thru_hole oval (at 8.89 3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 9 thru_hole oval (at 8.89 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 60 N-0000017)
+    )
+    (pad 10 thru_hole oval (at 6.35 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 58 N-0000015)
+    )
+    (pad 11 thru_hole oval (at 3.81 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 63 N-0000020)
+    )
+    (pad 12 thru_hole oval (at 1.27 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 65 N-0000022)
+    )
+    (pad 13 thru_hole oval (at -1.27 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 14 thru_hole oval (at -3.81 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (pad 15 thru_hole oval (at -6.35 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (pad 16 thru_hole oval (at -8.89 -3.81 180) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model dil/dil_16.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module D3 (layer F.Cu) (tedit 200000) (tstamp 52A793C4)
+    (at 162.4584 47.8536 90)
+    (descr "Diode 3 pas")
+    (tags "DIODE DEV")
+    (path /52A79998)
+    (fp_text reference D2 (at 0 0 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value DIODE (at 0 0 90) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start 3.81 0) (end 3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 0) (end 3.048 -1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 -1.016) (end -3.048 -1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 -1.016) (end -3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 0) (end -3.81 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 0) (end -3.048 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 1.016) (end 3.048 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 1.016) (end 3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.016) (end 2.54 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.286 1.016) (end 2.286 -1.016) (layer F.SilkS) (width 0.3048))
+    (pad 2 thru_hole rect (at 3.81 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 78 N-0000096)
+    )
+    (pad 1 thru_hole circle (at -3.81 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model discret/diode.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module D3 (layer F.Cu) (tedit 200000) (tstamp 52A793D4)
+    (at 121.5644 36.4871)
+    (descr "Diode 3 pas")
+    (tags "DIODE DEV")
+    (path /52A7996D)
+    (fp_text reference D1 (at 0 0) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value DIODE (at 0 0) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start 3.81 0) (end 3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 0) (end 3.048 -1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 -1.016) (end -3.048 -1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 -1.016) (end -3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 0) (end -3.81 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 0) (end -3.048 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.048 1.016) (end 3.048 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 3.048 1.016) (end 3.048 0) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.016) (end 2.54 1.016) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.286 1.016) (end 2.286 -1.016) (layer F.SilkS) (width 0.3048))
+    (pad 2 thru_hole rect (at 3.81 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 33 /in)
+    )
+    (pad 1 thru_hole circle (at -3.81 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 77 N-0000095)
+    )
+    (model discret/diode.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Conn_Big_2x1 (layer F.Cu) (tedit 52B36C27) (tstamp 52A793F3)
+    (at 120.2944 26.5811)
+    (path /52A79984)
+    (fp_text reference P2 (at 0 -6.35) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_text value CONN_2 (at 0 -3.81) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_line (start -5.842 6.604) (end -5.842 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 7.62) (end 6.096 6.604) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end -5.842 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 -0.508) (end -5.842 6.604) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 6.604) (end 6.096 -0.508) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -2.54 3.556) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 77 N-0000095)
+    )
+    (pad 2 thru_hole oval (at 2.54 3.556) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A793FE)
+    (at 71.2724 72.6186)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79961)
+    (fp_text reference C2 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79409)
+    (at 142.9004 102.4001)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79960)
+    (fp_text reference C1 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79414)
+    (at 119.0244 87.7316 270)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79962)
+    (fp_text reference C3 (at 0.254 -2.286 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A7941F)
+    (at 157.3784 95.6056 270)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79963)
+    (fp_text reference C4 (at 0.254 -2.286 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79440)
+    (at 134.0739 120.7516 90)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7996B)
+    (fp_text reference C13 (at 0.254 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 90) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A7944B)
+    (at 98.1964 90.2716 270)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7998B)
+    (fp_text reference C15 (at 0.254 -2.286 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 54 N-00000109)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79461)
+    (at 63.6524 89.2556 180)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79964)
+    (fp_text reference C5 (at 0.254 -2.286 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 180) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79477)
+    (at 180.721 70.0278)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79966)
+    (fp_text reference C8 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A79482)
+    (at 27.8384 71.8566 180)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79967)
+    (fp_text reference C9 (at 0.254 -2.286 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 180) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A7948D)
+    (at 177.4444 78.8416)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79968)
+    (fp_text reference C10 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A794A3)
+    (at 161.1249 77.5716 90)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79976)
+    (fp_text reference C21 (at 0.254 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 90) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 90) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 35 /osc2)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A794AE)
+    (at 161.1249 83.6676 270)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A79975)
+    (fp_text reference C20 (at 0.254 -2.286 270) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 270) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 34 /osc1)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A794B9)
+    (at 164.592 113.8428)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7996A)
+    (fp_text reference C12 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52A794C4)
+    (at 123.9139 40.2336)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52A7996F)
+    (fp_text reference C16 (at 0.254 -2.286) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 33 /in)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module PIN_ARRAY_5x2 (layer F.Cu) (tedit 52B36BDC) (tstamp 52A794D6)
+    (at 110.7694 139.0396)
+    (descr "Double rangee de contacts 2 x 5 pins")
+    (tags CONN)
+    (path /52A79987)
+    (fp_text reference CON1 (at 0.635 -3.81) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value AVR-ISP-10 (at 0 -3.81) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -6.35 -2.54) (end 6.35 -2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 6.35 -2.54) (end 6.35 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 6.35 2.54) (end -6.35 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -6.35 2.54) (end -6.35 -2.54) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole rect (at -5.08 1.27) (size 1.524 1.524) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 17 /MOSI)
+    )
+    (pad 2 thru_hole circle (at -5.08 -1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 3 thru_hole circle (at -2.54 1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 4 thru_hole circle (at -2.54 -1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 5 thru_hole circle (at 0 1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 44 /reset)
+    )
+    (pad 6 thru_hole circle (at 0 -1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 7 thru_hole circle (at 2.54 1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 18 /SCK)
+    )
+    (pad 8 thru_hole circle (at 2.54 -1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 9 thru_hole circle (at 5.08 1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 16 /MISO)
+    )
+    (pad 10 thru_hole circle (at 5.08 -1.27) (size 1.7 1.7) (drill 1.016)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (model pin_array/pins_array_5x2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module TO92-LM317 (layer F.Cu) (tedit 52A794BB) (tstamp 52A797DB)
+    (at 141.4399 110.0836 180)
+    (descr "lm317 TO92")
+    (tags "lm317 TO92")
+    (path /52A79971)
+    (fp_text reference U2 (at -1.27 3.81 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value LM317 (at -1.27 -5.08 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -1.27 2.54) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 -2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -2.54) (end 1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 1.27 -3.81) (end -1.27 -3.81) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.27 -3.81) (end -3.81 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 -1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -3.81 1.27) (end -2.54 2.54) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 2.54) (end -1.27 2.54) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole rect (at 1.27 -1.27 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 3 thru_hole circle (at -1.27 -1.27 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (pad 2 thru_hole circle (at -1.27 1.27 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 72 N-0000087)
+    )
+    (model discret/to98.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A89759)
+    (at 79.4004 78.0796 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A796FE)
+    (autoplace_cost180 10)
+    (fp_text reference R14 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A89767)
+    (at 76.2254 80.6196 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A79704)
+    (autoplace_cost180 10)
+    (fp_text reference R15 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A89775)
+    (at 88.0364 67.6656 180)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A897B8)
+    (autoplace_cost180 10)
+    (fp_text reference R12 (at 0 0.127 180) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 180) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 180) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 66 N-0000023)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 180) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52A89783)
+    (at 88.0364 70.7136 180)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52A897CF)
+    (autoplace_cost180 10)
+    (fp_text reference R13 (at 0 0.127 180) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value R (at 0 0.127 180) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 180) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 55 N-0000011)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 180) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-16__300 (layer F.Cu) (tedit 52B36C0B) (tstamp 52A8CB65)
+    (at 141.8844 128.3716 270)
+    (descr "16 pins DIL package, round pads")
+    (tags DIL)
+    (path /52A8C60B)
+    (fp_text reference P4 (at -6.35 -1.27 270) (layer F.SilkS)
+      (effects (font (size 1.524 1.143) (thickness 0.3048)))
+    )
+    (fp_text value 74HC4050 (at 2.54 1.27 270) (layer F.SilkS)
+      (effects (font (size 1.524 1.143) (thickness 0.3048)))
+    )
+    (fp_line (start -11.43 -1.27) (end -11.43 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -1.27) (end -10.16 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -10.16 -1.27) (end -10.16 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -10.16 1.27) (end -11.43 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -2.54) (end 11.43 -2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 11.43 -2.54) (end 11.43 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 11.43 2.54) (end -11.43 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 2.54) (end -11.43 -2.54) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -8.89 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 +3.3V)
+    )
+    (pad 2 thru_hole oval (at -6.35 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 14 /CS_SD)
+    )
+    (pad 3 thru_hole oval (at -3.81 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 13 "/CS(toSD)")
+    )
+    (pad 4 thru_hole oval (at -1.27 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 15 /Di)
+    )
+    (pad 5 thru_hole oval (at 1.27 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 17 /MOSI)
+    )
+    (pad 6 thru_hole oval (at 3.81 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 12 /CLK)
+    )
+    (pad 7 thru_hole oval (at 6.35 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 18 /SCK)
+    )
+    (pad 8 thru_hole oval (at 8.89 3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 9 thru_hole oval (at 8.89 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 10 thru_hole oval (at 6.35 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 11 thru_hole oval (at 3.81 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 12 thru_hole oval (at 1.27 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 13 thru_hole oval (at -1.27 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 14 thru_hole oval (at -3.81 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 15 thru_hole oval (at -6.35 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 16 thru_hole oval (at -8.89 -3.81 270) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (model dil/dil_16.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-18__300 (layer F.Cu) (tedit 52B36B92) (tstamp 52A8CEB2)
+    (at 60.8584 118.9736 90)
+    (descr "8 pins DIL package, round pads")
+    (path /52AE0E86)
+    (fp_text reference U4 (at -7.62 -1.27 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.143) (thickness 0.3048)))
+    )
+    (fp_text value UDN2981 (at 5.08 1.27 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.143) (thickness 0.3048)))
+    )
+    (fp_line (start -12.7 -1.27) (end -11.43 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 -1.27) (end -11.43 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -11.43 1.27) (end -12.7 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -12.7 -2.54) (end 12.7 -2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 12.7 -2.54) (end 12.7 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start 12.7 2.54) (end -12.7 2.54) (layer F.SilkS) (width 0.381))
+    (fp_line (start -12.7 2.54) (end -12.7 -2.54) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -10.16 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 24 /e0)
+    )
+    (pad 2 thru_hole oval (at -7.62 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 25 /e1)
+    )
+    (pad 3 thru_hole oval (at -5.08 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 26 /e2)
+    )
+    (pad 4 thru_hole oval (at -2.54 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 27 /e3)
+    )
+    (pad 5 thru_hole oval (at 0 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 28 /e4)
+    )
+    (pad 6 thru_hole oval (at 2.54 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 29 /e5)
+    )
+    (pad 7 thru_hole oval (at 5.08 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 30 /e6)
+    )
+    (pad 8 thru_hole oval (at 7.62 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 31 /e7)
+    )
+    (pad 9 thru_hole oval (at 10.16 3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 33 /in)
+    )
+    (pad 10 thru_hole oval (at 10.16 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 11 thru_hole oval (at 7.62 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 43 /p8)
+    )
+    (pad 12 thru_hole oval (at 5.08 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 42 /p7)
+    )
+    (pad 13 thru_hole oval (at 2.54 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 41 /p6)
+    )
+    (pad 14 thru_hole oval (at 0 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 40 /p5)
+    )
+    (pad 15 thru_hole oval (at -2.54 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 39 /p4)
+    )
+    (pad 16 thru_hole oval (at -5.08 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 38 /p3)
+    )
+    (pad 17 thru_hole oval (at -7.62 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 37 /p2)
+    )
+    (pad 18 thru_hole oval (at -10.16 -3.81 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 36 /p1)
+    )
+    (model dil/dil_18.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module DIP-40__600 (layer F.Cu) (tedit 52B36C07) (tstamp 52AA00B5)
+    (at 108.8644 87.7316 90)
+    (descr "Module Dil 40 pins, pads ronds, e=600 mils")
+    (tags DIL)
+    (path /52A7995B)
+    (fp_text reference IC2 (at -19.05 -3.81 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.143) (thickness 0.3048)))
+    )
+    (fp_text value ATMEGA32-P (at 13.97 2.54 90) (layer F.SilkS)
+      (effects (font (size 1.778 1.778) (thickness 0.3048)))
+    )
+    (fp_line (start -26.67 -1.27) (end -25.4 -1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -25.4 -1.27) (end -25.4 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -25.4 1.27) (end -26.67 1.27) (layer F.SilkS) (width 0.381))
+    (fp_line (start -26.67 -6.35) (end 26.67 -6.35) (layer F.SilkS) (width 0.381))
+    (fp_line (start 26.67 -6.35) (end 26.67 6.35) (layer F.SilkS) (width 0.381))
+    (fp_line (start 26.67 6.35) (end -26.67 6.35) (layer F.SilkS) (width 0.381))
+    (fp_line (start -26.67 6.35) (end -26.67 -6.35) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -24.13 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 2 thru_hole oval (at -21.59 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 3 thru_hole oval (at -19.05 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 11 /CANint)
+    )
+    (pad 4 thru_hole oval (at -16.51 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 13 "/CS(toSD)")
+    )
+    (pad 5 thru_hole oval (at -13.97 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 21 /SS)
+    )
+    (pad 6 thru_hole oval (at -11.43 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 17 /MOSI)
+    )
+    (pad 7 thru_hole oval (at -8.89 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 16 /MISO)
+    )
+    (pad 8 thru_hole oval (at -6.35 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 18 /SCK)
+    )
+    (pad 9 thru_hole oval (at -3.81 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 44 /reset)
+    )
+    (pad 10 thru_hole oval (at -1.27 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 11 thru_hole oval (at 1.27 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 12 thru_hole oval (at 3.81 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 76 N-0000093)
+    )
+    (pad 13 thru_hole oval (at 6.35 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 75 N-0000092)
+    )
+    (pad 14 thru_hole oval (at 8.89 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 46 /rxd)
+    )
+    (pad 15 thru_hole oval (at 11.43 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 49 /txd)
+    )
+    (pad 16 thru_hole oval (at 13.97 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 22 /Taster0)
+    )
+    (pad 17 thru_hole oval (at 16.51 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 23 /Taster1)
+    )
+    (pad 18 thru_hole oval (at 19.05 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 29 /e5)
+    )
+    (pad 19 thru_hole oval (at 21.59 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 30 /e6)
+    )
+    (pad 20 thru_hole oval (at 24.13 7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 31 /e7)
+    )
+    (pad 21 thru_hole oval (at 24.13 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 28 /e4)
+    )
+    (pad 22 thru_hole oval (at 21.59 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 66 N-0000023)
+    )
+    (pad 23 thru_hole oval (at 19.05 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 55 N-0000011)
+    )
+    (pad 24 thru_hole oval (at 16.51 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 25 thru_hole oval (at 13.97 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 26 thru_hole oval (at 11.43 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 27 /e3)
+    )
+    (pad 27 thru_hole oval (at 8.89 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 26 /e2)
+    )
+    (pad 28 thru_hole oval (at 6.35 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 25 /e1)
+    )
+    (pad 29 thru_hole oval (at 3.81 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 24 /e0)
+    )
+    (pad 30 thru_hole oval (at 1.27 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 31 thru_hole oval (at -1.27 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 32 thru_hole oval (at -3.81 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 54 N-00000109)
+    )
+    (pad 33 thru_hole oval (at -6.35 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 34 thru_hole oval (at -8.89 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 35 thru_hole oval (at -11.43 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 8 /ADC5)
+    )
+    (pad 36 thru_hole oval (at -13.97 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 7 /ADC4)
+    )
+    (pad 37 thru_hole oval (at -16.51 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 6 /ADC3)
+    )
+    (pad 38 thru_hole oval (at -19.05 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 5 /ADC2)
+    )
+    (pad 39 thru_hole oval (at -21.59 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 4 /ADC1)
+    )
+    (pad 40 thru_hole oval (at -24.13 -7.62 90) (size 1.35 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 3 /ADC0)
+    )
+    (model dil/dil_40-w600.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE1396)
+    (at 31.9024 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE39AA)
+    (autoplace_cost180 10)
+    (fp_text reference R24 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 64 N-0000021)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13A4)
+    (at 39.0144 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE39A4)
+    (autoplace_cost180 10)
+    (fp_text reference R23 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 62 N-0000019)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13C0)
+    (at 46.1264 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE399E)
+    (autoplace_cost180 10)
+    (fp_text reference R22 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 61 N-0000018)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13CE)
+    (at 53.2384 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE3998)
+    (autoplace_cost180 10)
+    (fp_text reference R21 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 59 N-0000016)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13DC)
+    (at 60.3504 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE3992)
+    (autoplace_cost180 10)
+    (fp_text reference R20 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 57 N-0000014)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13EA)
+    (at 67.4624 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE398C)
+    (autoplace_cost180 10)
+    (fp_text reference R19 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 56 N-0000013)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE13F8)
+    (at 74.5744 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE3986)
+    (autoplace_cost180 10)
+    (fp_text reference R18 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 69 N-000007)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module R3 (layer F.Cu) (tedit 4E4C0E65) (tstamp 52AE1406)
+    (at 81.6864 36.1696 270)
+    (descr "Resitance 3 pas")
+    (tags R)
+    (path /52AE3980)
+    (autoplace_cost180 10)
+    (fp_text reference R17 (at 0 0.127 270) (layer F.SilkS) hide
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_text value 1k (at 0 0.127 270) (layer F.SilkS)
+      (effects (font (size 1.397 1.27) (thickness 0.2032)))
+    )
+    (fp_line (start -3.81 0) (end -3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.81 0) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 0) (end 3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 -1.016) (end -3.302 -1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -1.016) (end -3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 1.016) (end 3.302 1.016) (layer F.SilkS) (width 0.2032))
+    (fp_line (start 3.302 1.016) (end 3.302 0) (layer F.SilkS) (width 0.2032))
+    (fp_line (start -3.302 -0.508) (end -2.794 -1.016) (layer F.SilkS) (width 0.2032))
+    (pad 1 thru_hole oval (at -3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (pad 2 thru_hole oval (at 3.81 0 270) (size 1.25 1.75) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 67 N-000005)
+    )
+    (model discret/resistor.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3 0.3 0.3))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE141F)
+    (at 60.3504 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE2807)
+    (fp_text reference D6 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 57 N-0000014)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 51 N-0000010)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE142E)
+    (at 31.9024 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE281F)
+    (fp_text reference D10 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 64 N-0000021)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 65 N-0000022)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE143D)
+    (at 39.0144 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE2819)
+    (fp_text reference D9 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 62 N-0000019)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 63 N-0000020)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE144C)
+    (at 46.1264 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE2813)
+    (fp_text reference D8 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 61 N-0000018)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 58 N-0000015)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE145B)
+    (at 53.2384 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE280D)
+    (fp_text reference D7 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 59 N-0000016)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 60 N-0000017)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE146A)
+    (at 67.4624 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE2801)
+    (fp_text reference D5 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 56 N-0000013)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 74 N-000009)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE1479)
+    (at 74.5744 47.2186 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE27FB)
+    (fp_text reference D4 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 69 N-000007)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 71 N-000008)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module LED-5MM (layer F.Cu) (tedit 50ADE86B) (tstamp 52AE1488)
+    (at 81.6864 46.9646 270)
+    (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
+    (tags "LED led 5mm 5MM 100mil 2,54mm")
+    (path /52AE27EE)
+    (fp_text reference D3 (at 0 -3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_text value LED (at 0 3.81 270) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.0889)))
+    )
+    (fp_line (start 2.8448 1.905) (end 2.8448 -1.905) (layer F.SilkS) (width 0.2032))
+    (fp_circle (center 0.254 0) (end -1.016 1.27) (layer F.SilkS) (width 0.0762))
+    (fp_arc (start 0.254 0) (end 2.794 1.905) (angle 286.2) (layer F.SilkS) (width 0.254))
+    (fp_arc (start 0.254 0) (end -0.889 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.397 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end -1.905 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (fp_arc (start 0.254 0) (end 2.413 0) (angle 90) (layer F.SilkS) (width 0.1524))
+    (pad 1 thru_hole circle (at -1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 67 N-000005)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 270) (size 1.6764 1.6764) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 68 N-000006)
+    )
+    (model discret/leds/led5_vertical_verde.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Conn_Big_4x1 (layer F.Cu) (tedit 4EDE3891) (tstamp 52AE149B)
+    (at 28.8544 114.9096 90)
+    (path /52AE1B98)
+    (fp_text reference P6 (at 6.096 -6.35 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_text value CONN_4 (at 5.588 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_line (start 10.922 7.62) (end 16.002 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 7.62) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 -0.508) (end 16.002 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.508) (end 16.002 0) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end 10.922 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.254) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 6.604) (end -5.842 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end -5.842 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 -0.508) (end -5.842 6.604) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 40 /p5)
+    )
+    (pad 2 thru_hole oval (at 2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 41 /p6)
+    )
+    (pad 4 thru_hole oval (at 12.7 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 43 /p8)
+    )
+    (pad 3 thru_hole oval (at 7.62 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 42 /p7)
+    )
+  )
+
+  (module Conn_Big_4x1 (layer F.Cu) (tedit 52B36BCE) (tstamp 52AE14AE)
+    (at 28.8544 92.3036 90)
+    (path /52AE23FD)
+    (fp_text reference P8 (at 6.096 -6.35 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_text value CONN_4 (at 5.588 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_line (start 10.922 7.62) (end 16.002 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 7.62) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 -0.508) (end 16.002 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.508) (end 16.002 0) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end 10.922 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.254) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 6.604) (end -5.842 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end -5.842 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 -0.508) (end -5.842 6.604) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 20 /SDA)
+    )
+    (pad 2 thru_hole oval (at 2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 19 /SCl)
+    )
+    (pad 4 thru_hole oval (at 12.7 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 3 thru_hole oval (at 7.62 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+  )
+
+  (module Conn_Big_4x1 (layer F.Cu) (tedit 4EDE3891) (tstamp 52AE14D4)
+    (at 28.8544 137.2616 90)
+    (path /52AE1BA5)
+    (fp_text reference P5 (at 6.096 -6.35 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_text value CONN_4 (at 5.588 -2.286 90) (layer F.SilkS)
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+    )
+    (fp_line (start 10.922 7.62) (end 16.002 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 7.62) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 -0.508) (end 16.002 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.508) (end 16.002 0) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end 10.922 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start 16.002 -0.254) (end 16.002 7.366) (layer F.SilkS) (width 0.381))
+    (fp_line (start 10.922 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 6.604) (end -5.842 7.62) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.096 -0.508) (end -5.842 -0.508) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 -0.508) (end -5.842 6.604) (layer F.SilkS) (width 0.381))
+    (fp_line (start -5.842 7.62) (end 6.096 7.62) (layer F.SilkS) (width 0.381))
+    (pad 1 thru_hole oval (at -2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 36 /p1)
+    )
+    (pad 2 thru_hole oval (at 2.54 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 37 /p2)
+    )
+    (pad 4 thru_hole oval (at 12.7 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 39 /p4)
+    )
+    (pad 3 thru_hole oval (at 7.62 3.556 90) (size 1.35 1.75) (drill 1)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 38 /p3)
+    )
+  )
+
+  (module C1 (layer F.Cu) (tedit 3F92C496) (tstamp 52AE14EA)
+    (at 177.4444 104.4956 180)
+    (descr "Condensateur e = 1 pas")
+    (tags C)
+    (path /52AE4952)
+    (fp_text reference C23 (at 0.254 -2.286 180) (layer F.SilkS)
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text value C (at 0 -2.286 180) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_line (start -2.4892 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 -1.27) (end 2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start 2.54 1.27) (end -2.54 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 1.27) (end -2.54 -1.27) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -2.54 -0.635) (end -1.905 -1.27) (layer F.SilkS) (width 0.3048))
+    (pad 1 thru_hole circle (at -1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 32 /gnd)
+    )
+    (pad 2 thru_hole circle (at 1.27 0 180) (size 1.397 1.397) (drill 0.8128)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 +5V)
+    )
+    (model discret/capa_1_pas.wrl
+      (at (xyz 0 0 0))
+ —ed‘Ú®'T®âZS)c$‘ 3ÿ‰Áó:‹dâª?Ú'AÒotciÒs$vlô†«øÃ+9²o¯€       €`´                                Dc         €à´   ò Dc     !Ã’Ø¢¢<ÔB  –[»®*"ö’¤]l+^¾Öëµ.ï¦²¸œ0åtHDp4$¿ûø;ñÓ  Á²ÄÊVÈ :1“{_CHÓ.@ôN¥°Ü£»òş&Aµ—'¨ãkv¸SN¦5û±"±ÙÅÓÌ¹÷GZÊ.»îÖnC”WW†YÉ†ùÃu2Êz¨¦.§]­àZ1àêl–1TjiÅH‹¾?cÁÍŸQ›%EÏ‹5a~—¬ÕÙw8TãÓœÎK&rœõ§
+€ÏSoßnÒŞº¸DTR‘Jˆ1åV9S<'=m½ïVÓÁníè(Ô³ò¼ä§§Ûês)vÊä›á*\ &KJ¤à  oTLÖ˜ ø¹ïK|6Ü¸İØ:²{ş/^¡*‚ì*&ş æœs’»&»WÏA¤1xı´ Ş@u±…„EÀ & €7ƒhTR½¯¹"®ŒKİt&T8 {       €áG   
+ @X	À	ˆ	      k h       8 i       1 j       4 k           V   €  |AšV+dàŸFšü=~»¡sï¼õ®·^¡Áš¸“Ã¯â^)É<¢æî¶Ğìb­
+­Û£»õ 3´¹K3* owÛ›EZo4®­²N¶Æ×?
+(ï‘; Ä\"‰ÄÓgrjÓ±.›\Û?PwK,´¹	
+O6í–Še±OüM×qÉI·ÆíùøÁ¡‡õÜ¥f¸ÀÖFå´-ÂÅBeyYÒm¶üíÊ5
+¦,Í(÷uk9!.hWë`ío5R_v¥™äËU¹±;v¨uäŸ<{ÜX¤Î>õ*£­ı]b¤×l];Ì˜´SìÔô+Áƒ±_MGÀÈœ¤Ûù×GHIğÁ68å…tøã~ƒµİŒ1è}Ö_©Uu‚×”Æ7‚S›Ë*;ñ%šM¶ô¾»"¯şıÍù…µ¦çst©LRÁ‹3R£ªó¿{Z««éÚJ2pï³F²¤ú`µ3v_Âg0 %(ºöi4A6­ v¼ëÍqÆÏ¹
+÷\»×Ç	™3‘8òì›ÖèQ‡ò{çlÃ åìPa®ß}¤Umì(ì¢Ú¿Ïk$¢ÚÀbíŞ~¯bÑo‡·İ~üşÂ‚Rj»¦ñJ>®%]q} }&gœF¨,Ó1üE ¦+i°ánøbŞË’cû©ï¥ àÍu}a8Cª×,ú´õ©â›NèÆë¸»Çèb?¸i,Å¿^Œ–¹0¬dØ·OæÃQ&Äƒ‰åiÔá‘cytmı}õ«^+»W|MÛ*Á’$æ«üÒ†¯FOÑµË…ökxZ~kjÊ‘‹>¬HŸ@é{iEÍe 4jîöz*–á´7ïë)»•,Ú—˜˜Êôe‰e_Ç—8ïäÔ¨xvMç>¦)
+†tİµ…P.ëAYíÓÙÅ
+“ƒ]/,ßñ~ŠÑccU[\z({C^t2“ÓF5ñV«P%im	ˆÑœÒbÄc×²wŠŸşõsM¨W52=ÖÏ®"/§ ¼lÍ“9Ãá%|“õÚŠ–É`¾ØıvÖ2{†Ùíµ{ˆxãÒ9V–€–ÀaL¢\>§i4×Ç^½GÌUy‚‘{Öª/JÏŒ(·Œlxş'|òÀ? *Ğ’Øòúä#ÛÅGü&W×\âP+º:?+»]ÑIAØ²èÊÀ¶*§8+ıã
+w‰Ì!ÊâHB¤Ğ	Q@_–ùáò·F::¯ÅïÅdF5ˆûs¡¥.^|òµ]½Ç Øœèõ¶iËÓ`®Pš3S1e²‚õ®Ä­„›0;:-×/FˆJœešPòòZqœéXƒÑM³¨|
+4Î~ˆ„ÄíqkÁ¬Ñ­æ“Ø–ÉX¿J˜Ñ}Æ|£ú1"HMpá.ĞØ³×ú“ãx•Z¼c#qäìzÉÌ…QÔä.Düò²"%]_>y?:gR*ó¾zşÒiŸÛÖÊ70m²ò?=ÿ»éÒ0¡9Rs‚]!5RL(ú?Î»¶T0®ÌyíX	òñŠ÷ÇÕ3‹ÅÏŠ±LçàŠ³Sû»}ßa`Õ‡²ÜE˜~û¥0økü¿~ô¶ˆª¬£J¬qœ˜u ¶ğª}Zñ`â– V0×uªÓµ¹©Pæ³ëjÍVÄ’…°³õDOSšªæCœÊ+>¹"ûoÂ§ó£şíTbàZƒ¤½³Ÿà
+”QÆ,L©2SÅe5³”ìşv5Ç—öPkT‡‡[ş àrGQöHh|¯Ë•z‘­Ut„È4<8Ô*NJÌrô–á®Òü øJ>gX1?0       €`´                                Dd         €à´   | Dd     !Ú’ØóSÀ YVîD‚‘#Ayxxêí›8){-AğX¨Æ,sEÜ¯n
+$’àÄB	Ôå€F£ŸJ[µûI‚¾g{¡ãsãÊ³a»Võ=î”f“[±©çñõùP€rñÇp«ğtÖ¬·¯2øü-‰–•8ÿyYšºeN)Š²hİé¿G!œë¹õğ
+{şığÍ*“xşÿ8¡F?şz:KÆot¯åëR˜İİã
+¹Nâzı}AA5¤YzëÅıĞw?ÊäÔFºÿ„ºyy¥ÙÛßl#I¢%½Ü2 ‚H<¬hˆ@á[šEYh,PÍî–,0Ş$ÿ±’nÓñ¸İş”ŸÒ ¿gP2›†;~ö yÈ{0C½@ Fp˜6›t„%¿K!È‡À€;     X   €  'AšX,dàŸ7°Òvbòppqk§Z%Hmj9SU}»f>1œv÷Ëè²BÂÈíJëmb–pOªy—‚ĞHÖó{Éø!j?–ñğš`ªnò¦›x&6ZsÙM¶"Gğ@ù€[ˆZ®†IS Ëİ$O¸* ğŸyĞ:4ÈnĞ.ïğğ°o°XYÙ/¾Fµtmå3pƒPß¨y5ìÂâUÊö:Õ2©øfÌ6Ôû]8£<Ÿ]˜ÊÙÛTÿíöÜÓœkcŸO5„F¼%*¸Ê¡™{ÉùŒ1ŸŠ Ô=@V‹,Tùpôæ{K‚ØêMi%76F–hÉ©ÂÊ{êÃ©½ìÄÇ¢¦†LıÃ‡ÒkY}JŒÈÑ§¿P}LÊd_&ôl>'ş$DÕi×á™›?3ïËLa'÷•i3f`ıS¶…\‰¿NJ'*UÑ¢nZ:'Z±	/ˆsk¦D“ĞE[²pßé9f&Ú…»¾l“÷mfı.:£>esP¤2ª"úC×äj¬d[Gƒ1Úè6JÖµıßµd±loFSéX§?R‰Ÿ½]Æ.¬xoÜEİœ¦â—óßúf?ã¸Ÿ„`|ê÷›@Éjœ”"~ ¬s1O×Â±x‰¯~è«EÿG¹ |—²½|ÇHua)A=ûÏVÆ0ˆÅÊ5xD",2	òˆ¨œikPèËÌäqY¤êÂOİJ8h-àßo$ü†Ô¬»f±ûÊÿaQ»İ¹™k”ê½¾´‡1r–îï™=fös¦·U}ÇÂ}7ºL$qDø·Êòµ`ŠşOšğfhîÖ#Dˆ¶GtDqaç¬ˆÔ<x¾‚Ó3U7¬´º(GN¿6j·¾v.ºˆÏ>#×ãÀ#ÖÃÕeâ›*JÑ%Vâ-û)†Ù ’-Ñ†Õ•Üñî2™#‡{(sá$F	ˆ½‘eÄXä¢šĞ‹ìv§t~zá¦Q¼õG†i”§âğ
+šè¥6äyWßã¸î¬½^oLm HÚ¼™¸æ¼‰o	'°ÛóèÀuT·Ş ÿê]=Ğ¬†Zö7os ½úm -5|6|ádS|,G™˜¡û	E_ø6 ="h<¼SÇßÎwãÚÙe€¼.Y˜	”Q•xÔMŠàêÕUckEt¡lèqÓs±½Çk×÷E†4‘0‡ ì[°S^x$C×OúŸ@^JáÍí¸·Ö6ÙV’®6]ƒ]ÑÏqRÉUglD25¤âm@“—êùÇ•Z¦[HøÅÉÍÍXbo¹­¬çVgÓ¥:ğœSRTÌxM}!¹œ»!QMW'5›¬^°Ï[~õj/eŸ
+í£†®³½§°:»¡³•ØÎr‘P]ã`*Œv*¬P#UgªDúAÍğ
+N^:/Ê%Ób¤‡Z4»xJ6”Àï¹ÙÆî+¾hÏ[uq$t®‚T/£Cµn“<çÜo6¾D «H-éõ	¥œÔ^TàîÂ¡ò/SeVÎa îWî(3Ÿ2t)8æ‚Ø{¹yÄ¼†»šHÇØ8Ç>p£¯Y K×ÛÌveB¦§Øáí0©HÂ!òİê³XÛwµ.ÒlĞ‚“÷/$"B%â²tyLŠá€æ›†³[¢´³Yçä%ğÛRLL²qùÿ—°œb.¥7F§¬Ê‰íKšpN½X­ø­ÙÙƒêEÃ‹8‚÷3*t©¬öÚ)ì ¬LWó8   àÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´                                De         €`´  X             '             ' De         €à´    à De  ?       Z   €  +AšZ-dà¿ã”„ÑËYŞnÔ/ğIĞÑk¤İ@Ob®·ßŒù,’eğ¹ÉLzÄ^!†u¾ª£¯Ö¿|<lnÿI¿c®€î§|òTÜÊãQşÁ/­È7»­#ïÄY½¥H~›"9¾ÊÑújÆ(ôDj¬š"ÈÅ Á#vëõdÓÆV·\öWÖ‡‘b+)‘Jºñªßø44“×¸Œt˜¦Æ˜¼á9Ë§ÀCˆp‡SFÿzù×Ï¦¦Ê8æL1(
+e w"ä ìªc[b:—FŠ…pö÷j%FÙ“¥×¾nµÚŞÜ|7²]™|D>äØMKˆ5O×I¨¬Õ†|GĞìÉÈóÑOviƒª$íï†Äåü½ÊrÃ±©‡ÿù¥¢¾†í]X³H!EC$*ø,k¬í@XZ/°P Ö\à°£
+ÜÇ?âŞµ[«pjÒ‚Xîî°o˜ÆÎæ·X'åk!z²Î4ï)U­¼»—ñÒÇÓ×<¨ˆ Œï,ökØª‘1ÓÉ’»×K¥à·¬îŞa|Ú@:-¢éVçª´t7œçïòS®r¦³ã²M81rcÀıˆb[™(˜‘Ú9ñ¼hSù·Ü•»X5öÌ¾æ‘e/CopÈÁû¡AÌœôi¨!ú’şÑÙåê®ˆBß4Óâ°¤Æ›$nç‹,8çU_ ·EùŠ •üJºãc	°Ì<»-ş8Š÷ÀJJ’ôZ$ylqB Máª‹Îpä+àu¤i\÷¾Ù÷é)HDâ­J©f¿ªË.åSé#ÖuTM
+Øš¸ÏÕÀoÀ9)ÿK(–{œhïuà’Cı¿)Ò5x}iCÿåó~Lüñ	ÂµOm<ajŞºã®‘Jşª9µPíÄ“ÂüÊgèC Î@ßEıiÁLÒ²ÚÒmxldÓ*7ò+	­s#éÛ8ÅúÍ;|bŞ]œÏËˆŞ,Ê1&Ö'(­0}ÀY›‹÷èë]ÖÇ)3;Q9-gıœv™\*êÎ€ØéQÛàœÓœKüD{«„Ş}¯¿ ,Õ¨
+ÇA1Ú@‡àí5ß/ğ>_6£Â§è<¯yqéZwn“mŸJe;æR°İ¯"X3ıKV#Ms„‚V?eÌ…Á{}Ù²/¯KŒÜŸa²°'Oé£™[Jàé&Æ´Ø¡nµÁPÆKy¸æM½,'‚®`–<í±
+?õßDEXsWƒ´Ğü†ÍbÜt°–LbìÙÈŒÿÔY
+ªª0§QñuAßc<µq„!Ğ’ØFÃÃs¾ï\»Ïƒ1Çø]Ëâ”/Õ"0‘’å¿ë½™r$cVğ¯ó[Xów›ËfO¨/@A7ziv›ÀVâøfÇ	àFôŠ2Ù‡ÅÓIYSš8	at7BÈç‰ö±M4¶X’£—f½cc!yÂJG˜az§çI ¾$Ñˆd9ÈlÂT<Šİ‹â”õ gÑùƒ©ÏÖ¨¥,S¿Ë! ‚¤ï58SœÒje/ß D€vS”¸‡ÉÌMı€Š—FÀ@ =ÓVXø%k÷bCm¸cnVZV7{cO.h_Û%®µg$á´|Á¾´-ƒx¡÷±(og'Ş4ãâİ98Œ #z¼ze7–úaôÇš`Ú%%;Ó4ÉëÇ@ë®®öÂ¥·œæW½”DhgİÙ€Á§ÙS2€9C)úüJ[x­0è`ú4M}à¡qİ‰ü2˜ cÒìü)Ì"©lf¸å@-8°ğH~H‹¢‚=ÜRü¥,lM|‹`>§:5[8mN…¹šÑÉ¤İ\1Aº7¾VQ^?t«¬ğ›SndüH³TşşfÒ•¬HW•nº}ò›Ífc­D»~<¢ƒ¤ú3ş(>*|
+¾oBŠğùåU[ŠĞ<UdÎ	)-“”u´*K’ı³“M5¼ûYİÀ:R0[tP‚–ÂHhÁÆ¦S‘ËŞ¼ŒéÓ«çzÏ'æ°Éc.š1§á½l'ı¾ª¨C?tŸ‰ÊŠU­¡¶-…:[îJEÜqy[”ÅT‹›A˜“€Ï¦À™À™=bëq2‹{Á‰9ql{Øà:è|¾4±Y´éœ@p|İµW…:[n<‹ødÍéœ;§•4Û¤[p'Š¬.íĞİñUid_õúpºrÄì3ÕW
+«›ÃI6±ÿmme"¦»;ùo¤Åú«Ä	’K_éTMÃ*#|ê¨¦éÿ§ŒÄãêL© O¡[¥#ÿf3}äK”¹5„ºøBD¦«Ë@*Sy}ÓÒ Ó\a}2¡1#DFù‰:¥ıá¹â·FçS:.1>\óOl¼ÜimÌ¯K—HëYí3Lø`jÈãH¦   0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´                                Df         €`´  \             œ Df         €`´  \A              Df  ±      €à´    0 Df  C  !üıßÿŸÍ9-““¦
+ŠJkp BBHûw²TºLV_H‹œ<ÈÅdk@
+Ìoá8   c4î£y >éßDiŠÎB¼w?CÅc küûMJu±eèA¬Û)^N€¹ÎsÌeé™på€c¶ J¹1SÌ6†§3 ÈÃÍÄeqETôz„šÿ>Ê™c/?†İ–PÕíş#dÒ5¯,˜ôZ“	ÑÄC)ôş)”¯¥uÚeYc’ßã´+)a‘çÛZÈÃÃé½şW&9Ğ”°Ë`P ›R\æğˆ  @¤Ös”	‚ãÆ#p“i%¥¡â(…œ/w´€Õö±½ÖuÓŒy¾‹Ö‰øÁ‹×,Iª ˆÏ ' q¯H\R_š©H  í     \   €  ëAš\.dà¿ãÑ\ÆJz±‚‚#2ñÅóÕ
+\²aÙÖI^º[A€©Í”…À¢ó §øÆ¶N²÷“,ËöKâ\giÂ<!-¤®|¬à«ñg»W…™iá°»Ë Éu®|Y®Ë`EnûÀñ­1*¿®P]¾ùzƒ¥‡`ÜôŒV
+†l,õÄöÄ|Ç— ßè"êĞö(ÈC1mîßb¸¶; Èí$4§ œó'(fOM6»ã&ÇW‰¢)+S32 á¶:•f[ã1<Å¡wGÏK†Õ©23A$yßHjuÚ¤[^‘›O-hw´OÅ¥Wck.kàÎw„1r	£ËYÿ«^¢„º>(FÅUtÆ2ºÊ®#ÿì®¯á!xéX¢ªW´¥uÜ1ß©DÿÙO4À²•9¤ı,ÿìR‚˜*¦½uÂ–«*ø&ˆ§
+Ê¦ê%w˜q“úpLš3æ¡ç
+Ç ö[°úÔª_b5À0sa¤jaoµ)®6vhé‰!c¡î~çïŸÇR,’Ø¥äò­9˜iÛoæğp4H~ÈÈk	N¿Ÿ·»¿İøşó§aäºü•ù?I¾»â`‚›·{\~RÉ+åë•u¼UBØÓğ:ËyÍ=ÄøAœ«æŠÕp rµk©0Á‚Ô `;íRM$L3S‚¿ÊTjñ‰W·™h÷~–ônğÄ[Š…FÀym‡£&Òiù¸ÑHü†PàĞ‡ã¡˜^Š—²2x¼Èè`¶›àZÄ?vŞD—C…«cn%™Nˆ*ÈiƒSÜíŸ£?¥ø„½¦“²:½g®îäQÆ;İòf/[a£A«%]ìX}=Ã·Ë[Ç°;4Ñ1‰­¼û0áîƒkw³7Ô•×æş€æºOÔÚÀŒşd¯L úà‰ğ{*Ğ¶,ü8áëî»
+(®ò¸Ùd|œY4ÍYŠëƒ2Şò}lTÀÓ‡,çºİKœtîãÑç y"ÆılB¤;®«¼’şä´¶|/i·µüx‚e:sD,ÿˆ÷ŞeÇßÅ_ív´„°Û},@ŸÜx´7÷Ó!UĞ¬,İ®’¦®±º	ï9Ã*-÷—((­?½r¸ò)Ü…	êÉöQÁ´£¤µ¸»½–d÷Æ·€q+a×aÈÕ ÉŒp<Ú¬—”ŞÃÁĞk²C¿pHD@o@‘+/dGĞeÙëé`ÿwÑ& iÿõ€ß5o\Æ¸“§°MútÅ~/¨½?„”/ïäi€'~ÜÕŠ9q	š‡WE‰•‘1ˆş¯¼Ê{öİf Ùn»Ÿğ×\f
+qä5$ Â½kƒÃÑ½æ> ø"Æ½ıŸÜ³è/ Œë\‹3ÂŸCÉwe]ª<ÖÍ®‰ÈÈ"Òmnÿk‚ŸÔêğH»Ì³mÔW¿z1uÔ™bQ¥`½èyŞ~ƒ–9İ3ÅÜ×U—æéÎQoŒÚ«şp ‰IxÓH
+K?à›Ò¼~*Wª³Í¢ÑŸEê7
+×®ûÀ£lpò`µ
+¤­ ¡V’ñí“6—q?]aI£g<ÒUş­ı6Šş%šÇŒ>^0¶åÛm~>o2ŒşêU²±Ê{5ëd·#ğ³†•ò>ØWõä¥Pcšó¶Í&­ Ó|0¢÷É{ĞÚ)Ô<îVĞr–Q.Ôİ€%Ìæ!Ü½5Öp†SŠk§Jñè8Y'·œ´¶dÄµÂ²+?½è‡è\»„"2¬ººQñ¤’šˆ¦•ª>(iI­éLhvÉ™Ú¼ŒS>#ƒóØó8 úïÿä?”NÆ@¼¡t”}ú=;vû¾«:ğÚ…Q½½H‡a}T¨V¾Ÿº}Ñ:ÑÏè-5ÖÀa8r_:ÆŞ´¶NçX&ëÂEU¹LªP	=ğÖ ²v÷ÿGÀ…zÓêâîmÖ¯Z0–‡¼W„W‚eXß`Zú‹XWÎyÉ_ï­{Têvâj‚°–¸rÏê7ù§–uÌOæŸ:•r²^ë ØşïĞ'ë32·åèˆœâN9¦ãÁ³vÎL•°¢¥êGE+¬l{H®±x•¤ X×o½°…¾d»Kõ<èšs:Ì…Ë]^öJZ«ùò²ßâM·úR÷×Fä"pËˆz€¾”k;PLqfÇ„Ñ|TAÍ­@ªaVJ?-Õp˜;:àiÁòW\¬n¶Ê^µn‹m­•F*–f£ş95’•,†Å‚"}Såá¹®¼ûE€‰Ië1º¨Ã@ok1 ™P¾ıX"”u€’Ëıú?íDS¤ï‡ÛûD¼
+äûj‰qõúì÷ÕÖ%ÜßcZ%¯)1\	X   oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´                                Dg         €`´  \             œ Dg         €`´  \A             N Dg  ±      €à´    o Dg    !Âr³İ.¢µt‘tÉ.¨jˆ‘% 1şUúşîxnÔ¼Åªió_c nj£?­¨šPB˜í•„¬ êŞê:ÌÒ˜Æù]øÙùI7nãô\ÂîÕ†1`nãHÈÈŞ3Òî@^êkjYZÔ/®ÑĞ¼÷kn ÕŒ Tjw^û°¢pÕÁ‚Ìjpğıw¬ó^dÔÇ¥Ù	
+aZUjªEq0äğpYAi&ÆkÆhÀŠ¬:==Æ#¸è`Ra–S-§H»ÁÿüÚğ%ïÖÚŒ* óØÔ€„ 0¨¤¸)M¸i¬e )~½éòø<Ğ¿/ Ã´¦^ƒóé‚«ÄêdÁB† m‚x„=¨–6‰’+®% q³HTR~É%Š Ì  ¬     ^   €  „Aš^/dà¿ 0ˆ8•ò«îWøi)RpÏ¡m{B{SÊETg¼„úpùÔXùïô§!{G‹¾<¡¸ğ®: ³DD›d:‘…„Ê–øZ”ú"A…ÓyŒÏf×	»¥ &şŸ"²Şµ?JİÙ[â<V{Tì(İÿFày¯añi—ƒz^Cöú•éãR4Ùv`ªU[Œ×?=Ìµ‚Mx¬äóå¼ÁÙÎT°Ò`íÌdµéıæTyÍfà»ºÚC‹!B…ZXúY˜ã‰sÒ$“ù²xÏrªuotN‡Ú–Yb,»’àBC~m‰2Mu’Âˆûu¡¨à•:šGŸb¾u½m;/KÓ}µş'Ù£Êµ¸âœàº†pgq½VÆv)R£w)lÌ„‚òújd•pà½ê¼qw½øö¸¼SÁŸs¼ä«£0É=-cR@Î0»”%sÔ%è(¬'±c©ØMnE<P¦A»všMÙ†ĞNWÎ
+ª=ã7Æ>òF/èj1ö‰%OÂø!÷ş&F^ê¥Ê“‚“ıú×£$ÂöUñ“ã–L¨„vL¤ÚÇÛ:BÂŒ§q¹óŒ.öiŒU»oW ³	æ^6¯øS®ıU2ãF¨Ó¬İ	è 3Eİ¶ƒ9’¯ëí6®ßf^£«4Ç¹Æ+¼i€˜AÁÙ©İ¤·¦!.K“ÆkÓìãÍé¯è`$ª6=/xulTã7BÏ$}Í€^ƒ»	ã«j£ÿ½aˆæG,J¹ùLéDòE„'!<?3uaqÀCc‹;Øó!ÊªBu'÷<Ş²uQa%FÓ²cÜ4Ië»;HÎû§§çŠÿóÿm(©O9wøvPqğ\ëzna"o™ÄÎ¨cFI ¯Oå§ÖöŒá÷‡=6æY#yŒZAßÙ4R]ÙİæKá!b¼VØ`¾á*&¯¤½0´Åî4SB«ÁÃâ”.9Y>ïdG&¡§¸Dˆaká ó`],Â úBWñgÕ•Í”n6!’´ú*™ê©[)ÇXnœ‡.KN”#.µ6àÄD0´Èva¨*
+™ĞÿóP9’6'p5Îg‰o×eQo=¨…ûÁpô›fÁ
+&š€#`!®\-àëÎ—ä¼á†OöKçä£<t\Ú¶;‹J–vÏTè¿°´(rfé•}KTæ0oåM–_aIn)¢åè¾[®CBO—Ïe ŸÔ¦SÍ[Üğ5ølµiÛSv5È¬ÅâÂw5_=
+
+aô®ÂõÂ*…ÒËÌ%i‡üİ:y†~)HÛŸ€´Ãâjğ«&.¦µ9£ÜÉÌR¼»gZm¢Fy™ûW„_‰ËYq>ÍìåøÕ¤åqofŞàœYLKo½&³p,Gc%ıd6x{¬%î9=c•X•‡øÓ)«|æxÉ©@JšãôÌ€	ãzHjœräâV÷‘}Ïé{äPmï?¶ã5À©¡;ˆäø^öğ`1{¤ hÁŠÂX¯hØk80ÇòZÌÅÖäV@Ã¦ˆÖ†¸ÏŠE“!&‚2|záâ™›§›ÆF¸ozêŠÂí‘gxjBçŒõ0è©¾Çì.:µ\TT î5#ĞW`¡wwæ5EÕÍ•¯‡Ñ)ÖòdÀÒ¬{y4rçú–iwÆÙk”!§#3<Ü4 ¤Hät¹(LJñï\7]·0C>šÊU÷¤±'ÔÙ s7,(µo'Ÿß¾É×Õ35áU#«VòC“VÁ½¬UDE Ò×x¸Æb8ŠÕZya
+JáÆğ!¡R÷âI¶»zivĞ¯¹D6¸ıF†{Ó`+ĞçŒğÔ¦‡Qz†$ãŒ¯À>>-Î‘²Âú<G0ËºmF)`Œ@‹ëw'+pÉ¼ØBÕ’Sd‡ê@$6©ì'—ó‹Øxw4ş3P0£sç)Nc—È7uÏ5ĞÏ7‹¬åfúàI¢"íÃ‹À u9…"çN,kLRÈ”Ç›%Kõ§€;~&T'¬Yñ~Îº‰Ğ¸»wBÔ˜¤;0(uDÛ‚hæ§Éô+¥¢¼JX<šï{0{]ŞYDü•ÈÃa»]i±Dbâ€˜¨U90U†84Ççmvìa¸Ğ#3ÊÒÛ#¶–¿Ó¸aC·t¼5c7çâÃŠòáw-ì\o”/ñÇP„Ù¾,3aÉ\±Üpçy¥&ÇªÜ?-&™j¼Æ²Ş/ØMù4j6ï‰‹F<   ×ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´                                 Dh         €`´!  \             œ Dh         €`´"  \A              ç Dh  ±      €à´#    × Dh  œ         €áG   
+ @	¼	è	¸
+      7 l       = m       7 n       @ o      !=ãÿÿÿÌ[g*A…(	¶²úÀ"„Š’'°PÈcUeàmÖìï'x¾Ÿ3»¶À"Y.¹'š4ÕXªŸ¿mçşSÇù/|ÏŞöã~'ôÎffxpy>“óÌ$HeÍ& Ê{¾ĞšùÂW„:4æ¬rÆ:ša­ˆİÑh‰îøå	
+äp·Ø
+oêtğÆ*u¹½&¦q™qàı¿§Êª+da­:ùÜ¤L†ïáúÿßª&‹ŞåKÌkïè¸ĞR>îÿEôÁ9²ª–&¿ÆÂ•6‚-·&gİ†Ôƒm€ÓaB„!@Á“v……ÄÆ-8 Ş·óêÕÎÆ‡‡ßu_tÈ^w¨€»kè@iÈ\§`– ‡ˆE> ¾ÔâÊähÓ¤>¨D`  å     `   €  šAš`0dàß[	ßœ¢ÑÔ‘„P]À¡Òy+ö±}xH–¸U2t(h¤MhkÕ†‘^íDûI‹RªÙ	ØóùPã>§Ô÷şÄÂ&¦ÕX÷Rr±åd… ”h(Øb¼õå0b˜¦¾ı6ğRÔ>z,ê×cÏZBÉ¸Ú|ÊöcÏ@É2‡lõñ	T"/é¼+ZÜ=¬†*¾¹=Í®µœ˜çŞX³Õ¯ñM=¬KF{6>'2vu«öÌ (É%qÉĞh{õ¸µ1¥b­÷~Sôåıó¿J$°İ4_áL¸?ìzt-ã+Ç¦kC8ù¤.ï—FV} ³¤=àÆ»/àÇŞe{¬u2‹·ÜêÚ?xfÏjˆˆˆÜ·‹Eq
+ıîÁÈKW‘­ÁÔÙd%’Ê…¯†ûVé%boâ<gÀ‰Ì³`´ÎÛ?2U,{;	‘?+½…’Ï‘[m™íJáÿ!$Uôé‡âœù	Øb®&Gƒã4™.á/.¹9š¹éÂ¦¹<Ì¯ª5¿j®•VĞéŸå1ÆªÊ†]û¨¶8ÁéÕ K\h•¼÷ˆÁH»0å“Äõ°‘0e¡}Î}œ|¿ğW	«º ºŞ‹¥øu§·•spB›/K2ÇÛéô¦MüY:¯"›(£p‚lyÓW¬¹1ß‚_Ÿaºf$ó€Šìı³!@xÓÍ×¶|¥ßcc®‘I—°·Éã:ö9ú.òÈrÎşµùRôªÏ>ièvˆçhh-ë³ÌC@?ĞŠMºù~ïÀè¢[#; -ŠT4Rñí˜áf‘ø''ËÅpî	¤ğcwºc¨/)‚Ëá”‰ã’Vk’@#F6¿€ZÓóY¢ÂV³ø•qú!wÖ„zãò-áÒ‹·‡Á|ÊY
+;GI•£Rš~h
+9™XoK,¶{VG/‹â¥¶©+®{G½UÖ]„w?Şí  iæ´»÷ĞFxp¾ÖúØL¸Ä‹ˆWì‹]á»<sØ;SˆG¨L€>ÖœXî2ø7Põ*Ñqü"^ğ:øˆLõÁ¤s„T€ò–e“2„*™ukï¹ğfxØoÿ…H>v3_JWPLsyWûÊÃ½VìD¶¯jé9 
+“ü"æ'\ZD¢Ÿù†antşÀºıˆÜ©Ç©‰3<âl;M)¸4ğ‰ÃDç\g—2wã£v‰`»ä|o¬ëyççË/1‚fKÙR·Xlñ&
+äuM¸ñL=°_RÀÀA4àî&4õ’O”ıAàú¾ê&ÌDk{Ÿ¦ ˜÷ é& UÕ°g«D˜~ê¹l\Öéã[M$ SZñK3—ÌpÏzt!ueŸF~³ƒ/“›$õ>\ü£ªMäPL§ëJª¤C»·Šµ©(ÁŒÃ:‹ª°4Í™RÎ	şqÌş‰Õ÷„•‹_sÄMŒ‘%î)ç¼àKR–ò(®EòS}4‘ZŠ	ßj–$QÒnRŠ¼ÂÍöª­	ì-Ihº|Q¬9ƒ*õ)N£Æ[üOœNÎf¥èØÇ‰ç€Kf}RûõÏHF“¶¸‡†²çëö•¤ãìXß\(yY¶õÍËãş>-ä]C0¦LÌo†ôú{Ó¾‹(½tˆs‹Û(ã³Ğòeiİjó^O^¬"XSãr\é|Û›oOègô®^$^[0­4¦Ã"2oÁQÄ6(hr˜™ÀV™ ã^r#úoIŞ6’ÒîŸ„eg¥7(Q¶ÛNóäÀ÷l}âÃÇ{Ë)>h
+f?ºøÿÀH|ÂXm €™ôL°0è…±-MGëÌôN»/şB`Dš²kİUS2‰äÆwM4XPt­Êi&õÓõ‚mÀÂFÓGÏctHöä½á=ÚíçAyÍº?*`s,ÎOhğùo ¬:ğLŠ.rØ ı-"B¾@šprıxèˆ©:,,\Cï 4n#Ÿhc'bûeB«’!6ê/¨_*ÙÃ-èbÅã]˜DôöĞ z¤j¦~u³¡ğ§’ª>pâÀ©¸á¾e÷uF°t£]¤m‘„+ fÉ£Ü]0’}4ë°ù“`ŠÃóõ K
+Z °¯òñ±¡s×âA=©Ö}ºµƒ[Š9ä&§º;A hÙG `OÌì»J¬ëS»Å“%®f´vŠa¯¹†õÔß|Ï¼’o’İjg4í¶¢ñÁ»Œ¡H‡OåiqÓRµa}˜¨ç(›B´¨àÕmK‘Š~fß•	@Üç"¢v€ÏÅFdaX8Ç¸ÙÔâF(oS{4ªNÇyrcö1íOÕâïGÀ
+hAW–†–«iõ½^*¨ ¯×MzC|Z+c!¿¤Vr©`úô;Âøê¶[~ïĞø ‘Ãuàˆ#xŞÙØî g!°ï¶´\ xW©â’â-U…cşÜƒ•Ğ?ó€¬e¡.¢œâØ×UÄ½¤;Mÿ¦\„Ç7ªôôö±ÛüBÀ|°Xc_T<¾<{ıääú¹‡§²yİ…ÎÎ9ó«æº,ƒ:‘ó&"Ÿş¹ÉSLÃ:¢ VÅ±rC¬.t4V¬¼Ì¢(W-Æªİ¯ë‘+ICG4†RKşšBŠ—	‚Ëú¨&p(ôL¼]İa‹ÌÓ‹Šº(Ã©¨f?“ÂŒ~TüÎ˜şwÓÿ©'å±D9[›+“8	2¬—ªqvÆO«ÎóæŞ—^wwÕøguy€ÀI$ì!Êôc,ïb ¶ğû ³ÚÁâg«jÚ›îJ'®œ­.Z€5valåŸ9$Cº¼9¹øaŸoş>„xóáã,¹¸ïáÍ&/Ûb<¶&@ô¾íˆFãnæƒR5Ó7&Ç§‹.       €`´$                                Di         €`´%  \             œ Di         €à´&  \A             ı Di  ±  !?ÿÿÿ“LOÖ0›ªÇ7nzµ-M[«½µ7¨Åpùš³!­ıO“İãOté¶=Ü5$CÃúÄ ètcŸ²ìîK€-öİ<€×ˆĞøîc“Ws˜/W£@¦_¥p
+hùx	'Wœ·ÀÊz;A|L F¶–¶ÀÇù¾§n§§?Üñ÷TŒ—Ìı©7hnÇI¬­%	×€#.Fªÿâq§(e7®—£9Œb0Ñøå­•Íe3nü³¯ˆºÓ„(¥s¸!GjGqml¡´ÁWáéqgßÚ^Ğ –Ú¥&/ˆâxC° Ju|˜ ÔÀ3–Ğ!×‰²j(Åƒ>€:  Î¨1«Ş ½ÿ&&MH9|¹àˆ7 Ë… <0×¤+)/gH¢`4 ñ     b   €  4Ašb1dà¿•†ÀÙ¿µéte²i—n`6Uyœò<½<Í÷†2YÛ»eıÚğ™G¹|ëÜM'‡	ˆÍÆ¥QúªÉäİ:8IaFé²½±¦±¥g»}¼ğiÿóF]jÖÔÜsá™$<Ä~";úíÎ 6Ão‰šğ>Ñ\–2«ålG³Å±«“g(æ¹>{PkêšZúK÷‡§I†È¼%¡:]–`ˆSåÜ°œiöZ5ä/°–’ILx³öˆ’À~üBŒAò;ã{ü·ş®»«OdCù¹RÁ(ª9!#MŞÀ]/ì„«éIÚ¹ª¤JŠÊó¶Áñôv—¶Í›\‰pZõ„’"’,ÛãéÛäÕ€ÅÃ)ª:dâcN4 MÆğX§_øQô…¨xØkI2ƒJ§/6„.Jö°İ¢bÜ+ŸÑİ¤è©g&÷7Ìbƒ·ŞCVAcó#Óì’Íª#¸¦¯h°®²š[ºüË™gí¾yTIƒ¬MåTÙ5v4C§ğ¡¹£¦(àÀ…ËØYŞŸÇ¤2"b¶ô¾­}Q!9ğæïíƒåÆÿîtâêéx2J:Ãy˜p}¸Ä?_¦ãœ|#ı*ÛÎÌs‰ ¦Y©¶Ò¬=>hŠ46Ù'¢KÃİå:È¨)kØİúÛ<8ßÙyôüqÂïç$(èĞçubáÈ{”µÔ·Á³hÄÚa¿âÚ—>¢cñì&È/n¬+AmvÒ.Ø²ábËW‰E¼qÒH50^?P+å§µªïøûİİ7G’-¤nTú”Ízß¯æ49¼>:OÒ}JxÀ1k6˜­ãä·‰½ìÉVmœtH‚kş|O9”‘T¯šÊÚ…Ãgª'OAIÙ˜Q1Í6«[˜$ÄâÙ²t–›
+õÚó¤œM5»¯¸Èµ›Â„ü”(“F!„|€WßCó„¿Zã®­o?:ô5¨AMä»'uxE^ÓÅ¢«ÆòP®C?9˜ºW8÷»RVòP‚î«?—²€MÎ5[†F¬>¥Ï®,¶ˆŠ:#AiÂ=´!ìİšh^"-„O+†tüNş‘	¥ï‚–õ(ü g?+TU"İ6C'Æ="õ¼Ï˜À«F"kw9k§€Õ=œJæ8'· Îaà·T\EM×œ1Ãån²ºÖ°1­÷€Ä tRî ĞQ32Ë>cî¹SKö™Ù<#g¡—>O Í|?[ğ>-ë1AU¸"ñ]nCnı‰
+oZ,2Û\û¸ü!7fó×‚’¹(?KRŸaTÄcéş(NG’i¾;‚ ‚*Öí=HHH0Ğ±¶?ŸÕfë´`ZW-ËÓàuÑ8ÿ•Å¹Œïa°±Ñä±»ĞdŒ••Ğ/sì²§~ÒLx²S¶Ø«^ÂÉtë¶É{«‘Š¶§%3Š‡"PûFzñÿÀ+oO©¿
+úˆ è4fUØo´w†º¸Îú™Wç\ÈìÒLMØş®¼:Û8µ¥ é°Eš½x«¡Èµ¸b‡e‡Ïí&&=[~h
+¯ó9¼‘’"õÈÂCeTŠ\­¢e¾ÿÕ/×=Æ‡`İhkªÎ¦Ù^€Ë&nÑ! ˜YÕe;¿¸\hRo¸OuâËj÷24„OÜÍp §şÃW¹hr`á_Cs¯{ëî…Ñûfôø¥}q$ŒLvìZŠoF”5|ìœß™ÜË|—ÛƒÎyÆSèVú|ĞcÖ¾ Ûğ”0SŒ©%ÿ×Ì»¸ßNGÁSƒ¯ë¯ñ(sª“)KËâ&±½gi:WhĞ
+(ïÂÙ|nyı³­«=-_l;Èzã‰Ø ,4ö±ññÁa÷4ÂL´MÇ¹8¼vq÷àÆĞ)P‚(ÓL]$èº¥¾O`ÚÒ[8xÅ<ÚƒMÎ-›0½û:Ôùú’.ËmÃM>¨Z³Í{ÃıEYM¬Óg‚ğâÏ„¥?Æ%ı¹©–y‹Ôsò[”Ü‘–zv„Måíê1Bãü~yÆ`–PÀAÂÙ2G *aBšû›ßz-6…U‰)ÏÛ€,äÜ{ù©SÊİû+d’s7Ğ«A¤N       €`´'                                Dj         €`´(  \             œ Dj         €à´)  \A              — Dj  ±  !?ïÿIÜ'bQãJ8Áª×6Z‘n€Úgù£ª¶áé»IQx NVõÜ,Kp@ Y¸ŞLx  ãõ_˜â´ov˜ÿ.ÔõôgÎvyæ,+—¡A!zğÇ47üŠ!«Ò+0áøE™/¬áçxç«!¿‘¶€IñÌ!aTçh	Al>éÍSA"²ûVSA×şGğJTiñ¶^3–a–óÓÉ–XNM^«ö}òd¢šÙÉYÌÍF¸÷9D.2ı+dVl«N0Eã
+eâ¹ûd¬±œ¡ŞlBÀJB„XU ABó |&Œ<§…İ•°€/Î#ã0òÌè4&œ6Åiô˜Ü­u€}\œzdfAöÃ¿€î ½ Ûô…Ù'õ¡–   ;    €¤Š€=À€     d   €  [eˆ€  Ÿî#ºE"ëøšTé3	GE?uvSyä¬ßÊ˜E›öè3Mz9'Ö%.ÕÒ¯¼O/Íúü(Óc{œÏGˆ:Fí³„ú#nºÏ½P¼3a ÔwEJÑ…øFN[$¹àb½¬§ö%Íêe_ëÁ³JÈ–ÍJü°;
+	Z3·•ÿ¢› è!Öú=Fu ÄÎÀ¦©c&!rl°üüıO«ı°·ŸÛ(5÷`IÄµWéç¿­ã†¡î>ıÔ…Gù¸ìV»Ğ®bÛşG¼oL´&¡Î3ÒZÕ
+.a×&–Õ‘$'+³‘ÌSa:qÀ,	ºlb}ÊX›Œi_İº±Uœ#	ıô&¾‰cû!óƒŒ˜®¹?ßaÁ'â($vfü)Ç‘wá«?æ?¹“÷×·C(xCÌ8#JP‹£dšïÅÖğÏÀãÄ:Ç&.8¢´™\`+NÌÕË× ZŞ
+w—ø›µöag:şîXé3ğ¶¶#êç 'W²Q ŞŞÁe²M™R%tRC"6şwiê÷x™0mvú¶	ÃªàØfGa{V«ÿIkyÎÕï±ºm7O(M'€4§öbØrÀ»gÉ~àDùáA1} `I…¹…‚±üËÓƒpxdì“š‘Ş uÕSçoœ&$Ié *ü2ƒë×éå–‘ƒİKÉèJ~¶T«^ºœ§•ïß~±Ù)ÔÂ(Q³aÑÊ¿‹Jí…'äuİë‚	¬‡Ÿ;mº°íF/l€îã?¶Ü]ó0¿Í°Ö³a&…ZGm¸+E=—¾s&vÃç‚±}:·İÿŠÛy,¹4u/ã‘%®ëSÍ¢q€54H#+£u~¶~‡OJØoqI«–18x©C¯$VÔ[ó>í'ÚM‹@€Ùn¤Õ2ïäd´\cÀ¶˜háŒÇ¼@#ÁÀH«ˆGÍÜ¥wVm6u’¥şı%¸¢ÍÉ#¯y±Ü•Îåùîj.@Õ
+òB$[t*åX„I«n©Ø´èm'Ni7}h=ED8¡|ISà3ÑE+ fSÖP/±Ã5ïÛ5K`Z·#ÕpQÛ-š£ıÔÎì“¾ñ»­ş_ş`lõ`V?.ÎšÏhû%8?Ys!dÅ1‘¥7ˆüLşÕg:aà0oO§Üí/¢~è%Ù¼¶ª&2Ó@0¦»,XO±ì{âgsÚªQñJŠb\â×ÊŠöĞ5Ò qßç&ì+ 1Ãİ•&½.½B²í°ôôp*õo:Éø¦¤“æR6qû6fõàT¾ë¶Úš•AÃf±šâü’ç­²#|÷L‡dÉ‰Şbcˆç,r*Ëø³˜µn”İ«ƒ“$w7°Š{™á§İ—ş>ïsòÀÅM ›Û)öèÑÉ¹æ8y”‹‘°8‡b²ÈÆŞ=;E°£­ı‘,EãNÕ2„!˜O¬<Ã9Ï	L«šO×mK_o`×¦±îÃR«UbŠƒ‡kŠÛ”XõNµt]9È±¯AÉ_°.N<Ù4‚½»8O'TŞU &ËYÀ(…{‡SÏ\>ï%·ÒãfyäÉ&pÌ¯ÑFÑ
+LHÔñ£ IfmS±à§*|îl;:#®;ÿ%‡(ÑŞSFİêÉ+çÉ8Eºà¶Exùwş$ÑW6†±CŸD¿ÿ›sBªE'eË=‘4o‘˜}ŞT:v¥ìSFT‘„äï+ztŒíò1 =}©•–Ş=èı9MÔıŠ/cÒ;JAÌS·ö“†yÜ¨qé°A1Ş¸÷6óëÕl
+†+=Ÿ×T¨et­ßœìï]¬”“ªâôÌ¾tA:4é,ÁJóX€<5j,Õ]Hî¬Nì	’\AIÄ’¤!n€±¡
+¼;UĞi?tHCÖ¯†™>mH…=Ù¡ÿüğÅ`üí˜†¸hØÁnKãœ=‹Âc‡­gYY·B\˜ö]Kñ¤Ç=¼Ø=Ha`ğB-^NWg?v CSh– Ñì\æ·~A^&ß‹g½=š3/ÓC6¨ÂÍıŸç–öÂşH„x”À¢>fEz–7ğckvÓn_?”­¼Bõ›¾ü<I½¸Œr¾µ1á’jg6Ú,E_J(é[4z¦„ş It2Æ´t¨æá–EZ´ÖòD5¢x­9mëóvÒ3º'|Xı÷ÔŒ†r‰<%?ù¤„Æ.˜cR”óğ[8O^¶e³=ò³‚V^Qi1•ä÷'ÛÈjÑÍŠéÂø“†œ{íñ\ŠÂéúïÓs3AÀ®–İ”îÊüƒ?Æ—(yáø
+¯ÈÌ••%ö9ÂÆ(ÛQØKğæé“åÌ„ğÄ™paÈ\íU€÷$XEcH²5Ó³óÉJé	‡«˜ÑÑ¢œxìDöK®•ÙÑ7M…¢­© Úê}¯lDMb¼¦8Í{Š¢ÌŞ¾8zâ8ëã.±rèÆËIV—–g`¾Ú#ÂêOYåZåv©ï‹PŞ–ãe&D	ZpbV|c‚_‡§¾}oúE6fø•C¦Kµş‹NÓÁW'XÒ2ÊNx/‰#Éü¹ï‰Ë}ó:#ªÖš}%¤Z‘¼;Ó*OìÊÁpƒ•õÕ8×<â
+¹½]–“^‹ãæè¸áòßˆvE'HZÀ0*æmÓm¾ˆšOsƒt]ø¹,6>c¼4ºæ¶º
+GôL)*¥»ï}Ïs{ıÃÍœ.ANNAJØ1K„cUU½Æ’ã˜Œs‹™‰æ;fºä¥Kwˆ;q!´aÆÍÓTz«ŞõsËÒPhŞ°DÖù¸Õ ŠE¥ZLÏI&#êqbv6å¨Ë,oüZ.ı·­¡â{”²4t'UgıA¯å@“|ıÈÇ5zHÇD²¨¨Cè¿)Z¸yßÓŸOä^í´QW:oÉÔdĞËã¡IØ,9µİAH—ŞzöÖ^?wV—t¸©_İ&Œ,8gÊ
+ìËxñ­Ñ0&M³F„…W”¦=è×©™ñt¯m'
+`<}“ïŸ¥kJG©*øç=apw4‰eâœ"İ«¹˜Î“¤äYs9w½´Z²Ô»ST¬çF®¿Nj™XŞı?õY‚zv‹&¿yWVÆŸb)”ûi÷0^|"0æÍìÃ˜’û®‰#vUõû¢¨Gu½ÅêÜ²Ö%º.LÜfæa3dİx÷…O*XIh­wÜ
+Ìş³~¼–g u<@qÊ—s¡ke8mÁËsAï™$1>8^äJƒÛÊK;A¢>vù›pšèÚ@:Ís‚QE ÏTê4!öôrt]ÔK³TÍ0ã¸LÆˆ.ÕY-i;-44;üÊa¸úüıâù²ÅİSœÚŒ»×!z59×cIjK…&¯[{0¶a¢7ä>) –ŠtÊÂÙ8ÑÂI ãõô¯÷¡›lâ •w• Ûjo,lÖG{ù£Vè–ˆcÄ&{#é,tµıB«Bäüì.U05Û|¦åOĞ|3q9Âßíİã¸ofG±İˆñ~8Ï–TŸÄ³–3¬~JÚû&(&VY÷Oú2äQŒcª3©ì{¦ÿ•Œ›ŠÖ×ß§;Æñ K„”ÿ¢"¬Õ®¶şÚÚº=xëŞta[Ã^¶CœsÑ‹Û¸).<işÛßôÓ½s¯ÀSÚç!ò-µT	«çp­7ŸšƒI^ô»eî™ó<é)·wÑ¡œéŞª4Ÿ¦QzƒknìS‹ÕXÒ¸v\Á¬½3yeBpÑ6~åô“ËS^3–Kg=¾4(UÎO6^<n=:Æ…N½±Û(F¯ƒ2ğÔ°|d4 \¦VğºÌú}¯†”øãôµˆúµú„^6´íšÔBìÖıBÛ8úéb‘Ù®HvLHV¨ƒ”YSÖ­‹´÷Ö`NX:Ñò÷	İb»ëVuŒô²»OÑ€I«d}c¥6Å¦x#–Ñ½Z‹Ïƒ9ö<zË­Æ±ØÅ.eÜ`ƒ—¬ge¤h‚ÚZ<ósDR=xoá«‰Z«gia<`v Ğş/fce ¯òïˆÑ¤kèLƒìßJ¯[ÛS2±ì©«ÔXWÁSU¨AÒZŸJFœ®@÷Ê¨ï‚äŒx¾µù+’š÷ú‡Š=¸£™IÜÙ8#ŸœO”›¼`4õø‚('F]3².µÖ¦1™‘™z+¾ö@Î¤Åœ^y^X^
+¶ÄC¹_‹l‚ëş~{¸fœş1š97Ù<¤‚sº‡¤›ıÒt;Å3© Bîìlg [×š{³ÅÊ˜|Œ‹t¼Õ¼‹æxBô°¯‰}wÓ!ë>îh¢à›ı4ê¦~êniÓLö]8ú}b&^•úÂ*¯¢<túÖãe+¥in°¬õ ¶£‡ˆ…Ç¼åk¥[{ÿÒJrÁúZdĞ¼J}zÎ@s@Y¡Ng"5w¦3§«$2å¬ftÖù}PÙƒmvf4€ú–¶ƒ)	1j»L™8+ÁB¤˜hÈÇ0‚½JeEÂçu¾	à=R_…QÕÉ[>Ú‚o^ Çƒ–ò·gÃ,Îg·³…¬ßƒQ˜÷ÁCüÇ+è½uDØk¹œG¢Pí¶q31ñøF7ÿ¢%¦›/tÌ`˜ı=_»3f>Ë6®Áˆ\ÿÊÅ„Eíúòuˆu¹6Â19æy]ğC½Êˆ¤G|¼IÒO0i…,ø#’üØÊUgu÷Q3¦‹˜õ|xXäûR€PV²…Ş7»lçËÎËC€Cgwœšfsú‰çÚù@87ñUÈ˜	-jøînÖ¨Ú¬¨ÂAp›P‘´'W#. ©Ú÷Ìı½³)%ÌºşÖ±Û,}‡dvƒ	»”¸J­U¾2Yµe’Hœ»%Ös9»óMw {óA8“áçÿÛüV×Wc¤|úÔÜ¾Êi’YÎ{q§> L}ÚN,k±¹ââìÎ„z×oiôøz•Ù©dk›¦¾à½cMú‡eùÚ”ïû”BşÓìòÙ û=Ûù«óf|ZÍuÄ»ÑlEÎkJW,‡ÈÅ9÷ÉC))VæNCKº˜9ÆOÓgL3­Yxe9Ò
+IÃÓ½òÚı’;ÿ·È)Xı=c„nà?°)9£áı±¨gQ°"«ı2Çø4UK
+z˜ÊSÉ ä‘H  ëäë"<ã)õ7&uük¯8Ôf}úÃcLAlI\%Ïl”Çr„s`*—lUè@Àƒtñ„µ8àš…	6"PA»d(D}XÆ9€ywùè‡‰É!K_x&³GˆÌ  µEÊ|…¥#¨»¡¡EŠŒõØAI`‹GŞN€	Ôè§uÍ«Åíİ0Ó—:AFıÂ6¸!CÓµÒ³Î6$gò+o2Íx«ñu£—îÎV’äˆPo”µë§©,`mšu<|¤$öÄ{‰>Í—ˆAÎCí[ y‚é´ßÛ ¬şz¨9]Bÿ&ƒp‘~õŠ?ªÄ¯T3DŒo¹ÊŞÉÒˆÈ¡„TOo¾¢Æ,9OUQ•ß#v]Œ¬bÎÕ÷ÆÔO9•¥i†?Ğ˜N œ)ãÌ%ˆabÙ})­ïàŸÕşy» pC¿òE'v’_3øcÚ²ÜõÉÖu^À\w|Dv©Bßª”°ÀïÉ˜\¦Si¨¤Hå¥.Èd–¬ñ{´’×oñìk‹DÓÈ6»ªÚp—>.b^$Ğ1¤Ş)2Ôîô¼‡&ás9[¡(r‘âÚmVÎİó=–ræ¯Ú“P,nšV«îJ¯|Ev€kÂZLJÌŸİ·­wZÕŠğRşÒéh#9j÷¿Ğ¹#³"o¶	WûrY\v”‹x¢[‹2[—57	S[ñp²ÄÇØmp¶…	²„+¤_A¡ğM¨[7ä½îÄßsª‹µd÷^g›âŸ=›:"¦WšèëìöF² ˜k/ÍM:iâ“á;0{Ö}˜{#œ¾V]Ó†ÃŒ§¥ª?â™°Q„®Ğ{³}¦yC8Hª÷: hÚ'åÈ`ºÈû´¤r…~xˆãş°CDİİ];3­cW‘Œ¿ÂÆ©‹w9İæ[qù£…ou_ev±“ šê;B¸´q÷½N"åÕd@7vÚs•½ayÛu ¿+&–ä)®$¢GÊRİ¶ÚÒ™Î*Õ oÊ¥˜×ÛS
+iÀvôë IzäC5/i`]6?¦ÓƒY@ÆaB]nT€ı‰³™ñMÆ¯¼UPÆa*@Öùj')aîJŞ"=^GÅçLPoXnÆXÒåTfÿ_ü\¿£Ì„^Ó½¥ÅL®ø?DÜ×;”áŸ›ö
+Jõñ©~ËÌ¶ƒ4ô¬!?ÄT~  ­‡8ĞûŸcŠD•/ÊVbò!ÉKã¨àAnŒƒ;ñ7'÷RÃ‰œ.§hïßÉíïA˜å«»­&ÜW:moÆ©"¿ø>£Ü²	½«ÀDR&25Ëe×ºVjØYÚ¯_›Tq›2ÙAéMÉúÀqVü—Ùª.,)Ã7diÒtİ¶ãGI|Õ]­‘¯ŠEL3à×#Ï÷ÆÁKldÂl&E@xÑ«¡JÉbôP1
+s£}¸ƒ_Ø‹èâuÇF²½FŞÀb‡ğû¿C«¼æ¨fFşVËçË6÷Ö­mªÿ	†l*òCÁã¯Î"O­ïöLkë:²@jtCZç¨2D%i’HÛ¬áakh
+¦ş®¯SÔãf4brâ·a£˜gHªsUší1º‘@
+õª¦y‘údú™-¬ *ã±¡™iH™êÑ&› Sóë,zrÏ4µ-F¦öFšú¦NN˜ş¯ºÔòOécc¢æ@|+×¯¾”÷u\9ÖÔ0÷$GÆñÔ‚,¨ğ†/9 ÏsPuàËŸÉ›ÌšïórVÒ¶¶¥õp„•ïxöLÉe#<—iÍ&M àûv\ßàyxÕ“˜ŞSt©K½²ıÆŒŠôô£4¾¦¦[Yè¦d“Å8»Xsøƒå²öiÚ¹fuƒ
+•0”/±9Ä¢}©êØ“‹!¡Îİß|ó°‚6½Ó„j\7˜ªBæn,R²pT]¨cÑëğÔõÊ-y°K@‹«ÁAëõÕãAéæ]aøkgT 0/ÛH)~1åv•¢TÉ¹À•G.¨qì6zmõ%NÖÓ<>_£„¦qúŞ£!ĞÇğwy&¨Ä”û$bì¸Ë´¯ƒ–§¹é4?ë8dğ ”‡›ÊM¨Ÿz)e¡¦FAêCLêok/Ó]•=4ûĞ¬zvk^E‰4_Ñ)ô"¡)ÚÁŒZÊáı0 Œiç®-Ãµñm˜Ë#YŞŒ—VÛ/|\¦ª‚‰ı˜yß5Â—ïé¥)dR;=m‰s¬6’Éâ`*G~I±8HÓáyÜ“h}_*İy“,!Êı­µ	²øPËu×lß6{Š8ßƒoûÅW¿fœgî¥# ÊSqø¥}idR|ešaLõ’ÅñG¡©1óş•×%jÓø%õd€‚§]’\éXÑxĞö„Ë8XÛã½Tl“Q\éÕÚ……’Y‹º°ÒØäiw,œiÖ¨·Æ %«"L÷] Ê|…¢ s}Ö	(v	A{…m³©	i³ôâ7küüP)L˜áş¬Z)“7X$W0…1øÖ`3n#œî·NYÛ )Œ„Ô_¶¹¾ Pj@×,³¼âƒPWŒPÇàM¼¹Úçîµ-e°aP²Z‹éñØÇ<§aÀ¬¤*“°¾FØúâá{‘½sÎ\€poôÜó¯†­nñy¿L8qä)æüÒÕÆfäNÌæ’Km¿gJ‡ ¿}ı
+üéÒ‹w‘×xèË¹üóƒK#²è=0Š“˜Œ@¦2­C¬šJ‹‘«etÄ‹U“:u‹‰Zªi–bé´Ã¬h8â±0¦£iŒ:”3¾šHŒòr\K‚‘cÏ4òÄáÌL\¶p•õ(8ÉË½¤rm½¤CÀ\Ğ÷5ı<¾,¡ÑmºRwòt´ÅRMb·)ƒÛÕ sÉNİtöcÚ+Ènm¹o¼XXæ®í® N²ötç+©*jj| ‚Féê{édÌ	\ÉeõàòãZ
+ãTLĞ À34öFñA„Ø˜\ {ôdÛŸüÕeÜ£t¦COİâA[Ğ#6RyèÁ¿{Jtä˜—!ËÒúèœ­W¢ºó©˜Mh9™Şşq«’kn·(y‹!3q¦Nïæ…Êº¢™zĞ·ŸßG¹c]§K›³/µ¥‘±<•xr0Qv©#2:]¢Q¸TŒš|}ÀÀŠkß_{É1®f<ë_z´¦KÁDãğËÄä±Ì¦ÖÖì¥–ó¢g4<?n¨V¤cglfHzÃ7¦	j_ÅIIbÔ^v¾ÓŒò´ŠÙHŒgl	*ÇWlğåG‹“c[ìÆœŸÙ4Âğ»ŸUØ¦„¤óÒÈ?‘ó‡:ÙJŞ§ìöòÓËá˜Ã+²GÔ¬„&‡­è¬6¢¾"™Z§×àå«>™düëzÍĞá Á÷]~oÑù;«£œË}H"ş¸ŒGàÄ“»:MÃ¡‚û6ï}ÿ'tŞÇFàBïìÛ{`Ú…|zÚ_›“êÖ$mj†‚İ—Ö’-`B \û(©hÎ}Ş½C	ü,½÷¶®bû]ïs
+ŸSUïühmŸ\ëç!‹ŒEF•Š‰HÛ5©SsÚ@Ïª—ñ#®'òQè¥¥œöÂ}Ã\¶Tù® C—uìF3å™ŸqÕ‰Õ·?˜½£gÅĞ­Z‡Ã÷@0İÜRÁb<ªöÆ"×_(ü>WAò‚qVØ†é±0<[h
+şT¶lÆ½àÂ"Çæ:6_Šh&[½ÓÂn­üßò îYY‚İ áE.o§:ñ!iv9ÚÛ§œín…µ,KVu<ß²·60AÔŠë<‡N9Rßk=f¾¯±Œ–.¤^·p‘dáúÚKH	\	‰ºí«,µØlæAè«ñÓï2ÎH;À
+‰WM±bÓ ŠDëcÚ¦NRu¡™xA¨I5`h*Q4rÔ„~Á˜ó~…)W™{FÀ‰òQÚ‡Ü¢á)7r£/é€Z¤õ:Ñìw‘ä¥õÕ*Ôµ7êäx¹²*}‰1Ê4Oı)ğú+ÃÑ*–U ºEl\®¸áƒ§iNU{+WTMn{õ´2ó.“ùÌ—µÛâ&Æ§œ(¸-Œ	»óG§Æo¥df` Ôëg6hÀÄ%\‹ <½·ß(¡X™ÙÀŞ½
+j:Gñ)Aƒw%ãçÓ3®/êtEv—á²¤ı{µ‚‡´÷>šu¦ZÈ%ˆğÌzÊµïği£ç®·Øcöá¹[½êw O5ÿüÙÄ\Äè]cG¾Ä“àwÔ2bSŠ€Äã)VPgœ4¡\«,vY™[ã;VÙIé'ı>=ô´Í†éş|èÉ»Ó`5ı˜‘
+ƒEÆÉR~æ6Ç`§ä‹©Ü2.ÃÆ¢ä^‡¦Ï.—)D)rÙ\ø:?ÁTÉ„‚ôm×VÀšˆú¦;©ÏÔÕ1RwĞü
+8ã#eÇg¢…u\¥Ï¤üé!‘Ñ³ŸHbc‚ö¸w†n›¹Dµ°Öij%¾›òÄÎ¥¬§>üoœµYòîÈ6{LÛzWE'cˆ81ªólEÊ<$öA¹l6öÌùS£‚›	¨µ^™ƒ„L}]è6* ı[ƒC	†t@´ÕG¿Ñ]³éâPËü¬½
+8fâà[ÖİÎÚ—C¡	ÊÆÌ¬@0ñ;FáIÛ‹çş+²úÌÏ¿wº®Õ"¢y¶Àø³‹b­}{»áø	Ş !ïŸ>=Ô²#èXñAÇáúéŒ+ÉCÈKe<OËÏxçu]w'l‹hfĞSŸRÒ¨qñÙ*Q%M[v›Ô—~]`ÑÊ2·DDCX§ÏÕÉ“na‹±wnº“ï@8Tñ©¥2`ÓZª®-İ§ÌóŠï°j ·à\•OY+1èÄºIİÓv<shÛNÌo*Ìä,È^Bg%2šL¶Ÿb^ú(iO’]K¹¼Ôq„<–ÀÕ_1SÚBış—k“X.sO{Ùº›u9ãcƒôzãïˆx¯é1[ômŠë‡¸gÅÏé~
+#„`ÈjÍ1;0âgŠOÏ Øs6U½}Û®3È¥‘ÿÇ‹Ê3ßHãåÊÒM¬ò¡±ÿÆ—C)`ø84\¢zÌáo&[ø¯a°áäÏR…9¶˜Ğ[‘+¬OaÖ‘XÙ£" Š-’”9…§Ëæz-Dx»ĞÂ%²‘á§pRù@jŞZqIS»N¿ X$İ½x[ÕPV„áÉäã¥!
+›OBrÄlä(<Æ$T£duÄ Öß5Vjí :B÷ÌZğMã"5Ú¥àw+Šœ »‘€Œåa³™Y»	¢§Ôw¿¾0,àåFë/”¼ÕÖU‚wTO}¯G8‘Ø¦ôÜé»#|"ÖüÍ­/1®c”ª§•bÇPÉ™ÌOô]øŞlpF´-¿Q—½ø€Ùh#p•ÜŒ€¬ˆı¹“Nµ[£tŠS~:/äíü”ôRÕ
+jMô'ƒ2%¥@’ú¦lÀÜç7ö<6N0˜‚kif¹²„ÀÁÉè¤½ÅmÿâÍW·Ãß¹£'¶~QÌX÷÷fÄ¼Æ3ø†D?xu.<·k‹ğƒEYPH&œ
+müÿ¶Ñª.¢±% Y·(ó®xwåÀ6iH´U˜_˜¾ßäd¹ê§„ç$ßw^å³æ¼Ÿhÿ ğ ‡_zíˆÆÌ…zŸò¥Å¡0,l±14$(<¿;c	*üÂ¦a¯­‘= ¼r]…Öú4M
+G@¸·æB½ò}~u‘“5eÈ®W®SŒÿô=92Àœ¶˜ì‹Œsr Ù;¥ïÖ–ºYf£Ò!=ÙqÕ’|ßØ±‡ÿİCd²iÆàZ©ş"’7¢{—p¯Ñå=¼Üè3#úP…äPmgÌ$¢=]=-Zìâ¯'}uöŞãx¨İ<Y¯T‹ãNEè•‰¦f—±–’¤ˆ†¸5îÛm;JŸÁ“‘vs÷E¾DÌ¼oÇªH´±€7ß›l]ôĞç
+¢Œf=[5Zf@‰Iƒúqó|ö1¡…m«¶ Ò¿ŒYåÙ?X(|–ÆfÚ…“­í“ø³† #´Ø‘æ;ù= •lé^2Ù¬·ş#;®ú(t…6Î–Ó{ám‰Ûc@JôA<ÚÂÜ'ß~¦"ü’öFâ(â‘õÉ¶»Z‡Ïïİ†’?k×ù¿Çù^İw
+Ï†´’ÕÛäJ¨LÊğ¥® ı7Arr“Ü0{Â];_~ìpĞ;wšè FQxúÅjÆv\à@>ÌŞİİ”dæ5º<d\qte²À;òş¥gjU`U?ÏÓ	èE-rÉ…¸ %©À/Õ8^)ìQİû[ÚüVĞ[H`O[3ş¼ÁİòoŒB³É÷—øÀ[Œ`µ¼¹ïVhfäUÒ^—2½?ObVNƒùqqZo*¨C¶¢Â7o”ãnğG‰±ôÙèÜL¬tŸqµÇüç{Šû t&¥“ğÉiaG4¿cd•qï[MuçùG˜È xéŠİ„¬\“©Y­¨õ13ı^eQl…éx ›ÔÇ$Ô¢Óƒ¦×âÊ$¢Ïû7z…pÚŞ¶”òrÎgÖL•©|âÒ©w¹ıß%ÃàÊSé¾§„÷#¥’l…ú<ÿciûéoüQ agc(q á)AsW^0n5ÚlhÈxÓS vï·á÷ÒìwBÁ‰|ÜÌël_v@}U3±Ò¥GÒ‹T~ìlÎRÀ¡	§#;Æªæ?ÈCóãrRÌPçÃù!¬ƒ¹¦ö™€Z7§ùiZëÿ#p"úÅ%«şÍ˜„iÿ™ÚnóÉ@¾ŞK=›[È™¼ğğÇÂñŒŸğ)ãˆM…%Q.’<^EBzÖ¡Š…–* ıé²Z04:màú*Qò¿Cb©zÀı7 Qö8Û×A<¥ÿ.E¿>7ıœ¿·±¨EşrÅYj‘Å¹__ÓÂRbæ¾ìı$Hxëİ—¹ïø8kŠ(æÆäıêşTWa ¥J½òF×mIpU3 eĞ=¤ş°ü$9ì?Ü@“q¼ñÁ ŸÍäÿ¯¨Ş;»îËŠ—w¯Y¾À¤.„Ù¬g&ã°ÒM)­²t>äÿ†uÿöˆÉælBèå(¤Ø^:/ÓWÌ0ÕÌŞÄ+¿	=ŞBCòìË2åæ*•’KİdŒ¼b"Æ›•ìÑNˆSf¿  %4°Œ,yı N[cë%!½;YIƒGt‚%ND¶GˆŞAïö¦÷N9ƒï{¥N+±JÑhÜÑ'¨€N­‘YS‘Ô°	&¡7wk¤ñîÅé%Á°õIéøp†È á_¢¥x•T:nL½››Şk&àÅ®ïC ÀrvÅ¥‰^3…ß–p£Z€`ÿù‚eL¤¯¤çë}
+zÌç;~4uHâ—Å.oÇ!qË;SÈnP€
+Zk#öl| _šìğnóÎbRº}§ ò¿ĞL¶ÙSÏqğ€x)"Ç“İm§A{8«2!C+šk
+w¿q
+ˆÉ…ümˆĞHèãÛ¼;µé°¦ È–È*\†»Ql¾M›olr-lr4pZá…A"=şç&ópàw³Ü	Ğ(©XY°Õe­\ÙŞ™*æ#–º™”uR$:='~Ü"bÀÙ÷ô£ãy€Ù;<X'À,R±–g{zs×ŸNAáT}¯;y°}j•? TT\´üÅ–Ç¶æÈ‘¼qù0L¥h%,ıÂÊ´Pµu»øBá·	ZŠÿ@_#¹ÿ†L³µ2µ{à‹rÀ‘RvÊøz]İ=æDz;<lwp§|%7ÕnÍ<mU0µ»C{{¯üß"\®¸±Tª	Äáf€VŞ«ªT¡úãN%«›hÔÆ°fÔ#K.m½’"Áw¾pÁ „à…ËîFólœ×!!Ë6È©.€È-1tÆ·iêeôÊ=1Çv¤å¤öBÀ2¯JˆFf9`¡£
+g\úñézSW;Ùà¦\sµN¾ôôHÖf.ùÄŠ‘×Úd_UóKIŸ5µs! Œ"„KÒú®ùÛíì›9†ßÄÖcÌT‚=’[wD ”ÿP€v»Z¦üÕbmÆ8NyÏÜéë-#Ë>-½^y.«I¸µPÇD=ü|ĞÛ›7©i’÷İ)¢?½
+É7<äÊ\ê¿høª‹!F ^>à­;±[´g*sõH9< ‡U-Æ©­‡‚+¤Æ%ÿ1aO–o‹xñt“Eñs¿{İŸÎirªér-Ÿ8ÿÌ·€ì-bãğÊèot#°4æf}Hàç×t±w‡öÌ‹øB9šüİSp|šì›…6:CpTE–½fv?OJ±Äñ¼ıH9ÏÂA¾ O`æ,ùTÊ7Q ^zíRğv‡
+š­ˆ28 t¨tqœ¬LU‹ü›b4¸–€ÌŸİä–ôqzÛR
+ ˆ6¨öù]PúHŞ{V—,`q’õôèÅp»²¦GÊîqÜ_ÊÈ÷£DËÛ¦6·ˆleDÏÍÈâìR!3†Ò6D†’b<…Š<7Y*Á¢¬Vzd˜Êgà»zL6ĞëWÓUXvåÑ¦i£g‰E«^'´/êûüw×÷"¿ƒçd`–šåÇyfªì4+Âuµ{°²Uåq9˜üöjËºe$•/–Ü››p7LS´2“ÑŒ è3æö#‰¥c°ëª!œõÿ•©v \&¸î¹¾€Ğ×)Œ`t¨Ùë^áÊ/5ƒSe6È¥Uæu}Xr´Ù"Ï|&Ù,Pä18›©w¤ôÖuµw¶@¥)ßI³"ÇÜutEóÌ²­	†—E3Û¤Ö<Ô#w(#«eÕƒ¥›‰Èçâ’ª”«ıª9W’,^1ê¦mHv/¨„)åáóF…ğ"Ù™[’¾iL~™·Û3ßÈ¼`s$J?€”¥
+Ô®;¹‘hŞDGbÖÓj{(İñí7ß`¢˜(='zÕ}tÛê]À°”tà¬$™^€èÀè]Sv8·¥{àÔ§Àœò¯J½²Z=¿ä¬€ïsS}MÙÆ¼JÈU5ÉQÛ…¤‹_jH€nZy©„ôÙÏr¨£Ø°÷ø¾mAªÃ¯É1Ì@•W×;™ÿC×£Ÿ¡·G“‡é@—¿(©@Ÿœ±»3W¿†Šß´ÁæÑ\+¹;ÍQâM÷‰´ICÌİêü#‰³qºÙo—…fb0|ö9q˜d©Äğ€Úğm™ÜÚºÌ‘ŞÓ»q7è–½å°ò-IıMÏî‡@¾¯-øgé¾×fEPlJ»  Úå©<QBÜ@ıj0nñ$ÖŸ)Ã {w|ü[?j-À;$°¬4Â8D÷(¹vÙ¨€^ÒÇêÈîá“t]IòãQ6ÏÀN ±b…ÿ1F=wÒ1îm»¸&+V«äF‰ªXÉüÃî\t
+b2RMÉxzäF8úEb]ztÇ)¢¸R†±fKP‰n ]®°¸pn›3Y­,Ò^úÎU
+&/ûÆEü’ŒFÜÆ|uşšJBñÃŒ2ªdY/Â¢mc>€r¾0ˆ&¬½J±ãD=98ô‚u1÷†uÙPŸ÷áKGºÆ±>Ø“™z¢JeÆföFÀH¡S¤ésÑh†’şÅôò^:ùš'|¯(´éø›áQ7ÒùçÍAzšç½EL—~Y¢‚E¨ÛÖ´v|6@•hM)pP»hØ¤ò¥èúfwÏsÒVëlü"(wÏB~l®+­¯lXaG9ÁoŠx­+}+’·C=“Ô¹Mö¥?¼ÿk\/ÂL¸;mäÇÌe9ÕŞ ¢û\qvïíòmTgR!>-št³°o¬¥lØR¯'Œ‚ø¹ƒú„$	j”Äóš}"Õã¬Tsİ^%UùO5b$xnt¸Üîƒ]ÌŒ$“³./'0pıZòN1 GÌq“j¶A ´ò‡N÷³JÂ06ÿé]¼@ ¹X§°Û:Á>;ƒ5[uRÅ¿å1Şø÷GóØÔ‹=¡¶šAÇÆékËå)¦–á|$j}P_¶ø£~úoeü©<™1ZşdúS"l&„hE#ôk^bœšç;õ`©hwü»`ççÜ>r¶³d7ÈşÍ@6Ñi¹ÊÓ¬¨öğ™Ì.¸ñ PADIË!·)Ò¹œZ@%baáÇ£dWÇ–ÃïñlÓ©şıç„4!Nßó~Úy)ëÕ€ÅC|¾Oìz=ªüg—7˜êÉ¸&h}·Ã;&ÍÙÖéK˜çGÀu·ä»°`?İìäæ{rØ0Á×ù£Òƒ2Ÿv!¥8-jDå+#ãî¦NÓï²$^¢)˜“ŠÍLÃ/iyó  v÷×pŞNÆ/	€şR)CTü*Ã½ÃŸPÏW›Í:2æŒÁ=»ŠjŠ†ĞvQûhô×j#*B±z°Œ« ŠÊØ5¢ûnºâ†øçß1¬ˆ™,Êç0mT‡à=uBÿ‹¨…iøÉ?fM•ˆîá¬Æ Xæ•–¨Ü¿õûú¤ÙÁô†ÍÙÓ­c¡ƒ)âÈ·Zğ	îS‰W¥iÁ±À½EãüçX,™ätäL?Bq88’Ş4ñÓi$oxFdOî lP-ßG¼ Ï„õ€‹WÙ¡Ô•n˜=Ïti.®–”„ÂUI°K‹ªS\µÉyGûÁí°…‹ú|ÒHjÜ·†>"ÑşoÆCİ5œ	`ÅŠî÷ßuë=”k.ŒU§&¹9Rı5
+9t½sö»£îºæõƒ4"È:xFÅÖ¹wK<ˆ3ã2ª`²¯¶ñİ*T2‹¿Š‚[Çˆ^ÚdÒ‘$Aìqe¥„¼ô©)4,ñ•‹FÊ'™cğÀ€ßRÌÛ‘¼äò…NÂ!A¸íØ‚Êÿ¡I®‰•ôq9–½›+¸Ûtfí'.«æN[£µUCšÙV:M-jÈoæ÷UEæKé‰ßØ|@‘y¢¿óËÖMÒÈ©9ØúSéà‰›™ )ÙNÍDì´Šå0iODÑÄ³;CÒà9ôéÖF ™Ãj^ÕÉnÒòu 7è}÷…ÍgÃşZÅıõ¢g•2SãBHÖËÚŸÍõÀY¢»¾lÕtg†%U{}«.&‡¯†sP˜4Öñjj;Gà‹ÏÂ"b¸ 7¡‘=èYxíKeİ‚¨û2… 
+ÒL*ñ½±º`àîq%`>`;üÇ¡"²o¡_º1·*$l™Óqş£ÏŒûWÈÑ7måv— h¦µĞ¨ÀNÔ|;K÷ŸQ~jï`@*ÿaÙÜ‚¦Dc»l¥«‚[NÜùü‡ÿ×UNô{7bjˆmA±Æä»ñ¸jĞ¦¦Ûqí|vëı_d¦ËĞéòyzmkFzóÅzÙŠj2ßB
+tŸÏ5îd¥Dã·ñ ˜ÇydaOi—¿­”#B’[“4‰2Ğñ©F…1,,§&vBÛ¿mrÛ~) k„~ÑcdÂ^ÒÂùˆw¥p^å-+–øæ;‰]¸÷ ;tÙ4% %§Ó¥¦¥LÈ:Û¿_ 9İpPş‡¯r!ø‡´ôÒç<jˆ~¡–„1Jáóë#9î³ª{Œ`KÑ=3€Ö†bäS“™›fªŞĞ[—x\Š²™rBmã0iê‰Æ<½
+*ôîsn–S¢÷Òç*ÏÊ© _‡juÑ;|¤~øJ: Ä<âĞğ°|á¶»ª"¾§ìy{_]y¯¸e©‡mÚ:£…ÿÍaÊ&9«7õÖñ„–´d²0ä}w2på—w@ ëšúİ#¥Í3÷4—ªT{ƒNò¬ Ëşg	®(14åìH´
+A2İ^!'„vD¼sÖ‘ÄÍæYz£Ì%ä&«‚Ûœ<H¶X—…Ç¨ıìV|íòÏ@+dÊ±–Õ#¨/q˜[ş»ïµHâÉù²÷x9ş„şæeÂuİè…‡èZra©
+	Ï`xúU¸‚é;¤¢¶,92!fISi'‡A¡‹²$@^ÌÏ&’@$‘@LV<°^#¼òøÊş!âŒK;”O+ô5ShvoÏÕ¹õyÛUa­µ”F·Áa^lûf^Jº¼.—¢LµˆZ˜b¯ò…ÿŠ”óŠÃw~´Z5ú3“}8ÆÑÖJ¼yó¨*ø6ÜûİõµĞƒõ¹êndôå¯TŞÑ%ÜNÌTÑYÁ1Xß¤:bÛ°ÿ¯‹±Lâñeh+Š¤.‹ÆWüìÚ+…=Il]“c¥¸õBF¸ÙİÔEƒëi”â°F^ÎËÿñJ©»›YYJ&u§ MÂ˜œkËhÌNä[bJ%8³é"^ºŞ]ß's[M¨ŒŸ6£ä¼Ú-q’agÍÏ/?Òh½õ´h#X¹æ½t÷†<¾Š› S	]'¶Èúÿ‚¯x¶•h~'?”)i+b5x1cÎ%äî¡œû·ï~•Fx‹Y;
+ô7«ÄD5Òë$O	ñ+:krlšõ—cénŠ¹2®ænŠÛ1NPYÜ,¤äõé™‹ÃfßWÀÕÆ6ÛÈœˆ1§	Phf¤wBÓQ×˜ÿ’kGÃR3ƒr"_Ä`	asÀ’
+8«#AaØ\?
+ûÜÔœ¸è×˜ò«¦!‰©.¦«ªoÑlX™dvÊ¡-Vÿí5€AwçÁVğ9û8 1¹ÁÏoÃ—“}ÿ«©ºËRi óc¥ÄúrÓuš¹Q„êƒû[r¿DĞU¬¤®Ül\Ùq¼$Š9FÌ(1ÛK Ã¨æ>‘ôÑ ¢ï†v=¯¬x1wÑJë'@wKhz× FaEİ¥–75`İa?rêÜ¤2gÍ&ÅjáX_PLLª~Ó¨íèÌõHéBoû~¬Ì¾ ¼I5†úÊÀ¤şb÷ûÚƒ‘I1~ùp›¼(	CÕGÓ ›UÏ‡·şãór¸×âm`$j%M¡¡7eoK°(ï¼Y]m!”µiäïì¾À£~Âé°ì÷"óÓ~¹‡¦6Ú¤t‚®?¸?^J‰Sò˜¼Õ^æÕì?šÊÊ¶x?œì”w®ùQüàìı—¯ fŸµkÿ7Z§àº QkCQ·ƒÈ"à
+;àcJ,à"È_oóß4ŸØl¸¼Nt ®gÖ™Mo=Wòv˜Õ/ÎµÉº‰ø´æÖŠEÑ¾f€ûkÈ-/lö§FÊ1İü?51ˆ›…Aå2İÈxúÚuÜ˜&üµîg–Wµ#vğÃ´árÑ<ŞâWto‘‘’äƒü–ôcbù+¥oBå~é(xÃTh¢cÄ]/wªĞ‚|õq'ì2ô=]úœÏÖöz´*ÖÍzÚMØùş,Ñùu^°Êî–«¦2€:VL¨ú´¦º®)v,şÓÿôaâtÒn%õ’oüg$Ù*†3ÁÌH¼Œ/tYı–‹åZåøTmHœ©K¼Óô[w$Ú{JÕ³[‰ã®Ü#¶|àB£°ƒıÇd÷½ŸFmy¸š–¸oÿ-§ĞMÀ1Q¹dE¨œeÎ]Ò²³ï>ÿH`C#÷(ş#cÀš2êwjk4ÀH›¬ÿ…{jYë¹^ª˜oìt]ÑÜ†`';ãKÙ.Ğˆ6¦Ã *‘)LEf‘xß—ë ™Âï¯¢0÷íœíÍ±Ö¹&´´läT)0èU$ö÷j¨'?ÛŞ¶>ûÇ²>lËie”µ#Ê›êÅÈr*…£„éH—Â>Õ˜¸Õºy!iò ƒNˆæ§@ô~n¬$I»×émäè£'¼Ì®‘¾€y
+	%é–ED›¢©'ÎâE__‹/ib'VS¥ƒyÎ†İb6¾yoq­3q¡¾<v÷ò(t+àÓ€0ïEƒúçAdó(WÖ«Å`4¨¯×Êá®{°‡‹[<…MÀ°ÀßÛ4Eá!Ğ–	´OĞH%ä ¥
+¡Å=Ëğ_›h¬8÷Ù¹)üc27-Í‚òšL^šGğØÌó‹hÄWY½·ƒ 	±"Í ¢î‚	¸7mïìtC´yÔ‡KÕkğ„ŒB“C7½À!ïp>-lm¦šXWKIÙ=aÀxPû2•™pHP282J),ªŒœëèD*™-[ÿt÷‰qq;Ë|}Ê’T5½SåÄ—9`c-Á±µoKX7£MäeFÏ_óf,`2’àÀ[ ÁâJ0ˆ,NáeâÃWc{¿+Pµ;è™/4šN}|F÷®jæ³ø‰EtwÎœÏQ86@±«²:©HóìÀ•^˜áÊ—™HÌ´a'–”¾–~‚Na…¹»,ä¯ı³CZ'mŒ·MoÂŠ`Wk9Æÿ›a†\Ò®…? uçÕÉç!ºæF•4Ntİv¸,*#ä¬g;å¬¾İŞş\>:¥‚WÑ›û˜ÊT	:êqÌ¤»ùûu6ÜÇQÁñ¥#,},,fÿ4&º©ú`ñn~FĞ§íƒASÒÔJAªØûcµà8àÓ' ³ßb&ÓEÃg—ş?z–˜¼YÃ¼íÌXñ1—._í”ÑTı†~‚U±ÙÎ±„wıKƒt³#_k³‘¿ô÷ÅFT!¸ª(mš._¢U2OFÈø!P†ÈhıQ~nxÊoxŠÎV"*À^‹ëî“j({ùÛĞ‹	Nõ7$bpv¡„¬®¤l>M¹É–ºÍûöü¥	ß.¸
+5Ğw c`Ü•Vø®ÑæË
+ğHÊÚû‚Î~¤_¬õÌUEÎZæƒSXA”îğçÇ÷E7­C›œ¸Î|ä5.;ÄPQ¯ï¸év¯¹cÄ…/G3ê×{[Rk+ğ5òØC¥Ac‚%Çaö¾H˜ï¨ãPgöª>ßªÉ’L‹ÄDX4u+)İ~Ci!ó²” J8á´DèçMÚ¿8	³‚í:–HMIyÂ¤ƒ£œx®´ÁR8©vó2ó±HÆ'œ4éÎ° JáÚ™&ìÇ`V;ë"#xÆô'ûœ1µPæç†áÉ$×ìQÇZé$ à»da½Õ£+ À›[b; ²Öl˜/#S²(OÈ’´øl±’kiÔÓú(zÇÀÇÕK±ø½ºvü»%• ¡¹!=K'’Ãu*tUqö„)à¦cxÌ×ô@!¢¼ÉfæÚÒr´œü†UIg¡=CçŒ<UGãv¦ÙH1yp×†V»,f¿f9>FéW÷Õû¦©C"ÿÏi ´šÄ âB4X{X,[6]ÔÚ±/›ò(µ²J ¡[¬OŒ >
+JÈ¬.gı•ÁCGAM,+]ÕGi()`¹Ãp}a'^•©›ynàşB:v=É.p04M&…?ğV‹H;ó»á!¦/o&¼æKÌìR·aŒC¹N›1÷1e•×Ó;i®ˆ§–ó4½ÜbRI„CeÕS×ºÙÊ£„Wç¼Ü¯¢$Ò6D´¦Ài­_¸â0©K ñ;¿:¦²bß-bÂÉKÀGÆ*E\š}L]CN|ºQ6ÀŠ'”Zmg%”¨Ì€ PúÛû„" ÜŠÀs¡OKî¨Ş‡b™ÊÒ8'yå #â„QRĞúw3ĞÉãõÒìô}aEÓ€Áv5€y\ ¤Ó‹ÏåhÃÏ×³ÉÀ¯zÃœì³<¿ÔI¨š¢ÿ9¬¶æ‹?ÂeÇ~'nÈıœJ–$çÂ¥ÁÆèéZÇã/.eÎgP2Öª OÇv–[ó˜î.z!4HêÁ‚{\.^]°=sò²	¨WqÅ,àç•‰•9_ª
+Å¹ê6U õÀ¦_™ŒàiØ
+aŠSHªÎg~_âÈÇ·«R;·ßº“»‘2Z˜…M»Ò$AÖ¥sV4¸¡‚h2ì¯¬••€L^ŸıédÎGË+#mNÕ<:ƒ²*ö&<ı’(H?4MàèúÀÙy÷­+l¬J'
+:CºDj29>‹Ù]x’éˆĞOÍ(WqTÎ–tU½ä‡C;f"V£oLB5HlmÚƒ~â‚°ñYêƒ_ÃŠˆ—Y!w¼ùºŠnad)ã3Â;8%K¬¦ÌåY§€ÆCâ÷‚Æ¬õ¤¿Ì¾_jtëÚ¡?	ŒÔxÇ}’¡ä´:5WÏ| ÀĞE*ıâ¤íÆ®İÑ%Îe"¥B]uføN¢¥¾{„bœoï.´ë,”´¶GÓÆÕX¦‹Âp1Éhaeç|èg
+çÓÜÅ¼«d¡]˜8u–õUåøŞ†
+qã¼ÚfËôjG(‹BD«>›>G¾%H?›¥Iúş¾ÄÈßçÑ ©[Å”_EúÚ† KØ.=àª+s]]N54Å ldeõ7	îà< ÎI‚•ùµ€âEœ¼—ÑâÜV‚&§ ËGIhÌ·Imô‚¿¿ßé¿˜ã50=c`QA×CÁ<¸Á{ó²½V-è¸d @z}«Î²#eÑe±c&¤B™úÕŒ8 ‹+¶@ ùÙß!o›'³¸•a öQ½«wV$ñ9ûëv¸ÆlL!;_¨‘¨Ó§/v¢p"gòª~xhEÈC¶sæ‹pK®°ëqwüÍ,BI€şè‘=‡¿+Ú,şj¥·ËM?#Ò)œš@ë\¬îß5È\mÑúÀà%
+RÉ[SÏYõĞ‚@I—"ıíõ.j§5­b8Ÿ>¹²Áj¥
+«!Iı*Ë>M²ì!Ú¶Ì­(…;ømÌ•OãrË˜ÑŞœùkˆ¶õWã²-	W—İ”¸åÄğêk¹ñ²i€‰Nb˜f(N|›EITÛRåQyø!ˆY,JnGŒL†äû[®=uŒµ¥¦¿ı<‚ğÆP:şÅ«»ş[]7ıv¡½sğš_zu)"Y;· à^Wü!·¥­˜ÿ&äpKğàˆJ”‡^­ƒ=öƒº_Ì¯Š
+u‘€ı*ê°ô]Ñ(øG@¸±”tià3ep/} êL°œ/àË­¶–áÜß­ş7ÓÊœºéPèUbŠ “#7niªÖÌºb›¨eAø·’@wsíÚ&óU?@ ­‘ i£¦ÀQášğŒõ “¯‹bä¼Ó­lr)Ãº)@´«Ï¸6’kïcè¡rö«4;í<e}ˆÆu¼ ÛÆJG¡qÏ#  ^©J¤ 3ºáa
+]—«N;¦«ú"íqBC|~Dn¹»âÖğÅXŞ…3šÓyªÚÖ€ÜKãÕ¦R*6İ´ˆDÉ¯¹
+Î‹wî065Œ.pä=ªŞ®ZŒn€1Èsƒü¨.0ê–‘O‚¬T¬68m€«a±4Sg“4(çÏ¶Öä¡}’[¤ÿ0¦z¦Uñbã¶Ù¢h|Ïa­8ğ¸ÿGb	>ß”azÔ´‡Z¬ƒ{š¯Õ'i»âÜè[ï=(é3u^p£(Ôjï³óV,ŠW^ç^¹_–¥Ç?œ‰vÉÖ5·j3ÒzmÍdÑ–ü¹¨„ìhÑø|AFã¿V<¶¬Z“Ú‘xbSf\ù;8ù*àšÔQ×Æ8ÏÈLœğ™¤z+‹ü²°8¨Şm)Ú'v;¼PQ3º¯›”'ï¸S	ãº:È¶»îCLj0Õ¸³S}tnø3	gıKÎÍÚ™#l<ùÏÚ™¶Pù?msÁ]Áİ6ÎD{…í u¿L"ıJ§;5ÑoêÙM6zIê êfçşï^Û:0¢Y|•W
+u°—Ô*ìA‚­‡Yl›IÄ|Ì,\ÿÍg:%Øš	Ã¦ÑŞ5áŠ’tû'#h¬<	”W&5Ú¡	È¾ˆ™éŠÁ—^+|Cô&·‡Æô5Äì¸LİFİ$è–ğf|ómi”@ØĞhpà¥%6iş´;´«¨9«.;dãªxóË½¸ÔÊ¯,ÃMn¯bs† "râjjçw87Hg5ùß<„2J¨‹°= ÛS—`M¤Ë'²ø?¸b;‹wTŒŒ‘Á² çÎÄM"fV¿^æş9!"|ÙaYIàÉ+fÁXl7yzâ‹±‡åıåÎÃMZ‡÷úLjMäÌºhtÅb©ƒkÄ:l¼Û˜Šîˆ²M'¸‹XëHhØ±ÒN:.š¡Qhäç¥øÒ®?¿€ş•PŸ5¤Z_ír¡xÍb?,“.43 ÈÃ— vmmğ=¼¤x5k¨‹.‘éFŒ.Xä/-j`I^“î«ö@†Öë¼LÕ9Ã•ı6±xaâÖ5÷¹Ø¥±¼	j"–{ßvÔıùCâ¼SXø#ln3ANx6‰&J1‘XYİVVÆ™|7¹Õıl–şÛKOl6(i¼!MëKÆ÷3J­Hº{ıçÓHˆ«³ûœåÍe>½Ú_>€v`gìjS¡yìÌ ÇêëÇî}÷g.XêH+\ùÃr©Á]:ÕÃŒ•¿¸©_ñ¬JÊĞC ÄTÀıQø‹äiìAÍ§û¡İûÿU¸º¦ÕÁo.JGµ0.¾¾#Jà8Öj„,‡¼1óÀé0gø{'ÖSz‹¯¿™x“Ó>¾Næ+é3VrS%>RgÁ
+ıÊ†gÊ6ÏŸã’/o[Ìqëğ@È{¯”ŒÕ˜ú8ÃÎtJ ²C‡ŠÍ¥.¿<zäÙ	Wæ˜il*p‰¯¿Ì{mt?ï8(´l¿Õ+¤¡Úkwİóè¹¸ó¸Šjæü¨âÚë°Tü¥Ë¶l­ SZ›}í|ª“ÁQÅ¡îª€xÉ½ÆÎ÷õd7ˆ^r:¿ê«Ìx?‘˜á*U7±Ê“Àj±Êt¯Ş@N²Ñ+£&7ÛAöìPÎ>ës€İX—Û_.ŒĞ³Ñ¤Ót
+®ˆç4PßîÕÊY07Ä€Z…!U‘¡m
+d5¸É,åFô¼ª@JšJEùü½T™xaLÅğızëé	+ùœÍc“#åQÀïËsW›“ñ\j|vn”#ÒY¼Òå¨O‹Àµj°$¸¢¡¦NS&—6 •¼0´ùêRÜò½Gš”D@È+]áÁŠ(J+g²MæüÃ˜ª>\“ğ³ˆ"‹“¿káG¯ŒªîÈaMÊ8ÿ!~ë«ÇÍÊ€®æ,ÆMÍıãœvÖ>Uj2b»>%P²øùaÒñ¸s£a¯€Êúàñ…sM®à’>QzÃ-5«/f‡¡æjç’œs^æ¡.míò£W3L”õ*qğo×ó‡¾"îVáXP\×GäãKyTõRB”˜	ÎCjmÖx®„®'	˜R‘ãö ‰aû¾;2d–=šş=€8Ë{ÛØ5êãD®Ë‡Âš¼dî©ø$Œ¥Ç9¼PŒüşSÿì‹ËW¸(ı{ëbv¹-mf#Î»ßB5ƒ&ñ¿¦yªµ™|òì9 °mM!Ìxù¯,ÊHı÷V-íZ¹mºmÑ
+ĞÜå	­ƒÉÓ+ğêM¤ˆp®b‚óhÀ}I.ÅÑª÷DäÆÄõÜ‹cé©/ö¹nKûvøá’Ä€³ù´núF—ä&‚ññWan=[‘¼¦¬êa˜)>›xï(\ :bÍ¤":éÂ2ıµ‘Íš’ß»Aµş	2’¬ùOJ5ÂËè±Ü
+b†7(MNv’À¥F¦‚C‚u@Ç´X!šŠCpY¼éôóü\?t¸Å"i'ûÏ¾ë±*$µËPÍW^6u³Ø?B¢ŠC¥ò0¡1ë“&‡å4Õ2ºÄ«EÖ³ùç¹µS@çZu<7 dDÃ'¬¡$«(_³‚%1zv6µƒÏEK?«îNµÅœ^u‘•#]¯5á}³å*)ˆ¶è†è*&kîYÎ`oÁ(±­8ƒ(¢O”6!Q«1êXàÔ÷~É¥O …lİ€+6áLV’NÄäzë„İ íßÏeK>{”{X6Hã½û¶+¾\ı¬ã9H=$é{ø×TM.Áî`‰¸= v‰¥ “×ŒUæt/ '§›j“ìÁÄ8†oRP B¥ªzUoFDdÅ8¯ª€²·«š7ÛÒ©Œ¸s›ı·dC(º ™öA<ÑRÊñs§©C7òØúŸDõ¯ªH³)>v»ïz:Ùéİõ96Ò
+^kÜ¥ú=³ŸTñ„•÷äÄÎÍ›@`ï	tjz°;Qc¿uµ0®rdÑ‡Çl‚
+G8µDcÀˆÔW‡œI]Ñë ãññlîô×>à©J‡DUÏ‹¼Z[XAGïµ”¢ÑÌÉ4cøÎ˜Øsúxã…©¤Où7}SdEĞ‘óÚÕøiÓ
+è™¿§†ñ^Á"n8>§ş­Fü"vìi†qÄãIºbsÎ¬ûË‘êMcı
+›™ö"1ˆ"oı’Jwì«§¿™œ($ÇÂ6ŞP­mUö:<9N5tê‰µUÏhƒÕ ¼n	iª˜ yå0¼Z¯”x¬%Ê§hSh'æìøÍ• ï[ ®¹.d[=xª‰d›QÔ>¤IµtÏ	G[
+éM°-g^‹5ïO€Câö(ı:Å´¦6³é‡@ª·ïÜ|H§oísvé<?äëOGsÙM~?¯/EW¾s{àÏ’­Î{î³‘™k·0näˆ¸ãQ´q½u$ú0?‚?¤à~+ÓÂlDa	¹Ïş`_©p ›•	a…¹=É'2µàZ±l6ŞƒÄ<Á`\_Îö<¹"&ÏZ*X•Ú¬H…:l™ÖË4<Õ3=lŒÿ6aEU„HêíØÙ§KŞ¼GíE0S*òºúW”ã¯îCæm5QúG©h[ç`YûD—Ø•ôéWsì´¦i§OãëAš–o¸Å`†Ø«øÖ½Æ|Î÷‡ƒĞÛÔğş®¸ğnğ^nˆiŞòãÒ	
+—éRŒbj ]‘Ö0'HŠ `âÜôJYÉuDYQÕä‡í¼auÔ~àÌaŒä9ky	¦ÖM»Â³>DÀHÑ—²ç¤™’†ÉLs¸avø™
+Èi\a×\ªñŞ/+P:}‹Ün·¢w>Bğç}z¦1k<û~N1ñZBêÙ<LŒôª	à¬"Òò«Ú•Õ˜‚¾µ–ÒĞOIõ$(˜Z0¤
+´ÆW±³^îÈË {—%ÒÑRuÑáHåÊùJÊäJvUXG¼,C%bGUéı(—Ü¢ñŒ­$«İr>¾¶(ÙòşòÈ™jÚ7`.ÊÓ„.‘)´ƒ”ÑÌƒê6¶·$qÁtÎN,¸˜ç38RÑÏ"Üº!édÔµ/io’ËLEà™Û÷Ù<©­ã=3ç]Qmµ7úc 3ƒ·Öµ3'1”¿»'Ï²#˜Oî¿R\À˜]\ÁÍÛ{´ì‰òfº“¹yOQh8¨ÖJÑÓ_e¾<V>Šìó½OTóƒÍn¼¹Mƒ m™œœ«ÃHø 
+´–Ğ]À¸;7dÈÂ“Àñ)!gÆgóğÎòª™ïÉ&ÏP¶>Tø‹wçÁŠ»;!ä<»t<dv»h(%¥ì Óiƒj&ÄDzã©nÈÛ˜E4÷%¶¼®LÏ¶1¤9PR3Gø…%@Yé·ªNhÂ¤áÎXI
+Z¯tY²ãN•UÒ¼•#„:}+ÜŠˆ2\Ê"MT`sø¡<#â«Şæ×W× BŸd¾n†ô¹‰EY{şà0ı†w¬¥éıjÔ'!qİşoÃg(œó:‰UiØô[9ì¨%4şTCÛ+îŒ»×Kşe1”+†ã÷ªŠ^iØEÖ×Ú
+LÏŸ¾</ˆmÿ'°:pª|Áœ™Õ„ùìt÷¢¶™Á×šƒrDí¡.…$~†Cæ ¾ŠÎÛ¤‘VO‚I«GõÈåóZ¥‰MT†ôqT~Çî,îGÃÌ“ÿ¡$É*?ÿ€8KRzÿïE}˜î6«ÔfBà+Üàƒ4µ`½` ²>3ås÷;¡W‚İD^ö"¾ ©ï´«n÷›ØÂL£W*ºÜms‘ÇÌãè"K‹ 5‰¤ˆ}ã@ÉñyÓİvx9˜ºáÖ`Ã´fQzå4ÎbÂ¿&¹Z£ôÂ};•~uº1Ÿ¾©èxFÔ#K••#ĞØãYÈaİBy¦â‚ª‹	­?|D»]“Ö$ğ•Í
+5¸¥:6Pğ‚İ‹áÄêç.ËÂze€İNî»R0¸	ô?½å\ìë†6XŒ¨™_@oˆ…ŒÎñÆ\±ğó‘´šŞåÎQÌÇõü¢ûïıiã¯4é.KìÎ§õúEèæÑÅ©;S™ßÌVD“Y¢¦´B†îHµtñÔ­A{º¾G?L’Ó±WÈ¬X­Ü
+ÜfRğLnä"âº×mOÚsÑn6/{¤(³†8îÖi.¶f¦‡mo ßœ*Êò´¿ $õ8·¯m@Ç– \#%I)]-%¹†!?0µ%Çé·kn3ì•ç–ïøX4å™F&—’ÆëŒ€mÙ3ÊÃG¼Q˜6Õö0U@ÇÚ‘<¨PFä¤È§Òò,ÛÒı-eúÎğû¤µoªP"l¡Uï¼<"UùúZ!¨› †Ì¸oæù­f¡±(oêfH’v=Š§$Xvh qŞ3Ìê­UÎ ¯%uÓuCì‡bÓÒø’ÃqÀq­Ri9Ü…]L­å³T‡C3ÇŒR°Ş	Ë:jn®L!ïÃ„ï¦=ÿâe¸§˜<¢çûŞ<s&@ÖìAÙ7éPg"î¦ôuR	 ¬ã­L'Üv„¡¤_ûA^îá+ˆS0â¤U›üGiéÔrIºûl“&<€_ÎÆ	ã'>Ú“`Tå‹iò_”:×“g†ââO¿ó|½}zÛ@b?GL'Tñ4GMP4ÀqÚ}ARà l¥„–ÄHõ“óã1yƒMôéEU|âGyÃn{?Ë#ÿ”ÛÆÜÉÎ”&7•mæÁ[h'§Jê‚Éƒ¸]Ú˜–¾S»aí©8k Pñ©Ë,unJø •,b‚Î?S E’h¢QŞ„Jqˆ ôÙ˜“ …ÿ·ÈÕ‚µ†{!»MLì¦UËw5wÛJ§eìÿ—ØasùÆXÛˆ"C>ğ×"<Œæ7C ˜¢ÙSà‘4‹A­öŸÉşK†c× ÿ§¶áVùÆ9#”¶L}œ¥cï…}ñ—YrĞªpŒ
+	ÉZÂ‘åç9=Æ³—éO!+_º5t¦á{{™V«àúÊˆy9qŒjYç-¢Dàî)Ø„­°Œ‚¬'è€ı|1¬Câ%zã"^W·>X\¦Şù‡–ŞÊĞîr@ôr‚hŞ«V¤È×À‰±ëß*8¥a­„âW¾oH3ãN3X“Pª‚	Šö×|:GûtÛ¨ZvÍ†¢ßÑˆœ2nåqÇ¦+ é+¨p“0HO]Ø“Ø‡òÊï4tü§IDª&)üÑä´)N'9ÂMlìÿ»Ò]Ì«b>ÌˆÂÓ/_ó•Ç¯Õ\QßéhÊ0Z$idÌr;•%K†8z“÷§Ş|høq&wõ¶£”Ÿƒ¹zràà?BI)–h•h[ãHû™™N{»”XÕá˜½±«”0$PÌ—£Ä¹Ëğ8ğ­h[PRLó$š(Î/H/4{«Ü6~ry:™Ï°–Ñ@>w]ö+aÙÔ‚q
+\@•7ğ‚kTŒ’iŸ8[ÿÉ|Ä—wqÈaÊ%íß¨¹áMv«5Ô¹ ˜N£(Wá^Yö€WüşÃ
+­Zñær1ƒš)#ÙÍ»4ªHÚ 9âŠC.›ıªxáko£¼ŞìÏ†¨7ÖWŸkêÙ8í°3g^çuÑÁ3x‘j:ƒÌ–¡›…GêßÑT’ƒE•¡à×Ã<–¨Gïk?oşS¦@¡û5•¿¹Á6«á½·2æÑgY˜dKA=ê¿ (¸ÓÂvCRşˆL_'9¼Fv¤î­@9Œ^-J‘§àS³ok]p¯v„— H…pĞ}Î™•ŸşC­ÌyróJ¡Eÿ'q]D¸RmìÓÂÒJnM¥lõåŠÊO„ù$iöÈ¾ˆ"9ptPî%›n¶ı2I]¶…º™ˆ9Fã{1M>öxÇ«ˆ®ˆ2Şˆ>7.+n¤ˆRªE`ŠLd3È÷B¥ºÄ¾w Ì[9!iøİD_"W4Œq–2'Lî©Ü´ŠM}İƒg@©É¡ıø,”‰ğÿú”CO“r`ÚH›ÎÑº"C…2{6ø@As×.äÌ+Ürëùss(®:üñT=¦6t²0ú±B­B©öLÌÉ$ÔÇÂ[…eM9kå®æÌ½»!à&ª#Ê_é|y†Öje†ù€Ö\ÃD»¼]Ö,[åo¦\ga\ÔQÀ&fvD:DË÷–³ñËUdfxËxlõÜè6ŞdVÓ¾N²5»æèbSê9'ÏÏ™¸Šl°Å¿H!n'[%T ˆgïl§ˆ Bíº+u’~rÉ—P[è$å^H½ÄÚ@=Åêöò@‘ÿÜ3¡cØ›ÒVº7ûŸÈq©7]Øs¢n^Ğ»;éO„ØÂÀòA@¢Ù¦6£vu¦KYb²æ³v­Õ åWfj~sşÄ¿œÍ¦E1øY…jAŒò„> :56— sÀÛæúü¿lÜZWˆ~Ã•áI1ö*şöA0?¢ß´ÂÊOrôç_>PûıÉïİß¦ƒ‚ EW(;Óå\Q™ê×Pêš	N1ŸJ€‡°šJhci9Øv3‚qIBŒåwéª\».&YZë1sµRÃ4u¤ïƒ•ê)ÁÎNv#,ËárEòƒdàtşÆ_U‰
+îÕnwñïq<¡¶ |OÆ’”%‚ÚğÇÜÃ©Rêú«3`˜ø)m)è‚ëêXü´·Ö5¼bV„–w!ƒJ•Uy„Pw­i­ƒw•­Ó›wÇ€XŸ%ª!W¸ñl“`^öñî9wÔZåÕKwm‡ÂäCæ¢ƒTA”o5(Y^¹©ºpÌTDÖl®ã„UìwÅ1kbú]¯ÓW	âfÄrıÑ"~:[<L%;ıƒ¥ø¬ıÄªIH0ë”É8qà"b
+ÉbL#¦#ı®®¹{Röìÿqz"€¦œ zÔ&NÒo%²¢’ûÓA¿ir—¸“+®6p”ªD!h?tB†q.À¾K0Ï,š—æË	·†·_ÚF¡FwÁ¨LNÓXvH5WÆ²àfšËhT›¿&¹Iî÷w¼ö»NèSÆ(”;ó«jùÓÔÕ?~8q¯;/í0tÑ#—L¡eÛƒ¹c<§Y`AŒŒÔå‘§A8Hùª,4±çY-×Ï~ùñ2Ê4äy3›šÀúÓ*®±i‰. :"Ånİ;Nâ"1Ë¤Øåe5tU„€¦Q¸ !¢Œ`#>^bÜîGñkîùÍi|1/[Mímÿÿâ-xÙ•€ˆ‡bÏt8Vúlk!€       €`´*                                Dk         €`´+                                Dk         €`´,   |…             œ Dk   $      €`´-   |             œ Dk  À      €`´.   |             œ Dk  \      €`´/   |             œ Dk  ø      €`´0   |             œ Dk  ”      €`´1   |             œ Dk  0      €`´2   |             œ Dk  !Ì      €`´3   |             œ Dk  'h      €`´4   |             œ Dk  -      €`´5   |             œ Dk  2       €`´6   |             œ Dk  8<      €`´7   |             œ Dk  =Ø      €`´8   |             œ Dk  Ct      €`´9   |             œ Dk  I      €`´:   |             œ Dk  N¬      €`´;   |             œ Dk  TH      €à´<   |E             W Dk  Yä  !~åÏş	JOÍa’ˆTõYB’htœŠH›éZÂi¸Ü#á={‘–?p¬ÿãúÎI¾€¦ÏÆ8[?$ïèû.ˆ¯M«Öì,¡^;ÀWQ¤ıÇ;¾?’ àL€AÅ•±ú'4+º€^³EaŒ+¶á­w!rDë}¼µÙhr<|œç»Ó.UŒı7‡+€°V~2ëM,³ÒÓ]U,_y×‚-Jï:ú «]KÓånì~Ùp¥a…|´EØMEÎörÄB²ùv¢Æ7„^]Ì $	Z÷™bb &–9y¡Bcòˆ|@¡Û1íöå°m(€6y¼ÖFï’öÑŞu¡‡•Ó×ùV 7tpêqW qù“:~(<ø@¨ïXĞˆÂ Ş¾Ğ'¡ŠvM”¨F€Ã        €  «AšCœOÿz-Œ’ >LÙ²I#ÕÛT¨%væA>#;eİA4#ŞcSœÖí™µ€
+Š 6s°¬Ü–Ï¨Î¨¿„@ŠvìşIn¸¥H+¡ºè–¢º*¶+'şŞ*±±ç°c{ôŒGû¶ßÕqfï’ı;#ˆ—lK.JA‹	İ†“m,£{ˆÕ‡Ñ¡l<ÃN:XÉ—¥	JkT4E“ÕÔÊíPZÕYyıY´¦½_;‡z-ÊôæÂà©9™”¨'E¯…¥‚pEäaë™vi¤¥o>ÖP½sH0€©çPü<³ù8Ä}»°†ı"éx²ˆqî)İiÄUfÍı@°ï*Ãb‘ù9NèGÙÈĞc7¾ùÑ„Ã1±T6”ñZŒnÅ3å›ã¥Xl• UŞm¿C}
+@îPc–}5~ä2§nšØÕ¸üT¨ù‰„n GÓ»YÊJxTÇå]æaN7-.GÈ6{µçø`šîEV*ÄÍÃ8¼IË@¨k!AÈ}Ø>()=ÁGîQ5gWWÌß!‘jC½]íú‘J Oúº×IùÚ³ØÓ¨Å	¡Ôş<½dÇ.ôpcu¦‹8«ÛPRC÷w#£³Aè9ëx¼×Å•¨æVò†6nh¦½Eº9½|%7²Nı)Ş6eÛÄ›wo!‘S4£39ÁÛuØË"í\g”³£¸ š&…J[Ë
+‰áğ4‡ølO•7š·¥_•Uÿ¡¿(	é $Å±f>Eò 1ƒ¨ó+vÌ¶ˆ§Lœ+ZƒPÍ¯fÉp'˜—Ú7ÏMßâçñ¿š»} I\Š¾mlœ)OÒn%¢–ò{ GÙxP²‰€{&^„½è\å@‘ÉŠ#D¤•W8g“A§’»Ëo” £&LdŞÄÅŒ4çÈEXóÑ%áù6İ’PÂdh˜úÑÒu@ô­‹»²c_yÙ›ÆÿĞƒSµã|­Då¤–á :îmºuñ€çÉK cïIlzJŸvá*è oC”ÏHiêcX«¬¡å*ë)ÙŠÕJ4lVaœú‚Ø·û,ÆIm€óUlì[Âırb
+%GI´XE›¹iARzj'¹Â1R¿…x>Òo}†@‹·ƒä?ãm½l¶«ÚëMßåæWÖÙ!5!î·›Ô¡PÊÿß¯í-!˜…Ş*ç5	Ìlâê©4ßzÑçÊ_H—Õt·ô]açØd‘Ìâ,³Šäl:ë·:'…\â?D5ğÀÙÑ¦_~Êç}Zµõ($|Õ[à’lNF›²O£.şD âü™|š/ô”.û!¢ƒ):jjA"¢ÎÜS8Å˜X¦«g÷6ä¬P?³ÿVÂ8)»@±”úHØ
+c_ïœ=I5<–!«}ë‹£vN}ãbŞÍzØ¢¤Ê¤•µ™½Dù}ãıG«
+=[bò¢†§FFšëräo'gù Gİ^ÇD2WÚ1rq<ÒüˆB&×şş¿'ĞŠqœô|×HMØ ï¡şÒî:ºğsÒÓÜÎğˆÕ,       €`´=                                Dl         €à´>   « Dl            €áG   
+ @	è	Ø
+	°     = p       ; q       R r       6 s      !şü|ÿL[gÂ‡5}êZğàUS‹çTĞhˆÌÈÈõ«Ğû–aF˜C© å¡dƒßê~V)ƒ/‡'—œò˜ŒA~ÒÖípğ˜«8ö?”a t /€¬ú¶€O4 sºİˆ…uXH­)Pä÷ŠY*F~Z@œ«w£tÉ’²ˆÇèœj%8aÔÿÆË5ã†´ëªrxŒ®_0æÍéÍ¢o-ÿÉq"mJN¶ò¼&/ŒùŞ£³D0Ë=/)€Ş\/‰30÷Ø.1»äéJX5%4@«ŒºoÌå® ZU 5ËæxG@ 1&¶¤Ê@ØXÔµ›#AL2ôõ ”(o.¿!İ0Ğü0Ğı™²ã#“Š1ßùT‹L@Ğ€ Ó¤>R	
+š  ô        €  YAšhs‚tCüO+gægyŒˆ¨¤–"e›?çNB}¸’h«à>*dü¦œÅÈØ	Ø6SÔÕ^Åe–ÃùÙóò
+¡  ax• €À”"P[J#z¬«neC	ÍÏ:à>Bx…IåIxkJEiø¶ƒZ›Å­²¢úl‡µËúD†¨âÖ`=ì«U2’•qğ@}¢×ŞO²à\ääğø43V/á¦WL â8ş´[e±B1iÙe¶»–©»:ë§!},¨ÈûÚb˜¸CcÛZ9‘<”6º*4}w8ß€¸:ólMÁP4ïL%c²×,…01r¨õuVâÌ%èÄ3MF.vxâU€‘;xZ šÑn&·7`$˜Ş°c}Øf‚3o¼kBÚ	Æ‰-§µ×æYMIPó{ÈÙÍ”ñµé{áÒáåöıP%;F:AéU÷	§ù­@sî³ÂÍTI#‰ğÓrNş6\ºÚ:VÁ>:Ío¦÷+[}gö,y’D¤Ï¼”Ïİ8ˆ0n+Ã¼ì¯<UÛççŞrÏ²x½
+ÉÖ…iî8 wòEÓäë3=c7í67+"ìa#åsSÍr-á$òq@$óˆ+1"ûXLI:È«0)UJ×½£Ö§ØM­¿Õßçm¹ã…-øC²=İBèÜµf-y©õH
+¥_9PYËšŞù&9ı×¦ëwb§/şlûâP’rAãn9\İ®îµ0ÅÓ~RÃÛ¥
+ê1&9#m¾‡/Æb²çòãşšpÉØÈ˜û Š"{‚<ºñ¢Å£hGˆéõ	`¤g Ybp±®Ì.EvËc²Á ”ÑZìP’ n˜ıë® \}ß§û­Š¾qıx<ç“ûK³cîñ-Éƒ	‡=®Ğhú<Wú?†êì}ƒÛp ?`6_òÀ
+¸y4ZØHgIwä#ß³­ù€Ï·F:Lìú±ROŒª)¶/Z9Køoç÷›HàAM
+J]cO^Àùa‹#×Ü/UË•¤ïleñê°ğÌ@©5–äZ^*:˜î<#véôÛîf½Y"Ÿ&…3+±;–n…Íå´g@Rß‡èq©UÒ'Eù¨ÓÏ…lx,Â)Ê±Š‚¿øGwmZéÔŞxjÔybÄw¾Eğå€Â&uÎ¢ß~ä`E”Ï¾bÿÍ½CL2"®D }ú2Š›ê’EÆÙ—ì8ê»©ª£VT9CjşfÍÅÚP
+8lSÁ5§÷	ÕQS&†©Æ¾uHü‹SÔA Á¡öÅ8 7²Ï…‚ş<Aásëa–æá®<Škyİóï¹Øb ¿ï&?Ç”L›’`=u€ÜÛ:Èíe A;_M¥­–/¤’©×µo²µ¢§n!+.n7qW:Å-¿œÅJÌÏÈDVxì_¿[`       €`´?                                Dm         €à´@   Y Dm             €  iAšls€Ÿÿs÷â|öõ$ñ»T+ÏUñ.qJE}ZM/Ê–eN!Ml€Ñ“ÍOæÆT~Âü8-D(*ì\ø¼xg]›Óbİ7Ëi£èïÊ¤j²ü{9pGkyjÉºSÒ0Vchš´5“rJÊËÓ„qˆ‰¶É ñÕ.µxaÕ}±@œÌŒ“ô)kb]"IPS=_ı¦Àø0>‘Îu }Ü_Ì‡}ÀÂ*UG¢¨V¯¥'ùr3}àšô0G¢y™WsÌbêÅ­Ü½Oh¸öèqËt»†V/9‰é‚tìã˜	È+•Au3ÚÁèYE%ú´uyµó‘W
+¯^éZfLbÀ¶&Jùoƒ	Ä÷›”qĞoü0MvH<éS7ã0¾%Vn[Ë²å òú¶7WÎ‹à,1ÄN)r½øG£W³q½^vDĞÔŠÆâtùçÜDßA JN_F¨#Ä…h¡0òívú?¢
+ƒ•+‰Y‹ğ|¹ U:3o Çf gUÚÜas¹uÅMÄ2â'´´¢×cd÷­5[k“r²½ºd¢©ä$z8¶ÅJO¤ì iXk•½8;aï¢zß_ù	îpäëS¦|…(Ã¨†î6ÍA½ÌKs°L)mˆ'u\Š¨y+¶*—®„ìá„8Üš²†PrÑ i`ã(Ğ î"P„Lµ™P º$Gü«‘ü³>úçš*’˜½¶!]øZ]$<C’Rïşºò‚oBGığ¶à±gÅ@ŞN›-â¤ík8Í˜6{|ƒø\|¾ÙÏÎñ°¤°õT¢tU›.Š,ë#i›Çú«-Ïe´ˆÊóÇd´CÎYÔ/gì×ª‰®¼³v­IÂoåÃ/¡Ek÷H¶·Rµuó…zâÿĞYØ5ÒÓ¢LŸ{Sê2ç3Ò"9r¬$çLnë^t«.|2Û‹ÿşwÇªŞì”Ë£æñtºï;+½‹XÄ•",>’×R˜]\TÈK"ÔÃ,ßÎ¯YĞc¬Ù÷ÃëA\?a¬Öí‹î@“•eôUMˆŒ–ãÙc-É8zûRJ^H
+¼^j¶±^$úÃLrOÅ¨UÄœE_‘ÿ¦2ã'£ôf+”¸v“FŞKÍ‡LÀ‹ÇK5Ğä/[¿Ó½3‚ÃÁ£é{k‘ê3ëê‡»­l(ÕÅŸ¤¸ø”£Új´¥:¿§×Âtã´I¬ŒÓ#‡!Hí¡².&,i|í‚çyÉ¢ö¸ÈÔ¦Lv¹1»»’-Ùc°b/Ò$•d~­JøûÏ½ø>ˆA	–bÜwÎÑKzçwÒéÕA*›Ÿí¸n)^:¤ß‡-ÿ)àÄFi@1ÔŞB1½v Ğògsv1Ôo”PfƒÎÛn\úAÛÎşq´jËz;­i©H¼¢«åy ¯fÖjGÅªtL›Í43+,Z-9ìî"Œ\ø ªÏêAŸ¾~„'m]ãv¿Í%S|™…´UÍà       €`´A                                Dn         €à´B   i Dn     !ÿş?ŒËÊìSáß‹ækzb‚¯Ë6Î‹¥âìÆŸ'àfF[¿u¥³Z£w[€*Ñ#m¡àª´êıÊ€®£¿ËÑ:ÜEĞ_‰É– .,Ó®WŸçaÆëp¹‹÷O/	·/}®!|J 9Ú¥"Ó*åpni[BÀ€<máxgEÜoÖ“ªª½ËÔ ©‹•WÅ»…Fyªó™ŸéuğV1{÷á‡;ƒ3†¶1C[İ¸úXãYVqWî}l,A–QÊêĞ=_‚ÓeW™œW(t LMWCóÂeWœWcw82¬¹‘­
+D36¨¼B`Œ!ñ C( +LÓq€¨ D—æ°Û÷­ˆ¯šåÖûhaéòî½xàhn‘h¬³İ¦~ø D€&
+ €ãf©DıÓvµ 4          €  ›Ašdà	ÿ'8Ç †Ïª¯ÿVy“µ|,ı1¤áH¶t™
+o¤E=jDşûÔ+'^ê¹4³²Ó»¨ ’ETûÜ¦ÛQà$ë¦œ»Sdñ°W»3;Ğ™#'İZc£óbv¬ÿØ`šát}UrCäĞ9l£×üpŞ3„Ãëåö[‡ÛŸfû<ÎOìsö¤JÿaÖ]ß?»2³jq|Bá`N¬ cu‹:€KaELU•>¼ÚÔâ‚´ÇçÈ†wÚJZÉ¯Wºp$5>zíG\W‘i.ÃB³Ga-¡±Á#WR…ÛbA ï±9(|Z¿©”ıÃv_¾d/Ï‚(€¹›sÆ“ÖæœĞç‹3"_H“2ê‚˜Œ*$êÒJc¨ŸrkBUõªÃğ)_è'ïÛÃ ƒÖ·´*Æ§sg<,>M„U«r‚ú;nEßQ.C…˜±ü³îYoÎsè.+ÿXËÁ‚›VèX½èiß	$“P·$ ñS şÒ0É8†Ó$À€´ğ„ítkæ_-Í['Z@^	ºŞÒeô=”ç~ùA<ñ)~Î“B%GÖâ DnŒ÷ˆjàmy°Cö•&«í™&[à6k2Å:PAeı¥µ½¬Ñm;¡èÌ—ê?Ş|!ìƒv6ˆ<Sğ”Î´äêÅï’b³ëÎ g;—YôBs§ŸG»']°	IBèÄQ92èil)…¡y¦ŒÁ=ä™¦ë ¯@5T'm1•LÇ$Î½½ä›Ws”=å^¨k•w‰QÌkoŠ„€ ğøH¹ç‚ÍÅzhæ&@÷Xá•¢Ó	oD¾…uï]j‡rºÆ„3z„NM‘E‡FôÇ‰’MbN¹Yß‡¾²Ïå†mÏÉĞ­·W–±Îã„:‘”
+#ê¾›mÑÌÏO<öíMËç‘ûYûF¹Q pùİÑ·È9Ee@÷T›Í¥}“ı%“q'"·Î9'°3ºÂôBó­‡Â5ÃÚş×~ë5
+„'m8	ö@S¶€J]ÑÕb(ƒäÿIú£œPA·=­f«Nxåd8-¯À@r¹‚¶É’¼5Çíéİÿ¡ég´ Ã³çôny$Ü%[Á¿9š‹Ë*.Ëƒ™O±¸ H=Š³çB˜Uš‚2õµZ²öö9M¦´3êï39¶ó4Æ{ê´“áV*?w9î ™¿L˜n+IŒ°<#ÆZ{¶õ~{ï8¾î·Ìf‹<ÿk\¶SgÃ·¬›ÎD…8ùÜqŒĞ“e.†qüÙ›‹ü3gÈ—™¥—*RûÜd’Dgõu–-!~€-¾ßÍ[€ÛDê”¨MQÖ¼à3ğ9Mƒ¦scguJsÿÌ×•ı74ïA‹Ì® ¹ ûë–[¼1àôô'¤k­ a°tj‰ú±Mì¶H„õ+Ë“Öjèmî÷ù‰uWä…ÈĞcà.‰4ºÇ~ %åWê­eWâ4ÉXÃCºF
+A/"³ÜÒ-@´ïÒnõÎ–ù›šÃDåınèY)Ïl`rùñ£Ë4Á‹>£eEÚœ       €`´C                                Do         €à´D   › Do     !Ïş½s‡L[gÂ@S†Ü1K#A%RÀTÙ$w³F›ÔMÀÃÀ_'K’¡¥6ññßƒeÜ—Ç ¾§ê› Ë•»/nÕÌ@c¿ßÇé@_Ë8ÁZÿ§X»¼óH	&½SlNM€W6…â¼Õuº:W:L1k„gbùıÚê²º¬kßÀŠ\XWŸ|—™8ÄV9DkşÒéárË-=ûøÿµmÓe{Ú˜Äò;œ¸—œmÂUç<ºªç
+Ë?¸õù*+‘§ŒM	ÉzıÊf€0ò8±V ×Øœ`áÀ1Šº¸bLÚ#w5U	U£õ`1H=:2(|B á%UV8±K@qÊ¹µ	@)l=çC?“y\jkÙw6F¥wJüsv`b ÎÙ$^Àhé€°_«X	Z#È€ù€ğ}#U(ŸÆ¿9:uj§¼„b)hÀ     
+   €  }Aš
+dà	ÿs÷âØŠûÙ ÄŒ ¦®%‡—ˆÎÚŠæZX}‚&Í“S7<¤@¥ıÎò½ÑÊ;{mÉ8Ê®ş"!AyxKx¢¡€X#zafLşƒYö!9ŞË[ö/EM)"Ù<óáKŒ­}Ñå8§8vÿèÑ<‰HõXSË+0R“³;r¢„ëÄÏª,—â†ÙÅKx3Û„ÈÃ·6vyŒcğ."È´´øOÜ¬ÜÕ^og·ÃßlUdlgÁÇôVğÆÚ9eÎŸÒ]äÓ× Ç7^i5‡“'Ñnh2	õiÍ^€ìko·ùğmK¢v¬Éµ4Æ¸ªÄ/±¨¢£Ó·Ôj¢·&mQëœ{~NPØ`šnEmºØb¥à°ÈÜñ_ìø&¯•äC©gœŒ f´ğƒäR¿äş¥swÓ’ockº¦‰z)£7~;4µ+Ñ^†?C‘¦Ï;:ÀJ4ÌçG«à‰L\ËŒ¿XïÓ@3ç0Äã%º¹sK¡Ç5Œ0 àªhÏJ`Š{ÎPQƒj”©«Q¥t1LcŸ#×6î9pA^£c½5€¿OåŠáQôÑ"ßÏÉvëï´<bûeìÆ\Tƒ{ã‚ oöQOTØítÙ?¯9ê ÆÑ!”|ù–<Œ¶D03£ûyşNihèH;Œ9ÉY*ƒÂ¹¯È„}iˆßé°ÍI5BÓØá³„@.7„Î
+­¼$QM¦§íÈ^rŸ8rÛu5“tÒpæP¥ÀAÙjÎUvDÈ´ ÷Õæ=Gœñ»ˆ$¤f0½R‹À½ü°A°ùÁFLŠ¶ú¡3@ñÈßq+<¢¬ó‡$ıa$âq]ƒ¶Vë	¨†:„b¬ÿªº7«1EÅœ*”IÀN¬Y“A:ãçìb¯ìÂ>ğ €!ˆ]sáI¹‰æz°í¾ø¼P`á'xB…oG(´v|ª‘Ziß©c„Ì¦/ãª¶9 hğ,(HœÅ“}¨’˜†”¤Ñâº†Ğú6³òpÒI¡0hÃĞĞ†*QZ´ 9İºÍú*<>-=½Ç²ï3}¦]‘·Íá´uÿ5ç°õ-º)‚S"–t:6¥^C[Sl³=Ü¡å×\Ğr°[dEÂéM¢2h_Ø+ÍÁ÷×F±õêb#à…%åsï à{§“Gšê¾Ñâ¨’1¹£ùnf–
+áß{1O°ÁfÖQÀù{šEß/Û£©Àkâ1¯&D¢z3$ê€±³Ó]:!w©w,£ÊÁíĞ¸ÔÄŠFjËÏh‘J ôKO¢Ç ®Qi„Â\~\¨íAußM_wE]ù^§ji“y/ÌÔØ§½Á$gIœ½k+fö~Ñèì‡#<Ğy¢ÃX~\¼RñC@fM"0ˆ¦>FéIÔş€Ñ#næ=šÑ¹ªÇ°¹µ“FÕœ7çİZÖHqœfF=Zé¹¦‡Ÿ‰D‹ÅİËáq
+‰İã[”È§s:é·! ¯¸jøô£Wrz,Ë„        €`´E                                Dp         €à´F   } Dp     !ÅşÿÁÊ±¬óá¾S­ô0ã-c#PØœ% P»¿šh‚iÎ2Š–Œ0ó'@:,Ş³ ^Ÿ»N@ì²sù 'Öôs(eµ£ï—!RVí0wĞºÛGí€:`»l ³[¬¤e©šŒôv¥	™˜Õò1†UÎ3©ÖÁw„Ì«¢ü“13œİÇÆ}, è>©§S¿W¼öMù9eºjJ¯9ÜæRÎa³Wğ8® /BAu¡»/®Z I=—®Ê	‚o“
+Íˆ–¯‘á¥,#aÙA
+i@”4A dIi)@fÏ(Ue”²ÎaàÍ î,+Áf"«K\ ·Fë_÷4®şñô@lpÒ>x ÀÃÂP  7 óÀ´[t„'îë¼Ä#@à:        €  ÑAšdàŸjÌ·ªÛó‚~f^fÑì¾º‡¼K,¿ÚšjYßş„EøşbtKSéİÛÿ)Œ¯ÑÀ¿E/Ğ¥Ü@àğ{Bçá“I5ëgùµ¿…7IØ½z@º?Ÿ~X´ÙiãQ1ş)<(;%Wàˆ¹¾uğXr™eÙ \ë“¹Å“l¶Ò³hÒûÛæDƒÕå`wJf®=vk]*h°QcÆ³†sÍ"9v“tl|ÌIÎÅüëoC|Ùàés
+ÌËÀe£g`íêŞËW6ôÜì±M. I/¶Š+aL|P¡_P
+¤‹ê
+0›Ò„FIP‚</×h‹‡z‰>,«p¡Zş+ã‡b7z‘½ÛˆŸY7.uU‰°`Œéò9Ü„É@nO$4n4 aFÚ§pê;×ÇZ™ïk²dR=PÚü|µóêcğn@³U’'u~§åªáxXûÉÆì—ì¸Cğ½hfüGo›q¬„Ù'ô(É@ò×=Æıæ°B©ÉˆŒ¢1é·õt¸­ãê7Àz9¨)ƒ€ã=%ÃYi½‚•‘SÚGfce=è™c€.Ş| úÀNßËÌubİ!˜º¶|—ò×¯Jé|´²ÆÁÿyM ¨hAµD”ş–CAªâ;¼|->Ø¬…1Â‹»6MW„…·e„c²îss´X¹îo)?
+ÄˆyÁZÍ0™·M¸ãs´ŞeÇ ²b~Ë*õ$çÔU ÿáï‘…‡†­™ïg‚«á„'B–xNàøMÛ»„Ê‡F‹lÌ	}p#ñ<ÆÂÛù¼0‚‰I½ö?!,Èt_¬Ùè†×D¿øO¨Ê'Ìı%š¿Aêùô„¨ÒCà#ğı_7J:¸ŠïÑ¶m#¤ğÇªUšå–mîœÀÈt<ºF1KÙÜÑš#Y9`¨Ûìi©Ú»ß¯‹w\:¿^;sJsô®˜Z`ÄôZN¬¡aÈ?µİ»Êóö*«69ãYU
+A‹‚©<WøÀ–_¤ÖjíÓşÌÎŒ<ÍUÜùİÂ!r,€MšUœFÖöÉœ`/f"Æ™“yQ1^ä?GĞ#]Çå[bauW£¡
+â<iŒE‹`;ÊÜåAÌ•Âp¥]Xoğ³KçV	Iù…·‚Ä+·íè3*Å¡$ñë{…LgØÌDŞvfLIàA.&Ì»2‘Oú„^¨¬¿ÿnOl¾)ş”Ÿaª½ÇßU)jòfÙH2 ˜J½9=yêòJXŒãŠFş1ˆ©Ü£ÉÈØÿâÙŒè$ØæVH# ù‚£Öà•@Ñãq$}iÄÂ@Š9˜4¢ïòöïê¾N^Ğ,xz=3xËE`B×Â ; C.¨#Z¡jÙ'íå¨ó½	gèMÒPF32Ê]yÚ‘¯†ÊŠ\®£0çğ°Œ¤#â{†>®Ü¹ëKz>„Ò’–ÃrSj6«ç¡:­³#_–œ‚<f	e,Œ~‚Öà‹îm¼Ë¦ Dp …IÊ1İhëùgî˜Ö97Gd÷™‹+I˜­ñÆõDc®ùùh6.AÂX´ÎIèù:³Û®4&+}C"°ÑY¹İI§ÙT`pê2òê¥h¼™Íè§t†ÕÈêQz ÿˆÕÊy¼*å‰¯b½ñ;s®ÏvÍ ~œ­Ê˜Õñ/ÙºbÑ¯ã_"Úc™½qQ£e (é<…ÜI%@éXã…¦“±9ì¾ê½—äÛrx¸º8¿WÔ_)æ¦-f`F 5§·˜M|¼uÔ÷:‡uJxùQ{á·êp—44X©ƒêÚ´ƒòÜ„,ZxûÏ±T_Äœ¶Z­'%Q#LÎhIó2ğ^®R=pWF¢XFÌ›Vn©üÄÑLGûã°5¸dá¯Cq£•ÑæÄ	éµÃ ÷¹¯Ÿ˜TÚ.ÓÑ‡E9.uĞ‰6TnÂ?Úv¹$Ë¡Xÿ,¯ò¢åÃoHûV?8àr5Í´qÓ/ƒE>OÉ;œ=h5¥×ŒŸ&zú›e!êäp ùçsáHF¨ag,âÚå®H(Å~àë˜˜sª²´}r4¹ÆæA?uup)Ö–b
+³¡27´ÖŞşˆ3§'ß>hŒí¦½EßÄôÁì2FªàØÕŞ<DN²~9é*&íá~c³Ğ±d9}×‡áÒıFv<¢6T	÷üàvŸ Š¬#ÄÛ«oRŒwxÔ‰€ßáœ^2ßjp—E&©_L%y1%‘J ­ H+ÑnóÅâÁ«Z)[¡BÍĞ       €`´G                                Dq         €`´H  \             œ Dq         €à´I  \A             4 Dq  ±  !ÀnşÇÌA¬ä+ŞÂ£ª•J®Š#8\c@å ®°%Ğ`„Â’–*.A¦Ï#ä€–ƒÿc†ç8ĞÏ€ö;ëä=h½ËcÂ‡®í1Ò¯9û^ğkuùPv]ô ÂûÜAÌ qÊ,ÈË­‰ÕjL­B
+*°­½6qJ¹Ë¼åÉ(Z1é½Ge\]ÍáYzgMSlª-»Oó,eS„gÔù®lêF®Èá<YaM ã²å„ ‚  à |R…²™®zÓ	‘5—§¼ÜÆ$_|eVH¿æ ÎS½üĞ½e"û“Å'ÕX›b RÚ¦¿e4h ½S§¬ X}k–39LaLz|” Z´¬Ü¨ú/uÛ jU6ÈÖÄ=š°ŒÈné° ~°Ñ 0 
+$¦.wQP$jÒhÂŒ@   é       €áG   
+ @
+”	p
+ 	¨     R t       . u       D v       5 w              €  DAšdàŸËG«Ö3Á¹¿XM%ö?·ô™O;´çJœxÊì•ğm<]oşÜ¦¾qíS¤o#%VÎ@ÿ§E@—àõÖ›5N;õÖK?;õ ®¿-â#1Šº%ã—/¹#ÉÚ4²XÂ2£JóÆ#ÔœJé€bL3ÿ¦ôFlêYóÕ•Á2"›0??jËs• ìÙ£›"'‡Ó-k:Ç¨Ï1“¹•¦_/¹Lµ¤ÿD|¯“ÏJJ,#.@)©ºOow)s\¡é™3¾mš¸ °/¿²d{vÂÔË˜jsƒfúµ’ÛØ#áîÔ–$IwD|ÀwQ%8Õê½Ô4(ó’OŠ¡2¡xÔOQO£‹e" æåRñ™Ğùé†Dc­¥À´ïé’CD]›ÙşÔSŞ¾î6~f_ê³8ê(9ã…Lè2{¦B)nÕr„™Üx»óJª„ä€”ºs­kô××š ¶oÁÃu{k6>As˜8õĞ1p›hrèz]-:}oÈp*ŒñEıõ8Ğ Ş¦ôGıÒïê°˜'Dd)kÑG‚kÀâº=–ü×íø·¥­XØñR¥ñy@¿,È°2
+{Qí%\=t'IÿîÙ}ë¯Å«˜ËêÎ3Vî¢àŸ½©”Ê¨Qòç01/2±™7¤şÙ u©"Àp¾w0$e¡aÏY,”üc ÏİÒµí¬Ø‘.8l§,_—kì¼ñT;Il=?®¡¶âÈÈbÈè  #¶Î+ ŠLOc‡²]’uĞ=½Á\Šì‰WÆŸâ¬‹—ëÂ¡ı¬hT¼·Nàp\M4Es=ˆgüİÿÄÇız­ĞëÍÄÉNJµ¡¢Ò¥Z¯Ô·âŒ6na9/û—YNéŞœ‘6”Ø¸»íWi)WŸ9úº©Ç 	(¨ZîæØ‹¨zƒ²Œ…Ft##Q­ê<KEm_ Z˜M'„/¢põÃ'¯ò¥w¥§Ü†¡”Ày‚±©÷X{#Íx‡:5ØˆÅ	fğ»Àâri	{Ñtl¤¢Í|Ô·ìK=µ¢oï±‹+(]«o¬	bÊ@BPNÙ>²]kİ´Ğ{ù‡ÚN_’ûãTÜL¯‰}]áİÇ¶ñ6YiËŠ®ßôÑ“@÷6õNUº½µ½øˆbªŸÄT+¡³F]ÊÆ\(µÏÊ¢0ç8Ä–HIñ×&Í-›
+“ı66H^Üİäqï›ìÙ¾Fp?“Ö$EZ½âß£ŸöE¯ú¤ùÁU\\ÓmÖŸ(é§!
+	»‘ÏÛ}ã¢BÃHHŞ¹Ğn»}q€5Iœ¨¶«G„mh«¥r¦MdF”s`
+åAí	oŸùuic%ß	g£tEB
+1¾Æ…\àÉÛ¼¯bÕnÏËşaæa4·ÎÒŸ6xóÖ€h§·ÂƒC<+â‰Fâşa›<@˜]@XÏÑ‰}¼ËÀ°ğXGnÎ„˜3ÓFæïÃhêî¡¤ÀÄT QÉššÑ¡-4€ÌğøVŞdAÓHÒ”M?X´¿x¤¢¶¼ 9§Oñ1äô!/v’7Yd%{/ü¶À\ºØf™iÄ ÂC®‘ò¸¤.t|ûâc
+~âi&ß>½DÆÍ3£ûRÕs–ÌöoÄ¹ßÔlÕ÷x˜Ç”À·$(Gçò<Fé¶{Œ‰D¼)ÇnP´,UêRfrJ+ªĞá…·­¢‹
+i8'cÍ†c³úfã½Øäiå›ˆqiåë¬ˆßáwu¨ØÅÂĞ	*nğô®%ıg0ğÈSV7¬Â/TÍm¦+Z¿tyŸ§Ï)Ú_¶×~ùğÆúÙ´_èg^x¿¤õßL¹ƒlªc*~&Øà0µáŠ$ßòD»*-OÉW2E8O®äÈgº‹ù§—Ö-nvó~)âşh.^ú.ı-•w‰e!¸k4­£‡™åÑµÎ”Ù²]qÁ„t†)BàŠšêÏè¹ç7uµ7º˜Ÿe„u<ˆ1Öófz-$$â.C™½ÎJ/,w .M]YÕZ’ïDD¾ë:‚˜'Àş(E²ß–Í……-ëØQl§:ºÿš¹N€ĞqÈæ¥ô÷ÊhÓfùZ¹¿¡Å¬Ş¸:Ø       €`´J                                Dr         €`´K  \             œ Dr         €à´L  \A              § Dr  ±  !À>?ÿÇË¹¬óáæ©TÖŞÀFqV¥‘¹7êûÛš¶·¥j (AøçÑ®Lò­…d ¿ñl€zF×È}_š ¿Ì¬²?İ¸VF®×gø¥ üÔ€tş€ a!ÅÒºp æËl9}ö2­ÁN>Ë\#ØiQ˜¬'Oßä(Ëåû#2¦Wİ¹‘™ayìı÷‡""8¬;ŞáUI*UÚy|®¬–‹wÚ½†&d¸Ñ–"³Ë?$»rçqÄïœîUjfî,GSeTŒmÓ‚Ap œJ€"KJÈ#ñ  ¸ó7 Ô3Rşj†;Û"…y ®(
+X»F·¢YŞà9ÿÜ€èà[€:9;à _°  \€ rŒƒ Í!V‰ıhnh4 @        €  ûAšdàŸiè˜ã©½ŸÆë<%îòÙô «]#¤®–1õ*Ìk³ -Ñˆ­2–D; Ëj$VÔÃ†ğ¤|V8§#Ì·ğfn„<Æ‘!V™¹É~¢†[lÃ2\M&^vÊ‚şlo=‚Œwâ´‹dâ™¨‡>¬/G³0*ÏÃK•K0ó×¨²5—XÇUi
+2ıA+ò?{æË¿½`¡Í‡N;U¦©®ß^¾õYï+7’ß560Õïİ¼FÃşCëP€Œ6g»²fÑF£}>§÷{è‰Â€Ú%èĞ¨_$oÏJYS%'2‘ä‹,&Ær}@ Nç'qÜ5L§5ÀH¦6wôıa£nDÜ9dØ|N®MePõ”wö¤;bPş"fìÌêÂ
+‘“kör¥×Š½2u·X0‘i"ÕÅ#¸ÇŞP¯³°âí²»²%9Äw^³¤ü`PNÖ­o…“zÎ(­¾¯ñ£«›%tRFá¢>.)b/M•d›m~Ä6PÒ?îqGôu2ZĞõº›9‘/qÄ#€àöÙ	">Œàº:ìešŸµ»W"tÇƒJL}Î¸¾ª ‘Ÿ
+üKÕ¨-/³ÏÆÖ‘dtt|°NÊğn>kR†,anÂG1Øm»m4pBP{=WUåzAv…¨Ş2Âê&v®A}¶}«Ÿ0VÔl”?¹Zù »òØ<ˆ•S•1a¿ùı%6UB˜€04öµ‰[–ÎQ,"W*qœTôn%PºµÎDÑ¹C&Ö¶ì
+:{×	y™Q¿Ç\±’ƒè6tàa$I©Ğºu- FWW ¸Ò¼A³Ç]è¡³Š"jœ¸%ÔÌHÄª“êšYêv<´wæW¸< iJêØ÷E§Ó¯ uØä6I­Ÿ*&€§s™nÁêÅZ 9!j¨\UBï ¤èµî?kôır!3ÚÉSPN¹xòe› ç¾0aÇF`îÅvÍ$Ô/3„)f"³4ò¨+8ÕDgß—;Ìdn:KıæÊ´9ü€â–k9ã7Ö†ãrWëÆşŠDCdYb[lmd£Y|÷¦R\z®ŞõbËTÒPµOÄáf­ıx KwË2å9SÁQ½¹I{¹ì«§¹Î8½ô<8fùôåÂTUÿàß[¶›ƒS'åê%šØ¥–ÙR|ĞEˆÕ÷@§c¡2Î9º-‘Ë‰qşÌÇ¦aICkX¤'ù
+M8¸6“ë¶¬$ÿ¼ë8M`ùA}ß2ŸZ*æŸï£½¯:y®j60Zj~±€1gUîrÆh|Ÿ_WâQ.^¥3ğ”AÒıåM×õ4Î‹éG{Ûû•ÄhK¼\!}S"nèÕFñı÷«ÆŒ‹­G¡Ç2è×^$‚¤‡Õ…¨ùå5’^b¯[N¡İ³®÷‘ñö.8*¿¡‘y#v®l>[…µ&H¹æğ=n—yIW>c‘æÛ	|_¨‚7 µöK\e¬º›m!ÿVå{ĞrgÑòJ‹©„ySÛú{4 ep—Åşµ+a;€RÂq6qşŒó×Ík:; Ü¿êl–ÔşbÒÖ½Ñws°/ysçßüû’£»‘»‡]Á•j%_-Aß’®ˆz¨¦DT.zµîLÑ#@y¸Cè²„+­º	ÁX¦¼/Çßÿé)ôÁ`ı½KŠºÚ]¡‹@7õZgÅ|¸ÚİMş¢^Öä¬aw,~	-”jÅxZŸ°sF¶XqQù,¯ï¸¼Y¸ŒAÿÒ;*}ˆÉfËÑ©›x9[ï+?ã·ÅÄ8ûl€3GËÃì|$·(V«7xø™ĞFÃğúö rŒNí·æŠ:€rpeq€b m/£±`™&T£êwÍ&+GÁú°h‘å‘ëIÅ>6Ì5åİøW ^¼¢Ú5Rã †3>ªgújëOÔêšÁ–ËÑ$ØQõSÆÕûúĞ>«ÛË¬¯Ròä,=à¥ßT0ìÚó©S=Îô‚%ÕH«       €`´M                                Ds         €`´N  \             œ Ds         €à´O  \A              ^ Ds  ±  !Ì¾ß>ÉÁ­S[‰F!=LfŠ«4ô¥×ß%H ãè‘êfQ±ã¤o¬­¢;Èe Y cÊÅ¥¶ø³ÀX @hª öPí?'æÑzó¸«LÒf@¹jü$ ×Mí/àôb€’qAÈÂ$ßÎ Í[M}¾Ì"«‘*±î:sXgŒ;·Ïõç:ŒjãŸ§ıªnLgû°ã†í´¬‰øx¥š@ÔrĞD^P…™¢!Ãè®0ÊóUeî
+²ÍY°Œñüß‚\ ÒŠ…3şÿ±xséÔVXËJ2"ê„?nÈm;Äõ,UØ”€;á` %Ì–™I—Ä"ù€€  ;‰" à¹zş•’DÑt³Ø £&7¥‰Ør>; 5rc·hÔéÏT0ƒÌ xZCí#±€          €  ñAš	dàŸiaßÂÒV~5Xl%¤á]ğí¸¢;Gèƒ{O:²´â®ZãR<—Á™¬³İ±ÃÛÅAİa®®Ì®=ß1ıj8Lô/wô!ëËxš½ŞEÜç¦Árı·{¨Å*œãÅM’í|XÑÿ	ÌŠÅÆ‡=²Â¾Ù86âænuøyi%;‚(¥€ä‹¿¬åò‰k´oË
+qY¼µÎ—T°\ç°A¢v÷Çä¯¬Ğa$€lœÑí¯ì—?áDâ–Î^jŒ¢™2…YÌW`EbyyÍ:nÅ€ApFìòm‚ QÜRìô ?rè>ÄĞ©È»‚gı¹‘¡I¬x9°ƒ­ıß^!umKlhè%é€WÔSª¨d·swëdr¨
+D°-ÔJ¥Xï‘ûÀ†= •¨¦sm.Q:ÆÍ¾œ¯X3"-û=eäß¦Å’<VïLŞ³ß(ÂêC™-@‚¤”s‘ì¿²{~A	w°YQÃæ	ëÚ¶g†”›&Jôûİ’¬©ÄØr9„Di‚^÷±¦ ë6,ÄÄÙÉ¯ãò™7,q¿¼¡G’Œ6é‹È£Ôï~øÇqñg:ó0l1U_N¶“`w Ë:YJŒ/NfÕÀìÕåçF>éÊ%{`ObÇæú•	­NDÄŠgTXoò/4h¼ävà*cÔº	ÜÊÅL¤ƒ­ş|ÛBîpsIÀ¾_J_^3!Ä+Ú_\ïh²(D+Á‹ˆ|‹¬KÇœGìò‰bm_JhÑÙHZÒôî—•ãRô²;C,¼Ü©õÍÕ³HŠoVP÷€¯â¥¢HPHàœ¹Ü²¨ÎÔŸï™ü%ìgœĞÉ'Ğ7Ù@1¨&?#×¼µ¹úµŒüı*/ğ»Ç¥ïÛvrqNœñƒÌÎ_ãĞq‚+Î –-à‹õsqênšjkuß|ßãCè¬cå7sº’]×\AğWU^·£R$n7Mm¯Ma«@ûØ9cDøíg’‘	qÄÍ“ÿ´gWR]°2û­8ì…\Fäæ—)×Iãn•÷şÍ]ú|EÜ ï‹¤IxŒK×J›:DË*ìB1Õ8¯Ìw‡|”£/í,ÚªšÑÆ¹©Zë-”Æ¦¿]O.è™›aÃcD¤àP{™#(;Oá ”ŠbL`è¦\E^êj`Nõm­hQ$¯Ø{é½eÆ*‚Cøù]ò<¥6ùJ
+‚@—<Ğ"aˆª\bj’Ø›¹Y´6 õÔ‘È+sY‘æÚÀæ%x¿¿2èÌ‡_´×yıP=o.w¾ù™Õ<!†Lo1ü^ã7Ñ)—kth¶·ï$¼ğ‹¯‹Ëû«{/kQ··A‰6ªÛ©ëtF½´§:_­bôò.ûBÜi®áT‡õWŠ‰»+ŠĞ”c¹"éuòˆÈ®!C3«¿ó,X×ğ¸pí]|3d^ÿ¯5ÍLìğ#3T¥©Ç¿?ZÛ³Æ®á€º|:À¾²vèãò5³JÚ»,œu²€kÑ…[µ‹ÓÌßÉ tRO%ñĞ½ÖÈ:ë@C~Šş ¼õò$,â»0Tãşby\ÂÖî·Å¸Zğ¸MR!×çVßĞ­ÊÃäü
+âÚb	"Tl2b‰—dDæ&‰ĞtÜJ÷sg«KTñŸŞ6	Ğn±ÆOÃ#ŠıW[%íæŸ­ƒÿ/ıÍ)p‘‘Õì.¡ ¼Øé\~v;ÿx,+8Çu•g>ŞtÊjŸÛîéùb…Ñ™!ßBİîûğàD9Ó¬øl>Sj™ÏÉs<*v^A]Šn§HÙ7ÀßF>µÆó’
+¯&K>«+æNHqÌÏèQ¶:eÒ‰‘ZqÚú#˜â™d4Úw>ÇŠ@ü|Ã3Â1¬\®\÷ŞĞ‰yxQ¥öº³oÔQéÍÓ9nÅš¶{È®üºc»UŒ„UbÍ5?u@}ÉwcœÓ¸ª’^¯[&n¹€Ø—„^À       €`´P                                Dt         €`´Q  \             œ Dt         €à´R  \A              T Dt  ±          €  “Aš
+dàŸs şˆÖò‘ïÊ‰B°ÿd¢F_¿¶È5ò½/‘ŸQ}ñ–8È«¾’—õ½Sº‚~·’Ã2Ïø´ÏÀVGîæw%G(Œ-–ínÀ6¦j†m€LÚß„ñ—2ï­DÄ—pEPğÉôˆ h‡ı«Š_SÆq^²Üâw¦WÏqŸeÛÄ•¢Úè”z»İ›(a“&ùÎ!^†Ì'èÉ9¤VàDÆMšÿI‡¨Ç»(%Ö×,ı¤(\ª7’»¸´zò£HŠşãŸg÷Fq¨>Z01V±ğe a¿h2¿°ÆˆeÒ×ıÜVÚ%Ö ŸYãèí¨lÜèªMø8à éåÅÉVâ‰5»?¥µ+‘ÔT¿S3©˜ª§R¡ëŠq‹lĞóÅ„ë÷ÌF¥³Wü›a‚aíÀùı§+×wˆúM©˜%g]æ«­'î˜w‚ÇGùƒÉ²Ö!£”ljÜäóÅ±ºê… '¨°í,'ÈŸ­±æ›&Pó.g‚8K‹¶Táv“&‘D–AUõ r_
+.ŠÜ}¨hìĞ—&ä´’·Î%UßŠ„‡ ‡?DıAqœ…|§ »ÕÀÌÏŠÎ†wg–şÎè7H‰ö‚G;ğcKäIbá¢+|!/Ø©pìLMòÉÏÔà§»„If&»jü'e`İ8Ş²²¡Ç¹¿E'ı›—naï¦%ıø.§‰é[{³î=XÓ<Ø.†‘	níŞ*ƒPaS-?4ï±Ò¤½@¥Ì¢WTØ?:ñq*(ğq>—\°qùUß:çÃTØ2%ìÍD”4‡dë2gî«‹ØÛ2ôû¾…+Ô•¨-LtùZ:kg6ƒ˜½Pğ0äæQÇg¥E¿r<+2Îñ¤ˆY¨ôµN!ş¸í5†İ?…#VïN‰Çªhqšø9fwÏz› /µôb4Ñ©İ.S/µıYãuÜ«¯ùdf•RH#©¾]ºC “²&vLÒùƒd,Óú
+æŞR`9ŞéêŸgèn°ÊHŒ¥«¹+Î+ë®¬k¤Ë[ÁîC­òß
+(ß:ñ0½H’}Ö„V5	®4*RFòHİkŠ’L¬	î[Ç.è×ÙÖLiÚ­@¶ñ\1?‹M'Èšƒ-èŞ£»ÀŠÛÄr„ré±Ç»¦F&db¸:ûÕ‰ax†’t_ÂWòÁ·¶¹ ÅJ./l¥6ö°gıÑ5¥&aD„8[Îò©¯c÷øŒö´ùöSövÒO&ìEò|{)7$‰ù]R¯=şˆŠk>x&VG—
+*jLÕ¶2g7ë7³Î¼tK'L›g¤1æ†’Àx4a)#¯ÃóÌ†D';ßKc‹Ë…’Û¢+3ÿŞ:¾ÚèE7úä48Û¾œóæ$Âª7 œêg ªWú±Èæ¾!l6/µ×V"eÆ’«d·ÇHwù“e_kÍã¹¢¨ÍH	€>|zúv¼qğHıêéï
+‹ƒã¥´ïã¡‹ƒ¹E ´ãÒ…ôt÷%€0˜´ìàô²Sƒb›®9~s}šÄA®ÚÏˆ×ù)3¤İÌ2İÊØª= ¦MŒyëí7°1]ıLÌúYª‘ÿ(U—Ô¹Ô%;ó°9Œ‹5û"¾Ry14Q!€HcèkêÑŞ…zå›{Ø¯Nbá((Œ±HØğ%©H½2ÑY-EÁÃµ%³Eße¨xğqlt–O
+d˜¾õPÖÖçl_iYelMæp+L}{u„«¿ì/Ââ•‡^sW¦lÇ‡úí@EI dÅæ¢UÙ¯¦-˜Sc-úõòâ8(éá‘Òã¯RS#Ä ÎìÕŞu÷qZ\ûô;ÜÓ7¶]˜ü       €`´S                                Du         €à´T   “ Du     !€ş?¾GÊ1¬óá	öë  m\®*ˆË¹Y« _U–€rÖ+è\ )ÿÍØGJQ5=æÙÕÉTxïº 7Âıÿh£×Äè vÕ &¹^0,oÒ] ¿ß‚	–ŒÑ:\!Ün€/“Ó@YU}¯
+4óh*ˆÎ)vÕü²ŠfÇ‰»/uûD@´ÔOñ!ğ‰\ßkü$TìŒòÒŒu½Çè›5ãeèJqİÙTÎx^Z:ş±ñ)‰Â«Ù5*#¬üÖY¦›¢ÎIÔÊg ½‘%c´*WBdFxíOu &„i1±Fñ|`@bÙ7NĞ*üòHâÑÑ¾]+(è5¿ŸÕwho7 |ü]ïÇD==è¨¼  à[É‚FÍ!V‰}i!V€Ì          €  ñAšdàŸ%ôær+oşçİ²è´+U‹Ì{©÷cyÓòÉ¡°’ÑS#>>íInjÎ^nzqxIE¶å‘§ä|Á“ê2¡¯¸ôÈ	™&Éò1FŒŠLæ¯Û/Q‚?{¢Ö¤™†¯9İö¬ˆA®©_´ÍFV(¶£añüu\Ï~‡&½‚˜ä«Ö›oHiNllıQE1«ÇñZu¶‹@sİ;(×ÔšÖZpes€åb~Å… éâ±K¦Å›y8Î0©H£x¼«¥­Õzö¹@ÅJ Y-²ÓÜ¨¥Ô:°ÏÈ£úÚø\÷Ç†ñ‹ô*69öRìJ©ª»`beJ´~Û;;vÿÚÍDNå2ËuïÂFsÂ°iãBZ„?.†ó54”µVÍ¨Ü¡Ãgb`Éå¿†hõ")³˜Î0ŸˆHô²7Ş\&š¨bÏ!™ÔT);•€ß	nìi6ÖJl§Bâ–yg9çƒ‘M„4b¼LÎ¡u›2­j‰Üdv€‹ie×*JíüWh8œ—
+Òß6§°e/{»‡Ê¸'b%nhôqûiyRs]ÁË«ºÏcşËH(’íñ.3!í[sÒ#àºw"ùa>Qãª0Ú#mY]èíôØ¢«’ì£¢‡kŸ´ŒÄZ(
+à¬Z}e §ÏÔım•èp±K6¤¡¬Åš“YŠ¯çãCåÙ]š°£ÉTg$˜Ü’Ze «õ‹cMa’Ô À6Š{<·Ò/¹î‹Ì´šÊ)çù„@ª\C¦_€)TşıÇıÉ+Ò1ixÅM4LÊ)¯h¤ $÷C!‘çF7fH¿ÒK(ƒ÷¢„¶6&ÔC	CwÒãqc©èûmUål*Á'é½»„Y˜ ¥BHÃª3³Nzö¢¾d~t4!9î“¿0–İs€YİcÜ
+à)ëJHÕTRrõPÜ ?¯xªŸ3ºIÿEñ ¦ÅÉncßA!—ÄPœ<M^÷e³iêòh’œX«—ç9¤W¢Ú€ª+³}™7A=¦Úo#_EäÈÕ$903-±şRo©ve¢Z¦‚àµ:DFf©ğş9’ÖãÈ¢€W2—…é¦ó§M`yOFGÃußt³’ES0„+/Ae{öÇlfç79§şhøÛ~Ş4b(—õ£.NŸv¯Á“²™9;
+ù~ºïùr–’Ä›ºÀl¸Jëir8éƒ]±ªFèâFD&mÅ8ÚP¹Š\)(Ã{aúzo(søéøÃORğáOæ¼m ò)—™©jÔ ÈFˆ–ûßôÆÍ
+—åù…Ÿ&@ìš6¯ŠÕİIX|½ì›?µ‡÷íÆĞš¢ÒŠM´6®[¸ƒk6UˆÊèÊ60  7‡õ›Vm<²N?Ö®;ZÚ)S½y/9´°¡¯­aù}§Ú`hÉ+qÇ&Ix×ˆˆW¿c­ù”d¤%ƒÚi ”sÊ
+ôxYMÇÛHÂ39ÜTïŞ^¤=''Z¯à?­Á%{¹ç2åVtÿe	bHívÆ!-\¥Qì$
+mÃÒ.Ô°Á#ROV&¸Mv7S9vÎ3GbÔ¿8
+pş›4ïòğ7 |fPbf³Ğo6Zˆ	¼()8­F’O*ö™ùs·åB#·ÛÅÌbN¢÷ğ$šÜ9÷şdÔ…} Æ+È°\\b2‚IÍ¯!¬†”³
+I?Xà{y-3@‚çk¸~]ñ¦Ï&ZÀØöËü]‹üİÿjZ™w“¤Ğät;üõ¡ú'ø_òŞ©Ø)æ¶Ÿ vÃ¼ã•³Ø¥Ç‡a½]³@
+€WcŸÉdW~È·ÕX^{(K×9!·„ÛuWê­èĞæ_TŞ&2¢ê¯uaV¡¾<—§E·Z,àëæöËÂx^¡¾÷ÿänÍoûUÃ	ŒQçâNø1‘­•§;¶uFl#0ÜÈ¾øÌ¤é˜Ó©TÀHœ¡è§h‚¶A`¿Gğ       €`´U                                Dv         €`´V  \             œ Dv         €à´W  \A              T Dv  ±  !?ÿÌ9­S…!’¨!R Î”µ*UÉZõî°«®,q-$bŒ’şwpæ€7ëeoäŸI0 Xµòêà ê×ĞşM´­=^yÂÇ>ë Wú~L á:¿å¸`$äíXx{ÇMœĞ\æÜ‰½şïa>4€¾JTÊ³oO3ÎŒ51ÖÑ…^}ßeÕ£Îáô]\óÇ(›æáï¬èÀ17şÇÅµ\ÂÓ§ùÖ3”®Ø\ñ½‹ƒKcr½?`Ñœî²-zz`Ma=sK»UfÃ"**ºÿç€Ú"Ñ¿a›²çë‘;N¢ú¿çØ-ˆŠûxm;İ4jğ&µ×¾1·¸Yr  &„–—‘¤X½Ç \%â¼:)"¡ˆ‘"¿ŠP[ l	2hùÜ%_İúR¡«V{A†“£ ö+ôR  lá  W‰2 ´ À€4Áp*Xƒ NûP           €áG    0
+ À       b x       D y       ˜ z              €  »AšdàŸˆHÏğçÚú¾·ØÃ\¨8mmÕ>—;Òd™Æ¹ùk(rƒğÁàŒèŠTáÍåyOŞa®€Ï¶>O kÍ¨D–Û	ŞêwŸRşvş[Í å´¶x¢†´6oüÚF,ÜÏJÜ?Ó d^®ARèXàš«ª¿öú)qáÕ(Ky>‡…ğÀV´“T™Ë{$ç¾Ey=ãêvWNSRaV)ûöüæ›ñ˜:å¢¯u±·ùy¨*o—2øDIß”³4«Á—ËDpFQíq« xÀ6»?[YoDWæ,µÑó‹ŞyõöïğRl2"R÷ˆV>1°¹ø¢ˆÛ¯«¦õã¬R¶úÕÇQÙn¡|Ñ†&T‹Lxé½0öEğxw|›+b$xóYÁò/ŸçÔwâhÔ­øÃr.Šm¸Ãç•0­ªÓôÑÆxâ·yÚ_ƒub‡œÛÈ% fàZÍ˜'Ævê>V_Ö•ëk@qš7}yC<œ8	†:×|-Ã†n/=°Àµ+w!å ¢ŞÓ¿i’¨(Úy" MkÚ>cÉÊñ
+L
+Zcõ–Ã[A‰æİfê­–otİÏëšœ1q•?`7
+_"ãùõ*µÜ²‹L´ğ. %Ó
+¬ày‚`}u¸K|ñĞÿép,‰ú	ß×Ú·œşNQ¼:Š¡Ù0bá Vğ‰UMDš…&}&ğ;¥quNG)RgĞ6 î¡jëKiQñ€ã1ÉõvÏÃ¹Ò—´OLè2Á¾8§…w”şP’¿l0!eåBäÅ:«[çWÌ
+ælğ„éÎªZÛPM‡Â(‹²v‡í«kNZq†_+¦9;	†H²Û+Ã1‹5=­õnç³½G•*¢ÏË²#Ì9òx–îP ˜>Ò‰µß¢\µ\#™NÔ­ÚØ¸’Ö‰I4¹µ³ÃiÒ²?`^ Ì"º„éLğİØ%m q|¸!9[qTğwKƒÓ^ÌÏ´ ·”öU- 2¿^ô’¯L+)T»£P‡ê±ã	Ó±E¨i¸º9Ÿä‡‹Û…?K;%¦ûY´b
+ÄT~nUí¤õ`‡¿°í¯ü«Q°;!µ]•¹íD#rÄ¨Åàß3İMÀ÷¤J15YL{úGvšÕ8ÓÇGGqÙƒ‹lÆD¦ˆ÷xÊãzàûğfÛïó]äÜ@¨¼¢0˜ °tëP¸iÎ¯yRï†÷#R+/
+­¤ñòZBç»ãÜ „!ôó”‹ö8š‡î8–^[]mÉòU<°Rõ¹†$#°ÿÏV“hày¿iº'ğİÒVåY±¼C3îŞƒiKöÍô-ìT•è>`{\eù·ƒ\äI)">Ô-+ÎİhXBy§ˆÓZ°¯Û\MAS¶”YµÓÃî•—R3gÀ‚`ht}ÆMQúD#z"áV¹-Êa5ÖWœSİÅ¯´ç*C<!îËyïÕ  #ºç¦‰«…ä¡ÙSÛÄÅOã81èDÙÕ×)Â³2Áenè†ö½î~öF—cÆŞb6©õ¾ã:2Dú¥ìN‘ä‰¢{òáÍY¢Ùvt}5ÇÊÏvaÍ;ì¥Té{vµÜ<A'÷Ì^\U—Ò2á‚ñø›k™ÆGÒiTOyÕ¹Ò ÛXç¶Ê«/õ‘5xi2Ÿ¿¬Ï$C–È´[Ââ¿Á:«U cy6ü=…XğàÇX)v¨Vg¥±ºõ»½fJG¬í¥™G'\’ÈŸ,íTQû!RÉKbh1¥³ê›ãÃTIEófï_ÚJ´ğÏ¡fØXÏ(ì/2<ŸRÉ—ñÚHö¾òòOƒ…XÆOÏF³sQ®şù(%'Û(>«-Ó7º}³ğ|ËÕEå“¤Y/h–šîUã ¾J´iY       €`´X                                Dw         €`´Y  \             œ Dw         €à´Z  \A               Dw  ±  !¤¾?áÌ)-“±  «¶Ín$H—ôüÔÎ28‹êö ŞVP¹yfÈ(é†±Ûğ0Òüê@d¼Â€¸í`M@~/Ô³ WEÒF¾°Ğ5ŠB°Ó¾O˜Ä ß€ëÑ´YÓ»ÏzyF>G®ÈoäP "aáºÍ×•çu)„s½!†¡©†<\+6[ş)àæu3€½_Šy3NpŒü_‡§W†ÉÆò¯¡ü'‰•Â^ÃO2ç+šÒäv:1h*ŠÓœ˜A[ñĞ÷m•š|4ŞÈ¤ÀX«¿`Ñ‰#<«*çpóP]@(Mgl  L	-*“7ŒOäÈd£Û 	¹åÈ< T¿°†Cm
+’«  ó´a\É@sş uL‹Ü‡œÎyÕü@"   *  XƒVëJ@(4          €  ÆAšdàŸ>ûÑ˜UŞ¹»^!K3» U{=.ŠT
+Ï¸ğCi
+´»wW¢;¦ 
+H"ÒMuz'&¢¹×P)¢]Éuj]&|Ö)>y1EgESLNf­şÒÙáØc'9;ØÏŒìÚn
+×£´ìjû_’X6&¨‹ı¿ã*kó´I]Äèx$ı »²uÒ‹"«ĞÆüé`”P¸ÕtŸHh•½ıùÊÖ8iÅ•ëf˜vtÃ–	‚cbÊÉ-Î%î, cäo1Ğ­aPĞ´÷ÀXâyáuFÇë»|€?¯0tÃœD¾Õ‘ÖjJI&H¦ïXê°8#ÅçËııí·Ì'ö,Æ·j İ=ü'ï>”¼ e?»´d{$°ÅÖ¦q”P¡°JO$šëìÓB¿J×jñ›ÒpZŸ‡ì/>ÆÀ	ƒ™.Hƒèô¡çk+ë`”¼D•2JÉ¦w«6O‰AÆê•+°òÛsoèİ ¸q½î¹˜ÎPèwîø”N‹íšÏgêğ0ÂSMBæ)OæM® a+3À,UcşÄdHµ©å<³¯}>†5H$~0¢è^Ô:`»œu—9Q¿6|#<o)LäbÉ%¶ 0ùJ¥Ñ°P±:Í5bÛ€˜e#æÚÂHN¨d¤?¨©ıÙ>Bg2—q(íZw‹€•É•kÙ8ÖÑß~Lm ç»h"í’5(¬ùâ—Óxè	•Ü¢‹î}|_‰ÊúºğSf%NºVÍ[„7Î9Y?áo}Ÿ†³^‡z[W0R ™ã×“…h2I<!fûqÌÊùqÇÜIø©’+•±ÄıĞ¬˜F³-ı½®º46¼¡ş'[İ|¯±ÚÏ‚6"Î=§²ûÆqK¾½ÎÈS¦ß¬Ô©máHík?õ}Q÷ªt2€EÆ» !<1&€
+¹ıÒÃÑŸ{i¡° ­mEğ©-{ü³…cûñKü0¬î–òÔĞ³ˆ©Şş—iëHœ¢Ğ$ÀùËÇ¬(fu³”·ÀñbW.føÇjbJ [Ä`¤D6²ë „uÄã©S¹î³”# ¦Ö!¥æ’`’òı‹åäx0c Z_ÈÏµÜ×j¦ÿŒnÛY]fşü–PXSÕKæ,(Ş†ÆYÿa{ô"Ô±Üî^g]“Ç&wşñ3}~1ÚÆÍ”ìœau @ËÉm`ùU“®‰õ%ëÅÚM†/{é-İQ¢Î³ƒ™²œ¸ÓŒp—·sRQçĞq;ç.Jægæ;sR¹˜VÕï£¥ ¯¢ÈqM¾°gx l÷gf¶™	XIššÿ»Ï81Eã¹¬d?ı@!è1Ÿü’ñqÎİ'[kmãÕa¨ÇYt—a—†ÇêhR Õ#G/ë¿¯•:Ø¾Ô×¡øåÎş\í8?ª‰ŞêiÊQ_½×!+m æ”ññ‚£S¤±¬›("¸ktœÃÔ¤ÙÿËş;Œ[	Q²ÙEA]¼÷[D&cŠ†ğ4»İÇyãÔPÈ+'©Ág ğkOu¼¾±Ä£‹0õ·ê{5Oíà5¿døÒí=gJïªü–“¡ÿ„’Ñ8WL˜ä{Ï}U“[#øI36-IÙÁu¹\L¢Üoøì5dR‚Iz³œáw¨hiú!_
+‹œ¢-·B›s©šIYÂB° MF`ß;Ÿiø½põ®ùç ec0“5ØÏ-M¯ö¯€¤¿TD(ğ¢Iö:CN-˜ şÓ Şã˜/vø*Õ@…ªú=X?ä8@‚CÚ–T†«K¦jJ)3ÄOBx}{A <®µx“l!ş6ŞâÅxß,!„èÔóN¼çª…Ó !œDŞvzØ‡·“µ­ql1vbèµŞ=àdó^{gÀ       €`´[                                Dx         €`´\  \             œ Dx         €à´]  \A              ) Dx  ±  !üzÿçÿÉÛfŒ)2ˆBÎõLQ½Ä@‰†jJ«$ Ùg$i¥oÔou¸5HË—‹^æÅÊÀ`¶½ÖX®³%ÿ“üõŸ§p1şGÆn¼.zØE×²ÿ£Üõøà5>â¸/»Ì¹*Ÿsàm¢ï1èÜçs$½[ ­9Ü¦é\…t;,q°!|C[Áõ–Ó_¡À ·¸Å¢e¾—¾ïLÃæíiwúõŸ% »—Å´±Âh1Ôûw/F)ŒUôSÙûEÂË=Úh–¿úß]ÔÛ¢ÅL³ÒåLIá†oJæ„¤eºEå¿^wMv&êØûÏqÕ†\Œõ‰ÅE2Çş;$¶7YÏòìÖã]å¥ÌB]¬X@0d¶KÍ@0 4aÙ7Ã–±îw6Í²ÖÎ!5E†
+W±Â äh  FK \ &Ûí~³¸NR+•äsìù€+ŸˆÌTÕt° Ypº@ßäjXÒ0fVB œA z n‚Sî<ö  „oßhĞƒDş‚jrZ„h 0 ø        €  *Ašdà	ÿBzqjÉù@c%Ğz·Ut/2»0Má wêH’1!ˆGØNôæÚ„‘ö]šñüÖe¼µ”ãh&m 5Üak{×}‚a5ö!»ìÀƒcÚap>šª¬İ‰ˆ—&²:KKÍp0†ßË£¨´ò‡¢½J ¨?=?6t×¡šb¦¾ÄHúÓƒ}i6ÃÇ­y9Të­¤ïUó\…Ê•xwü.M+`Rm–.á–˜P´¢¨‚‚7³¡ ¼ G„¯Ü­
+¹uIoPÀdMıM —Bnk‘òÛ^¶îÓÒıÎå¤ È`&¿Oœo÷õ™»™5½…3ÆÃÒNu¤‚¾"W:IŒÑÕö!Œä“(A‡F¾!¾«'K6#}©´§ã›ÿöL²ßŒ1ê¯+²³~ çÅ6ç†oJô/zR‘a…s¯ÎBî‰$çÃşÆ›4¦¿¥”Ïäeo:òŒÄ­aî?t·ÂÎØfPÖÕs2$'g¹HÛ?Â>–3z° ÏÌX~vâ—"(TvIÉ+'¾ò¹™f3¼ìLY¤m­?ÂVm2‹ÑŠŒF ÅŸô7ŠK!ıÛlì;”şĞ‰5ÁİKvpDTAA XrGúùÕ‡)ÿ*—ö‚ ¬‚F	ããTúf¹ò Y@MšÌ}]ò‹º!İß;¥>p}Èuà§şÃ‹OÃUÇáæ#vúOŸÉUå²Ñß†´_)[½2f@IÇåY¹¶læ˜BÙËËÈŸ¿Ã¢»ê>¸oBŸ€whó`€49µùZJ}JVU,Ó/Â?ÇÓŸf2ÂÈ»ç?zyL;É'¹Ï‘Ù)n[AëJú}	îÂhËm×·Æ†ê«»z’dÚus«É¯‚i¸iV48²<u÷éJKl½b?„3ó£^Œ9·€NsäUsıDÈ3ğ]2OjùoEÀÅà‹ˆº]QÖa,&võÆ¶çŞÏí3ñrƒÿ•µ¡:&1šµÀ!%H8‡JœXßæM8xáş“pGËëP|‘LŒ!ø¸O?Ù¼rÊn¥là       €`´^                                Dy         €à´_   * Dy            €áG    0³¸
+ˆ       – {       w |       Q }      !­ÁÏ”2 x\dˆ^€½¥Y	 eLó1‘üóC£¬wz³e2Ôçv.:QPj=yâ°&öZz4à"7rÊˆ¿|º±ö¸,o•¾äİã{ï•»ÂğøS¡[Šp~“Ñ× 'Üãé£‘Ìo˜J·áÏù¤ì­~~…S_ú~—,£v„ªê„ŞíåÌ³İĞêér;şÃ—Ô_cÃ”i³œğÏšt›8Ş»³MÇ§üÃÄA9ís½ TÿşĞ«Â@ëÿŸİ“Èƒ?ÆŠHåïŠñÍqkiôğvE%ÈÀÌPLŒ’óXŠ®êÍ³A)ÈÄQ-1Õ0€Á‰ğ‚(ë æ3–0H1V  ;ïšÚd &D–i© 
+ Mš	¤®b5B`Èè>µ1ò¼Xö6_¿èñ¿½|Båèß—æZNc 
+éóêdyÎÍKko°c$ T€‚9›A@PÚ” ó¡‰€3ù@gÂŒIÀ¸'³HU‘ß™°V¨0d Í        €  4Ašdà	ÿsØºË©4‡QÔp
+ºÑñ"š6CœÃr\ßY¤ƒ´ıê·>÷Æ…Á!8ºş‰wåS­¾œ^D.S`Ä§îÌŒß­”k½]ïõÿò`‡ r¶O'Ó=Wn™­ÎÒúè§½à¯}™îÉfÆ»zÿIı‡t1:cÔaIe]GÇìeíJa
+È3ßİ„A›ºm¡nzö6F»àüÃrhd!Rèÿèï»…Î”_ßš•\nD×Ç:Df‰j?¢ç…78ÈêçÓ7÷"yé#°¸cë®Z¯v® Í¼Y-‹ïù´Ş°Fçh®«Ø%7dœ`†Ï½[:†~)–˜D(gyˆ-WgT:g]‚ÅğiY9€aÀ»¸°ŸxÎÿmQDR·™À½.¾i1Œ[ıb¤ ½ÿ¬ô°É=ûÓ7Å‹8UÔIÍ]ıŸÓÓ\ûHvíEA–ÜÙãT§-Ïp¥òH”ÜkZ38è¼êú¦µ¿D`Ò1–ıË!ŸÒ[b-\Š›İW3ÿÖĞÍv1m:B+İ´îÇpÁcš:£z_Òï!“&€º„2*ş+ïø1<$4^µ–õÛĞ*q<!ZF<)owbi¼éáDMùa^ÈG2#ÄZ÷÷Z¦½=¥ı‘°1gh‘Ş/p¤úË”•ÎT›
+şøTÏ"íÓfv¶´Äø51%À*—$¯^bœÂïÂÛKU òÊÀÃˆsŠıˆÒ¼÷ÀüÒµU4Ï±Îds "i"¾qŒB¸WëÒäóÁîÂ?CfVÊ *NGßx·ÛÒ¡EµÅ·oVŞ0+‘¿I‰İÛËJOÜsi’›¥Œ»Â=lê!àû„4à_ÅGe¦DtÊæ:óËÜŠ†]UVg€’L]oÂ¬‡1M¯`¶A9º%7o‡Û­rórƒËÀŞMTz:WÍÂ5jZ¿r}ºßT4f^V)<~êcÈj^æ{Ïğªèj:Ì<sÛRÍî;	Ì˜3Zd0^	;—L¸€×Z‡Í°ö×c}‰ÄL”„µ/-ÊRHò=şš7ø<Ç7P       €`´`                                Dz         €à´a   4 Dz     !ÅÁåaH”‚Íó!–WØ]T­TEH Ôk$†ŠËÕQ·¥ ·\…Z¸Ò…i±M±gcç¢”	FP#U(ı.š{MƒjAÕûQÄĞı~ãg*Œâ¼œŒzx•´+_Ãvï¬$D½T@­˜çÃ‘õös„å–‚³«G#	YÛç†—a­«³G·³$æ*©e[v€J@é7U5É:¡  }@EDÀäË‡ñë~÷%ÅoĞßå8øA¿S/S¼ş?K£áİ]E7ºÜğ¼®³¾wëû;mÆ£=Ü§9—ÏŸğìª ¢û~Âºè´jMá)­=3×3åÏ|~WßNÏ6jêé1”Şwğãğ &ÖyI¡Â@ £'–2F¶pm@7‡taqª™ôF²Y@(P?ÔmÑÃîÑÿŸ´ó}hÀ*x¼Ñ=¤’}Š€…ƒd î°ğ”€`Ài®AM ½!uGô‘×€          €  UAš dà	ÿt>b‡Z3Î]„Ef†}¿íÅ5&ğ ÷|I¥ıUrú¸Ÿ'‚pË|÷ÒÂ<ü@Û§î &+,¦¦·~¥•K0éê0ñÁ8¼Ÿ÷ÏÏÍ#y¼©.ZEŸ7¼hDØG[á´s¬Z‹8Õ÷ƒi$ı­sÛkjÅµıæm-~ã4±cËUÏÍù?w%÷ÀüÅÎ‘,fì¿x±zV¾øT¯·{„Œ èÏlû^ñè*ÿöfšL¼RşU‹E §02¼öè.@’‚{0´ØûæĞ&kÎK«>8ã¼…5İqa^$…ü—c[¾#ÓÏ "Ûç`K|ÑœG¹8¸ ²2‘ú ët‡‰)±8¸LëlU_8ø%j‚å^æpÚR‡Á&wzÁc[Woë’+½úå}7R­Xº]±D$°ƒÕVvFÆs©Ñ‘U¡® ¦¥–s3]Å+‡-3¢ñ]!pÓá/]@Hìn‚½Ób¾‘u?(?×e¼IÌû"¯›1‡eånÂ$Jşa§‘6º˜baÃÛÏ7YÆœ„Í3èâDõëoX€UĞ¢f¡T ûÚ^d£P_™áÏáÃe}·©÷o¨jfh†Üås¿0¶`,Ú”pëtsŞ¹%!N	®H¶/ó+“à5º;s›-‰€ë/s­–U­õKîfÑ Í¶ÕmÙ’X04ğÂ9ÓÕérŠmµƒB.sürİ	ÀhJ#Lû¤*wüO Dğâ`¡2ĞñÑ¸×ÃÅxp ‚c•^±{ßp¦€C°4î=×cxqÇGP™ÚÀâÂ®½Ÿ$ö
+¤ıùu•ÃåÀx·—uôMaÈTT—“P,×qôoÿÎçFl8’ŒK0•AñÁ”ÄnD‰,ÀÉìÏªÌ~\H†˜73Ìà?-Ù#ï•¼ªj)şƒ*s·M•o:İwz7SìøS½³¼´j°Õ!ƒ¤ye¸M¼¿†È–o©‰r(Öp÷Ídl:Ô1Âz¡óÙ‚ ¶ÚPz;¸G1Èç®²É›=sİÛ úèb6ïØğóØ.b\ÙoU0       €`´b                                D{         €à´c   U D{          "   €  «Aš"dà	ÿÿ§Åcr¢8ÅX 8Ö=¬,~Ÿ)-§ü»¢°ò+AH¡3ùœQ·T VÔ#nyY‹İB‡şÉ ­¥!? q)Ş.ô`Ú9eßœ×Dj‚kÆNµpÑ^Iº¯2ÈÇ
+[EZîVL'İøwµ/ƒÅ”©¯CXíK±‘ÖŠ!ö³ğmxÆuö8Dß4ÉwÉ«„a1²åu;PDì&bw2é€¦±àU1WoFo²7æµê$W¯y²ôãºôîº%:m¼â²“í¯Ú­™;,
+	¨û=»ş h÷U“€ûƒrO$·CW'ÒJí¼níé‡åƒ)•bØm.ŞØ¶¾QõÅ}œâ‡¶‹vùÎİ˜%¢¯ÛÜ×şªl¢©×Ÿ"† /í^S¬¤ƒû%°q¸{iMHó…^Şa·–èoÛŞkNWò‰ê-‘°‰Û‘!|—‘C}¥ëšs‹° å3ÃÓÛÄWî¿Öü\6PÈv³et2>e%×í ëğD7,Ê—íËÑ»¢íA¡?‘G¿z@ÄPú°ò`CßÏyîÙ+èÆÊıŞøÕÍ;´â:áÊÊ÷Qcü×ÙŒˆ`rçâ¶M;ÌJˆé)cœÀİØ›®Ôy;ÏÅşÕAÖ¬©ZÜ\múîš¡äTîv˜–ÁYv¡¢Ğ*søK|ûƒ“ÅÒÒÌ!¹ÍÅÖ1ÖTkº‘T”‰±à©ûñêÏßˆ¸ÿ’CJM‹õ…GØ39ÙÂ¿†¸óÅf”;”Qöó¬´Èÿ‡©`â>ß©$KÚBwêÄ=íô¤P/€±°Á$×*gcOÎ±4Ô§=J½ÈÕ`éQ( Î¡r£C°­ÿK¸ùA¹uhiÙkRw8öìĞòÌ4¯&¼$ä¡ëM4m°aÿQt<~Î¾.şÒ­ù3«e3Ç¤6U[b…1°J¸Í++›MÁ|Ñ3©{¯t ¯GTZi7†ÃÀ´1Ô:‰Š[§7¶´ª£tm82B<oÉ#ú¤˜õ]x¥a‹WË<àmdWÊ¥,a¨ ,K¶^H|K% O@ş»°n)eM0,ëFÓ^lÔu}~ãºkÔœ'é‚±ˆlù—Ş=ÔÒW>#‚"ÊG pÏP5ì8·…ÿŒÁ_“tBßi¹à›ë!œ—„êNí³ò„ÖÆDuÄèFyğ`¤Ê¼û™ìò>«öV+Æ       €`´d                                D|         €à´e   « D|     !½½ßavJUK-.Õ¤‚] 1)®¹¡†Ëğ0K nƒ…„E,[Ø1Úbv€ P.Šÿ˜
+ë<óŸD9ÔëW“GÁ¼UthÆ§ÉŒH­M±Y€2®VËÀ§–~àih:!h 1] VÛúŠ®6Sñ¸µ=\’ÖŠÂ(.8§B£3âéÍóÈ€¬º|¢nfª2z^}(ë¸Ë8úQy7zçV^¿‰­ËÊUœÉäÚ¤±©¤ğ¶$ 0NĞ‹¬sÆh,O»ÊRİ¶loÎs ªW•ª{öæˆİ9Õ‰’³;º½>“¢v &%¯ U¦X– rw·Ÿã¼}ZÑ¬´ç#Kÿ»¤Ôÿ±Ü¯¿«şÊ¡7ÓÀ²ÛA¿•]G8ÑÎ A¡   7  /ãè‚Áéöˆ.±A³HUR=„•¥ ¼b Ğ     $   €  àAš$dà	ÿrÌ Áb¢‚ÎaP•Eºg¶6è©*®"P íô$á0b¡U´}?7c0µ#¼àwÌÆB°ijW1@®bdÄÇÆ»û$µ¯ ô´µ´(‡— ./®nÁnÅ±P„+qqş(Um£B.$‹W'E[
+Ÿ½Ô»§e‰x\/!hB«2+˜å—•Ót¾nÊ¹µõÀãZ77ê­º@qé@vK ‹q—ÀÇÛQiÌıNĞ?ª‚î‰äù¿ƒ¯8ˆ6+|l$	Q©Rš>Òf.r?5¡_¦Ë³ı2#Àè™wvæ¸X¾É „qhö"Y$i.~S	ÙHÿóÑ(>jì‰ HaKËn™@µ)¶tèÖ•]Û]—Æè¶k`•_›‘åÃ?{Ë¸fd‚â±Z¤Zİ˜„86KXXÆdìºÿ»³=˜ïel:dLöM|ÿì­¼“óğŸÛ6Aá‹¶öF0KÃ‹QÒ±â¸äÛ‰¾æÛ}s~àsı0Til5Y™”› m'YÕZ÷ ÍŞ-[X 9“R£Ñú‘­Êv‰ìôaj´Ô>üØJ¢^c%Ïó¡L7ª ¨c`‘qq,'§7YXuêJİÙ<7ÉÆ5UE$:2ÕjAÓÛ5r3Ø'ˆ°HjÒe­Y‹zW¿YjQ»¾'û	[î‹ÈXAšÍéº-Ñ3`©róUúÈ¤é8ªş£ƒY­¦‰·’Ò=Jyò$“oøéÓÁ‹ù/óiÇì>¸cZ3Ó“Ğ@pû`/4Åîz®«Æùúí* Û9ƒõ_:8Ï¡.PF…¥Wy°¾Kèx‰g,ÇÄ¨¤Jw–Î½®NŒ-v³_u0Ô,µ±Ô¬È6&fõ3Ïò
+$TéÆœ L‚aã?òÅ7w^H—,¸3”íG2 %-?$ZñZîhÔ•ÆB;nñ        €`´f                                D}         €à´g   à D}            €áG    0
+v
+ØH       N ~       [        ‰ €      !ş3ÿ?ÿÉÛg*4…˜Q¶E‰vÜ©W¥n]Z«E°m¦y”ùe)T`{œÚ+ĞîvF¯Ë(9öÕ³tD;¶¨v_Ëé_! Ôé ¶`]€€µid®óE^àRŠ®¾yM…Îeç×õ¼YÏZYD™óth5Œ@&­%'Çã¸ü‹wùaPËåì´S9Ä#‘Í›äeK«5úiÃ8ÜµÛô¹­¥ãÛÈ­Ñƒíü<bkH¬íòúªn4¾,÷ãó‚¶gp1sÉ$ ¾ßPwxR¡E¿æ¤¸wM;9éº©Ç>o@C¦a_°ÂÍX# 	×e„EaS	|N#8İÙ’©ÂFW°…ô0ø›jtİŸlüï!7ÕxûÈ ;©{Ø1ªı0A 0K´  ”`€œG–P  å‘5éªK±Ø­q t     &   €  ¶Aš&dà	ÿÿ§6Nóz†ÕÄbî0tª
+[oÄ’rvg2aáõÅé”@_Û†ñı€£(Õâj¦ŠË:\ßTÕ: ìÊÆ¬Lèi90ıÁ4³òÃGc~Mà¥{TBÄ¸}ÖÂy^T}¤ÑÅY¬‡gtµkËÿÖĞ£pÚ‰bËËÛìmy~Ñš³ø÷=oåâ1ƒhEÖS‘fgb>ÌCS¤
+9ãáZ6 ·Dİ¬SQ:Ö«bßŸô$Áô]İ®ã·r¦Òé°L!&ºA5uAo	‘¿wVÚôaMw‚Ni£¾<4ºâ6F´ï4®§ÿ(HïDÙRƒ^EDÊÇÔ>R‹!xî©×ÛûcÑ&«·‚é=üôĞõH0q' .É·¦üÆ‘L³’uØ=Àãiø"#îó`®T™N~¯QØ™Í±¼z Dv¾z˜$¥\Vt×m7gI“/ÊŠ‹…”Có¹ª^0O=vañkß»§Øè[>¤tY“Ğ^'¤ŞI¨Dâš¾†F|Zq#µà²BšRwò73«VëKã–éÈI"uèô¦ËĞ¦;qê…•z5úh%@¯P×¥´A
+0B,k»ôÔÇ=Ÿfz™Á&ój„ÅÒ}/—%û	M°­%°bKÉ®ˆŸG—ZœR‡³$µf5ÈªâMæ¾à$şêjîÕt ¿È„·FÔàŞı Qí£•ìÂŠØlï)_•ª‰7K!‚ ÑOu¾jj+í‹>¢Hq¬ëIJ'•'›
+`e~İ{ê5(‹Ü}êwv¬
+
+¼Ÿá`˜vò¾eÔÜ0Š¶f¦vOİƒİ]"wÓf{1¹’GØúÏ(]©›
+óø§Ç6Ímî#0itÅSäÅp×Ìc"C,*˜âfâc7¸%=pòn¿ÙëĞígwŸäÇ(;ÎƒéË®›¤óA‰è´1‰·ìŒŞ=(„ğãƒ„ø;1£ ºÔ„Gõ£È»ÅœÆÆre…h
+$ÊW™Ñ¹œ¬„++#P¢|?ÈiùÅX2·İÕ©ğaÕq©”ÚI©fÓù ·Z auŸÜ©nd(}!lp¦à-4}K|mõÌ½@pÓoŞÅ¡Ye‚ÇTH•Y‚˜Å‰¶ÃÌen»ßdU'sÓÚA$®VóñoXf~0•në¼[í™IVµ)@Ø6Í92¯—ÌÕÜ©ešƒö;N#RnjÉ'@       €`´h                                D~         €à´i   ¶ D~     !­ÁëRˆL 1R,	‘pX®!—ğ5F´#±Ø@ië&ñöÓs±&p/>Q®|„…äƒË"ÒÆ{“ÃóG€è¼ÏƒŠ:ø|ˆâv××ûOW£J».WŞXLA{ô§Éf£-_æ‚Ú¸LÆÿmSŒ¹1óØÎU‹Wâdİ•g³GOEõxè^ª!…V·¯W²ãSa,øüØî–0V5ëuÙæ;ÃX€45‡0Ô‚b-c_Wß®¦¦Âı~2©ÙÅ¾/l¶…–ÕïçuœN"‚º&Ñ]|&+S›ÜÍÇn=<lîà¶½ğ¾åQd˜LÖîºµû´ÌT`Ii”š #   @5@€l Œ@<ê¬`yZgÁÜÃ _2]YªÖó_E€’V ÃJyP'„!¸h×,+âs‚Ä
+€M iL7jÒT¬	«Z‚  ú     (   €  LAš(dàŸN¡@w	·ñà„‘ÚÜö„œ|_§iYvU¼uG8ÜQgÓ²ó ÃzÌ•/:K\C3C1ÿl.Æ‰fO¿mÌ@ %ªŸpzÂÓRè|dsô:óùi¶d<Î›Jä_
+ˆ•ïùnÑ¾>9PYï^L‚k¨*XI)‘”àô_€?B}ÄKP¡nˆå¼_AYddÊÓïë½Ï l½ñ¯,Ì™±µôÕ&Iš
+Ñl¥¦|Nrö½ˆ‚–¼=x*ÇÚêóa©ltÃiqêÆ¡ò+h¾$¼½‡4¸‘aÌ™Á›£M…	 §(úsç
+E¢c-7‰Ë}‚è‡*€™sßÿjˆzÔ´¿5a
+x õ$kÑcÑÑá?4-µJŸ†u“¶3Ö‹°aì,¸¤ÓªD~CÆ¹«wÛéyIoÀÉÉßç—­&µdÄ¼…2{ù"…ïuw[´ÒTFrìlù¬¥j4’IY¤ÛGV–µ'§?°=”Õ”•XqIá{<S_wŸh(ÇkÑáöM·ô[Xa/r}#F˜k®—T#ƒQÌšş±xeÎ}/ôx,®êë‹‰4^Â©lşşàÿ¡ZÆfÚ`HŞé6‚£§¥ğùRw]U-¢LêÕ Ë6eX¤°K>RÁÿƒ¸™›1‰|Mílıhû(î·Fc1ÕïìÂ7à2'<¯K¨Ì¾™X~çğg˜”*÷G¬¸±úÖ¨»Mtä.¯á–ÓíÒşö‚Ğ@
+;s²Q 0Èôñâ•ŒsImÁ™W­ÏZ:f&ù/ç$ĞŞµ~7BK¶¬J6(MÄ°ã­•Ü‹»ZTW‡¶b®Û?h~£gP2Àù(_eP0«j.§İÛsäFô*ÓJÖ&ˆû»\I“rÙ9ÅûíKl™­qÑÂ‡‚˜1÷¹sq,·¯z•sYœÔ$mb)ÎÅ5ÿ #&8vÅæSÜr8«%zCuº{£+Óæ¥…½ğª ·;ªª·ïŸöÑ]>!ËEB3Õ¨n—4$=-Ü\ï -ıºŞÏİéŸ*"ú…Û: /â™E6¥dœîL1g³…42Öê¶ºÁ¯)äbU•0¯³—î]Û‹VdIgBšçìüÎAĞí.•6æ}§Š]B(¤'’Å â›l¡²SX>ñ]6×RÙ$_Äğ¨i¯Û”Ì$²ÃôÇ›õË§Íò€e·ËƒöõGJwÅdæàñ²`Š`´È*œƒ‚o†&ÌjĞw1ÂTSZia«¹Áj	 yœjIòFéÊ³€Ò¥k]”¨«¤ºG²O":Ë¤Ègˆl¼Ól‘fœ*éæÌìTæ6fÔfâ_E, =Ûg8C|;­û¨QÆúÒ"k¹×ñÕó~ Ïlé²„äïº’·€%|õaGEÊ*{^¿ñS"ä`œ9²“³
+F|HvÏ ?ÚÁH«¬Í"ğüu´µ0I¢VcÍúôvUè¬ÀSBHäÂ×tÏäëñFZQªMdl9ã0gíahÇz“êL}pHÙ÷åÿx
+r¦Ğş-J0'2‹a	}zêÈE¦Ğ%Â˜İ§1(õóÅU_À6İïLè©UİÌuÓ2å¯Ä3Pn•ôúùÏØAOøöÁĞÈ0Nğ!zÔÈD4O€¼®1ğŞv”àŸ×³‘\b‚qhó098~íó˜1 åÖaPêT/{‚Í–åd¤FAnKÊá\ÇqOÿ}ü‡Y*P(9a7:CÔ8@†ri–À°Ù*ûÒ.Kò4ãW‰ÆZZãï¹WTôo5ÿ«6üº"ñít²”™Îúf$š©ê„WÌP-Ñ>ÆÏ=8Ö`}g´«¯|‰çŠpÃºùq5„QĞäÚN&ìBw÷yå§t´Ú5”š¼ëêÓ´ORtMB	!ÌEÙ±úÏÓ*æ©(eSû0âØâƒÙ]ÉêP÷"vEÙŠFwû’|ÊÚ\qÇî]ıo_‘'ŸÖ˜m¼¸jû¿äŒÖª[R—œ]fí€áz›²ÙÌ 5ïÒ¨äİDY–ÒÏÜƒáv¨™v1z‡iàlâë -v¢í.Š(§£{âN.%æY–;Bì°       €`´j                                D         €`´k  \             œ D         €à´l  \A              ¯ D  ±  !ııÿÿÌ\%¬W	†‚€rjé7i¡—tŠÕ-@FeÄ!ƒ7«qºV±ğüÁ
+±Òµß%6Æ(dBÅêUB†@Ú´@
+ ¾‡Êa©œšŞåàk»-;¯¨@úÜó,¾qÃôF¾w%ß:‰ÛÅå^¹áµFÛš©‰…İ¿úĞbjæ  £Y€óİ ß@&»äD1Õóª›Ê­Éİé{
+Œpë#A\´í•ZèÚ­¢„78Ï	]BP$Êsi¦øÌ§„cÉ˜«Êœ]L¢¹T	=çIËMCa  ^¬ v)¸ÉİE Ó@ 5µ=Ï?™yºG
+Vñ(ÙîşE£†Üîì­BTÀ¨2~|ïùq  NJìS#8w©êı€££•X ±Ÿ­aŸ·èä_À~OŒA²G£;•!^õı 7I¥°²nØè(Nü0åèÌ€
+ @	
+å`  ÂŠP5ğ
+{
+Í“’
+4µÂBµY±^ª¤û¬¢ @     *   €  zAš*dàŸi8SŞÏ(½@™Û–ìD¯¦={UPE€fÜ•eÿ2¨` 0áQ^9¯ôj4~æEÚ¦dj¶Ç	hÜ¨¢˜Y_¥$SRMKE—NFÌfæ{&]÷^dëL.obÊ‰¶®Ø‰•Àb;?yÇšUÛlŸr. a¤Në‡´ÁYÜ8	4†ğgÑş˜;KÎb+yÖ»˜!ı€u¨–!=4pÚq¥ÒÊIÖ©PPÒ;h¤°NAÂ]ûFõ}ùsõ’U‡q“¨ãÂ3†ØŸ4a|æê..ÊâZØ0ë\H¨«ŞÒ?Òhz0+‹¿OÛw~¶ÁÃ)â™ßs7ZyäN±'e‘ˆãF"Qª ×¼ıFWTÃX<’¤4ê¬UbœÉöÅˆróV]b·~ í@bçä#)rY1wÔ·à ÅgÓ·a¶QÚFŠã¸ÿ`ÃÍ*˜8Å6«ó<zuCŸ~ÔÀ›øºµYî¸vÜğÛV¯Ğg¹(¬ì2ßš·x}Úæ/‰ª¥ê*9»tğ8ë ö•“qÅ ÍÁtbh^ÉEóOÑıßİ,SöÎW–’ô!<CØƒ;y¶p£‘lªYâAKbÈîMAĞ–S¨“ô9o-ÿtGô<©[Œ›aT  	wa=øxÇxíÅË€õÕßè£aˆ–ùi±È¡¢3\S‚êúRH@à1à8zXqİKq«êËMç±W¼\ÀçÿGè9ò=Šå<ğï‰Vê—ÀØVƒ9‰‚²"À«1Ê‘ÿMÌo	ÍœÍºÅ`ég€Y²ãŸÎFÆ8j´¾8;CI±Ü=ñ×|ºıE—Ù×†à´ºû,¶œD—¼érãœg29"ï/C$ïŒ¸¬^/~9(¸‹¶Z|ö#>íI’>hórt¬ÒµÎMşßhìh‘FuñÆ‰ßaP.€ÅòQËÈâ>eGÀù“7ùMU~z¹îüŸòô²`áh%Uâœû®çj!OI=ıˆŸ>KÀ}T»$uZ_-sdWußs¿‹}€lDtoKµxø‹³ÓÚe¶çx~çÄD÷0‘cµ§hˆç§Ê7ÆÀéÖÕP—EjC…;ÛKi»¢ªTà„÷ıÕÕÛ†lÆlš’TúWK8±ª±šË×˜X!Ùi@Ÿ ùv–Åwµ8N¢>^ÿôzÛdæÌv»F:¤&RyêÈ‡/$2såÑ(X&ZÀ»#?r`±åÛ1¥úã[=şŸ“…¾É±gv¹cØ¯b0¯n“oä9´ÛV¿z,Ü¾ ijF@í›'JÍxyÃ\ß†ôĞÛxhuÚ˜fê•) œ
+2™Ì
+6Èß tâ¼`²ä•W‚¶§•ÊE‚™7"¨`ÌN6«Bïİn16ŞÎìğQ^:WW‘ğ4+£¹Ö%Dìe…¾éı)ı>7¼dê+ñÔÅ6™¹¥›òŠ÷ßb™’uñ_ab|ó½4‚9Ÿ8Fv])´yoä¼4<ÖÊ>İ?O áÄhX½ƒnÖšf­Ò&F¯‘ùÏì½Òù!:-8]·(]¤Ÿà­AjÌ*¾å®¸ßñ¿ŠõRØ‹_ÿ:äMfg{%ó?JxÍÛ"¤Ëõ
+ãúäË4øÒ×Ò7™6Ş€ói¿€DÏ—Š\€…1¤¦o†`EËS±±cp'S§iÂJªñµÃšWdfÖÛ†»#¼ï LÊT#ß™S Õ·ùí
+`O>µ&ˆ’øü}F»o(néòˆ$2ÏDú©^¹}¶,o¸ ®´sÆÈEJ8‚S×Më$Éõ>ı“G9	°       €`´m                                D€         €à´n   z D€     !¿;ÿÿÿËÙå[Â¢b@˜H!	ÍQR®®a¢T½2
+].­€˜µ·‹gæë1sµ¦ÔıK‰¯ëÊwÛ"GQB…ğP,ôm–yøİç¾Ìÿ‹ôtÁz¿+,vÃÔõ<ŠàÓ6ıMAOâï„ä
+,—ã]†¬t_o(PŠ™‘z½À/ÓĞ mE1 À½=b tËÿ{»‘Ø@A€)RBQİ{Á#¨/…µÅ‰:ƒ¸cU# ñÖàÀë]}h‘sŒeAÄ5¨—G¸m´ĞA	_~AJD q¶æ­ \ˆ«°¶›~gù€›jã½Jà?Ê<Öbe|¬ÉyaÜsì&’raÙar› !BVév,Ö™V€•ãg'ÏWë÷‘
+ÖÿÈ‰Ÿ²¦AŸám»AÛØû$	ÔO¹í6¡>èÈ°¾ïV 0iĞ¹Â­!ÕAj,ˆ0        €áG    
+ @©X 	°     u        k ‚       d ƒ       6 „           ,   €  éAš,dàŸN¡r„×sûwxÎòÄó[™JüaíO ªaKñØ>U†ÒË>ÏO!éÜ¬ ŞóÓDÜœÌDpYl(”N±Fï‚ºœÜ²©½oà3vö±èÆf9”àVóv|‚ªê·&óW”Q^ÓøULHkUúü°ƒæ•L¿9]v&3Ú®1‰ÁÉO\ªÍ¡õ6í*£NRl×y0ú-¼Às·?Jö%aõ±L ‡Š´Øß7ÜhAŸ\I{÷ÃTÄĞï•j÷‹E{µ¨ÁÆ,KWenÈ¤&[¦©±ò‡ A¿åş£½? kQğ‹£¸¢ö˜ªe»:¾Ô3±u!Ë3ı lÙ“Lœ¦%tH <ù=]¯)‡³~¾#)ÑÓÄšã²C.rí^4è¤9F¢”Lg|›7'ÛûHÖëw-Ho3Æ/Œœ£+?ÿñŒ‹!Kj^Éj¼»³šúœ¥<Æçòø6æûÛèÏDÅÁ‡'¹ˆŞ §³$IcTèD9“˜`Á.7ûâ_\	ÒvÊüTZ–Àæ”/¨Ë²Úî#dVP`÷0õµóÂæ‚/ £ËáŸÊ/—p!6£·/ŒoßßO¬Ri”Â³”æG‡ó™ôz»0‚Á„ŠXwoË?Ğğ©Y®Ü74Çnçú³G®ê1ÈÒÓ–Be;­ 	m7æ¼òë+6iò7r“ÆyòÄ›.ğ°†ÈBTŠº("*m¥C¶³ñ·¶«\^O/¼ZëqXLÓÏd\"uŸœ*nš:ŸÌåñÄ
+J3g¬Y©€‚€³»^ÒP Hóßõ,”¢«ÿrÚÀâ)c‘ùïT±[<]ƒ}oİÊ‹äĞÄ£qƒw!m|¶¢—ûnus²Ğ= ¤ÍRßÒm¶ÊQ²zZËÆúJ:®úHÉÎbx7]ôµ€Ÿ²§H“/CÇm’6U2äwòOîËbó-¤À5ßr;}ú5~¿–B|KòäºJ¬ºA"–…H²Œ—$€ÿà*|ı(×öœDåw)	Ä¸ŞT{ü*êõ…J8›]Ùuß]KÊ i_Ê4Ç©‚o#Auî:K¿qÆF9*AÖ%ØR“Péù¼òÅ‹O.Ës$İkËæ£ævÌcL]6T‹ôå*K(–‚}vô â•ws\ÿ~ÕŸxe%´:ÿøá;`ä3áV¨’!×GÌ¢%x÷Ë¨äælŸ°|\ÅÍ²Gà.õaïeõz'©Û¬Ú¦aÆ2¢7eHT&_åÂ¸òm49Ó3Ü­{1-•UÍÌ[ù2XßP>f—^Y½°F,ø~´Påp¬HfÉl¬StB>vgr¬°fÕz¢~G)ê(+Nõöı˜”æè÷-:( ’t@=š,ÊÇ!™¤cÒİûİ90T4áÚOš÷CèO¤]ÿk«£G8åqõx³Úü…"úb–qİÏ›eêL¾‹˜<|NZuÖ"ßU8É’q¯ı&¯5¢‰u×™æŸ«Z‚B8ÍÿuIF%CéŠÍæ¨şŠN"õ3Õ`
+1(ã‰ÛÓ+øÒG¦¼i§şp„F~ğDjÙ»]Zmåğ}Jr8ğ1‰'Ès‹uÈ@Rèí^l (”ë¿+¹xèjY:ó½<²DK¾E ÿ{¯{OaÎ/µ%)Üº•O’‚£ùÊß}É¼:IÚj-
+@[£9,éC¬»@é™ƒÑÒï:ˆñlÿ4ª .Èíêc·y/ëÚÌÊœNìe¿L	§#pÚÍËºŸ=mDÅ}ë	ˆP{V}
+hÍ£Wj pÁRè’ µ¹ÌŒägaD‘7³\ÈÌä'“„¯xÇ÷e#Û4“Qü½âFâ€EjÕô®?1‰]!’bòÜ~ó&lUjíM8­Ûù•ÉzuÉD–iÛóË4=¶İ,4©›ßâ­#G!ºd\®¦‡¦Š|_õJ<d$Äã;Ú¬›˜ q|À       €`´o                                D         €`´p  \             œ D         €à´q  \A              L D  ±  !¶XÅq²B4¥ RñkV®•KË‚@ ¥Snæ27¡’u§ã˜¦¹NãĞŠ†€¦v;Úßsæi_bûJ¿•”í“+×4CWWg™æä©<6\SÄpVœÄœè@:a}«Ø†İ¸ã "íßDÔ=iş¯ÕêuáTŒ17æe0¹Û¥Œ }ŠX?Õì„	+j' ÊÈ ¤Ô~2>7Iìqu+D‹«)’‚`ñöƒ³OMµûd¹Í±+¿¯À ›$[Y(ƒ™9hRêe˜)€D˜	ZPi(9Èd	×’2Õ$M–¥|0/Î>#Aæ—Û Rö%,GlLÀ	Ùe…ÒhP€„ `·iYhG‡¶V­„°9ğUÔ.˜ñ~ÇQ÷WŞXö~0…Ô€@7Ä{½À‡€úù ë¼´G?ëÙ@7„À 	‚æØ&°Û¤*©.³¹n\¬Ğ     .   €  6Aš.dàŸl,PÒÔ»E«± FÏÖ†A-ˆúvÛ¼Rjøâ*¯ø·‰µ)ÌÓ‹ò8ò7EÁ=Ğ•6Å$f€Ú‰¸z[58Ş?ÚÿbI_ÙÅÖÙø ~AïÏ¶—[˜õ¶6I^ƒæ½L£Çæ;ˆö—Å€İ%ô$F„h&õfŒGG$ªm‘oÿ{„<3óB‚¢ ±&,Ûj¡!VÔÆúçD§ÉÀY@MÕi:D§¬¬³åIr)}6ˆu‡¦ˆßu.4¾È±v•Dïáö¢@ÍM>ıå‹wÓš¢óû®£\Èë<†-_)’G²=ŸJÂå´,YŒõ˜uãw,÷¨ƒÏ)#ïLæ{Fæ”)’Ù¹€´óZ)õyg¥^zì*"£”úœ7“æÊÀı}T¹b£à>Qö¯’#%¯\"cÍél¿É¯ Á,…Æº÷,ï3J“0®lù¬™,õNÍyı)µßI§á/®QŠËöĞ_={Üö^RYí®áòáJê-û•=‘©4bpï=.‡Â°béaÅ$Tö¡ÇS óEüªÇÍ(Û—ƒM^&¬Íƒóÿ¤-„êm½iÙ+²oR–:êsœ®~#&	 YVVß„Ÿj¹¶Oçè		+AõÕ#økÌI|:9cb?{ÂßÖÊsuŸuKÇà;şï´Î¶'Ÿf³…aŸ¼E,è"=¥×dÛì»ø9rU8&*zéURíp9T*qú€ã÷Ö…³ö8¬ÁüM<Ì³™z3½¼ …äUu, ­{ÿá/"¥ëMZ4¼¬^FŠ‰Æ>Ğ·æ¦v¼ÂaEÅÄ‘Š¶ç P3 ehóM¦g,@=Í»^ü;ç98ı†·6âå°h–¼I$¾©ş)W¾<h¡Â¶%à½³ŸÓ7{„,ş4Z”
+¡hcûŸ2‹@ïÛ¼íŸà0òñv2}ğMô†èÈH”?]yŠÉÌø‹ƒ—.ĞÇ`\4ícàÄ¹®šªû@÷@1Ç˜OTQ›1?SO"?ùsé»pnı™·„DïñÀï'Ò¡¬c]J÷ş-0‹2£ÃvÇµœÍçL>£úiñ(¨)@¼—úñûíQglTä¨˜€Äq:ç|z/:G›æ&×–©ã×ü
+Õõ`Ù=›/+èHĞZ°_®áã)Ê’—Ó:Ş’¶oĞ©T“1´
+OE Ğf‡MÍO	û"/<w((Û×pG@øÔ=Òà•ãCò§ÇÜáÜ™ß>50Šm‘âRc¯}Œ&>ÎÎÚê¿Á>Ù3Æíú$ÊDâ
+õáSòijF/§w<$Ëxã‡™\LØµ£à(¬øÚFPÇ]	|9íl£ôÜ<Rë¶òï‚²æÃ¦íÄˆ ÜÃŸÍ¯ä­DÕØˆFf‚"Ìèq B½èÔB)Ğäe>¾¡aÅ Àq˜—»
+èÎœ’ƒd£R7t]Ë(FR®Ÿ¦;”±ÙP2Ãå
+÷¶W…ıWeÙª¼h`V.ó/Y×Oƒ¾åü™zÒõ¶ã$"/yÌ[¯”LšI·Ø¾,E(E´]mSv1Œ
+ÛufÒás¼È;ænÊÃÎ†Ck£s	Ê—èDXPIùŠ…7Ü"rë‹ÇöWáÛâ¥“ñÈ"Ş±¸#ÖáÖÛ <>D½@+ÈAIšËc€e]Tzˆ^QÿSüAR¿gØÜ$â®N
+ÇgÔæìnÎŸˆ‹¡åv/DL'/t˜ñ¤™ÎˆÅŸC       €`´r                                D‚         €à´s   6 D‚          0   €  XAš0dàŸ?ÙÊLQ“ìó¿ÿ«é™şŞ‚òşÕ/An£KYúëEÈ»ÁÌ€¦ôĞÍz|½”¯CvßÕŠ{äIuø”„†×jI¨·ü‰16Å¹o)óšKŒ•± ûØ@=„sNßÙ¸ö«âé´³ÊİXce~aSË‚Å›ö ÅÔ@C)3<B®é4KÖÿG˜K	#æ-Õk<ÁóĞ…=û/à6‘fª°dwL;–líVÊflRôÃ‡kÔÀ˜îJÉ=êG–+d‘c&}åµµgë„¾5tr™„¿W(¿šw¶ wF•Jd¿Ïo:	¸él-‡ğÿ‘–—ÿvUVuÚİa}Şı_û°¤R#q(>u„"â+FT”„¹Q‰©Üvpöää ØLÑ$~‘›QœÕeÎ+O`s-ª	à"*F+§7»îêhGsYÏé«XĞoQL1L"OÉ¦\èçÂXôM4/qájW=Ê+Tğ,é¥Y
+ÌRÃ5$zàun`b%0œÉ<Ğ(çŞ8pGm¾£<ğ…9'dOĞo„‡-[.…P´w½¶}M·È‡½Z$DZ6M¶DëØ"Ã¢àND‘9Hå“D.F2H»Ìî‘XõAœı§8üADÕí:ä%š}Y&2ì°X“8.pZz¢>KŸêÚ?‰no-1Á¥ğóêÅÅ…ı†Å—Ã8ƒy4-6èğ©’ı$z@'uVw7¿a,Ğ%ƒÉÙ"SöT»ÌÄk¢6>SĞ%ú
+îXÃÅ”3QŞ›f:ãUê]å©Ä¸zôî%[2ú½ëû¿écÿ<·°OíN• ÄXêHÈÙóc€3`ıùÑz¡YbƒØi~ëgaªZD‘yúÀv0»á>Ğæ¬©É×º¥®›O$ÄP!>
+¼2‚ç…åkêÙ°J}’4¡]×ı'{>XBe[Nàà>ëÑ\¤³?ä&ó®R}"²Æÿ7Íú µ'5¤î	@»ŞåøzÏÍñµ€QœV E8RÆ ãÿ‰»lÃºûP‹ßYË•¡8ÀÖÛH8CØ³Øfn¬÷-©Spú•SùÛé&CrÁH j >siŠôŒ¼²I“„˜x¶‹è8£+’JŸeKüˆ’ŒİÁ]Ê´Y­+CPü·÷@MKlÚÉ8ğvZje¤WÆ#|ıÄPq OÖÜµÀ4g€R¥ÃK=€±(c[]ÖM€Dğõë£v•»,ÜÚ}9øéĞªÑec¦€ÁÃaIW^Ÿs ‚qn¼Ï^ém8^kÛæâo½-²Ê8Xô±RÈÔßÅ+´<‘ÀóRV«RvÉG>KÈwOaöDôSÓQ¯³ÖáÄ<4>¼}Ÿ˜Âª´Êè“Õ	+å¤&BõÙ°0›Àòx«=7m\[³öëëá)uÑüe€ÕÑätäÿgË¼şÜûÂÃø%1ß={g.Ïcè45P«õ0ÍûXBéáAP¶ü,õ:ëÊ¤ªû00Ñ.í=Ğ¶0è¬6tÈäÊòúXëÊ°ñã9w1@àsi‰µ®ø5ƒ²«á[¬2Rã(X¼ÕRY0~Ù-–]' ¿½ÜçF°5Ê!
+eH´6ó`ÓA“ÙHµe´‡ÌÃ9Ò¸§Ç"³Ôq1k™ó!ìNXÍ¦aÁ¡`LÏ‹Ò Š©¼÷Ş'7ÖåI_1š»HiäqØk{²µ%Xk†ôvK˜uµ¼°PV¬ÙÕ^{)íœo´JãiñåT”ì       €`´t                                Dƒ         €à´u   X Dƒ     !¼cıÿÿË[¦Œ'‚arÆA]›_t«’-€>#€Úht^¤¨‰pÆN7jácü¥Öi-p¶“˜%³Ğú×ıöƒ²5|¦€a¦è¼˜¯¡„ªâ+æz7:MmMèa©³_lÕsınì‰qz‹Ê«:§ãšY..4$ÔÓª
+ÇºuŠEe»èugÖäAMÕ<Ú&rºw˜ Œ˜˜"«#uş}Âl¬8YáxV3ÑşİõxlF^“G#9¿w£µ73ç¤Šçü¹k|·ŒÕıYš©‡?ÓÓ,¡yí»à‘Mµ?_òåW›N}zªUÜñG®•ÈG®Y°¥¼Ø &eö1´!«ĞS¦ã±ñÈ	ƒSùŞø.·VÎ‡ƒ£
+¯DÒä`õìÅá>‰C‘X ‡a¹ø‚t÷H–æô± ß	sÀ2   —gQã	šBª”İÜ’Üh4 €     2   €  šAš2dàŸ:ïÄ$…àÄÏõº«õÂaÙ³©‚mêgÁ/‡¼“µI7¡÷ø²€õ…&'V«úi\e4¸üìücå™¸ ,•hPÜ.L¨¶yĞÎ¥,æxvÿcXàº‰¸cSäND0)Ó(-0"ù¡)šÓ2İ–5ÆWÀÓWó&Ş .´=AıŒ†4˜˜Ã/JcV\ùEYÁ¦Ñ¸¿¥*õ4Š-¤¨·ïÅ\¶ÁÛÂUÁN±u¾l m^1ÜPl'^5¸X¼
+´Ô®òP`¡è={k¤ KvÁéŸºîc%qdtÃ£Ë² c¶2 *??©	ÍGò±í¢c’ÙÍ¬ÛµÙª,á$4xJÉA$0?ct‚5›O¦ 3q‡vîƒ‰·ÔæLéHlâ)I,Vrå
+˜Êxè–sw¬¡=GJñPÅ.±c£5-šÎí&ËŞsüó[>Ò­NïÒC‡¯‚Ëªı]Ô4©ÖšÚËÛÉj¼~§Pg‡Å:»(tYaöïOp¢ZĞŒ˜†ûÀ†¤éÕÑİtŒ¡«2fÏe<!lEeXÎÈ¥î®}˜û¹Ò]‚@
+õ6"å†»ïVÓµA #íĞQR(Aîô¨ˆrˆ-ãsX–¬éÊJˆ¶MĞÿ¿é@[iìdÆi¼ßùËJÊŞÁäµfRª-úæØĞ{>S‚w¨s:8ƒh´Ûwç“£jLå’-¡ÎKäÖ:.Œñ\Âs´ıo9¾¿êw÷ıÂN†IÃeQsœ ¤ADd€\cˆ}ø¶”—i²•	’ cŠÏ{H\á} ^P_¹­ßS†#şS¶œFºz>Xğ—ÕS€W\v/s"ªÕF$>ºñm>X‹C‚P°^5„hÿìxNv¦8‹Ö&òh:qı\›àõƒM»ÓÏVJkŒ‡áŞ\y·Úîı"$‚ŒRçT¦ìgx©à7ékó¾ØC•ç¢Y†US
+@œ-g+_ç ;šŸ9—&^á/1˜Mæ â~ 3˜|[Á,Ü´ÛX( m =òŒiòã?8í/bÆ¬î‚«ºƒ{¡O\jéPŞ1$ppBhu|— /k+|ÆdqÂî·vû¥Y=›g?Á¹GçR™ç+P=[Ìl|=Åí´‹FÒdA¸«œ½¨Z,ë¨²!—˜¦· ) dìÖç[LZäÄÄë*á"n8Ì:È–XìePÿ~¡Út&kşŠR¯;¨ªÔuVÓNåB;¹m’ñ~2£¡•ª@ü¼àqˆ¹==ÓuÍ;:I+³Vx0­!-,°¥–]vn¦G:8ø1ğ Ës7öó'Ñ0ÎaÓ6ºLT„¾Oué³™:	s1Šç%8BhL[Èş•Ñú
+2!’TcPR·íü›§~ ë˜ı„T©Êqš# ©Ÿ°VCÄë1Äê£Ï÷nĞx	[”ˆdP0øË­¨Q=áäX²¬ğ¿­¬ÿâŠã’æk5ˆ?ãÙÇcÒïÄ“eÊşù:´½—b£¦	€       €`´v                                D„         €à´w   š D„     !uÿÿÏÌ1¬ó¥‰\äª»kj¸•*Õ$ °ıÊAop–SY-èî*¥p¥íFpºˆ²Vµ:>} n¶rSKó–7bäõÙ®$ï:XıÃ@mZú_®MôvŒ'
+Åè4"	—+@P®pİ,„×'ĞEI{0î=|1ÅYmîÚ©V8ßS2†DİÆ=&•MQWµ5y5¾¶+Z°İWGU’®õ~Acuõµ/&Tt·óa\ìûÊ¨™®şÙÙ2¯:¨\˜‹é‰¦°ÆJ…İ`®=Ñšå*±!xD &„–ÅHHñ@ ƒ ºûÎÊ„Ú£ŠYÃ!I@
+cqıëP¸  Ç'— ÿ§xˆ)]s  .!0ˆ@Õ¼} OB
+–‹Ü¶¨†``›     4   €  ÜAš4dàŸt~|AtŸI3â´¹ †äŸò”\ÄÍúŞØÉy´üí€yLp‹ìŒü;²€–F'¨hÓô"søo ¨¾u_ YO1(i…ûw:{İü®¼`Çí*Švİä[¼HG$GÈœ|Ì÷ŞÛ˜©X#çX2Ë®{Æ±H´L
+†ybÔ†R©š2òÙW6Yş0.›ªWÅöÊrûC£ŒLM…&Pú8w ï‰R?pÛø~Î…aYwv¿1mµƒĞ:¹ër\.é±]È10­™òñïŠ6ëÿ×q×üÍÈğ:l)Ï£¸Rh»ˆ‡İ\S!G5`	ÜRL†å•rp33Å[Í»-IIT«·méê/R*J¿ägh›±j“êbÕCy°¶J¶Ü´©‹0¦_Ì˜ÉB!UqiİÍ—£—#+ ªo+ò7_úüã¥¿Ôry„«t¿/¥…{O)>—ôw6×Ÿšò7#şˆl:‰»JeJò:W6¸ãŠ„Xú÷ú\ü+û32‚Æ7öãiã·«fK^<7«ä¡hÅV:=óJY2)³İŞÒãrû	,SN‰u6Æe˜­ĞŠZ„Ã;î2…4d%f@ÛA{q™îXÄæ©!ş‡ —ÛR‡(§xœàV|İ™Î½mq,®Lo¡g¬¡‡usUzMÒÊ€eG½o¥¹×úÏŞ3KE²Ñ$Óúˆåé‘v:»¬sH†&ª5yãFŸz	üj¥æ">?¡{0ã¸Aõ–[&¨ïƒ–ÄfGµ‘2³æ4§VêDÄõ1*’‚G8j7-!æñD$×,k¨P}ÃWqŞ¡ˆ
+–"¥Û™‡÷Üg=6,iYj®ªH¦Íæ“½¦l@Uãáµ´µ,KwU ­ËŞ)ˆ›¨Q~ H{YøûèÔB2Â™ù q ÕöËòıäõ»S~hğtÆÜfÁò%SËò¼÷¦¤A$Üö ó©ÿö§¾Åer³Şğ¬€ğO&s®HC™á÷åº¡Ô‡ç#Â¾½uàu•êÃìó²¨;cË?e2iÆ=`êŠÙ‚ï	a&ÊYÔ\röüä<«ê×G$m¬^5–Tä½©¥Æqüt»ÔÛi3‹gƒ1F­—>ıßø’Al2Iq®¼E;KË$ö´®8×Á­|æ¼[Ã·ÊëÖI~…ëÀĞ—neW­o¦­:í+!O1a²¬8[ÚÈ+Ä$Ù<íMÛQáúyXÆrq©«EO]*×´Â‰©òØˆ0)Çµ9Ëuœ(nÙÀ¿¨Ç/š;¢ì}êÂ•ÅHâBÔ´'´İêr«<éT,÷Ø¶ôól¡'ÂfLzÓ 8	2òÇßÿOÊ™Sı†›¹Oí“W…~yIÔnğØ±9 ¡‡e(JÔ2õC/ánïåî8ğ:2a/<>9ŒnÚ/–$ÃàıuéĞ’(cØ{Š©‰oÆô>±)ˆ5·‡Q ‡½^‰÷Ææf$ãBj™d×¡Ğ¹V¯^T|áÑ‘j®\ÃJæ%ÁDüäE^ˆ_–bèô¡Œb8îÏ@í@€ÇV¼Ô¹A´˜­¤ù,É!–tŒ˜‹§ş¬A†š°       €`´x                                D…         €à´y   Ü D…            €áG!   
+ @İ	ğğø      …       > †        ‡        ˆ      !?/ÿŸËÛg*C„E&Y(¹-0‰MƒÍ 6+¬ï$ä¶6†G™|ø !ªO©Úp'˜{g®€¾æ7{§æ:”c»u\pë{ÈĞ"ùqU6»íûù
+_š«*õ»>†3ÑØz@/_ /K‚ì«1Xg6çD0âd ÇW¦ºÆW†ï£÷ò­ÌáXÄeæ¹‹ªV—tòYVPĞ°›Ê²k„ ïÚu¬±‰Ş©&§¸!!(¢½üîi†ÍëÁ/veb BK¼ØñG-)”ádhÁ€@ĞDL@ÆÑ	ˆ½×>?ÿ_Ó Õã€®6 Uu€¥r´`ÍÀ£° m0ˆƒÜÓ¤>«*‚  ä     6   €  TAš6dàŸj5Â¶»ªq‘¹
+9óUÒĞÛ t^ƒõû<œ@cIaÔåUQiï]$åA÷IÛ8Ú\vG‘˜oi[Ñm&•åŞeÉÉÍÈœÙšÆş"‚äjs7
+”V=<±©€(\õ‘ä¦§AßX¨'Îk¬gŠêBÍŞ„ş¨˜ÃÄõö±»6Ã¿‡MT¨æÂ_ïAœã%‹NÁ·ø>?k…e-üÆ'yƒ=ÖhÊ˜"k^IúgÒå¿äÖ~wºş­@ŒZC.ä³ìÎB4İkc	×šå]4 âB‡’ı:ŞéfkŞ¸		Ÿ!…¤fĞ8İÇ8„±å˜ºQàCRéÈb¶¹óláİjoÂÁt ([v¿BZÄ½b8n£]T©FjØ¯Óa²wúİcã6½¹8=İQnò¡±½tù£R.ŸÃ±Â²úq¶s! †½ æ¶3‚oN;¾i…¶¨Jó]df¯-ÀWMêJgÊ(tâÑdš/şõ;»Íò)õlÈa‘NàMs|å2öÎõxú©¡`gZ°'Îµ‹Nqå2R]EÈ/Œß²ÜÅ*sˆÏK÷¼ÚL8U+Uj"|ÚC„Q æ½|œY5“åom©™ëáWx©×BÌ0ÏyÇèí˜%ÅLÓ£Z.UïKÂäœ^j`À)İÓ|A7ÎIâ4 Èïƒ[<è‘ÀêŒLOÈî÷·£›€r‰7İµàï8UJè™ëT,o\¿s+¢h"fBäÖnÉ*é2Zd±Â?{[^±«‚Ô1“˜<x¿z¯¤°‰‚$Gn‚ D&ñ°á‚šÃå÷'#å@ˆ%ÏÙVÔ«¬¾\~)/ƒò=€˜\ÌùCÕ_—^Ÿ)ò›ÀL¶‘I®Ÿ;Üèñ‡s½’¬fíkÜ¾Öñ®QàÃÉÄ*–,C`#Ué”¥Î¹Î½Ú¦'U>0ª4âàÂ?ÚÆOØËÍàRí](¸ıÍa›ì¼mF{†•ÈÄç·X«B¿bZ¥2=ö‡Jî@ÒæéĞuĞiğepËG2ÚÂK¾˜HI1Rhı‹ïwq”ó3‹}³bë8‹Ï]¼qc	em×Ÿ¨1ÂÁ¤í™M8™Ñ£×ìÙºŒ¯æAÌv	Jr¯æîãÉ®3xâ1ï€ôŒA—¥ö÷¾İ‘¹³ã3÷ıÜ­¸§ÔÍƒrÍÕÔñqÖêã#±N3å¦ÑÕãp¥¾V\½Xí¬[n};^iåD±0ãƒÄ#2‚{„E´›Ûzâ;´G<hF…R“Ö<b«¨&Üİcî/¸ÚÂ¡ì[ J¨İU;*BqéşØèN³2j³—&ãNmÓ5ÓåÇYÔ·I²áS(ì4CÏ#e¢İ¢0±*.*ˆ†?_6¯‚0BåaÍ‰‰4ÑÌ·\—©	‹Ûig5qOãŞx¯E—ºì°b81…uJ˜5È+¤n©xÃT€DÓÑU—KÙ®„A®¢ñÅà¯4›f›~y ™Áç,Šfû6ˆş{}·”WUkØ÷UMË[½/É×úÓß’O%ğ|;¯:w&N…Uƒ¸éÜ
+Ú_» €?(ğR“ÓUå&NÔ¨]·ğFãAÏÒõâ,¤Ûjƒ˜g‹·VéC¢„Á­\,®…>gˆ’<€úPÿdYü¹ZbFoÓóV¼4h'}íÁ]š>ë,Æİ¥ÎE|t¡-
+Â£bÀ ¥@¡ş¯Ü§ijÕ…‚Ò¿D–ŸT\nÇ%sG@G ëMıî\@ñtÿ4ØP       €`´z                                D†         €à´{   T D†     !çwÿÿçIÜ&êV  oBó\éV¹V™¬°¶™îU°¿é1"Ÿˆì1ŒÕê<(` 4d¹f]‘  œË4ı'¹’9ßù.ÀÎ/ÏúÀÜä>Ñ¤f.ö'2Kït€½Şá¥Rª–ö6î¼Ğğ‡pP.8òûŞ)BïSN£™sh}îIÀc|'1Œhiæ•£¡Ù„gktœ-Œç%u3•êå”f=èê»çò÷Âd‡ìá(Ú#¯¿d¾­åL¤ÂéÑHªEèUÎ¥nv $¥e·µ ‡  	Ùe…Înx€~ °6±ÀÁx ¡~^¥¯ĞÃ`0'ğ) +£×ÄH\Áıü13€ØüCqX˜8cŞ¤jª•í§¾•–Ùï6D€†äî     8   €  Aš8dàŸiaknwà…¬:Ë ¿¥:ØÔ\bQ ¼àr0¼¢’½=,ÓÜşù¢Æäğâ`ĞÛ£3q€"ÔikÖ£ß¸‰dPZÍ‡JÄRælôÿ/S…„®ƒ øZ’À³I§'RI°Gñ§‹Ì¡Å;º¶ÃT³6İÖy‡–¯®ägüáîÀWÖ”lWÜúáëÜ•>aŠë\ÒÆ2üsE?OÃ¬S1N£+ßñU±kOäØx=•/õ9'˜‡(šÄÿûÁ‰|ß·Ü_µç›$c°,ÕÇş­:±:g³Ş:+Ä¶b
+u§6{µ§Ä)‚Xø9NŞS¡€6…rª†ó@%°»õœY,ÒQ->0[`ƒ;ÈrÂøÜßµÆ9Ï\³ëÚHnBO0‹à”?%ÙN±f§Œ5¦Ãb‘Xo..JÕ…n©¦pjåÇİµ165_¦ˆ.bæĞÕˆøÃ"Æ|Ÿ`ö?¶ï]ˆXÚ‘u¹Zãß‚#˜•B›û©ÓGEjqã:cmI/aßŸ—XF/R¢‹ÑrÎÍöñ»uhò`¿vSaĞk"u‚Î2×ã£±-T±ŠbÁ¿MĞ-=¶>N¸ä|\±9wŸ:Gƒ P„\w°èæ¿i,d	Ş˜Î`ó–Å;·LR­Ó…Næ ]²ûÍ,–óÒÖëz	œ0d”rOé¤6gG¤6à”	ËD¢ JB¿8ºCˆ¬„Eé	ˆô¦;WÎâdØˆ	²KzxáWl©Š;tÊ!.˜IĞpÉÓuİà†í’\¡—ƒ<ë¸ığlÎRTM—æ8F«„¨­%í–ü÷•f—ÆTR83ãXN‰.`XÓT± ö¡[İTwz4Óùı$ï©ïÂŸX»¿<X:0¶ËNƒ9ÈğÂÁJï`°Îon+Q„@r§Pp	
+ªù‹¾÷Ç¨N6`TJ>ö]{2â¼·r·¥Ò¯f÷QNè¦—:êúoUıı°s¿•FëŸe7çv8UP‰,ÕÅæáu¯³EU3ÔqL¯ÃWœC•DMá+i]€%M²dµ‹¸7Ê½¸ù÷÷Î&¶SÛcÛÈ»Dœ`A³šb6Z;¯òŸoZòÙUâ£FÔ"U¢F´»ºF:€ Â»“µVu@½T±ŒO­(2fÀ·wI2W}3s77ËÃLäËí »íQ_ÕÊ‚Àÿvb+AÁ¡H¢ë4âÇ,5İTtöÄËÉˆ¹´ÿ>óÕçTÛëèÌ¹ÙTÊ}ÿÔpÜo¢ÛeÈ|£¶®°ÙQôt*ïv%š´ß^â¼ß	üQ
+`œîıó–mN:èÿ•·³NFGE¤†óot1ÙLØ)†÷w‰Ù¡¾‰íH‘ÂFŠškÄ•FÅ'&4À×|}L)ºªÎ¬t8'[¹’¡Êo2ók,·wC>…8C+­wÃ(H«[ªÕ§ƒcwmCGløÊt.ÈÀF ÏËe=ØÌÒö#W-ùòvåI¹ÃÀ)!*¤…ßÀ
+.Ô€¶®Á²äqá©vÊóÔM?ÏZ´H|(½ ¶‹¡½FGLQ:ø$Ä[× qvF¬¢KÎ7ûY²â9İX€Nš¶bkûPx¢mge]¾‰ênS[„‘Ø)•i½ªĞ4%OéôgSU‘å(ğİ¢¬ÌE       €`´|                                D‡         €à´}    D‡     !ïÿ½ÿJÛ_„°z ±¦£#.ÒJµî 5`H#hÁX”ÖéiD!µıìY`3Sğ!›±
+â}Ù<ØW­É ê 7ùä	í´JÒóáÆtRúrŸªà	f°	¿©°ğ _D:Õ!1ÀáÑ6NZ+¥¢1ë.î„éÎUœ®·÷ú˜ÖÖ®&Æœá0Ö÷úÙà‰:;L0s§§ZZµúÈ°ºÖóqêcùxDÌBí–„…e‚ªñ¢ãE2øèª›ú£×Ô• &¦Æ•Ìğ†Õ%  
+0 y·ÊÑÇ[7;ĞU¥ø× ã D€İÁ æm üª€ 3 =; –ğ=#ÿU¼èc6÷†Ø €Ñ(     :   €  Aš:dàŸ{ñ²)pk¾DaìÔ")lN™dxâIÜ/Î¹ÚÄG%XAbuk’#÷¼ƒ3gE¤4İOÉó6£S,¤–½;Õüa8ÿVvèšÏ3#\fg×1„Æ*püÚìiLù`¬šP¥Šÿh‡ÂùffPšc4Í«Æ‘%Z5W` ¹%/üßA4 Õó ÑlViZN±˜c™.I¤
+ |ZdjÂ¹„-Ê>Ğ½›ù–Ãwc´åmË†E¶®
+
+àÔcóCŒ"FÊJ©Ö”rÃÄ3:l¡‡ë>8&8ù(Ê?“OUä×Œƒ<P'tß©Óa’C%Ï¶î¢‹†DırŸCö¸BĞ±2´Q2<~°$sPÔ»…V¡e—âˆWï6¯“¨X>ìTô˜ŠF’ÏhD‡\µ´aö`yfºm*‘O^öµõ†#v²²úYBGpJÂKkI©édğ=$Š©¦OÅx´Î4eBf¬å[ùÌ¦A„•Nù®²dñÚ•dÃ	$›'ü#M V±;X¤^ÿÃŠÕo29$÷ŞqdaÂ÷h«G¢³è›_°»|[$•z•åÉü«GQ:$jbâ›ê]¦©å±¨Ó<»1>Éú‡Mê¢}ğQ‰n…Ïğ!ÜrLb½9Œ-tùÄ
+¹À£òÆnúFS‹Ç¶Ùœ!ëÑUm¶X®<­æ¾Ì0Ïá*_L(ı$³!üX*"j7™|ïâ$ ”P‚ B×QÄİ~qÃTJ>R¹şôwçìQàKBÜ¸±ê:uU°¥r<óÍ‡†>ÁÍŒä¸™Wä_{x­Ì—n.#òyVêP,G‰Zcó¡ñ5#‚½öVšyxS#cŸÿcáÍ&°òÑf£œ,w¿IÔ}ØñÁgÖ¡o¨?[úô.p©¤3În$E\oèr•¯
+^‹ÂˆV=wi×9Å9¼œĞÌáµ97t/ºÒM#˜ '«ÂüP7DŞwôQE¾W`ÿ—#§yf
+í‚bgZİ7YJŠ÷°”ß@ŒëAY8¬å€Ã§¹tH¥ÂÍ\¥Şu‚ó¼jŒÌEE	¯—‡:=¥3’åÊö€Ô$’n3šÇvº~s±%°°q7
+å»güN}x†ä—Ô#A¢®n1öTá¥6ã÷cùÇÕíÿ›rºNÌ³ü™‰êÍû„¿5¿ŒçEc±ˆRµ™ (òögmûM8CÄÉ»Œ-RšY"=UÎŠğÊÏmêí#Áß}“4/m€Í£wäü|x™µŸtXe4ÌögÀ_NÉø¹PĞ»o÷ÿYøÜ3“¨ÌñM/Vûä2ÎNxêíë«Ø‡aH‡ú"=ÅÅÿ¢ÖoÒ›õñtÿx"1Áó6vƒúxJáÌüÅ
+·Ükğ‡eÃ<ÆuÑoK>§EÑ€ªî„¸~µv˜#9¡ú,¡ãu>Nòyu-åHzLßÕw!l¢?VAön3?˜¨Èñ]úûI¨ôPÑrÊÔz¥|P?‘™uáĞ¢=;îxm¥YFé'®¡úÔ3šÑ_@×óÏ,+]‚OñBçxøµ—-sƒR6Í8¬cï$Sáà•)N—…v¸ıîÎ¥´µÃßÏèšùÅµg•_u¶r¶S>tB<%a"’¾™ZòÂ‘_æHMÍàY´÷ğxzo4œt	ô!ÏŸ›’j`s¿@(HâÕ¤¿ßŞD;…Í÷[ïY1Aˆ1bÂ~ÈÄó®ú³åq˜şf:Âó.ûê sÿw^ƒÌİ¦9Ùç-Óég®…›uşñêMÔ*¶_ªd)Y€<ˆ|Iğ[¯Ó–ÙX„´·úî§Å(+N`=ÑqS{Ù»`çî(£­cGè"“³S/4Åä·ç´qü^Ôî=mœ¤¦ù*|ä=p`f¹^ö{Çvó{	{ÕNÔ¢yjÄ²£ë§ÅR†_\åg”Â:~fÕB;¿Y×@SnI#¸^È·“,‘ÿ¯Tv%,”C,›NK=Jr[×Ô<”åÙÍ¬-‘×gü7$Aæö;NÅIóİ9İ¢Êôâğ9NşÀ^÷S–ïÄ|Ã²§F¬ÖÖ9<NïÀÙ# ­™·úÙğµwœ„ªùYšÓÄß/×›„¤İo]§VJq£Ë|ü&¹Šiã¶EÊTïC‡·sükÎ
+3¥ŞİºÆ¹é ´%®ã>æÃ½ÿä¨”LáıÛìP+õşÎ»¹;x+ŞU‰yÄuË%Äº~®§Éı‹â&
+íİß^Éål®G
+Í|R—Æä<”y›á›ôÉy‡°•!Óºi0RMø8ø=1"y¤ÊÒîÜ.¨Òo.Mn       €`´~                                Dˆ         €`´  \             œ Dˆ         €à´€  \A             } Dˆ  ±  !çÿÿ1‰LOÔ¢˜ğwd¥—AUÒëš–„¼k×ŠĞ8ÿŸ-îõœ_ÈôÁ¯Íœÿkğ Wa¨¾)¤¹û®î?'ˆü€ëàîk@ _aşS¸q*âr¾§¤À)éÊZpÔ€+›ëq@8¸ İÖ¤ªŠï$@F6	çNM7wYN,óÏ½ÊTÍÇc§–|(µu\{MÎ¿Ö¸,¦®c¢öÇ9Jd9$ç%® Ó•Nì±åø$†0¥Hc™¥/]‹š[á)¨7éËZlqÚv¨¢KıÌ¨óäâ1xÀ^0ˆá€ †â Œÿ;{÷ã¾]ÀÉæâ@ ¶ i  W|$ÀôİSv÷"P›l `ĞÂ¤¦ ?     <   €  şAš<dàŸ œÕ‰Nc–5ÆŒªß?åš#2?‰Y×m¹Ê°‹xqZÁéË òëZ‚Ä\ˆÍ{¸As5à`sº´HÛ18ü„!Ö°Q«ğÊÒmÏ‡î®\!t“EÀæö~ÄÅB§4RÍÇuü‡–——z¥ê)Ìù5‘yPğj‘¬æzˆ>'‘.Ué—<4¹Ø[ÊV'ı¹ÑUøáï ı¤ÉÖôR_fŞ5¦xé=}`¦g/«Ë±QƒcéŠq`ıe±Ÿfºªw…P }H©/
+Ê3ÑÔIÖä«¥o¼¨e.l°¥så‡fOûùì´×#¹!v²HŠÓÍ2ÛF|ØeÖœ¥)èÒÊU&LQ¦¨‚±0÷J~(•dĞ]ã“{k÷Àí%¸ ÀpÀƒøŞK¸+»˜¼“lj„m1–¬¬İENJ@,“O‚|	ÆmÿP&Ü‘Nd¥‡F•Ì-'P	÷Lš»oø$I¦<è°ÄúÜÃv‰¤-*æ0¶†œÿ]qdà¤Ûvv%Vx#JØ+}ƒxCÁ¥ä÷?~¬•¨í(z7D?n+´ÂÒÖª¥y'´ü-ÉFH] h’í¦1bÁ¿/€:.½Éúõól8Ÿ·‰l9dE€ŞË’U£Å®#f¡¸Hhnro4š‘x	>¥Ìd®ØÌÄû‚åéòÍ²Ëg4\Y¬w˜ğ"EÑ÷øÏâµ ŸÑÑ ë²\"9YyYv¬C
+ÚwqlLTŸ±6û5ï|†0ùnÈV<iVş÷Ëäü.¹9±ªIrl]zëmïJ¬Òù€"}º<W9:åÈ•‰‚ó—ØeháŠ'¹XÕxä£Æ[Ù¾æ«p#±BÑ$³K¨o ½HÁ£ƒ@©8†ã“Ág¥4øu°Éâ©n\¿ºTİ9l¶ƒ¾ÔH, –pf|Y-Yõ¬-.Ÿ|™IÍ 9=è³´o&áÓ2Ù	?t;yŠ^LÙ"RÀ$º“.yÂ4üÊj¨ÍgÀ¥HàQJ$Õ×[“Ê)³İ÷óÿÔ7\fLfwÜ®ôštÃ±;Ü“áÙ}ñ‘yŒøn;Ù¼¤å·Õ6S(• ’«Ô­'•Ë‘zÇié\A²Ç«ÙrÓNxGL($‡òM&+¨èªMgğ²Ha# É¨·G‹rƒœï©Ì^„¨„ĞøY¥ÆçÃ¢@ñzÿÆDz<ø·uC'[n©,•ƒÃmô÷5ó^ÆTØEdÊ¬Òö?	§ÈmÜØ0É•^ÜlÿÎàcĞ#Èrj,Æ§ÀÚQ]`8g°3¶L·mŞebYa¨ØìÀ0tÂ*7îk%ïpOÏØEÑQdI÷t/äÎ\[;5Ä7N’B’×cÄQ÷Óm¡{şØ°UØ÷UØùİ0z!ß#cÃœ‹ÏŞƒı.4˜sö¹Å…ÏçDíØ=2•Æ˜H65…ù²ú+Íš[Õ	]¯´Ç9ûd¥/•1ZvÙ–Òİ¼÷b`¡ï›CöœK4¡:,.…à8”ctgğf„tyïNT™Œû$î9˜›ó§™"0Nb¤/_,ë¯ àñ¿UiQ°8”pš$Â/È–×KZÈ·=Èƒ½n­EŒRª`_¥—óD'x*«ó3j1‹Ê"5ø]GBgJ†ƒy²R´°½‚‡Ğ4L9‚¡;Œl°İd\˜Eó 2+,ü]%¬Ü s[PÜ!²Ã`c®K­™uâ8w…í€LGÎs»gá$Ù¯iıF™Y0í_NRPtBØŸ@®hqÆî™SËŞƒäSÓJµ³—f1¼ÜşÀv,|EùeYUp“ÀƒÙ;èKnd E»9D¼pÚ—¯šÀ ºŠ´»ÛTÕ×`H«šçª_øzX^É3-.8ßûCHw&_Ò`¥©Õòò®ÓL[i‚ôr}8°”(²ˆ5MM~õªßÁÜ{•ÊÍãeÒC,YÃ1›Îò9‘š¥       €`´                                D‰         €`´‚  \             œ D‰         €à´ƒ  \A              a D‰  ±         €áG"   
+ @	A	 	Xø     ( ‰         Š       + ‹        Œ      !îÿñçŒKÏÎ¤@ˆCòšÆ)ä.Ó5K”ÆŸ£øGëUèšÊŒz\Oï“Ö÷0+¼ˆ.7ğÅz'“ î:`V§èš0
+ônÿQìø¬U Îtÿrö¼ToàşiÂ¡u]çq±Szÿ÷ü0I—&ëOxNı6‘!SO•ŒÆwW×b^¾‘£¾2ZğNÃîœËÆ
+Ö–zÚL~{§!×¼ÿäîPÃ— ÍÏ}]©( 'sÀ%lë@^ÑqÖ¦à…Ö#Ùº¨¸Vñuğ7áúë»ÅûkÏ\
+p
+wÿĞÒ NÊ¾1'ˆ	ãxÀ[—=®Ş›i– >âvš:®)æ„¢3@?Fê ´MàºFç)¾½kGm†lÀÇ&µ¬a€     >   €  8Aš>dàŸƒäA@¥rN8µÖ›Ï÷1÷&Š]×™)m€aBªS¶æÿæuÜq«Wt0èèi õ‘ÃGóï Â%Ø”ÈÙU„¨ˆIàµ~g=îkx:€´–EĞUÈ~íÆë³³oßõ>É¡¦Š¹]ƒ¾÷r¼3*ªY=úaË¹O±uÃ¬Xæ®BJäq='f}Ë!™
+EŞ± tî×Å7§t^záå%nÉ³7¢i‘/
+OZhk½TB%9_}PóúÒç›5\HŒo9g‘¿7?Ê¡•rİ3{í£ ï¯Y2m#]éĞ= $±‰ÈG'9P’&_Ch_;_IÿÊNwú@ğí‰[C(+QvsË pí2M†İˆ*‡C“òËe@DÓL•;b†}M„}õj=¤O=D†ùLJ`›Š8·q	…-Yãw«|E•€–	G<VúCÜQB/#íµ´$0J ©SèÑğc>­@º•:zîË!KLáä±ä\¸SmÿşŠœX¸­HBìÛ™ş¥¥€WzÎÎåµà¦*ò‹ÃSñ[=mCáÔB7qíÉ?Ì6&•ÓN§¿9hÜFÏœ78ˆ˜ÒR5q(ª—¡íÏ„Ò½WìÔ|f½÷“Y!	v†2i&°Ú¸Ü¾éè¡‘:È¾+«ÊÕtÚP,7a#úüÁÇÿ‡üµƒùÜú_®µõ}rš¢'Yb;M²ØU„½Ã¯K½f	.¢4ûŒ¤Xvl­Ë÷dëĞùš÷ôÕRQØ9îtIÄâk¹™˜ÔÉ¥Ï°P›p
+ï¼ÇI›_Sƒ…H’úà|À.nMÍ83cù<&‘ÿs¶C¨¿aÎ‡~¦âËbâò¬I÷äP–BÇ£rª‘½$ûï·R.>A½«æÃ(š0ª ë#|éíjÖÌ¢ªûC%ş „ĞgØxğIBŒ®{DÃ­·lñ« ^—ë%ˆ²â¨:DI@ ûØÕkß•¢;±A )Ü¹J/c3.d‹;Qi`í¾¼LµAÌÿæj.,Ãs éëVêé|¼KB3nÚùZ4ƒíW›î£±_,
+|•û‚'¸æé»±ÚüÀ¥*Çù@~1+Sôlø•³îe°ÆÏq•¯ıÒg_'B–	÷ÁD‡PìÃ¢eÛAU;¥hîEƒ¯Ê[D&¹çÂÁ rÃ¬|Ö%5_ø| CwæŸøĞ¾h"Å8û+h°Î‚Î&‰ ß5 z{|•©Ó‹]ÏÆ9$³	Ê¦îa("÷vÁ\°g°--˜%z¦5sQ)Ü¦Ö¨8=şÇlö­»$Õæ=MÛÒ«%ıLDe™ Å<²JÂÑæˆ~ñf‹rõ ”¥A…dƒ9¸êÃfEÍè¦óãc7ñ.b,T[=‘ŸaWògóAÆ>téª´$²YêjÕ µÛÓÓĞeôÎh»/ß]‘4ÅÇ<`ÚıšmMÒ7j@ûüÛi [8Â&yhâQq>·Ëş
+ÍÙh?æ»^Tl/ìÄ#~S=ÿy\¤½€û£Â9cò±"º£5dFØ©@öï!†›M:¸¥£ñ¸ªÙ*nLó”Ælt!qv•ÿâË¸Åv%dSQ´.œéÙˆ‘T?Í–=WÒ˜%¶àÁ&ê‰¬¡8ê¦èáµõ mü¡áÅÁ'•ùq4LËäÌëV¡cî#»Àå=XÌ\àÌè#ğ[T<Í¬¨›­ÁQp0’¹0J”û!éÀ6&/X¸ÃLOv2¥w™^í=Á-rL…
+qH§Ÿöò×^«D
+]W2=SÓ¥KW…¨¢"¿æ•#>à¸%eàŠbe‘öğú"\¤s¤*¦¦ÛO}á-Í\Qì
+ïÙÀªŞô/]ÿ+FKKÉx+… œkNaû¹—"´Èîî2ÄiÜÉğ¸×¨&øô¯'`›Ã¹ı­ğ%¶èß=±í÷Ä{PğH:A—àøP'¿¸oºˆÉ<-¼¨Ôyú/«ŠóAHPRÈğúg¼o2‘xz=äúõ«IÀË^ \>ï©EßzU?ç?ä¾´ƒ±¢°‰N?*l
+B°       €`´„                                DŠ         €`´…  \             œ DŠ         €à´†  \A              › DŠ  ±       @   €  ¬Aš@ dà¿V/ÃC¶»æµî¹n×„Ñ¥Å<À]Ê­éÛş¦İ”/Š>ˆŸ Ëïœí³ûD[ıÈ9½µTybÊí¦½ñ8 »ôÄ“h¢^ç3>Îçö[XÕ—7Çe{pÉUó¸è•˜ªÆ);Ûm¸%†©Õ`•~Û†vçR§¨æ4YDÁÑë8!ôe.f¸
+O1šî°êèõ™Ğş…´ ]ŸôÀŸ3˜'÷D_ØùH£†ä{ª"EŒ%ú‚z¦ªáèÅşfgÙFùjh÷y¾Ï<tu$pÉni|³e=‡öyİÀÄÓ‰â«hêÂ`rU‘#ğÆNS&çà—f.ï%€¾Ø§íŸÀì×Í„Ü4BË8òÛà+ö³IeÜ±sèëÆgXÇdƒßÃ„P|2Q8CuEò$*yWâÃág%ñ6;!dø3‹HVÙ›¥K.&køö³§­0ç–¡qYï›ÈóÍš¨—†â
+àá–çÙj]Á€ĞCãH·.G£7NÚxBLøøJîKƒ¨X¾ÍÆ	é{e
+¬‡wÕ…Våi&pÎÇ¸dÆSa|ngâ <É[×°r9ş"~Íl’Ô¡”ZSOÿø®Dêx«lG…h‡n$:sDßdÁ¦†¾ŒÖ¤uÖ.kábÑÀ ÒÒEMÔ¥›h±ÜÁ+›pƒ_³Ã¿"&ç@±}Å)Ó,I×‚É2NÙãã¤­HawX¯Ğ…™í:´êB,K\ F›*r›N}‹*¿FgO¥!Ï·ği5’Ì’>AÒúfgªâ#ÊeÎ	<µbŸWúY•¬)ıR{™"Ä’ºæ[9jM ½I»w;³ „‚é#Ç¾©=<5‰Îy¬³m
+t+£'Ø©…½@i’,‰Eï·iôª?á‡ÖŞ„dîEÈ*ş•´H)èB4ÖòÈ3KB?ÛvÚª;ÅÂàèã¯ÛÄ¯H"èœñÑBjÏT•:I°xz¤É´WÁFÍŒí?•óEÎTx†kLNkÊ1¨*¥pÿ"ìˆˆzı¡çá2À'îT#Û$ŞU˜ÏÈ@ëR[ZqØ+©Ú²Ò«^Óßù‘sş?!Œ›¢tÏºië—¦ßÊ]¡¿Ì®c	/ÏDÆéÿíeø¬KJ£M 5WÑğ|ƒ“ÛšÁE‰‹Ô6ß2ÜCé"’6R]ôß[DiZÕeÏÔ#æoîe¾5ñJÆ»á÷k¢ô3‰L…Ê—×Köïú™0İyä,ˆ¥s¨ÛÏ]IXÉ‹¼à«F¼bšØ˜šñª¸[ø¹ÎYõŒ Î´umQ˜â¡£«[ÊTÀ©¶…KâTòÇİnú«m¤ˆ6œ|Ÿ› lÈwŠ`°“íÄ×šM¸Ê;rû!hàÖğÄº¦kû˜!:­=sVÔ[SÈ.EzKû_áWÔxéÒüøx.8æÎšºí¥é¯ºHRQ,Öta\òK´*O/ ³TÀâŞ‡UâL
+ÄÒ`Wü/R}Ò9½6H–”ï!Óú²¸íª^¸US›^-2¯/
+û« †6N¨‡9™nÄÓÓÆÅ,¨İıÚRµÇsÇ@[Ì}KmÁÏ$Õ‹y–qÏ§œ+×ğqïOŞ-Ñ¹a4µdgBh·§:1¼{ƒÌÏ¥¶ŠAš”êHé**ò¢ÆcÓQ7‡.ÿŠUE,ÿ	R¹Ûl™KîBNnˆÕÆ£±Eâ“›k­°áˆğ‚ƒê3zsÆ3ª Ë~O§Lp5ItÄk³ÿFx™¿%—_İ€ÄŠ<]SfQ£gk†ÑzPº˜Æ&c03gäß™cFe}ĞP[ÙãÚŠHLÙ˜ÉäX9À]`ày2™ÁÀşr¦\[:ü¡Ä½³ò¦8ºH¼›I6­‡rnÄ¤W@Ë&«?ê®¸F8»z…!TÕ6<™u"ÄcàÜêqlTäF =NÓå=CØˆº9ñÖé
+³i’Õñl_¹€±Õ¹pÒ "kDÚÕŸuj£—·Nã|•ôªyúÊVS¾§˜¨–ghƒë; jGBÏÚÀÉ^lDWá¨#qdVZ(ß¦pbüÑfyøÇ›Z}T©j¡÷+B‰ü`}«ù°ÃíXÀ§w'¹…Î…8QwöüM×a}z‘qı¸_sŒ(	»¨‚­<¢ÿhFŒ×Óu-ÚÃôUİô!â5¾|×û©ÎöË°p/òèãF´@¹`+JÛ¼FøºÓÊÜ£Œçi
+Ó‰¿ÿé—PUE®ğ•Ñ	†GÕ`#¨†É@«Á>Jë*ÈAİiı¡ã+Ssj©?Æ5O©IÙëb”å)¶®ÓLô{\áç•t¿6YNQ:~ÿ7
+–À<<å-!÷Óí:Òün€SåA1	JÀëÂ¹§´,ÿÀ@4òû¡EÔ	œ{óÅrúDçïÔ Şäe™R-¿Ÿ^lNºÏà¦Üzp/ÄGÎaehQH#.;ôùU·¶ª{ÈÕûV13f+Ş¿é¸/_ñWNd"€„k"Å@±Í³NøG9³¥ıEZ ½ÄñÉÙÂ%áÈ‚<ØôÌ       €`´‡                                D‹         €`´ˆ  \             œ D‹         €à´‰  \A              D‹  ±  !ÿÿĞç€É©-3á¿F péâîôA`Ÿmû =¾Î8QàjâŠ y•Àª€ç‰jù¯ cÜÚùi+æ½NC	Öı‹P
+óŸE í	ë¤Tz?5¸`2õî
+¹’ÁÊõùMÖ÷¿1á€@F ¾ã úh°Jï"dÌàïÁ¸a¶n—­ÿ_r©Bú.á³·E¹–…Ní=nljgAÆåğØ."ŒzÎ”V!š7yŞ5á!yı•–4o…Àib	âÃı"WYY“—8Â/wb‹ <÷òü@O8)ã¦;ÓgH+U`  ÷FQ„¦(l Î[öŠè€`¯¨Ë w†ğ-#÷—\ÌG<€ÓÀ      B   €  ªAšB!dà¿ãı½C
+"³^ÜèA˜Œ1I:< µm]f‰lqó×¯‰ëú<—UyÉ5ô&¥n“/_å¨ÀÇÉZ8dO»—·ÖºN@†Y—LYå[‘­ó‚¼TäÇ¹&÷s8ŠL(íl¹Ü7›[J)L`º‹%Vò7¢©{„nv‰SmÃ!ÍÒC	A]´ş¶%zì.'½9Ÿ€Ó3ó?aJ'tê¦|^^K²½Ù”=h¼;#œı
+;d.ÍRş(5‰CWõÏÙ!A`lñ{ «)8®Tùä‰SBİcZ§Ğ8×—Ô¥“Áàûè~r(¡ÍB©ÖÏˆ˜5ì´§Š×©ØV±!éFŸşŸ
+™‘ºX(ãÛ€·¨íÄ9˜sÔ.ŠÑzyŸ·d×«¤p‡—B0Pî`b¾$uøb1_	’‡å¬eÑ4İ™­ÎÀã‰¡DS³¨^YvµiaşçvÙ˜`kG2GE3CZßÀ›ä0$,ƒß-'¦C¥-†ò¶aÄ"t€çÊk—lˆ5{š(÷¸»­£E1"´¶À j¾güUÁıàI²Ååñ"U¤§(#À+†&Ç¼®(Š¥¥ègi°~ëƒv{Úèw÷Üóm¿·^áÏUá:G“Î;aµ6†Òq¡îABÇòG~sv+eœÑÎ_cs/ÁŒnš°E:ô’Áî~"n& $T²„ ÌsÉ« ¯äO]¬‘"X¶ÉaÜ§¢R;¦Ùš^®\çB¥Ö.ŞÍ#ŞÑìƒ„NÆ+¶¨ßW\S‘ôé¬½|‘gÌ§gÅvâlRE|êN¡”R¶¦we¸¹ığ…»ØTÅä%¸T_°2İºZ •Dğo¼…Í:W–Xö”>¬\ùõ®úÂê“¯\ìée>ZÎÓ~yÚ€l]ëïÙ³c£ÉèÂ‘P™I~©wÉq`i„ZÓ-srñT† †ìŠ²‘é{pAµãÙÁıâĞ³ı#ª”ÕÒê?<i”S$…-uÓK!&|6;€àB¯/»;b(ısu%tÓªêíŸhä›g¦²n—ë²·×pS©á^YöÎı¼2óEÍ™£fÕª“uÍ–ùØ…tŞûæDcÕ70Z)	ôŞ<ñ¡º¼,à«ª‰„İÌæè¿®9ÉÙAP€·»PzÒVYÕ„˜íÃ/ª†\£×·ûäÿOœlîJÈH#”^—w™Ï¿Gsğ@”œ¬"³²ØÁFy~»¦8öe´Ù*DõLM7ˆ-ÏÏ]jRÍ¼ÑP­>î£THÏ&áS. n~DÄ^ÈD·¨‚®„;);‡…9Š_|ıd‘ŠĞö—v¹2xû,)ß”ˆöÿ|}“ín@,?—Œl£Ø|­BqJk/q)œ^OW£yGÃ/§¹ˆøÓ€ÖkoòcE¶•Vn>´kñÌê‚œŞ“ÛÄ»&m} Ev9X"["#E?é­(~zøÚtVñ¾ZÄÿÎ Šòñõrì`YÇJ‹NvÏw?óNİ¹ióï;Œ)È%wœ>üHhß“ê¥™ùIÂCsV«²1j»5#%øÿÎş³9ï_×k	r7“5‡†‡Ñ†÷ĞÂ1æÏœ&ÌÀ•¼êúÎ¯U*ñ¼b	kÌ´<´ñ#Y&Å<w„æE -£h2ŒÀö2²¦¡pœ8Zù§šJ.õªÒw@ò²SŠ@‚¡U¬ySüı}5¹‚Î~İ­¶f'©FÅ	şW)ò¸@èkGà¾f¿ç^¹d,¢óÇnÛ^9f‘'¨aXéXûíÃ]K9‰š`f—‚Ûö@lLLŒ>x.úæ%¸"ùÄ˜ …—ÉR›Q„ã«‘ÕÊ¶ú>CŠÂÅãƒ—A!ó óû:3†‡Ï0›±¨œb9µçşº pÂ— yBMG¤“]`Tğ9v…Yä\µ'äê“;Q¬PTGÉ¨~X›ómiğËiXW†9ï£}©÷ö•-AıJ©‚7ì˜îéüK¯­1Wj™à'ëü~oeA0[P5uãp3sóGzŒN8èA\&Oß&b´Â-mÉò£&ÊåFGÆ3“ŠTsâArËs¿‡0Å¤  (8àJ!İ±TIšˆŠáSvøúŒßí _N€¿¡s+ßèw+¢ÆÉ†T÷Ï$&Ür Üè¤LP=ì˜kk†Æ X’s/{f5S–¦Â†ä,+ûVÇÑâFÃ4E£2—•GáÏ‰e‰^æ>wçóabùì†Ø-ş"N©®o&™¢—Ş¤šÑ¹õMš%¯.™ùR9Zfr](Ê[¸R‰D½È(o;L’Õ[éÊu›Ì®~(¨jkN^“J:EÅı	¿ş](9u€4}|ív®‚rP´Á8ó#
+ÉæäØR·15ç³^‘¶ÄÀö¶Å`Ão€ü–şFhû"Áş]ı:–X	v¶ÈÎÍòj¨êÍ»ÀĞÖÂ `Å¡µôÁ
+JrU<™á<#ë ‹…uËâ…Í¶g
+µS:Š$pŒH¸M¿µe5YCñLó	˜Wà‡5 NCÍ	ZâjğHP+ü‚d       €`´Š                                DŒ         €`´‹  \             œ DŒ         €à´Œ  \A              DŒ  ±  !ÿôıçáÍ9-3Ã+Á’¢›¦¼{½]Rğoœ‚Ô…VHı,ÄfšÌP0/$Òkş¾ıw§v0kEõ=¯9èdg¥İ³÷q½@­-/Å0`Æ¶ı0ñºjæ–ßñ©*µ8·Ü<€”µ±44ó²ìMñ°dÎz¿!ÕÍ1¬.sÎÍ(%³‹h2</U¤,YÂÚŒ±Å9FzIœíqËänb‹‰–ü[¨)|n>vX¶¿€;îÂGm¡AŸ/7üÅ¢€ñ¤ M>Œ  „ä  1[­]@	‚¿\ûxîIÛ†üõóüX^N˜/£P®Ê §‡ˆ ,> y0‹ƒy¼Hİå7{v"]Â¨ÀXÍ³  Ï     D   €  ÁAšD"dà¿ÃÑU4Z1Ëëqõé0Õ¼SÌäùIæ”´yÖ2¯‚Ûø9¡ô;§X;²j),¸øÂ–ãé£º>µ™ŒzŒh‘à³tXîÃi<»³a¾øıB
+tœúK×’´TåGêatPÍB¯Hmb,Êg+®–ŸÜ§¶‘jfÂË‰ÒÁYØ¦|RühßÒóúïäª÷Nw°ÎwÜé/ä‹2°šÖ½>ÍXhIŸM‰1'I Ş½”!y;í»)bD×3Ç.P Lhğ}”¦Ôr¦Ó¦­æÄµ^˜d¥)<kòn’HeèË+Wœò¹V‡ğØ{¼ äm1¯·X,ËEº†‚áÓ"YÔ—á™	ô^ˆÏˆéh<ºËi?:l®SÒ¸¨[%»O¾àRïz)ëÙÌè¾ü{»so“ræ Ï~À5¢äãÅäW`O9°]ŠÎ¦1ºCVJß†úÈ¶2nôQ÷èĞà7ôª–t¼éÀ¥Õs
+²êöNß¼cåuË_G›Ÿ¨^¶´¤GP·CNÉÛ>e~ç¬`ĞÔtËqˆ<¨Ì"óf?q…±¼NœÎbˆ¬´o¼ÒŸ?ªÃş6B”ëAz)½6ØwVm1ÑËñF!U—ät¶–r†RD÷µJ€¥`¬:w’Í¢Ïk©‡(•zÁ+±*:PC±hiŠx^ì½Åº¡x„Ú§Lé»éHéá0™“ı†³Zš^œ‰ˆÌ¤¿€r$nòYt[:A6Ş‚oy|Š±+Ç_¶‚´“ƒRòõ.[‘4û×>wŸ¦áŞŞŸğ«ÜH¶S–xº¥o-ü¾ÑşsoÖ	vwjTË¼Ã‰)ğ„k®	Ú'mVŞğOË×RV/™ñÑXi™å ¸s$_|ä£S›p&ù¥÷erp®¸¼¹)H’)¼½‰¶ÔY}á¸ßö»¹fUêªKi›“šf-lëÏqAuë›dÂó¿SUçAŞÉ¢ûÒÆ6]úÄ¢‹şY5ßîÍPÖšÎ(Zš¹2eÈtÆ>÷‰™"™‰¦nØ´öp™Ã©ü&lZ%«¼–ÀÀÔ®ºà'Èƒ Œt˜Cƒ®<q7Ì &U9<şüÓ—ĞQ¯0JiJã¿(iÏE`»Ù©Xè7-ìó¦N#;‚æ<»£Š£¼UãíÖóPuğ‡ù£Í=MU&ªQ‡¶Õ±ØRú„ğGš<è fÂdX9IßÃ´uÓâş=1§‰ Ò³úU¿’‹ˆ5ê’16’|¿ùJ)z¹³¾ògƒhµÜĞßâ~şEÃùí.V´LA¿ş°àÍéQıüÔ¸äd>eK“Om^ÈÚ-[’¨ú®J­æç‚e°7÷i‡ª„³¨›P5ûsİÚl’òÔe„û(OB£àÖm¦l_¹55³·”5YgKÎr¡\‡ÿ( 6Új’:‹†,îü¹iìĞ7øqO´ûì Y†H‡ÈnÂ`8jò÷—¦eÌû|"Š^"ó‹‰Dèjëğ4Ş€	 ü‹NÄÜ÷H‚rnÌİŠÚ?en†áj¯İô/‰ùåfÓÆ"¿IA#ÓY8&#ÍÃ3oĞ­µ*è]É-5,üÿöÒÜH=ß&–Q\NuBÀTd	#e&½ rB{Ü!Öüj­,-Zßÿ²·4¿J!/åóñÔ¼5hƒ#GÌCA0ã‰Îç†ASÌûŒÌÓwcå‡b“3»K<P“œúHÊñ«N·ÂÈÎ^bßÊ¾¿é™]œ«ãwƒäşÒµ¾Œ>@ß-şÒ›aûœ7³l¼‚ÑeÀQEÛ3¼è´ûŠÓ“®gîJÖ¢]Ò`åP"è=«I<±Ç9Ô£Ö¥ÑLùƒŞ
+Õ”DâşÚcDñGÏh²Ê·I”(‘²rOËî^s­œ`‘EŞ©#õé–Çº_”ÓÕOÑ.^7Á¾¦.ÔˆA|.€Œ$¾dG 48z#â­½f“$J{÷$2‡¨š¹Ìj´9¯ïÛøëQ1ĞúÊœ0 ‹ÄĞ³šxËBiç¢“ñ]iouR'# š±O*ª”zŒ[î?î…	 êƒ?aµ‚ÅŞe¼G,,v[Ô%‘6êïÀ‘—I¶ÂMö<à¼eßIÒI±´Çªîlaı¸á5¹Uëâ¬Ù¤$a~æãm†´ÅñÀÄˆÓC©¥ÌWÁÏë–ˆõP Y¯/vi5ó¤¶²wb,*|
+®Ø¦‘ù(İ=Òä8`ÿõ3®îÁ`J2Èî¤¹¶&™©káO˜ì}ˆ'e™Â„
+Ì©HK™â9Ó:ı{ÙZØ;ƒtğ",
+&xaÍV£ÛK6sºÊµªbhCàØ”r2!ÓÚS0š–û÷ä-\s¨2êtftHVæ¿l+ b*¨DÃ”ó±š…Ä1¿DlK&÷u##^[
+Ì¨Pä1h¦‚f
+4ìrTw?®:i™<Ò6w{şş5–mï!İ81‘»t&b‰åCkÍ™×oÍ|0aB¶(Ìùó ye*İÌØ­Õ6İv mîxÍ5
+À       €`´                                D         €`´  \             œ D         €à´  \A             $ D  ±  !Â’Ó%²Jl&…„¢AUÊŠ¼ÖÖ‹¦œ"ÅĞ/~İÉ6ßUMÛÈÄ$-´ZrŠqİEw*Ë¡Éq*7~=øÆTó:tİÚ"b.	Îo Ê…wéÎ¨VxßÁÿ‚s_‡ó‡ÒıÀs Ö›{¦ï õé'Së“`z'
+£¡µO{àr›iíÓäW@L   ˆ(¿‰ºÛQŞ¾ƒ–¡$ü‘ÎN¯&IZÒQ„çYÑñE
+á¤•/—Š)*ÊgS¯ü\h"k×Ú&nhVèZé éÂ¤#(…ÖyøÇúö—qks÷æ‹+Y¬ä-sŸşâYÓ?gù±Œ˜Vg^ä<«Ò§[
+/Æ¥Mçùl€<öJ B0„57hkP€,0šĞÒ¼jµyK3ş¬ŸVÀ¯ ûı—ëğzÚ![ºØív‚öLïx%ÈïÀ š®Æş‚ ¯nâ PJ W „oÒ;úJPF3@¦16 å     F   €  lAšF#dàŸtPŠÔUÒ¯Y3C½4Å—ë,V¡' ñ™ôtôµ–DJIB;Fé&‰ÏŸ_:âÛƒö X„ôM­µÚ5uëYÎ»Ü±×ìYÍ/¡ë£ÄımßK
+©<D'áğ:÷T+¥ˆÃY\{‡qÛ1ÒBDÈšë)¶éÎõ3K’z×C±J®à°*Œ)M¸º9\VaL¶F|ÃNSøŞÿbêXd:ÓI#ÅMáƒËTÔÊŞó‚ÅVíıøJT©_Aå¥Ï‰Ä¡ADË;êÌ|UÙ¶_ ›¿ˆD)FÙG@#ÚŠ‘ë|.š{¼Éé_™ÂOÚöÔ^Iá%×&ŞsO½vQœyuîh²È…ëÄ‡ˆÃ³à¸#°Idb
+€÷œ“}ÜIwf1WË¨7òıõs´#î©“”èÅü$¢@!ü6¯¼¯DS›—OÄ•ı¦º7¾äGÊm„‚ÓØÛ.¸è‚èÏ-ÛÑûGoü§"hißk	ˆl À’HïŒ;İjñµAı_ÒáEd^:tO×pc#opJúËÇ€3M"Ñq?ÈIgh„“ññI÷‘jÎcå¬=Ç®zWoAdg¤•~ÅèC`ûÀz9¸LíÑ¶–Í33ÿ:BB Æ\ÈI­.zœ0şR4.zsñNFòå,—¹]JxÃT°Õ¡fÒ3$®^‚ŠHl¦W‘â(¼‰wş×AáŒâFy©5Q¿Æ´ü Dòµäü3¢f¢C/©Š¾Ï»åFqÇ½ñW.ğHî×GŞˆ¾BèübWê²®bÖÔcÇJpÙ^÷°ùXuHeüm¡„%[âZ¬C,ôŠŒQiùÕÓS	Ú¼–{ï¥U¹+Ö(”ƒ1Ä.o½ûx ïÑUÓf ¿lÀÎ£‘†;Ç$Eeã¬ÄÎ„Ú›+›%‡õ¾Rİ„ºù˜4«àa`;-F5Dïö¡æÈ¸m·Vr¯µÚ5W¯ìD¹{¶¤k3¶¤º
+û`¿n|ÇÀrŠXŸRº :']óíhrxrıüùl]BQæ*aÔóİLÄa±¹‘¾ß”)ë%=©'¸1ó<l¾ówÖ¡±Ï‰Ø=‡m‚f~œÔ‘…2zAA JI\ÓsG«ÏY«ë´mn®æ¨µ;]k?î]Ø[æ›óÿ¸Æ®{åL_}lÏHë%ì§:¨æ¢Z“I~åÿï$´,(‡''BTà4›Jİ‚S+zšŒ ˆ=pBÿ7.¦ùíW@3Ô_Ly¥“Fôr©^Á`ƒZmÏÊ™€z|Ëà
+<Wñªø;zë|c°]ã|„`AQ(Q ¬0Ëúuu3ŠÀ–çL:XÏ·ù)ìX—¢Ã){;d®¡wO|àÔ$š(Ó5$§¦ìe†L¿H¢…{Ï`2,˜¾Ê<Z+”Vg.É¨”y S¤—×Â^ÚmMşzúQ12Ó:ÉQ˜e©©”€`ø”È37yZàsl
+B±^Hª×s¬…ªT…!GÉ†,¦Î‹adÄåµæ,“äíğĞv­sà é¹¢DÙ®ü*åÒcğœ};Ò ¾GÛB‚ƒ{F†‘ ÿ©šÇ	…ÄC|ÂOØîÚô[¥Ò‰ËÓ®Êï‚LÕ×X4¬ÑÙ»õBÂ{e»§ˆŠš­@ºŒºòGJĞ˜Œãìt¢ÒRSÆZñ¡ÏÑ#qáå$ô{0[yGúÍºçû%÷“!€n—ûMó ÅO¶‹Ùë?øËX·’Tá^±sÅ¡$nÄ0„×® Ä$:EP›[ù©pí2@X.»\T`       €`´                                D         €à´‘   l D            €áG#   
+ @
+Åà	Ğ     X                2               !ÿıßÿçËÛg…F!S° LÌÕîq}É®t¸q‘[ bS`óFEÙ(zW%Š•]¿ÏkCH˜\¬YØM İô/¤Ø:Mo°®£ËÈeèrşíÄ«ó¾L“ŸuÏÑõÔl¿SO?>«ô@<z¹^GkJõ}‡NXÆs—Å¾" bPÉ¿Fúl§ï¶ìÃJá|7¥hç‚sÖÙ©¹½„Z÷mki”¡ş'Üùª'ÙvÅ*Ÿ|gçï­7_DàH'!:†b‡¦Ÿ½ÎêÑiÆç¬\f"¯k±7KùícC«¿Z¸¬Ã»‰P­o:÷xJD…ĞÍ^.îµE@4ö7€|@@¡G¢–Ó×˜ÜšíÑ¼ €õGãpLq×ù‡ÅÍÄÈàê°­ğ+ÉˆEò²öX1=/Kp€ğ#cÌÀŸûà 0  	›t„)*¸Êˆh < >     H   €  pAšH$dàŸpªNÔ]eâ	^íÉË×çë6ØÌ ¶q6…ML™Zİ’ŞO{°„"ï!,ë»…·¯¼P ™‚‡”Ş_0]{Kyo_HÈåÊ9°Û%F†¢UÚ ‚OdØA³»¯ùßpÒybÓ°C<”1asQyüçÀDu®±KM6Ëf4™Yƒô£.n§êÙó¡•VXûîE7ByôRÎĞğ€’‘Š_6fd5 Û™¨»µÚéLÊlÆ¬a$ğV^ZÅ®TÂ£’|cz$QÅV3BmøU—w¼¶pG¾éRÕaˆcêÍ†ÔëgºúÀM£Ä7…}-â@*~ræNä6îçÕ÷zbfŸj@Î½Şm=>¼×]Ù£lÜ¿û“ÂA+Y½_¡oâ- FÀ³îÚ´¯[Pût"ŒTÅ¨µ|}ûvävñ_ksìî:g¢ë=L›()Ÿp54'™™3/9Á•do…$é†š²¾Q¹Ô¿FÏL=&/~¾9ÀÖî‡\¿;œ¶f«İ„sœ£şIåd”Ñ‡²zËPñ•¯"]æôìñ¨®‚ZBbA"I</y
+
+>²`ô%áN_á.jKtMß; 5­ôSéÏ'¸«çº²_@‰3SDgK*Ç,OöaÇ*5S†iÙ;êj0³è+’Xï&Ô¥¨c ™¼>UX\è«aNÿ¤İ³ÉzñÅĞ:YEîªåãqlW@õÍÍ5EàİñUp;°P.PUb¥PrŠÂÜÒÈ[–²H|J³P_ƒ r~ag}šq˜ĞÖ	«™ÓÙÜ¹T=ı…˜u ş·˜²¿3{æ|{¾^±r–¨Yìçä_‡o¹:Ã†Æ#jt*¸—¿îÑ!¸Ç`t²ç%˜½è¤"÷c2*æf'ì˜nÉDgêsW}?dhû
+ıê‹.©*B6+ŸÒ‡¢K]ŸH’˜G–Gñ®y2a™”^©$×‚ËULRç˜w°ßø,•qd8·Ğdâ®Nb“üa?Üâ‘v¾DÙR[a`†"K
+¢ô0»-Öæ`#oU¢L
+P>k§Kñ„2=;M¹
+[õ¿ÖìÎ$¦«"FàÂ­º„k×­r~)¢š«ó&İÜF™›,ƒ°Å÷#š rÍÌXªÌL•"+¼(í{<v-]B˜SÁÌÙÃèÑµ{AÖ1<o–Áİ“b)ÑÃ¥u§èF0;´ÿG(<…€#ÉÆ¾ÏÅêİAˆ5}	×H6mô¶–Hå_ë;İí'\Ràñ—ëò:D ÷z)¬TzõÇ¹|Ğ•³3Nt‚JÙÈ™ğØL‚E1#Á…ûŠVå”ô¹VÏ…ˆøÀsÒIÃdl1¶@QúwJ0\ôc+;ìAõjoR¢šm´`g;û7—bk®P†ÈUâ;`ÔZ9KÚîÒDpGîæ!â-{cL¹şÅm:—
+BšâC‘'˜?Ñ¥,hµÅ
+w›Ç¼k±ÿƒìJN&Ï°JÎoœq©_lê®ş M\àÑŠÌ5H9è¼EÎRF¾#Èáp`ú÷Æ¹õãˆ®¬c @é×V‡Bã	"ŠõeioÄ7D08!ØËKê¦€ÇõEÔ.~¨Úœ¡[zz½ÏoŒ›uoAÀQŸóeTaÔ¥FíŸN-L}A*õ”•”ÃÄiNğÕşÕFµI-3šÏ!«º™âW¿÷©°²¤EÅµB\W.Öœ©ø·’‚bâ‹élgC’Ô©C§ª’ÅY5¥dCTÃ~ëŠK:øïX™6ÜúœTw‹„GrÎ¡[Yh}f       €`´’                                D         €à´“   p D     !ÿıÿğ„IÉ-3†
+ˆÈ÷ä  M/8Ét­NBvß&A£áúæ¦¥ïš˜ ³rğ#÷ïšŞâ°ZœïAuÇ!©Öëû…Î=è o«äıÂïkÙØ l–]”İ.EÅUúoK +4‘7xš=ùk€vØpÏZ&J…ïËZ ItvZj™°jw“¥gbsG£ê è˜7Vşï	´ŸÏ:¬…İ×J$Xtj€ÖİÒ¯1‰dwYÿ=êa8ãÑìÙÿÿØ2 ³`ŸÆò |`  /{€ (GuÓ×çÁ*ô¯üV–À $Çw™€ú1üğ ÙQ?²ƒx.‘¨ÒhÃ›«3m™5­Á€x     J   €  FAšJ%dàŸ‚=ÄBŠhíÖ¤HL§ W°íÿ„Å?Z±ƒ®
+'¶Úâ,1"%Sê–D¨“ÚÅ/®Í‘^Ğ0$;k—ã’½xGÉ³Fv³õÁPf«ı°æt‹^e&y©š?E)½ÜÁp3,28¢ıâı®™‹ÓùU@‘Y1vq­’oë¸cò€êX}‡Y·Zß3ã÷òn#ØJJáÈÎ Ë¿şšFKÎm«.´] Ø´GqQûnÂ˜–Ô æø²'"K•õ˜J•ÍCá…e—ˆ1.:qe,Û²ŸõN•¢•³¸¥—¿l7xÔ„dËU<Äu0
+‚¦MÔ„8Œ÷ÒE0pqô
+Éäë¹½ş³à2¶ÍiõâÕ`”3Ø„ÛÈ¡ë¨	^|PrûRDLn0òåïlÃBtSàŸ}ŠŸXÚnÛÅ© X¥©ù<óÑ€•9Âçg9f™2òÄb3.æÎ"¾åÃ—V#¬ycªŠ¹™,ìò9Ÿ~w›<l¨xë)P¿R™Ë®Vmøtrò´XVÊ!²Ëì ß´ÄXpè‘Dô¬dLğkœ/Ğ˜ÆäwSTäöºvSn¶/<_o d‰Ş¡ #YÃ-e-N;÷üÕæÀÿßÉ6	
+}­+mİTcZaSkFesK’Ù
+Áü·EPÔZ¨l>C¡ŒB\°íeU£˜é]rïü|Ã#+í¢?!ï†G6Él)8pc®–Î)3Ì§D”gŸ»D^òOTõ+5¾™Ö1%Knl—6ÑJ[=ÊçÑ!ëZ‹¯B?B" ÙeÛĞ·Xñ.Ø-ÃT˜8:À95ÇSƒ¾p,tåû]	äÁ´éçZGï}µÌÊ*ÈöEÜûŠì‹"6°-5•hAàÁMI¢åÏİ¤zÊ7w•ú†#û·ÃönCD"¯íV^Pr#^…ûÜãÈĞöp¹ñQn71Ç ü=óÚÌ«-Éì³ÕCs£êË¹oÔ7ÜN RK0±±¢ß°\*$X­i÷Ÿ`¤-x×ƒ~	(6qôVF²w›42Ÿ¨¿wqh‰Ì´¾Üßxm(ÈCâİÙ€C[O­†&h§-¤7TxîOU4üIÑ_N¢ô×éÔÙgÕy=-–şLø‘`<·³ö&ÊE" 	…óAÍ›·Á2â›Ú’´¢îìL½ï©jø„H)c Ò{­¥óU/è‚Ç$â‡éNãlZ\ÿ$pü˜EŸuI2aÚúb½M~=S,d1{±Ä fMíÑJÃ•'Y ‰Ë„@e¬^OıáôÙUŒ·áGµ(%–OÃôolk6ŸêtpÑ÷@Ğ´áoI½aMFû–øMÚÙl¨È/Eá=Ò'f¤xìæ†ìó(Şt¯nJo»9§hŞÊ­ãzÄÑAzKá¹¼ïâ&¹Š¾Ãç6bŞ–à?òm¦İßÍh~Cè«GPˆ·Ó%ıw÷x&òó/£WÁkÂëfÁá_VüR{!š}_%¨4J±¯Í¬6¶ ›.¯îÔ¨-%Iç¾²I¯ü'Ú2P¨–¥V·×³ĞW¾ñ5^»ƒ8ÆöRú[%œ“Ë¶oë)^¯"Ø/ğ@­š—F ÖÓCúù$Ş%$^ËAgäüºksÁ÷mHÕ`ÁyešvDäp\|m“úc
+xd3ìÁã	9/øI»rÒ¨GÃ·¡k‰ñün¨¯Z}oÇ­(” ã×tŞR{_ò™İüd´ªlåÉ	XÏÄÀÿ—VÕÉ˜ Cµû(íYEg’6‚ø°š
+TüWÚcÉåŠŸc×ó¾87ş@»7Œ›ÅikDcrâ„”Q˜€e¶b½;¸`…ò¯·ıO‰„S"ŞE·b®ñ¸Yâ›‹£[|½P—²°`Wbc†Q°÷Rªƒ€œÒ1#õ•¹ Üv’jğV1-šUá\˜Aá{w4¸a~GPbşRf¿é9KDõG±ÄÚZÚî4èU2}£Š Œ V  :k—0˜ÄŠåOóöF°R«ú¶\.`ò½l¦‚_<õóTÌG¨×),CÄ™¦º¿åšmÕeÄ4™ÅÁ&XûoşúÚ¨HF       €`´”                                D         €`´•  \             œ D         €à´–  \A              © D  ±  !Ï¿şıüg–¶ÎÔg¥(
+ÒòÖÉ 5`D‹À`5:,£v»  x³A’Ëşw‘S]WH{+´ò05>ŸhvŞK›Úk Òû>ˆ\¯Wû…ïÂü&µ¶X'®„ıÏŠN·OÓæ3Ö¾†@7eP	£ Ò•ÜÈrş§Òá‹»¿Kğš8ÜÚàİçİXšq¾ƒHÌº+wG±‘²xdÏ:Ã¡ˆ²­JÕı/‹fW0ù~ŒØ‘Uä2©²2½{A”ìÜFl¡»E^+ıd·Î@
+ÿ“"J4°á3øÀ^ Pr98…@lõSì®Rh)—˜-ıNûëô WJ«.DA\émB/á°&!ßg€ 7„o´	àÂ¥2šôÍÓ´"óÛ®–±! t     L   €  4AšL&dàŸØlåÍÀ¨¤ ¨W‚,¼©‘:dN˜ëC¾áScÂÔ‰9Ã©µQ ¡p‹O«90¶ÌO'÷ûzd«ù´›‰áë‚>6¤Ás‰Sq×m4àj1¡VŒ¾‚Ñ(°I}_Ûˆ]« |%T©ej5 bë#E"3!Z .BÉ
+—u{<:eFˆø4@r²ú-ßqß’ëuiŒÖ•èáƒd'#Ğè†d®Áñ¡«cÏxê7IîQßšNXâ×ò”Z¶7xAúåÅiÆúÈ! ÿJ{O ÀCùÌ×ˆ¶Û9{å§Ï!/•¢ê öÛƒí_Œ+á¢ä<„_öÜë’ä`6æÒ9ôçãÜ¯ÖY¾±ògt¦Q3Yïı½%èu•„jÆCT³Œ·çÔØ‡Ça;’¨èyË—#ÀË—ëT6© ëÏÔíV£øÕg~Âª¡ØN`µÁ4ûpiR¦/ÒÀö%ÖUr`ü%îÇMLfc'J¬0¹­vBCCJ~Óµæ¿€}£¡ıÂÎâæD-5ãøü‰<—Ïy £|ke u}!“"!í¶u[HáW×¨¶İÓÖÅ`Ï' Éµ)Ô‰»›áÓê¨ÊE<‰†»í|cz´ì¨0Tu5¦yÙ‡@À(àÓTøhREgë&%ŞÂ1ÂÖDÎà 0–¤¸Ë¬A2˜+£kW™Å®-P´Ç¢a˜ü¢vÃaû“ b¾£‚ílñ¥›Ñ×÷<5E
+TÀ®~åê”q&†FbkALmËÁ•
+íéàÆùf^>ÒˆCO"8vdUÄ¨¢,õSòKW+ÑQ|æ)„]MÀ0"_`¸h$²ğÖ¡ã¶áÒ>ïc¹‹T3ìª
+¯VÉˆóæS0ß0*iVØxc<Ø™›µa†ì³VµüzÇåê!NÂˆëÒV@Ggî†¨ÃÚŸupöƒ‰Ê€‹?]õz">5•6»¬1şCLÅ~µ	§ùf|\L_;A*ÓdºYûÉ¯:ôKQG¼5n½	µëıG¤*°<Z;Sò¦¦Ø'^’IUa„õ…$9ÙEºÿ»_şßL&„‹œÊô–Ÿ/É6õÙ#¦ wmp“¨ÅùÈ¡~¯™ë5væu‚qÓ^ºÜÑ °Ïá_ÚÆ‡ıÌLî1cZíRÅ¤“€Då•ù†ş6“?/š`l5	ûÑöŞø!ÓLÓÆÈf“í;¦´Ãâ…¦™º¥¬Öû[S§ÙØ·10ÑÃ‹Ô`…–aè9h)1oÕú/µMÀ6"ñwEa”¾¬³ŸwÂ/¤ìáøšp|lDè.`Ğhã5õuOœlnaÎ/#‹OV;`Ö”é+QN\ù>”×Äİ#‹#Ût_ÁØ~Ñ²Î7²Ğ.ÎßcµÔÁ<ÙÿåµK³ÄÜşÇ`?€â©‡@˜Ñå_¿*ğ ä©^<ˆ¸¹©7şûŒgƒ™€xtÑ}1dµŒÍÖ…İ­Ozà·fxÜg)~<„ÙZ"+†„$cá-1ÂæC¨öÁ<O„d#Z$
+ngİËCÙn¦¢XfûŠ¢<Î«N«ïNe˜á8è6½‘“CÀ9\Â‘SEVş‰<ş¾œ£ïTw·1‹¾Òş»ıàbÈ·"VèE‹ÃÅ´—ËñÇ„Ê²IL¡2ÌxqÎ}râ,:ªK£Ce
+~z™m&›¤ñ^C…æv>ûÙŠ¸bsaÎ °¡ù›mÁ+ÄºKÎA‚zàÆì« ¦ÜôSˆ ï…cŸ
+î¯¾øæ§â•(zœz0ø¿à² d·±¶nÃ€`j(8H7ZI²¹Ù&£"I^Lûë÷®qJ&‹ÖkXàñ_Çåw¬Ìšº1›q:`òÕh•~Œ×ƒo‡jY&·&SÄëe•+gğl	Ñ`…W–s¥]9CZÿÉ=yÊÌ¸eìá®Xè¤Í/hN?è·sR›YÁb·ª>v'Ä¼¶9¾;¡ªÏ!c‘ÎWõòRVåô&˜?V‘.ïl5*@2'	~ke–"•lé$RğCkˆ	0 f:-İà’PÇšªÒŠxÿoÍ™œ&p@7BA æ       €`´—                                D‘         €`´˜  \             œ D‘         €à´™  \A              — D‘  ±       N   €  ¨AšN'dàŸs8ÁÌ¾«îºõ¶É°û>Nã“™y¤4|(@¼:7Keì4¥´0ñ¸OšD³'*ĞŒ`:´²L›Û1Ğ	)µ¬!InLN¶„“7áI¯òOEÔ¬œápT@âÂ
+,oÃ	8ó_·YÃrÜ†´€—‘´J$™§ÿ¿‚ûİ‚/nß§ƒĞÆnÍ\'’™‘úÛÖŒİáJt{R²ó±Õu­€§”¿!î_­áu0*ÜËÎw`m ÀI¹ÿoØUxk0ù5ùû$O„ÑÂÌÊEu[˜2ä¥Ê 0•Àºğ­[ûó½¯PşêĞ©ÎAŒÛ?“V÷gT¾>Gµ #L7Ó<£C«mˆ7ÂÄí¤é3—¼Ä€™¾/p	~»+„K§Ç¨—Ê³YsÿC¶NãG£ùpMXv{+:Ôuãé‘Õjuïi©*]·X€?AÔ·°9ÂúQû’ßÏ±7†ì—ó¦9båxÎ±ãŒ3vYEº™W×9ÄTA0_‹–n¤3¡Í ã¥Tí!N/l“÷É?ú0¸óĞôØœ”ü¦‚*t‘Ar.Ü"Iß|¹…~bÉ[¡Ÿ ¡^¥ÏV€\apWÙ´…]\üÚ-Ê	N·gÏ_W†¯á1Ë-­§­Áë”Î4ŞÛ“Ç	hu‚¥¾c+1iQ‘œˆ ô2,é×ş ³°şÓÜå!ŒT5xWË‡‰a±hR`Bl@:ïÏ2¶Gaë 'h2°ÜÒğî8Çá­‚€ª'áÔÆ»¦fö²ìÉ@â¢Æÿ>ú)moñ’hšNd¥~işPÉüSD¿Ó¡¾ÃsKQQñàI=Úù‡»”aç=¿á’™„tâg0Sg=)£ M¬¾xÁÄCü’eDò’\ ôE	ˆºlÚ¬§æYõı@SĞhfT"2‡GJ Ir4ÒÕ]·Ğê†2[×;
+±EÜJÄ
+=9rx§[±rBPŸT‹fâÅ…&YF1›°šûJXärÄëzõòPñ«IY”1ºS#tXğ3N15Y¯2æ2§;¨šà}×?zÉV_Ì÷=J,é^iR|ëJçŞô» °Îò=¢y%Úy"‡PÍ!21Ÿde››ğŠÄSÑX½"Àõ¼Jä™’ÿN’Šij¹é/¾.„©
+ä0¢‹*X	;öl.òšj|şZU"¢àíÅïÖ[Dâ×W±2úÑ‰3È0Ñ‹)b“?Å‡oSHöòò~LıtK²aÆ‡Ó"²-ëåì`/UÌ=õe“kß3%m
+ö¬ËÏªÑ†ú)ü¸UV½ô|AÃ‚ØªÇÿtÕÙ§bhM«ZÇ¦š«¸ÖöÉx±0FìKCÿ_ñ7Ğ RãÅ&Ë´ƒ1¬@¢£àıİJ;h¾ èE5½f„†xCÊ@\êìyJ¡3g¹ş·y^—|kDĞœ¨È
+ù‘å)ƒêÂˆ·c_¨¹­ëi@2“zvÎıä´LÆ5- ÍıE)ö˜“Šy•ñA„¼ºJÄ¶5w}sZš¼_WÑ1?,7»¤ÊPİ$ÅÒöï@bØÀí”(T×ª‚_Ã^A(ë^ÇØ+LH‘üÅö”§#iêÍ·ß9üGGOÕ{izÍqø’ú¨§õf÷Ã¦tk4wt’æ¥‡M&Ùú#Q;¥E\S€%E/wâ/6¶ºƒ”÷#{~ìSµ†°¹bü¥Œğƒî _ûm'D«[µtğ[é9<`&`9Ó‹ß©×+™˜-¼Ö ¢u÷HÛ`VğèfØ]¹—ßÈ."¤%sucuÁ¥….=—f¤  ¶®•tuN†Á`K	Ñ¥Ö4Z¡jÚl'T.D>ÙÏñyoC$šìğ•™™Ì/Ë 7Á°       €`´š                                D’         €`´›  \             œ D’         €à´œ  \A               D’  ±  !¿õûüøÌOØ!)ë9ŠÔ»cËÔÒ‘mg•·×Ÿh8ßè¶‰¾÷KüWş“Z‰µëw0Xnöî–z¯­¥İúĞõÌ€kè3ì( —]`+¡ÌBsıZEôZAÏĞP@«}ˆ%ìşxšb!?»òº,¬0¾7O¥(P1àAh;VX ËÌÄœÖŠİ® /¥@.µ;ù€p¯´i•İoò&Jº]lş£§*2±ĞéÃ$FIÆ4ö@e³İº>–@ { ÌÊˆ!ñ€@e¯gDÆ hã£‚ÜSÒé€hÀ*·HtfA£ (Ç€Îg~À àºFªÉ›İè&c`!ÓÒ³c      P   €  óAšP(dàŸ
+™€5ló\ô‡W„¨Z˜eš¸`4RôÁù$é©s/Ÿ,Ìë¶°¥NÍPU2Ö&6‚~QJ¶(ÌèğöJ\"´¯¿†ŞÛ%Ã¦èıjúµŠ2Eµß˜TW\|«Uìùvw4­S‰Ë»_~Kxol}€ã½ÚW7‹päCíæÇy¢ à¾!İé±:pÏò·j™]çP^øü ‡Ç¦ŒYì.“%øt"âïâåş£Î»°ù6F.‘–ı½!ú[kÁ„Õ³—ÇÑ¦ŞÌÅWVüOÿŞ«ç µé/YUÈM{Te+ı´·Ò:Ü–Ş tê˜ŒTf{Ş'ƒvŠÈ£eYyCœ!Ös’­Ü€“ò	zİG®5¥s%ŞÙ€Ïû£gá½ò•K†*ûÎüÊ‡şñÓ1:È¥œ7Ğj¬/4¼‹'²àm$HIAÌ×ïhau7ŞQ¦ø bül19Hf3,Q+³gÍŒaĞk.Y’C½x]½×;™$B¤{u5Êh
+ô‚–\u9´$î÷Ğ»pÃÅ7Åªı|¤Xå¿Q@
+ÓY-Ã@Eµ•™ ‚jz6[ÓîéX-’COÍñöŒs[t‘1|Äñö“ZÔ;÷ûŒry!L[2‘xd/]æˆıµ§†Kïßq³ÒCÄ(š%$*ğ¡V¼o´«4
+…¢ìN’ıMä–%yÖulÁ†)‰˜š$%ÓdC¢ïÃ`ì2WÛI|B=B›‡ş‹ÒÕuzyÀĞÕzÀ²#t6Ú:MÙlW`¨jü2¦Ó|Æ»ì‹;n‹[×p[Â­_ÇÍÓês'îè—`ùÎ/»n¡2æ€;cµ–úµÜbóW	Ó&â§)ü¸¶óV…Q|á†Sl7ü›Àøìµö›r‚p;Î¬	óh°¨§(—|2?¼vpç¨q ã¢¶aƒ4v L«øôC1asÊD--Ä> ÁÄÅ6c/¸©0\Z¼µ—¿wŒò¥¥×:³¸E}QçBÁ3ğ^hšEnSõƒD–öFM;!’†[l6«}@Ä3µ+Öé²6{‡Q¹7cÆS¦¾A¥#q*ğ‚£ùMI:4 OûG£|Ôƒ7ñ—QÆÜŞ¦‚=¡0CNûK¯ìä:ã¡˜6@¬µÃè‡ôÈH^|¾w“•]<T!{•€–´ı3ëPÕëâ™y/ÔLÀê~‚Igà«@›ØPíQşÆ˜=‘îkoë©¦¹Ñ/N¶ÒëÈ"@r×¬áºÿ]ú
+Ç¥Ä`rÃuzÈĞÄŸ	A¸Ou?·É…©Ÿëy²ÊWÅb³ìÅğ17Çz,³Ÿ±×ƒº­gC®b7j­ê\G)«·Ÿ1$zÙ…Åld78*ú\h÷­èÙ>…‘XÊ±Æğ7ÜĞ¯°Q»µÈr“4)eâç%ÇäPlKÁŠlÇ<-¡¸eâ¨R¬ ğÜÕêª´İ{¦CW«õä‹éŠ /üY=ÎÚï§ˆtâJˆ/¶£ßûé6.·7”Û¦¼Á¾•ÛKiv“VS
+%BGÉ>çw7’ÇÓw·UüD{zÇEÎæPÆ{ìËã9™{tÏÜ™@¦!a'¿…ß".[sëÀ¹¡´Ç‘{˜½7Q» UWŸ„¦Ò·&»u¼n%ggxĞ¢¦?ÖÄ#Ûÿ‡ûãY{.ªôÉøwĞ®L³çë
+á0ƒ".È.t -ËÂtÑf(´¯>êäI0?£ä/UÀÙF®5™-ŒãğEİPS¸ÆŞ8"[nò´•1ŸÛujİµ7oh#™à
+s,ïí©¡ùóRõØ5»&te½µ,¼½×‰Bœm o ½' Uú(§x ”‹¿ÙÏZLãëÎô{ç8P!¸ocxäƒ&ŞØƒ¡—Šybgã˜øY
+Ø_’…Ù t#ïâĞU7Ø¾ÃÅP\×ØF9³WĞK…öæ­ÄÖŒæ07‚¡GX‰Æ       €`´                                D“         €`´  \             œ D“         €à´Ÿ  \A              V D“  ±  !¿6ûüøË¡¨“•3ˆBñF7¬:;tsÓy¢ëKEØµ¯ıŸ„Õ<3Âr=Nñçz¿ï‚×Ùğäı7U´9?K!İ6èô; ®óåözëÊÀ»Åõ>ˆ¼‹ç÷ôY ïbøòèÖÈ/ÃûìU±‚o¼ôñ‘2Îq¯°EáJ<ì‰ôüsµàŠ¹şFa›Ì_„7vÇI&!×şT\Ö‰å@|#IP<¸@&ó—åEáŒX+‘…‚£_JùæK„ç-x1¢ÓQâÕ©o²àÌÌ«4ø€¾0l  ¯l” ‰3ütú-,ı (Æœ!ğÅÕ<€ïú`ËQ%~£º@q÷@gâüÌB@`†™X¦ùà Ş¤~ì²]Xº°A†C´¢æ       €áG$   
+ @	iØ	˜	     - ‘        ’       3 “       " ”           R   €  AšR)dàŸlDñşd–ŸBU‹S€^’ Î‡GEç\•”ÚÇ&‡æ­³"ÊÚËd¼ì¾h6V„:O¤<LÁ³E'MNïWÄ©MŠĞCë5'!š—§ŒÚæè •Æœ^é,ë[ËÁ¥àªz%ô(Ì¨€ ªVŞ^gÇ¨ÌfÎ|ç×ä'`ŞÉd)3Ü‘
+‘ºş2…9Â "{û„ê·|X#ævV€ü¾wfÎ+Ge‘øÂê-ûfŞÃ‰ŒÊûgîÑ&›õmÙXQm¨ óø/””¨THß£”êšÕX3E¯“€Ùîqñ@3ÅÄKçÙ•,\ÉV+?c¸)2ûáÏ§L2u	ê¿ÈK „V	”ñUV¸ÿvÚÅƒ¹±…‘V¬V¼!mg@Üi2zOÒš|Ó×^Cc=]³$-YÇäŸÒk¢5gè­vqšD™HV	I²˜J»á¹Hz±È40u¡Ñ’¢Éú3ñMĞ¯~îRäÄ¦‰Ğu [}áæ`ÓÕ¾l&m¡›íGïÕ;@f´z¶~f´ƒÒÈ¼€Ù»‡Q«ËŠ}=ÅLáÂ›…A wo0u.9–Ô`¡QêD£Ø×“¾YÙğ;ëşËÂÿ6a#ó ˜M³¼/³Õ®K¥ÍàLÌ kÍeUDFäË½~‡^Kjí±üõYBT›ÑœÊq®½êh9xŞ:LsU»kÃ+(3l[àvÿÒ ŞŞÂŒ¢ÄÅ¶‰¬à|ìŞİóƒ»˜<ĞÈİdĞ(×æjŠWI¦šÜUZĞ¶ÅàÇa«©¤¼$–Ûpxsşµ ™éÁØ5FÏ³”ğ”àBô•Ü‚úLº½è"IìÅ`÷JÒ§ê‰€RVq"şd—ÏóV~rø˜?¤’Š6~JÊÕØÌŸ¸û?ÿO²½¬lU…tèÓ'ÔÕ&>VÓ_³¶`^Nm»›Vø¼,‰+q0Ñ *MdñÛC=à’îa ®¼X* kÁU~æ¥½úv²¸‡êx@5ÙØçÓ™Ä+Oªƒ ÷ähü^ˆÜÆg¾e&	şØ–dà¼¿%Ë‡&U™mûzzØDê{ájõáÀHŸ\/ã¥œ¥®mTï.Bò~&Ì«‰SÒ²I?™¯ŸîÉ3
+´éËôƒÕ'§&û?OkHµ‘_û"±‘œ“~Ä%e'?[V9´7Á/¶«_OìøœSÕæó>¾:æ¢ºIè*wOL¯ëQÀq¡÷õoCTL>*XW™î†£—ü‡AUïÈÛ{SnQ”§9¡SLYB„ùE¸a|§Ùm¬ÒP‹\ôCP†¶÷íT-½U¾N -ô?]ÌïÑ›òGY°uªQ˜2­µğP)ò{ÈU¨j›CUÓCA9ÏòŞ<éÁ‘ú–a•#ÆÌİ¦W‘ÿş·,àU;ş‰Ù×1‚±š‰è˜¼$'‹&üË©¥^ÔĞBF@fVR]ì›‹Öõ[M"t»nÑŠÏ‡Ë:‰î¶MwZ&½Gƒ,«FÇĞùÚ[—…—œœ©ÑÙ‹´®µ h¶y µn~<(Öèû"Õªy&b®Ÿ&ÀNCºesâ¶°ƒê¹5 ÙŞ§dÇî"ÙÑü%I3Ø+æ…’P¸nÚS—	ğú–µ#U*¤f”`Ó¨RN©†¥9“G©#IÇõàåEbrÆÕ{l‚æcl±@?*¼ğãØ}R5M5Lñé¬Ÿ·9p¹õ›1VEb¢æsuó'-’àh°Ä¥Ís£1ï%c\ÚÅãLšFÖÇÿJ&§ªÿ#/W*c¯#(ñ·ê‘<ê:Xëäkƒî*!Néró}Ù/Í®ÿŸ;ºòÚ}æ­c9‹æ„I†U2—½N	WûF®
+Ò¸->X<¨Ë’ç`*¶*şT@Œ¦J¹»_6˜_5N/5Şöpˆ™‚9«{£ÜœRM4÷úÜuŒ\XFnQÚ;&&}'KôpŞoºHåÏ°h(ş	æLª.·]g«<e¤Pb¢ÛQü       €`´                                 D”         €`´¡  \             œ D”         €à´¢  \A              g D”  ±  !¿—ÿ÷üIÙçå³2¼”½P×k¢8Ë^ÀÙC|«¨wÓ‚µôœ¿A{Ÿ]Ës ÿ±ıº t×È9ş
+Dğ±gˆ_èÙ cç€Ø-`G‹SÊÀÌÏ§c b-Š¸¡xÈÿXĞ¡‘iÑá
+°­½ %jÃ>ÒŠ@V¶ü (‰™‘73†ş&SKuÆEÈWQƒJ {d Æ¤ºÇæ<<å`8ğ±U7-ºuh±MÅo<Á` ÒË
+¬Ôñ€;taª Xà†?–bìàšï1ã‰Ö‰!fÏî ÑÆÏ Û× #üÀ8½(€¨ğ_œ2t ˆ A¼HıÙ
+m±† l°0É`“     T   €  ŠAšT*dàŸ{òåPõÈW"†já!Ú¿Ù‡f°Äd:‰L;g#®HV¢û^.éı™—Ã4–„‹kÎ¼¯G¿úYHµÂ¡5	ğ˜Ñù}•JØ‚qn&Xª4ÀğÏ¨AõàĞ*’lôôæcÄdŠÆ’CÚÀ*b5Â|íŠòG9«°&‰¼e+=X„Ôß_Š•ğijÜ4Ìo«î³À°Å–é~ ùğ+À7.M8ç@Ğëî×_şr;Ÿ>X¢Øáhåµ2&K´dœŠÚ:î€803ü‚ñN@jÇ_ ‡ÎşVi15;ÎrÃ˜:1×–±j/´EÑ$Z(û¼¾>ov€VsÇ!U³w‹¡y¿s¬Ü ¥½v²Š{)V
+ÑÈoN<ì†:+XÿyW:wZiôŒxÔˆV5£z%óq»ACB"…\~sT Àf‰}#¬Ñ¸-½ÈC|sUÕ-8|%Ög¡„ôóøµÅ8í!¿1ŸÕ7î²ÖIÎÅZÑA—K2äÜäU%¦Ãİ¦‡¿Ìì@ô$ëï¯WÂóªGà [VA$ñ*»j¹>0-¨NÈ¦º›+ér))ÑL¹ä,jq\#‰såiXŠ£‘AïZIP*Ü>hnbh,[£_HŠMæ[O9}¯¸ği¤Î×µ¡õû‘F)ŒacyÏmò»J-Iµ‚¡È-Ì\QhÓàÖ0İ‹v'q:´ƒ3é "â8g;¬?Á'­Î­b_è”
+‡æÁİ´‘jB§Õ„ÿ eoS¿QÇSb.J§{-¬$‚qåTÀ:/*eR1>êÚã¨g„TbÒÍÏK^ád9¼Òb›7#ŠDÖÄµ´ÜÜ§©ÍuĞûÏ òK§SÜåAZÊÎ¨Rs…ñ+hsƒ·¥ŸûjúÔd8À5n''pŠf×5‹×³Æ7šö	]A´xzãZVmûnÍbÓ“r’Véì(}‰îl9¥k”Rnö¥Æ"o6ÌÈ-vıµ…àåR[g^p¬^gã>bK>Ç01AÈT	úTóË¿Rc–&Ø©P¶¯.å>Yû¨–îDšá"SUÅ@ÒÄ…ùÃÉúï.ÔØ-õîS·Q¯¶tóïvĞ”ÜFéQ¢ú÷±’'®Çuç„¼ÎêîÊ¯VÇSşYWıÜqøíŸ€>œŠZO$Ğ¯‹Üù’ì­óqluªGµˆ¾'îª™ò’MşÓ)b}°æê…LXjN™'‚‰“ «ï\ÜJ˜jÖ½“ °¿‰H%®Ÿæøû©.·ÿA>Ká r²¸ôØÏ?‘ôVàÚe)jÓë—xJŒ…âPNPÚ†pÜ“ÿÉz ­ãä$s9ˆ·¿ÔY¬£#w!´b“IÓ54‚Åú¼çZ,•îFÙ\,‚I‡’9sŸßTú	şQ.F!o¦[M)ãwú¢mD”œU™§'İÆ W¬Z²ÙòdVjİŞ"|5dĞÎ¯2R×·™ÁòjŸg7Â$Ë¶wÄ_òëNgAµRşßø'ÀyepvşBÍ1‹%²QñÃ‚)®ô>ƒó.QWÛ#c,RË‚Zûš×;z¡f8×´¨;«Û~äÃ¸<Äÿüó5ÒŞ
+û-ÁîçS»%#6Ô'V¼
+R™R5Ê·’ç2’œ^–X«ÿ2µÃæğ½=g¯“ãx€ÍÅI¦Gt4Zn¡P[x `xi¯áàÜÔÏMÿµ æ` ~‘¾8&ğB¨‹×B–ê°ÜùÍ·úø_ÈğÎÓmT:ì¬VØCkk»£SoOè_™^ÓÒ|eÉ&¯@´+ËY”RÁyz@Y>0pI<5z‡OB©äš1+MîØÒµØ       €`´£                                D•         €à´¤   Š D•     !û»øâKOØ!‘L©{ÒæU…ƒªUKJ°WO_lğ]65ÕŸ£şa¡u—;ÈÀÕşsÈW^Èç´hYCÅõ=t‹ñ{Xf‹òM «æza ÕàcØPQ 8Öùş"ô(^ûÏpŸ¡‚®aJú˜Â£ÌO+Ûtôå
+—’îH-^á€=..@$æ'W‡v‚\oŠlfˆ­ìZ¨ÃÃƒé,Èêğ0y6oÓÓ˜ ’ı_NË`ÍÓXtIÂãW¯°2Ç-ÜİIWeØéÆ9`¸2$¡¼ÄŞ0„ã øƒ
+1¨h  
+şy•K%¬û}àVÈí6€ÃÌìÃ£·u è tÈaÀ Ô Á4İ“7çk%lfÃ1@ 9     V   €  dAšV+dàŸs5.^3s°=Ï0µùr—p‡aHB}¸[rÀ%xBYÔá„`Jµr€¤jU>øÄüMëØw[g 1Aw’m†Éß×¡B ~Õßsaİ  n<îŠ/#·„ ä†7>šÏ¿$Hœ«Ò¯³Äø$ë$…ï3ÉqE(Â,Â·åz¥TêW³LQTó|‚+&à(ÿ'H'„ç0ï§¤Y{Î§ÿ“Õ‘ñ‘{iÑqĞxÙp\³=-·_Â§B^1+=l3¸¿C_ş[ÔÎ¨×ÆyeİNÌWkZÊ—Ö2!ãHóÓÑTSéBB=7.’õÃPúËoí½Ç+õÄ× İû·j2ùÍÆMç®V†*‡Wµ©5ã¸9ÏtséÇqW€ÔçÊÃßzn/ ®/2ã!ñÎ€{uW1†fT<V‘¶Æ¶Ê…„¿®%^«)É
+¨{«x‘„—sÂZˆÚU©Û%yÄQõÂ„>;v}SØÿãÀ›Dûàb ¡–>}êÚ¬P‚[%E&í\šõ§9°	”g®º5ÁşXÕ{1â/,Ñ¢ºÕJXÚ?•­Ç|–ÖĞ'8^
+˜àÜÏ÷SVùyDåJÈÆlb-JSër7ÍuÇc
+ÚÔÒ);|u$§ÅCŒªâÑsì(²±{İïŒ,ğYFVT^là;ÃÂ¯±6>}faÃ–¥zğ˜>$h<®¶Óß­XÓa`"™\^/1Ÿ¥Gàªœt­¹y&?‰LOKğ}>•Œ¢ÉÿSÆüÛÁN^·ıÓ<ßrñÿşÃÿ~À£HÂfá¸Ó‚¢Øø/sÎÙ1¥Û¢+Ú¥ÃÏamÁ?ÀÀÈ.]Ä•ø¦¶y#Úx’¼s‡xoª1ÁmµŠzß´È@‰`HÎ<ÄîÎø CW„úæ®ğõQ¬öb3.è®-uS^ºªò 0ÌæÖ¬­ÊŞ*dn¦°ğĞßLäÙ)Ö’+qjtÅˆ³'…¹÷_>Ğ¡öIâ²{˜woÂÈ-ûÄÍGbV‰DùX‚&%Òn™™)ÊfÿsÈ¶ÑY0–”+ËàĞ~¯ àÎigÖn¤jÙï¾âTFh×‘çäPÍ-–³·Ÿ±¹å0ş{}ÃÆ„í5Û~ ç•á1±jÒa¦õ"pG¡ÓH®Z4ïø¿Y_cM çcƒ<¬£zÇÖˆ°Úİ`#$ŞÅ´gÚ	ï_±N:ÌBDyOœ-x‚ÄÃeúóe%Ø¹&©ÀåE“Ô,º×ı¤©ŒûMö¬'£ô:péÛ(«˜•gå-~,Ô+gÏëµ
+5JĞW3sğFÒàåø7×›%[«ñ 
+åÌ`˜2UNÂæR¹5eiá¬dÅÅs¾¥3+ÄìˆyÆ`öŠ?L:7¿kşt}ì‹ÒéH…hÓ*,N%¤`ÿ8n\€¸-¿&­ÿºßLpÚíSëÏ×ÄÀn>3ş;ª`×>ÖGÿ¤à‰ûÔÁ•½ùW/;å¹@5Óâf€[ÿŞ²,Â²¸OØûà‰Œ:U}7I^jtŒ9zbœû¹’‰x89ƒ@	¸ ÷IQo¿n|VÆÙŞ  9½Û8b›SÔî°-z[ßüÖùŞP&š¡Øˆd¤)†üƒbr¼ÍÇ:”¤GaWÙnm|bù¹-]%€`ù{ĞÃnñÀ×8­ìÛínWN´°´ø<ü$K´–ÌO‰
+´yLI–ıdhB1G$"©ñvI9:â§æPµU¯ ñi¨­ëµğ       €`´¥                                D–         €à´¦   d D–     !=ÿ¿ŸøL9¬óá
+™à‰H4L4«.,/u|í›éÔNşûÔ‚ñÙ' O`ìÑ¤5`z® 2†Ğäód_ïóÓ€öî /ñî q]œHnœEô~‘­ÌdcöÌ¤ Ã êù„ƒ•¶Jãş9‚0ûf‰j¦kâø	b'uf=5œÔE§ZPG'—©€½`@àVu}¯Û /¡àm¼h9õ‘Ee¥Ï…Û<ğªÏ«ë¬•…3¨ÅiOT&ï€NO<B`'
+W+'o¯E)£*ê*@ÆÏú‡Œà^w˜ÿ³ëåïZ 5ºp­R´å 	 T  ”LÓ )  J ÌàzFşÑ»,Ûx0Fc&#,      X   €  
+AšX,dàŸğ8şNZ&şC½v¬dQúO„fWß2jÜ…"OÕ”èäB™–^Æ6ø(~JÏ¦`ÓŠİÜR:Õeı	D†
+sI¡2i yÊƒA¾
+¹¬zÿrªeK8›rä*?¥‡×ß(°hqL–[±äb	Û8	£±°#ÿÂ?½…UL#çé“Ê¥G“¿$¾¤]FÚ÷e€
+­Ö|·]¼EÔË8åpfßRœ[÷m·Šš†îë>4öQ]äAÒ·áò¢{D.³öND/ÇÄúª—0I€ÃŠ'É–)ÈNŞ
+£ur`ŒËÏ­ºõÙ#iPZË\â{ÄÕoN¿ğ}5zL´õvı*‡J“ìmŞhøÿá,ØáEÑ³e´ãM]òñx4*<„i=ŠmÀKÇµÙq9.eãÁíF½ú³Ó:ìwÏ¼Ó¥»ÍP¾)J¥=ä¦G \>¸Ù´*ŠirêŒ¼y‰¡Ó_Rî‰rI± qìÁ5ÚğG1mj6PÈà%edêê<óf^éK QüZ=÷êà¾GÆ•k?¥¯¼eX .ï”°•K½šCíí€ê³ªah¼—^|SQÆ€8LKıra&‚K8ÊRfu9Eßöô(¾‰§‚¹ú¬ƒTµHÅŸPc#JA÷i:©œ˜o‚TCâtŠ#¦«rÚP §Àhwm3¶ûé™s¸93&?7¼|(dßîR¯¯j4Yh“<¾V‚Õùæ&ĞL¡UrÖDßKÃZáHÜ¬kHª¶„ÊC.ˆ¨,òbM«Øæ µÆ§²ôX)ú!£9Ÿmk ·]qÕü>i÷(>ÉXÖÑQ$«Xcº’#1^ A#$›¥dW²†)ãxf„:#æ?g%K€Ä5QØ<£Ÿ8¬cUvyBS¹(§şAz•)‚†ÆÂ°±9í ‰8›Û§íĞ|Wp÷˜%RæÅRj]&8Q
+XÄ*è'”ë?údàÇN
+U@/@Ô'ˆèld­&#•&YÉ½ó¾+gŒü¿¦ùâ ‘‹Ñ±[¨£mÖdS9S¿§¾|è2¹.¶)…BzÕ„N} Ö R¢¡6ÑøÊ.¨©ê0sÿ‰Ñx1Ş»Y­óÂáÒ)wÙÒ˜ÍaŠ_ëdŞ¹Éqı]=Öãşùgo\ÑP(oŞşk3‘ì;``‚êE¼+.4–f—
+Ï´û<âGb9µO?ß˜0¹XM?	@I0Æ:ØÜæ°`Ã¼äf-ëƒ-ú¹ YUÿéå`_ÈãĞz¢¨gPÀ×ğrxuÜ¿JáßŒ¢‚˜ï1ÍÈÿà'Âúğ³{%í»ûÀ¡@`:³HÀS€Ğå/ÒÚ‚,Y?}ëƒ­ ÚOh+›ÄoÒÙ×6Ç:‚¢Ô&•Tû›>›6YO%£Ùö¼ë7…Àn¦©ê™áƒ½÷P¬œO
+´º6£,ô•Bƒr]oKıg’©d[NZø}áO32)!bÍ÷§îğ}^LÑ{G›¶‡yPMÆØ§lq¾ƒ>íÕÓQæ	$¼Î€â;Q$¦Ñf“²ıëEUı†¸·ãÎğ§‹du»
+[“ËzúÀzÍ5O.ı¬™K­×‹ébV.}ı£>İĞ¸'†¸¨à×*™yÿdåäTüå€L“¬x¦€YF/Ò¥_g§©#Ls  '[ÚÏ³¼&†¿w™$Èî"ìÇk®+/¸à6 º÷ÿè?
+Î\r•AİÀ–§VÆŠTÁ™“ñÀæßBkÇ±¦÷É„OoÍLàkNAaíEòéû”g	6ç^-^‡Ê2­÷ˆèCĞH~üìQ
+ß_OóYÿ[‰h–8% ‡í>–Â|(¥/‰ÇÙ?(J”åE¡ÁôJÁ™¦pŠ·¬kÎ„½²¾Íæ/C]sŞhbŞ×¯&šm Z<àÙ'Gn¦pSYûòğß{[Îq¤ÍÚ0o€¾kP„Ç3‡ÿbÚ˜(Ó)Å'Z´ãBÀ¾i#€E€   ¶ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´§                                D—         €`´¨  \             œ D—         €`´©  \A              m D—  ±      €à´ª    ¶ D—  "  !?æ¿ŸËÁ¬òËÄB¦2€‚ËÜiKÍ*ÖS+áÖ¢´»·¯eÂ¶Rlw`’T¼…g+Î5!¡ãºà/ÎâÓğZeõ>
+Eş£é˜xİ0ü·Š
+½â×ıcR€ oóWØeˆ8R$½œ!]½†·†éî@8ıf‰6Îs;OÓ¸U
+‘ÕüMf]+Ûğ 1‹üo‚µ'Jî0¿õ]|2O¸z?7+­<8·8pú½.e,”Uhhkâ².çŸåºÕB°	ÔÆ`ZpÏÆßa”Œ8Ñt¥}•3€V-q:øuâ¹é\Œİ£¥ É¼9+±KM   hŞ
+À Òşæ%æCÄx0S„A§ÃÕ@¯¼}Ú©ÇææšäuáëîØh`ù[ bj}×Dwf‰dû¬‘:X —t~ğ=#w¸ß"FL‘–FY€       €áG%   
+ @
+ı¸(	`     _ •       — –       e —       , ˜           Z   €  'AšZ-dàŸ‚4ÕùBÈA›(ˆä#.àü„5¢05…î,|ÌB°voŞ}¥—ƒyÈª$“G¿}±ÿo7Í{q6 ”İ¥ƒ7Ê‚wòDf¶ÈÙÒzù5çŞİ/s„†¡iÇ¾[4’C¹Gâ[VcÛ8»Q  y²½†¬âPPÆ.¥´ÓHB$E»œòîÂÃ ””ô`É-ÛáË„'bOït‡›JÁ8Fç&xÀss6
+¸1*>	\S<ƒS%’~Cp?Ã¹Ä[wÀWâI
+Ì!ĞO·/Ú²C1Lšw‡W¨¤¿;ãŞ).ŠïÖº¸DmÓ3wx€¾ù·ñçÒÏ9İ0Mûûš×¯êû_ÄA²3¶!ÇqŠq° Ov¹šïw­¯‹ÀÿL!Ğ3aJ‘%i•“~)Tèñmá¯ eØÛIt
+–*Dyâÿg˜Eî#K#v²¢¯ühÇsn]Ì¹eÈ®˜¹®>•kæº’;hŸŒ_‡} }qUpÕ:»u¶°·v|¨y"|ô”Š\ö,_Ø&k4ëVIFÑw‡¥äU-Û+¶<ÈMx÷f©ß2q×å^Z6ãĞÃğ5½.ñİşÉw}È)‹e¬Æªo·m;	êBL6VŸ]¶`,7òÀl×’)mj"D‡ÆÂ%×5éwE†2®»#uv>ï–[†/ZF8eGâ‘³”ôIá3>hÎ¹3¯÷ÊæS¶À–U½…ÔJÉÍ'öá´ïv9¨„€µç¼ÖhŸf@¨5ïL?eTìÅ€Ç†‡(¹O„ ë²°0úoùp98*ú_»ÄÚtü[¯ÓS}áWeg^º¤f0<[“˜,şC7•ÿK*¿M£–Ú‰©‰³,‰ó.ö«adÈ³›Ä^åQ¯í³14Go€{€Û 	—òèĞ)x“5á÷K0CüŸáÉ>èªífÛ.O»şŠìÿCŞ£ng"8>’w§§Y<è‹µt¯U2fÕŞÚDg&âõèxS"¶µˆ«|ôùœñ4bÊ™€Ïÿ¤N¡îú…3Ô ¨fµJßFïºL¸Ó@'Å_):¡‚€YkñavÒˆºw«ÒÀum¨!¦òO¾(â&V3oÎÊnNàäí5ÊÈQt0y$Pqti`ÆŠ‹ÚFD†)J‚¼…¦£§9RU•Ã´Íç™OšÓE2ë’£, n…h‚®Ğ]W®Íôx713ÆNyÓbVOq„„ƒ’¤^×Ş
+ùÑ9z6y(ÏÏ#ª‡KmÈxe5
+'£™s¾˜Œƒ!&5†bíŠ‰8®²¼ÅÄ³yyx.¸Zwk²£ oŸÃ©N­Ú<t&Îµ² quzcNrúfSàqû…³p3ÍÍ´ÂáHûLnËã Nÿ2­ÛÓu
+@ÙU÷¬Éu†aÆQ€·L¤°àÄÔ¡»Â'®R6LhN‚ÖĞ€óÕZñğ™ş'òå*W­&tX³yU"{9ç ñ‚ãiŞø=¼o-å´GtÈeXÉSJ E9“é‡9úû•Áº'¸»tšê•p|rqdDg'¬ƒ§À^:şR›ôm‹R²ŠÎ±¡ĞkÖ`îg;x±RŒ¸ğ¢ß­S .I‡BŠ.¶€¥vw
+„¬+l™6 ”@=äï`eì¬¹(ÙFï1†TM‰’€w^çR)8Ë¸&{²JmnPy{]è&ª¯†¹P#Ğ4‰ÿÒÖöZz==ö™5xf0K‰íqI·¶Œ3'.ÙUÀ¨Ü0­0JÈƒ,ŞŒ(Ç°\9¥›+ÌÁ¼ĞF$úöQŠHèŸ0;¥ûGÄÎÖså­İ/E˜ÜŞ;=âÒ¡é¡6Ï´=~šnê'ŞIéôğ Ô;~®èÖ·³Ü$ÔÃuîg°/¸ 1ßÚ-©æSxG„¾àWÍi¾c¤âìÃ8²¢91Â[¥Áy‘÷-ŠX¨úä÷§pxVÚöŒ¥)×ÁîweHåÙ]™J»>ºká5³r  4ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´«                                D˜         €`´¬  \             œ D˜         €`´­  \A              Š D˜  ±      €à´®   4 D˜  ?       \   €  Aš\.dàŸòµA…y¥Ö>_!°ÜÏd¸Í[”šg~Ş,ã$ãymùÑÛš5Îà K|”)2}ÙˆÕX0(0¦Ÿ­ïÏ %¬¼/½*	kfNw,jòsÍƒš‡÷w¹Úd©®o¶œ8şb(—¼%î; =ÿ0\áƒË{dÕ½¼—Y„ınÅó1(r¬–J{w8ÚûO,åûßş2y`í™6å;õÀeZè Y•3¿œ+‚ÔKˆöÏ¨e¦Úª·h¨1Dù´ùéÇ-=Éƒç/ÚœÏ°€x…lCq —±Q4zØ¥\×uZ:ÌÅ%ûS ğªş 
+ÑTT*tÈÔø/4ÅëÒ¸Á)¼n˜&ó*€Q³eB-&"o­ıËˆbøí¹Îğd.^4a£½Æñ£¤âÿiW|$ñy´çˆ¢»?+s@ÈôÕ5¦úŠÅ¥Ï‹²·¼0{l³S=É×ŒnL[G‘#AÄ)·×òÃvƒ0—sağ¸Ã®Z"q:LëyëÄ£ÆÑ;`ˆªEPS´ D†¤ö•?ú¯“ùFq2şëCåmÜ¹ùØ…–[VÏ?A:Î&Å_ñ$Õ·pÕÑukv#6…ÇìÍv‡€(ÉÀNº
+ŸmUFReZ÷’5ûÈwú"©‡CüÔ-B&Ö5«c†;É'—!3´Óø2Ö×š,§kNUÙü¤q<uJ]07v£şø’FMa>U¡û$õX—ÁC;;@éÌ­9¦k+Uõˆş†oıyŞ« Íˆ<±Ì¶áiqßS±C9&â•‡Œv‹Gi0.­gØ…”ˆªKöâe)İA×TÑílÍ'bümùQ¡ª­Ëù5wÓ}`µüÑLFrr'{H½YÊNÂò¯°Ä¶–É.ÿğÂ×ocYöœ€hù5ÿ´½!FÏKf0¤ntf*%4±î{V ıdHÎ-ùã\€æbzâíñoC¦±]­5Ğ‰·ÿU#çÃ³;Gì”3àv%j…Çä~åTôĞ­I·êÕàÏ¬‰i"
+0uPepôLXŞá}&ò.€.Ÿí	˜pg¶;B+ö9¶¢ë<º=.œh,,5¤İÜâ€ÁMÄ±Ã“ÚªÈTü+ë²s‰h¹šöb‡àÜ‚	íé‡NÉ&ëHÆ„•­
+ªA‘üvà^\lÅqø5Rs%(™„;ÅÙ8Q‡Ğ¯çcát†à…*!Å¼_ôI˜ö”{&gY÷n+Ë²0±òümTÂ¤O‚¸¶<íLO§OèÖ‹•
+¤wõì*"RÂ>u+WÁq’#Í{È:‹–3‹4íİˆß¿0„äŒØŒéå8²yÓİ2‚IÛ“y~9ôø  ;ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´¯                                D™         €`´°  X                           D™         €à´±   ; D™  7  !•ÁËAu°¤L4„÷ÍæîÊj	ZT¼5Ij]  ³€Ÿ4Á\¯Éz)§ÓÜC€ÆÀ²°ô îá,ÑÖå¡” ³…~ŸÆë²cØöÓ*¯ìilÌ"V»Öÿª¦[ògÅĞğ5Áêô`¼ôüŒ5Ø…ÖZ9M-N£,Ş]ˆË•Ó»=ujè¤ÆkoUtÓçæI§ÀkúüÜPm™¨î¶$wEŸ³GO.~¿cñÌ­§„az›4>{Š.¯,ë|Ï´èã0€íçæ
+–å7å9İ’ËU:&Aº
+æª?åÈ•ÄH@m¼½Sk/n{ï«9Ø?âî|ÁëzáT´6ıßíëÕwEÇnÅk ¾tIixš€ƒŒ  å¥/XĞÀê=Tğ‹"FhÑ¯¼W, ¿şZE³jğ¥ûŸğ@ö¼©mŞÎCö8’¸° Â¹R 0b Ï Ñ'å@åîÀ	|5‰{‚õËš÷õrÃâƒ p oÒ3;ŒÛÑ©Šüõ«u £0,Öƒ â     ^   €  ÄAš^/dàŸˆHØ¥E?¨@ZÇô “ÀæoÃØ÷0­îôß
+Á-sáH‰õ
+hTô()?uÉMçgˆCN`˜áSıŠmùJY(€¨<ÛŸˆ%ÿCN)Ğné8ªOı.©rü÷²8UÉl/ğÇ#ƒŠÈĞ'JÍû•û4¿náııM¾iÉĞ÷Ùm™õÕ‰\#õºMˆãàO¯ô#Ÿ´‹‚GÅ–G‡Jğø	gv”äèiù@Îr+íÀ¶\ÓwœWIÃãìÇMÊGcˆB+ ÷¶,èƒÇôåGm<äé–fGÿe$¾E¡~gP=]¬Ş‚˜‰ÒçÎ-°^6¡•µsd¨`mš¶Ì*™±ÉÍÕk9á¹­§êÖå§c<¯-úÀ1vz¸©	NQôêaø°Vú¥‰ÛûôA7‘Ç‡8q1‡šøù^(üÜêeÚ‡z¾Õ
+o›¤¯ë"á?oªarzÄöfşE¬¬yNŞ§]G6¨¹p!$è"ùä‹…lnE$(*ÓñøÍ&RóY3óÊb¦Ø¹)3ç‚ÉùxA:--[`ôtÆZ•+}Y8¶û!Ø@eñµ	ò®İ€7&ù÷?¹:§u‡†è3Ù4Ï/_|[LúçGÀ?k>••Æû™åoÆcCkJ…%IŠì„@å®™Ö/Ó‹Es³&¦ÑÁ©©†E²üd•3B·ÒÖ$¢E…³DÉ·á£ïîå¦v|¸˜@·^Â‹MN\–ÇÛl5ü#5æ¥bV`Ow¬d:#ôû»xĞy¼ŸÒN¹›o-Vhœb(>ƒ€Î#ñ—õUšP[8¸;§±îKéÏXÇltø¶ÖP²¶[À+J‹°)×®oÒşƒXNO|7ˆÚÄ„z®#Ÿ•·2 Ä=ini‰¿Áûï°8ÌÅB"ˆ#Ä°Zq‡j²V2Ææ«Û*éJ¿ˆ³#$I=ékÂWŸíıÛá{<è/#Eùvˆõ¯hñ³™Uf¨›¼dÑ¼JÄ,›„åï:ÀßotÛ—r£Tëüo<NpĞİ­iÎªÅ˜s1£¼«Ÿ¦L{bï¼y*VƒRßb¸JÖ“›å6M3we’õ.gÇ=Üu‘Pœ'­´x«ÀMÓéòÚ"¡óRë«6¬šu®ïÁ­±ß5m/Ôºğyîê›yS¶‚M,<ï/©`bÄ¹nõõ;ñt |7|4X`efçİİKÎ^Ğp‰Âf[œ¤J·@~dOJƒbµv4Í©ŞOÒ' râ©gâ¬µ5HOª)şkë-æØÏdá·ÒkºEEÈ\ªšW,<¹j”.U¹™¢YÔi9ËñçYçıµ¥şBBª"ì§ÒÈ©¼¨¿Ó1™XtÁšàGa}QN€iÿ:«y-dQ‹6Cb–NzYMóãÓıVÿ€ 40óÒ Gy­KøŠºU¥Ë\¿õŠH‡Âæ¶£zlöÀQ×Ho.ÙµÊ–àÊ¾C_èûıì‚T(4¿Ëèeb„‘…£p#¥Gbøk.¡¤¸½Òş=È{}Ä÷nê	vò¤f¹Gõ‘şˆ5X\ôÌÈŠıÒ†ï'ıœîvê€  —ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€       €`´²                                Dš         €`´³  X             Ä             Ä Dš         €à´´   — Dš  Ü  !¿ıÿŒKA¬òõ4ƒ!8D,	„ğl [bšUH•mej—0
+ÀÔšÆÑW%€GïØ€F~±T›Cµ)ßúŸ0»ù:˜¥«èC_Ÿú<òñ'¡Úç/7óí™€½zâ·@
+êÌ¥÷ı?Òÿ)U²ã #0€rk×éÔZ´«}ò9aá…NÃˆ¡¬Cs,~gB>ÅÀÓ åt_ü³á5Qœpà~—h[œh
+M)ø<8±Ä(‚‹µø-E˜iVxúMs
+2[)éÛ†WjRß€yÆÀf¯,&BS@$TJ oS´ÓênçI
+Yœ£„D˜n ÊR”TŠO¯á×í<¾ÀüØÚñ€¼` 9^¢ÃnŒ  ŸŸg—Wìs;ÌÃiÅıW€®d .ä»çØ2ã¤ıœ4 À N€¥x6„ÆY/i•h½æg¬€°@ 
